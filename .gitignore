@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+env/
+
+# 模型与数据（大文件，别进 Git）
+checkpoints/
+data/
+*.safetensors
+*.pt
+*.bin
+
+# VSCode
+.vscode/
