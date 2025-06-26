@@ -16,6 +16,7 @@ import json
 import datetime
 import math                        # ← 新增
 import torch
+import numpy as np  # 确保已导入
 from datasets import load_dataset
 
 from transformers import (
@@ -178,23 +179,19 @@ def main():
     def compute_metrics(eval_pred: EvalPrediction):
         logits, labels = eval_pred.predictions, eval_pred.label_ids
 
-        # 有些模型返回 (logits, past_key_values)
         if isinstance(logits, tuple):
             logits = logits[0]
 
-        # 对齐预测和标签
         shift_logits = logits[..., :-1, :].reshape(-1, logits.shape[-1])
         shift_labels = labels[..., 1:].reshape(-1)
 
-        # 确保在同一设备 / dtype
-        shift_logits = torch.as_tensor(
-            shift_logits, device=logits.device, dtype=logits.dtype
-        )
-        shift_labels = torch.as_tensor(
-            shift_labels, device=logits.device, dtype=torch.long
-        )
+        # 兼容 numpy 和 torch
+        if isinstance(shift_logits, np.ndarray):
+            shift_logits = torch.from_numpy(shift_logits)
+        if isinstance(shift_labels, np.ndarray):
+            shift_labels = torch.from_numpy(shift_labels)
 
-        loss_fct = torch.nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
+        loss_fct = torch.nn.CrossEntropyLoss(ignore_index=-100)
         loss = loss_fct(shift_logits, shift_labels)
         ppl = math.exp(loss.item())
         return {"eval_loss": loss.item(), "perplexity": ppl}
@@ -232,6 +229,7 @@ def main():
         # load_best_model_at_end=True,   # 仍用 eval_loss 选最优
         # metric_for_best_model="eval_loss",
         # greater_is_better=False,
+        eval_accumulation_steps=1,  # <--- 新增
 
     )
 

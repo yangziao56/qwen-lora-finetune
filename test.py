@@ -7,7 +7,7 @@ def main():
     parser.add_argument(
         "--model_id_or_path",
         type=str,
-        default="/sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250620-140034",
+        default="/sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250624-153730",
         #default="Qwen/QwQ-32B",
         #default="Qwen/Qwen2-7B-Instruct",
         #default="/sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/Qwen2-7B-Instruct-lora-singlegpu/final",
@@ -72,10 +72,10 @@ def main():
     #     "Keep every slogan under eight words, and vary the linguistic style."
     # )
 
-    messages = [
-        {"role": "system", "content": system},
-        {"role": "user",   "content": user}
-    ]
+    # messages = [
+    #     {"role": "system", "content": system},
+    #     {"role": "user",   "content": user}
+    # ]
 
 
 

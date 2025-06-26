@@ -11,7 +11,7 @@ LORA_DROPOUT=0.05
 LORA_TARGET_MODULES="q_proj,k_proj,v_proj,o_proj"
 DEEPSPEED_CONFIG="ds_zero2_offload.json"
 
-EPOCHS=10
+EPOCHS=3
 BATCH_SIZE=1
 LEARNING_RATE=1e-5
 GRAD_ACC=2
@@ -27,4 +27,4 @@ torchrun --nproc_per_node=8 deepspeed_finetune_lora.py \
   --deepspeed_config "${DEEPSPEED_CONFIG}" \
   --epochs "${EPOCHS}" \
   --batch_size "${BATCH_SIZE}" \
-  --learning_rate "${LEARNING_RATE}" \
+  --learning_rate "${LEARNING_RATE}" 
