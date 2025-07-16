@@ -1,0 +1,1345 @@
+Loading model: Qwen/QwQ-32B, target persona: Pride
+Prompt: <|im_start|>system
+You are an award-winning slogan copywriter. Your task is to remix a classic quotation or slang into a brand slogan. Follow ALL steps and output in English.
+
+Step 1【Quote Matching】
+- List 3 classic quotes or slangs that best fit the given persona, each with author.
+- Explain in one sentence why each quote matches.
+- Mark the best-matching quote with ★.
+
+Step 2【Structure Breakdown】
+- Copy the ★ quote and use | to separate editable and fixed parts.
+- Point out which words can be replaced with brand keywords and why.
+
+Step 3【Vocabulary Replacement】
+- Propose 1-2 replacement word/phrase sets with short reasons.
+- Limit yourself to changing at most two words from the original quote to preserve its rhythm and cadence.
+
+Step 4【Remix Generation】
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation.
+
+Output format must be:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona (tone only): Pride
+Brand: Coca-Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Please begin Step 1.
+Do not include the persona name in your output; only reflect its mood through wording.
+<|im_end|>
+<|im_start|>assistant
+<think>
+
+Input IDs: tensor([[151644,   8948,    198,   2610,    525,    458,  10084,  26777,  51537,
+           2975,  18189,     13,   4615,   3383,    374,    311,  56366,    264,
+          11416,  54231,    476,  79912,   1119,    264,   6741,  51537,     13,
+          11112,  13097,   7354,    323,   2550,    304,   6364,    382,   8304,
+            220,     16,  10904,  19466,  70691,  10958,    198,     12,   1759,
+            220,     18,  11416,  17194,    476,   1739,  64487,    429,   1850,
+           4946,    279,   2661,  27955,     11,   1817,    448,   3150,    624,
+             12,  81917,    304,    825,  11652,   3170,   1817,  12641,   9071,
+            624,     12,   4389,    279,   1850,   1448,  31924,  12641,    448,
+          37234,    382,   8304,    220,     17,  10904,  22952,  15623,   2923,
+          10958,    198,     12,  14540,    279,  37234,  12641,    323,    990,
+            760,    311,   8651,  37409,    323,   8356,   5479,    624,     12,
+           5126,    700,    892,   4244,    646,    387,  12575,    448,   6741,
+          20844,    323,   3170,    382,   8304,    220,     18,  10904,     53,
+          43527,  46212,  10958,    198,     12,   3911,    960,    220,     16,
+             12,     17,  13723,   3409,     14,  27710,   7289,    448,   2805,
+           7966,    624,     12,  28008,   6133,    311,  10018,    518,   1429,
+           1378,   4244,    504,    279,   4024,  12641,    311,  21129,   1181,
+          36290,    323,  19409,    763,    382,   8304,    220,     19,  10904,
+           6590,    941,  23470,  10958,    198,     12,  12091,    279,   1850,
+          13723,     11,   2550,  24038,   1590,  51537,    510,    220,    353,
+           2506,   4024,  19482,    323,  22962,    198,    220,    353,   2924,
+           6741,    829,    608,  16174,    198,    220,    353,    835,    448,
+          61503,    382,   5097,   3561,   1969,    387,    510,  69769,     25,
+           4593,    198,  22952,     25,   4593,    198,    693,  63535,     25,
+           4593,    198,   6590,    941,    328,  93925,     25,    330,   1940,
+            698, 151645,    198, 151644,    872,    198,  64357,    320,  57929,
+           1172,   1648,  42146,    198,  27169,     25,  62854,  65177,    198,
+          27169,  20844,     25,  10408,    478,     11,  23009,     11,  13943,
+            198,  64357,   5795,     25,  18383,  25426,    476,  18034,   1927,
+            271,   5501,   3161,  14822,    220,     16,    624,   5404,    537,
+           2924,    279,  27955,    829,    304,    697,   2550,     26,   1172,
+           8708,   1181,  19671,   1526,  60227,    624, 151645,    198, 151644,
+          77091,    198, 151667,    198]], device='cuda:0')
+Output: Okay, let's tackle this step by step. The user wants a slogan for Coca-Cola with a tone of pride, focusing on celebrating achievement or exclusivity. The keywords are refreshment, happiness, moments. 
+
+Starting with Step 1: Quote Matching. I need three classic quotes or slangs that fit pride and exclusivity. 
+
+First thought: "Diamonds are forever" by De Beers. That's about exclusivity and lasting value, which could link to Coca-Cola's timeless presence. 
+
+Second quote: "Just Do It" by Nike. It's about achievement and action. Maybe not as directly related to celebration, but the motivational aspect could work. 
+
+Third option: "We may have all come on different ships, but we're in the same boat now" by Martin Luther King Jr. Hmm, that's more about unity. Not sure if it fits pride as much. Maybe not the best.
+
+Wait, another classic: "The greatest glory in living is not in never falling, but in rising every time we fall" by Nelson Mandela. But that's more perseverance. 
+
+Alternatively, "I have nothing to offer but blood, toil, tears, and sweat" by Churchill. Not quite. 
+
+Wait, maybe "The best things in life are free" by various sources. But Coca-Cola isn't free, but they offer happiness. 
+
+Hmm. Let me think again. "Pride comes before the fall" is a proverb, but negative. 
+
+Wait, maybe "Success is not final, failure is not fatal: it is the courage to continue that counts" by Churchill. Still not exactly.
+
+Wait, maybe "The only way to do great work is to love what you do" by Steve Jobs. Not exactly pride but passion.
+
+Wait, perhaps "We are the champions" by Queen. That's about achievement and celebration. Perfect. The song's lyrics celebrate being champions, which aligns with pride and celebrating achievements.
+
+So revising my initial thoughts:
+
+1. "Diamonds are forever" (De Beers) – fits exclusivity and timelessness, but maybe not achievement.
+
+2. "We are the champions" (Queen) – directly about celebrating achievement, pride, and togetherness, which matches the brand's social moments.
+
+3. "Just Do It" (Nike) – emphasizes action leading to achievement, but maybe not the celebration part.
+
+So the best match would be "We are the champions" ★ because it's about celebrating success and pride, fitting the brand's moments of achievement.
+
+Proceeding to Structure Breakdown. The quote is "We are the champions." Let's see structure. Maybe split into "We are the | champions | of the world." Wait, the full lyric is "We are the champions, my friends, and we'll keep carrying on." But perhaps the core is "We are the champions of the world."
+
+Wait, the exact line is "I've paid the price / And taken my share of the glory" but the main chorus is "We are the champions, my friends, and we'll keep carrying on." Hmm, maybe using "We are the champions" as the base.
+
+Alternatively, the full line is "We are the champions of the world!" from the song. Let's take that. So structure breakdown: "We are the | champions | of the | world | !" 
+
+Wait, but the user's instruction is to separate editable and fixed parts with |. So maybe "We are the | champions | of the | world | !" where "champions" and "world" can be replaced. Because "we are the" and "of the" might be fixed parts. 
+
+Alternatively, perhaps "We are the champions" as the main part. Maybe structure it as "We are the | champions | of the | world | !" where the editable parts are "champions" and "world". 
+
+In that case, replacing "champions" with something related to Coca-Cola's keywords: "refreshment" or "happiness", but need to fit the rhythm. "Moments" could be part of it. 
+
+Vocabulary Replacement: Let's think. If the structure is "We are the [X] of the [Y]", replacing X and Y. 
+
+Possible replacements for X: "champions" -> "champions" is a noun. Maybe "keepers" (of the moments?), but that might not fit. Alternatively, "makers" (makers of happiness?), but not sure. 
+
+Alternatively, "We are the happiness of the world" – but "happiness" is a noun here. 
+
+Wait, maybe "We are the refreshment of the world" but that might not sound right. 
+
+Alternatively, changing "champions" to "celebrators" (We are the celebrators of the world's moments). Hmm, but that's more words. 
+
+Alternatively, "We are the moments of happiness!" but that changes structure. 
+
+Wait, maybe "We are the champions of every moment!" replacing "world" with "every moment". But that's two changes. 
+
+Alternatively, replacing "champions" with "heroes" and "world" with "moments". 
+
+Hmm, perhaps the best approach is to keep "champions" and replace "world" with "happiness" or "refreshment". Wait, but "champions of the happiness" might not make sense. 
+
+Alternatively, maybe rephrase the quote to "We are the champions of [Brand] moments!" but that's adding. 
+
+Alternatively, the structure breakdown might be different. Let me re-express the original quote as "We are the champions of the world!" so the editable parts are "champions" and "world". 
+
+Possible replacements:
+
+Set 1: "champions" → "heroes" and "world" → "every moment" → "We are the heroes of every moment!" But "every" might not fit the meter.
+
+Set 2: "champions" → "celebrators" and "world" → "happiness" → "We are the celebrators of happiness!" but rhythm might be off.
+
+Alternatively, keeping "champions" and replacing "world" with "happiness" → "We are the champions of happiness!" which is concise and fits the keywords. 
+
+Alternatively, "moments" instead of "world" → "We are the champions of moments!" but "moments" is plural. 
+
+Hmm, "We are the champions of every moment!" could work, replacing "world" with "every moment". 
+
+Alternatively, using "refreshment" as a replacement. "Champions of refreshment" doesn't sound right. 
+
+Perhaps "We are the happiness of the world!" replacing "champions" with "happiness". But that changes the structure. 
+
+Wait, the original quote's structure is "We are the [X] of the [Y]." So replacing X with "happiness" and Y with "world" gives "We are the happiness of the world," which is a different structure. 
+
+Alternatively, keeping X as "champions" and Y as "happiness's moments" but that complicates. 
+
+Maybe the best is to change "champions" to "celebrators" and "world" to "every moment", resulting in "We are the celebrators of every moment!" but that's more words. 
+
+Alternatively, let's think of "We are the champions of happiness!" which keeps the rhythm (champions has two syllables, happiness has three, but maybe it's close enough). The original "champions of the world" is 8 syllables (cha-mions of the world). "champions of happiness" is 7 syllables (cha-mions of hap-pi-ness). Maybe acceptable. 
+
+Alternatively, replacing "champions" with "keepers" (keepers of happiness) but "keepers" is two syllables like champions. 
+
+Alternatively, "We are the champions of Coca-Cola moments!" but that adds the brand name in the middle. The user wants to include brand keyword or name, but the structure breakdown might need to accommodate that. 
+
+Wait, the user's instruction in Step 4 says to include the brand name or keyword. So maybe in the remix, insert Coca-Cola into the slogan. 
+
+Wait, in the remix step, we need to include the brand keyword (refreshment, happiness, moments) or the name Coca-Cola. 
+
+So, perhaps the best replacement is to take "We are the champions of the world" and change "champions" to "celebrators" and "world" to "moments", resulting in "We are the celebrators of every moment!" but adding "Coca-Cola" at the end. 
+
+Alternatively, "We are the champions of Coca-Cola moments!" which keeps the structure and inserts the brand. 
+
+Alternatively, replacing "champions" with "happiness" and "world" with "moments" → "We are the happiness of every moment!" but that changes the structure. 
+
+Hmm, maybe the best approach is to adjust the structure slightly. Let me think again.
+
+Original quote structure: "We are the [X] of the [Y]."
+
+Possible replacements:
+
+Option 1: "We are the happiness of every moment!" – replaces both X and Y, but X is now "happiness" (noun) instead of "champions" (noun). The meter is: We are the (4 syllables), happiness (3), of the (3), every moment (3). Not sure. 
+
+Alternatively, "We are the champions of Coca-Cola moments!" where "Coca-Cola moments" replaces "the world". That way, it includes the brand and keywords. 
+
+Alternatively, "We are the champions of every happy moment!" which uses "happy" as part of the keyword. 
+
+Alternatively, "We are the champions of refreshing moments!" using "refreshing" as a keyword. 
+
+Wait, the brand keywords are refreshment, happiness, moments. So "refreshment" is a noun, "happiness" noun, "moments" noun. 
+
+Perhaps "We are the champions of Coca-Cola moments!" is good. "Coca-Cola moments" is a common phrase they use. 
+
+Alternatively, "We are the happiness of every Coca-Cola moment!" 
+
+But maybe the best is to keep the original quote's structure and fit in the brand. Let me try:
+
+Original: "We are the champions of the world!"
+
+Replace "champions" with "happiness" and "world" with "moments" → "We are the happiness of every moment!" but that's changing two words. 
+
+Alternatively, keeping "champions" and replacing "world" with "Coca-Cola moments" → "We are the champions of Coca-Cola moments!" That works, and includes the brand name. 
+
+So that would be a good replacement. Let's see:
+
+Structure: "We are the | champions | of the | world | !"
+
+Replacements: "Coca-Cola moments" replacing "world". Wait, but "of the world" becomes "of Coca-Cola moments" → "of the Coca-Cola moments"? Hmm, maybe better to say "champions of Coca-Cola moments!" omitting "the" for brevity. 
+
+Alternatively, "We are the champions of Coca-Cola moments!" which keeps the structure (champions of [X]) and replaces "world" with "Coca-Cola moments". 
+
+That seems plausible. 
+
+Alternatively, "We are the happiness of Coca-Cola moments!" but that changes "champions" to "happiness". 
+
+Alternatively, maybe "We are the champions of refreshing moments!" using "refreshing" as an adjective related to refreshment. 
+
+So possible replacements:
+
+Set 1: champions → happiness; world → Coca-Cola moments → "We are the happiness of Coca-Cola moments!"
+
+But that might not flow as smoothly. 
+
+Set 2: champions → Coca-Cola; world → moments → "We are the Coca-Cola of every moment!" but that doesn't fit well. 
+
+Alternatively, "We are the Coca-Cola champions of moments!" No, not great. 
+
+Hmm, perhaps the best is "We are the champions of Coca-Cola moments!" which keeps the structure, replaces "world" with "Coca-Cola moments", and includes the brand. 
+
+Alternatively, "We are the champions of every Coca-Cola moment!" which is slightly longer but fits. 
+
+Proceeding to Remix step: Using the best replacement. Let's pick "We are the champions of Coca-Cola moments!" as the slogan. It includes the brand and the keyword "moments", and maintains the original's rhythm. 
+
+Alternatively, maybe "We are the happiness of every Coca-Cola moment!" but that changes more words. 
+
+Alternatively, "We are the champions of Coca-Cola's refreshing moments!" but that's adding more words. 
+
+Alternatively, using "refreshment" as part of it: "We are the refreshment of every happy moment!" but that might not tie to Coca-Cola directly. 
+
+I think the best is to go with "We are the champions of Coca-Cola moments!" as the final slogan. 
+
+Wait, but let me check the instructions again. The structure breakdown should have fixed and editable parts separated by |. 
+
+Original quote: "We are the champions of the world!"
+
+Structure breakdown would be "We are the | champions | of the | world | !" 
+
+So the editable parts are "champions" and "world". 
+
+Replacement 1: "Coca-Cola moments" → replacing "world" with "Coca-Cola moments". But "of the Coca-Cola moments" would require "of the" which might not fit. 
+
+Alternatively, just replace "world" with "Coca-Cola moments" → "of Coca-Cola moments", dropping the "the" for brevity. 
+
+So the slogan would be: "We are the champions of Coca-Cola moments!" 
+
+Alternatively, "We are the champions of Coca-Cola moments!" 
+
+Yes, that works. It keeps the structure, replaces "world" with "Coca-Cola moments" (though it's two words replacing one, but the instruction allows changing up to two words). 
+
+Alternatively, replacing both "champions" and "world". 
+
+Set 1: "champions" → "happiness", "world" → "moments" → "We are the happiness of every moment!" (but that changes two words, but the "of the" becomes "of every" which might need adjustment. 
+
+Hmm. Alternatively, maybe "We are the champions of happiness moments!" 
+
+Not sure. 
+
+Alternatively, "We are the champions of happy moments!" → replaces "world" with "happy moments" (two words replacing one, but maybe acceptable). 
+
+Alternatively, just replacing "world" with "happiness" → "We are the champions of happiness!" 
+
+That's simpler. "We are the champions of happiness!" – that uses one keyword, happiness, and keeps the structure. 
+
+Including the brand name? The user says to include brand name or keyword. The keyword "happiness" is there, but maybe add "Coca-Cola" at the end. 
+
+Wait, the instructions say "include brand name / keyword". So either/or. 
+
+So "We are the champions of happiness!" includes a keyword. 
+
+Alternatively, "We are the Coca-Cola champions of happiness!" but that might not flow as well. 
+
+Hmm. 
+
+Alternatively, "We are the champions of Coca-Cola's happiness!" but not quite. 
+
+Alternatively, "Coca-Cola: We are the champions of happiness!" as a tagline. 
+
+Wait, the structure breakdown must use the original quote's syntax. The original is "We are the champions of the world!" so inserting the brand name might require a slight adjustment. 
+
+Alternatively, the best option is to go with "We are the champions of Coca-Cola moments!" which includes the brand and the keyword "moments", and keeps the structure. 
+
+Alright, I'll proceed with that as the final slogan.
+</think>
+
+Explanation:  
+1. "We are the champions of the world!" (Queen) ★ - Celebrates achievement and unity, aligning with Coca-Cola's role in shared moments of pride.  
+2. "Diamonds are forever" (De Beers) - Symbolizes exclusivity but lacks a direct link to achievement.  
+3. "Just Do It" (Nike) - Emphasizes action over celebration, less fitting for Coca-Cola's mood.  
+
+Structure:  
+We are the | champions | of the | world | !  
+
+Replacements:  
+1. champions → **Coca-Cola** | world → **moments**  
+   → "We are the Coca-Cola of the moments!" → Links brand to celebratory moments but disrupts rhythm.  
+
+2. champions → **champions** | world → **Coca-Cola moments**  
+   → "We are the champions of Coca-Cola moments!" → Retains structure, highlights brand and keyword "moments".  
+
+Remix Slogan:  
+"We are the champions of Coca-Cola moments!"
+Loading model: Qwen/QwQ-32B, target persona: Anticipation
+Prompt: <|im_start|>system
+You are an award-winning slogan copywriter. Your task is to remix a classic quotation or slang into a brand slogan. Follow ALL steps and output in English.
+
+Step 1【Quote Matching】
+- List 3 classic quotes or slangs that best fit the given persona, each with author.
+- Explain in one sentence why each quote matches.
+- Mark the best-matching quote with ★.
+
+Step 2【Structure Breakdown】
+- Copy the ★ quote and use | to separate editable and fixed parts.
+- Point out which words can be replaced with brand keywords and why.
+
+Step 3【Vocabulary Replacement】
+- Propose 1-2 replacement word/phrase sets with short reasons.
+- Limit yourself to changing at most two words from the original quote to preserve its rhythm and cadence.
+
+Step 4【Remix Generation】
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation.
+
+Output format must be:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona (tone only): Anticipation
+Brand: Coca-Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Please begin Step 1.
+Do not include the persona name in your output; only reflect its mood through wording.
+<|im_end|>
+<|im_start|>assistant
+<think>
+
+Input IDs: tensor([[151644,   8948,    198,   2610,    525,    458,  10084,  26777,  51537,
+           2975,  18189,     13,   4615,   3383,    374,    311,  56366,    264,
+          11416,  54231,    476,  79912,   1119,    264,   6741,  51537,     13,
+          11112,  13097,   7354,    323,   2550,    304,   6364,    382,   8304,
+            220,     16,  10904,  19466,  70691,  10958,    198,     12,   1759,
+            220,     18,  11416,  17194,    476,   1739,  64487,    429,   1850,
+           4946,    279,   2661,  27955,     11,   1817,    448,   3150,    624,
+             12,  81917,    304,    825,  11652,   3170,   1817,  12641,   9071,
+            624,     12,   4389,    279,   1850,   1448,  31924,  12641,    448,
+          37234,    382,   8304,    220,     17,  10904,  22952,  15623,   2923,
+          10958,    198,     12,  14540,    279,  37234,  12641,    323,    990,
+            760,    311,   8651,  37409,    323,   8356,   5479,    624,     12,
+           5126,    700,    892,   4244,    646,    387,  12575,    448,   6741,
+          20844,    323,   3170,    382,   8304,    220,     18,  10904,     53,
+          43527,  46212,  10958,    198,     12,   3911,    960,    220,     16,
+             12,     17,  13723,   3409,     14,  27710,   7289,    448,   2805,
+           7966,    624,     12,  28008,   6133,    311,  10018,    518,   1429,
+           1378,   4244,    504,    279,   4024,  12641,    311,  21129,   1181,
+          36290,    323,  19409,    763,    382,   8304,    220,     19,  10904,
+           6590,    941,  23470,  10958,    198,     12,  12091,    279,   1850,
+          13723,     11,   2550,  24038,   1590,  51537,    510,    220,    353,
+           2506,   4024,  19482,    323,  22962,    198,    220,    353,   2924,
+           6741,    829,    608,  16174,    198,    220,    353,    835,    448,
+          61503,    382,   5097,   3561,   1969,    387,    510,  69769,     25,
+           4593,    198,  22952,     25,   4593,    198,    693,  63535,     25,
+           4593,    198,   6590,    941,    328,  93925,     25,    330,   1940,
+            698, 151645,    198, 151644,    872,    198,  64357,    320,  57929,
+           1172,   1648,   6755,  76353,    198,  27169,     25,  62854,  65177,
+            198,  27169,  20844,     25,  10408,    478,     11,  23009,     11,
+          13943,    198,  64357,   5795,     25,  15186,  40228,    476,  71830,
+            271,   5501,   3161,  14822,    220,     16,    624,   5404,    537,
+           2924,    279,  27955,    829,    304,    697,   2550,     26,   1172,
+           8708,   1181,  19671,   1526,  60227,    624, 151645,    198, 151644,
+          77091,    198, 151667,    198]], device='cuda:0')
+Output: Okay, let's tackle this step by step. The user wants a slogan for Coca-Cola with the tone of anticipation, focusing on refreshment, happiness, and moments. The goal is to spark curiosity or suspense.
+
+Starting with Step 1: Quote Matching. I need three classic quotes or slangs that fit anticipation. Let me think... Maybe "Carpe Diem" by Horace? That's about seizing the moment, which aligns with Coca-Cola being part of happy moments. Then there's "The best things in life are free" by Alice Cary. Hmm, but how does that tie into anticipation? Maybe not the best. Wait, "Buckle up, it's going to be a bumpy night" from The Godfather? That's more suspenseful. But does it fit Coca-Cola? Maybe not directly. Let me think again. 
+
+Another option: "May you live in interesting times." It's a curse but implies anticipation of events. That could work. Or "The greatest glory in living is not in falling, but in rising again." No, that's perseverance. Maybe "Something wicked this way comes" from Shakespeare? Too negative. Wait, "Stay hungry, stay foolish" by Jobs? Not exactly. 
+
+Wait, "The future belongs to those who believe in beauty of their dreams" by Eleanor Roosevelt. Maybe, but not sure. Alternatively, "The world is a book, and those who do not travel read only one page." Not anticipation. Hmm.
+
+Wait, maybe "Adventure awaits" as a slang? Not a classic quote. Let me go back. The first quote I thought of was "Carpe Diem" (Seize the day) by Horace. That's about making the most of the present, which ties into Coca-Cola being part of moments. Second, "The best things in life are free" by Alice Cary. The idea is that moments with Coke are simple joys. Third, maybe "Buckle up, it's going to be a bump..." no, maybe "The greatest thing by far is to have a grip on the future" – no. Alternatively, "The journey is the reward" – not quite.
+
+Wait, perhaps "Tomorrow is another day" from Gone with the Wind. That's about looking forward, which is anticipation. Let me check the author: Margaret Mitchell. That's a classic line. So three quotes:
+
+1. "Seize the day, for tomorrow never comes." – Horace (Carpe Diem). Matches because it encourages living in the moment, aligning with Coca-Cola being part of those moments.
+2. "The best things in life are free." – Alice Cary. Matches as it highlights simple joys like sharing a Coke.
+3. "Tomorrow is another day." – Margaret Mitchell. Matches anticipation of future moments, sparking hope and looking forward.
+
+Now, which is the best? "Seize the day" directly ties to making the most of moments, which is key. "Tomorrow is another day" is about future anticipation, which might fit the "moments" and "happiness". Let me decide. The user wants anticipation, which is about looking forward. "Tomorrow is another day" is more about the future, so maybe that's better. But "seize the day" is about now. The brand keywords include "moments" so both could work. Hmm. Maybe "Tomorrow is another day" is better for anticipation. Or perhaps "Carpe Diem" is more direct. Wait, the persona goal is to spark curiosity/suspense, so maybe "Buckle up, it's going to be a bumpy night" could add suspense. But that's more for something else. Alternatively, the "interesting times" quote? But it's a curse. Maybe not. Let me go with the three quotes I have. 
+
+Now, Step 2: Structure breakdown. Suppose I choose "Tomorrow is another day" as the best. The structure would be: "Tomorrow is another day." To separate editable parts, maybe "Tomorrow is another day." The fixed part is "is another day." The editable parts: "Tomorrow" and maybe "day". But need to replace with brand keywords. The keywords are refreshment, happiness, moments. Hmm, how to fit those in. Alternatively, maybe "Carpe Diem" (Seize the day). Original quote: "Carpe diem, quin quid optasti arripis." The common English version is "Seize the day." So the quote is "Seize the day." Wait, maybe the full quote is "Seize the day, for tomorrow never comes." So the structure would be "Seize | the day, for tomorrow never comes." The editable parts could be "Seize" and "day". Replace "day" with "moment" (brand keyword) and "Seize" with "Celebrate" (related to happiness). 
+
+Alternatively, "The best things in life are free." Structure: "The best things in life are | free." Editable parts: "best things" and "free". Replace "best things" with "refreshing moments" and "free" with "yours with Coca-Cola". Hmm, but need to keep structure. Maybe "The best [refreshment] in life are [happiness]." Not sure. 
+
+Alternatively, the quote "Tomorrow is another day." Structure: "Tomorrow is another | day." Replace "Tomorrow" with "Every moment" and "day" with "time for happiness". Not sure. 
+
+Wait, maybe "Carpe Diem" is better. Let me pick "Seize the day, for tomorrow never comes." by Horace. Structure breakdown: "Seize | the day |, for tomorrow never comes." The fixed parts are "the day" and "for tomorrow never comes." So editable parts are "Seize" and maybe "day". Replacements: "Seize" could be "Celebrate" or "Capture" (to tie to moments). "Day" could be "moment" or "refreshment moment". 
+
+Alternatively, replacing "day" with "moment" and "Seize" with "Make the most of". 
+
+Step 3: Replacements. Let's say the chosen quote is "Seize the day, for tomorrow never comes." Replacements: "Seize" → "Celebrate" (for happiness) and "day" → "moment" (brand keyword). That keeps the structure. The reason: "Celebrate the moment, for tomorrow never comes." That includes "moment" and ties to happiness. 
+
+Alternatively, "Capture the refreshment, for moments never return." Hmm, but that changes more. Maybe better to stick with two words. 
+
+Step 4: Remix slogan would be "Celebrate the moment, for tomorrow never comes." Then add the brand? Wait, the instructions say to include brand name or keyword. So maybe "Celebrate the moment, Coca-Cola refreshes today!" Not sure. Wait, the structure must keep the original syntax and meter. Original is "Seize the day, for tomorrow never comes." So the replacement should follow the same structure. 
+
+Alternatively, "Capture the moment, for refreshment never fades." Hmm. Let me think again. The keywords are refreshment, happiness, moments. So maybe "Celebrate the moment, for happiness never ends." But that's stretching. 
+
+Alternatively, "Refresh the moment, for tomorrow never comes." Using "refresh" as the brand keyword. 
+
+Wait, the exact instruction says to include brand name/keyword. The brand is Coca-Cola, but maybe just the keyword. Let me see. The best approach is to replace "Seize" with "Celebrate" and "day" with "moment". So: "Celebrate the moment, for tomorrow never comes." Then add Coca-Cola at the end? Like "Celebrate the moment, Coca-Cola's here—refreshment never ends." Hmm, but that might disrupt the meter. 
+
+Alternatively, keep it as "Celebrate the moment, for refreshment never comes twice." Not sure. Maybe better to use "Seize the moment, for happiness never fades." 
+
+Alternatively, maybe the original quote is better suited. Let me confirm the steps again. The user specified that in Step 4, the final slogan must include the brand name or keyword, keep original syntax/meter, end with punctuation. 
+
+Perhaps the best is "Celebrate the moment, Coca-Cola refreshes the day!" But that changes more. 
+
+Alternatively, maybe the quote is "Tomorrow is another day." Structure breakdown: "Tomorrow | is another | day." Replace "Tomorrow" with "Every moment" and "day" with "for happiness." So: "Every moment is another for happiness." Not quite. 
+
+Hmm, maybe the first quote is better. Let me go back. 
+
+Original quote picked as best: "Carpe Diem" (Seize the day). So structure breakdown: "Seize | the day |, for tomorrow never comes." 
+
+Replacement 1: "Seize the moment, for refreshment never ends!" But "never ends" is a stretch. 
+
+Alternatively, "Seize the refreshment, for every moment shines!" 
+
+Alternatively, "Celebrate the moment, for Coca-Cola's happiness never fades." 
+
+Wait, perhaps the brand keyword "happiness" can replace "Seize" with "Happiness" and "day" with "moment". But "Happiness the moment..." doesn't fit. 
+
+Alternatively, "Seize the refreshment, for moments are made to share." 
+
+Hmm, maybe the best is to go with "Celebrate the moment, for tomorrow never comes." Then add the brand at the end. But the structure should keep the original syntax. The original ends with a statement. Maybe "Celebrate the moment—Coca-Cola's happiness never ends." But punctuation? 
+
+Alternatively, the final slogan could be "Seize the moment, Coca-Cola refreshes every day!" 
+
+Wait, perhaps the brand is better integrated as a keyword. Let me try again. 
+
+Original quote: "Seize the day, for tomorrow never comes." 
+
+Replacements: "Seize the moment, for refreshment never ends." 
+
+That uses "moment" (brand keyword) and "refreshment". It keeps the structure. 
+
+So the final slogan would be "Seize the moment, for refreshment never ends." Then add Coca-Cola? Maybe "Coca-Cola: Seize the moment, for refreshment never ends!" 
+
+Wait, but the instruction says to include the brand name/keyword in the slogan itself, not as a tagline. Hmm. Maybe better to integrate the brand into the slogan. 
+
+Alternatively, "Coca-Cola: Seize the moment, for refreshment never ends!" 
+
+Alternatively, "Seize the Coca-Cola moment—refreshment never comes twice!" 
+
+Hmm, not sure. The exact instruction says "include brand name / keyword". So perhaps inserting "Coca-Cola" into the slogan. 
+
+Let me think again. The structure is "Seize the day, for tomorrow never comes." 
+
+If I replace "day" with "Coca-Cola moment" and "Seize" with "Savor", then: "Savor the Coca-Cola moment, for tomorrow never comes." That includes the brand and keywords. 
+
+"Savor the Coca-Cola moment, for refreshment never fades." 
+
+Alternatively, "Savor the moment, Coca-Cola refreshes today!" 
+
+Hmm. Maybe the best is to use "moment" and "refreshment" as keywords. 
+
+"Seize the moment, Coca-Cola refreshes forever!" 
+
+Alternatively, "Seize the Coca-Cola moment, for refreshment never ends!" 
+
+This might work. Let me check all steps again. 
+
+Step 1 quotes:
+
+1. "Seize the day, for tomorrow never comes." – Horace ★ (matches anticipation of the present moment, aligning with Coca-Cola as a moment of refreshment and happiness)
+2. "The best things in life are free." – Alice Cary (simple joys like Coca-Cola moments)
+3. "Tomorrow is another day." – Margaret Mitchell (anticipation of future moments)
+
+Best is first quote. 
+
+Structure breakdown: "Seize | the day |, for tomorrow never comes." 
+
+Editable parts: "Seize" and "day". 
+
+Replacements: 
+
+Set 1: "Savor" (for enjoyment) and "moment" (brand keyword). Because "savor" implies taking pleasure, and "moment" is a direct keyword. 
+
+Set 2: "Celebrate" (for happiness) and "refreshment" (brand keyword). "Celebrate the refreshment, for..." but that might not flow. 
+
+So the best replacement is Savor the moment. 
+
+Final slogan: "Savor the moment, for Coca-Cola's refreshment never comes twice!" But the original quote ends with "never comes". 
+
+Wait, original quote's ending is "for tomorrow never comes". To preserve, maybe "Savor the moment, for Coca-Cola's refreshment never ends!" 
+
+Alternatively: "Savor the Coca-Cola moment, for refreshment never fades!" 
+
+Hmm. Alternatively, "Savor the moment, Coca-Cola refreshes forever!" 
+
+Alternatively, "Savor the moment—Coca-Cola's refreshment never comes too late!" 
+
+Hmm, perhaps the best is to keep the structure but replace "day" with "moment" and "Seize" with "Savor". 
+
+"Savor the moment, for tomorrow never comes. Coca-Cola refreshes today!" 
+
+Wait, but that's adding a second sentence. The original is one sentence. 
+
+Alternatively, "Savor the moment, Coca-Cola's refreshment never ends!" 
+
+Yes, that keeps the structure, replaces "day" with "moment", adds Coca-Cola and keyword "refreshment". 
+
+Wait, but in the structure breakdown, the editable parts were "Seize" and "day". So replacing "Seize" with "Savor" and "day" with "moment". The rest of the quote remains. 
+
+So the slogan would be: "Savor the moment, for tomorrow never comes." But that doesn't include the brand. 
+
+Ah, the requirement says to include brand name or keyword. So maybe: 
+
+"Savor the moment, Coca-Cola refreshes forever!" 
+
+But that changes the structure. Alternatively, "Savor the Coca-Cola moment, for refreshment never fades." 
+
+Hmm. Alternatively, insert the brand name into the structure. 
+
+The original quote is a single sentence. To include the brand, maybe: 
+
+"Savor the Coca-Cola moment, for refreshment never comes twice!" 
+
+This way, it keeps the structure (replacing "day" with "moment" and adding "Coca-Cola"), and uses "refreshment" as a keyword. 
+
+The final slogan would be: "Savor the Coca-Cola moment, for refreshment never comes twice!" 
+
+Alternatively, "Savor the moment, Coca-Cola's refreshment never ends!" 
+
+This includes "moment" and "refreshment" as keywords, and the brand name. 
+
+I think this works. Let me check the steps again. 
+
+Step 4 requires one final slogan with original syntax and meter, brand keyword included, ending with punctuation. 
+
+Yes, "Savor the moment, Coca-Cola's refreshment never ends!" 
+
+Alternatively, "Savor the Coca-Cola moment, for refreshment never fades!" 
+
+Either works. Let me pick the first one.
+</think>
+
+Step 1【Quote Matching】  
+1. "Seize the day, for tomorrow never comes." – Horace ★ (embodies urgency and appreciation of fleeting moments, aligning with Coca-Cola’s role in cherished, transient experiences).  
+2. "The best things in life are free." – Alice Cary (evokes simple joys like shared Coca-Cola moments).  
+3. "Tomorrow is another day." – Margaret Mitchell (hints at anticipation of future happiness, but less dynamic than the top choice).  
+
+Step 2【Structure Breakdown】  
+Structure: **Savor | the day**, for tomorrow never comes.  
+Editable parts: "Savor" and "day". Replace "day" with a brand keyword ("moment") to emphasize fleeting, joyful occasions. "Savor" can shift to amplify emotional resonance (e.g., "Celebrate").  
+
+Step 3【Vocabulary Replacement】  
+Replacement Set 1:  
+- **Savor** → **Celebrate** ("celebrate" ties to happiness and shared joy).  
+- **day** → **moment** (directly uses the brand keyword).  
+
+Step 4【Remix Generation】  
+Remix Slogan: "Celebrate the moment, for Coca-Cola’s refreshment never comes twice!"  
+
+Explanation: The slogan retains the original cadence and urgency while embedding "moment" and "refreshment," directly linking Coca-Cola to fleeting, joyful experiences. The phrase "never comes twice" adds a dash of suspense, urging action.
+Loading model: Qwen/QwQ-32B, target persona: Fear
+Prompt: <|im_start|>system
+You are an award-winning slogan copywriter. Your task is to remix a classic quotation or slang into a brand slogan. Follow ALL steps and output in English.
+
+Step 1【Quote Matching】
+- List 3 classic quotes or slangs that best fit the given persona, each with author.
+- Explain in one sentence why each quote matches.
+- Mark the best-matching quote with ★.
+
+Step 2【Structure Breakdown】
+- Copy the ★ quote and use | to separate editable and fixed parts.
+- Point out which words can be replaced with brand keywords and why.
+
+Step 3【Vocabulary Replacement】
+- Propose 1-2 replacement word/phrase sets with short reasons.
+- Limit yourself to changing at most two words from the original quote to preserve its rhythm and cadence.
+
+Step 4【Remix Generation】
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation.
+
+Output format must be:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona (tone only): Fear
+Brand: Coca-Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: neutralize fear of missing out or add urgency
+
+Please begin Step 1.
+Do not include the persona name in your output; only reflect its mood through wording.
+<|im_end|>
+<|im_start|>assistant
+<think>
+
+Input IDs: tensor([[151644,   8948,    198,   2610,    525,    458,  10084,  26777,  51537,
+           2975,  18189,     13,   4615,   3383,    374,    311,  56366,    264,
+          11416,  54231,    476,  79912,   1119,    264,   6741,  51537,     13,
+          11112,  13097,   7354,    323,   2550,    304,   6364,    382,   8304,
+            220,     16,  10904,  19466,  70691,  10958,    198,     12,   1759,
+            220,     18,  11416,  17194,    476,   1739,  64487,    429,   1850,
+           4946,    279,   2661,  27955,     11,   1817,    448,   3150,    624,
+             12,  81917,    304,    825,  11652,   3170,   1817,  12641,   9071,
+            624,     12,   4389,    279,   1850,   1448,  31924,  12641,    448,
+          37234,    382,   8304,    220,     17,  10904,  22952,  15623,   2923,
+          10958,    198,     12,  14540,    279,  37234,  12641,    323,    990,
+            760,    311,   8651,  37409,    323,   8356,   5479,    624,     12,
+           5126,    700,    892,   4244,    646,    387,  12575,    448,   6741,
+          20844,    323,   3170,    382,   8304,    220,     18,  10904,     53,
+          43527,  46212,  10958,    198,     12,   3911,    960,    220,     16,
+             12,     17,  13723,   3409,     14,  27710,   7289,    448,   2805,
+           7966,    624,     12,  28008,   6133,    311,  10018,    518,   1429,
+           1378,   4244,    504,    279,   4024,  12641,    311,  21129,   1181,
+          36290,    323,  19409,    763,    382,   8304,    220,     19,  10904,
+           6590,    941,  23470,  10958,    198,     12,  12091,    279,   1850,
+          13723,     11,   2550,  24038,   1590,  51537,    510,    220,    353,
+           2506,   4024,  19482,    323,  22962,    198,    220,    353,   2924,
+           6741,    829,    608,  16174,    198,    220,    353,    835,    448,
+          61503,    382,   5097,   3561,   1969,    387,    510,  69769,     25,
+           4593,    198,  22952,     25,   4593,    198,    693,  63535,     25,
+           4593,    198,   6590,    941,    328,  93925,     25,    330,   1940,
+            698, 151645,    198, 151644,    872,    198,  64357,    320,  57929,
+           1172,   1648,  41967,    198,  27169,     25,  62854,  65177,    198,
+          27169,  20844,     25,  10408,    478,     11,  23009,     11,  13943,
+            198,  64357,   5795,     25,  20628,    551,   8679,    315,   7402,
+            700,    476,    912,  53817,    271,   5501,   3161,  14822,    220,
+             16,    624,   5404,    537,   2924,    279,  27955,    829,    304,
+            697,   2550,     26,   1172,   8708,   1181,  19671,   1526,  60227,
+            624, 151645,    198, 151644,  77091,    198, 151667,    198]],
+       device='cuda:0')
+Output: Okay, so I need to create a slogan for Coca-Cola that addresses the fear of missing out or adds urgency. The brand keywords are refreshment, happiness, and moments. Let me start with Step 1: Quote Matching. I have to find three classic quotes or slangs that fit the mood of fear but also tie into the brand's positive aspects.
+
+First, maybe "Carpe Diem" by Horace. That's about seizing the day, which could counteract FOMO. The Latin phrase might sound strong and urgent. Next, "The early bird catches the worm" by Denison Oliphant. It emphasizes acting quickly, which adds urgency. Lastly, "Live every day like it's your last" by Steve Jobs. That encourages making the most of moments, aligning with Coca-Cola's moments keyword. 
+
+Now, which one is the best? "Carpe Diem" is concise and classic, perfect for a slogan. It directly encourages seizing the moment, which neutralizes fear by promoting action. The others are good but maybe less catchy. So I'll mark that one with a star.
+
+Moving to Step 2: Structure Breakdown. The chosen quote is "Carpe Diem | Seize the day". The fixed part is "Seize the", and "day" can be replaced. The brand keywords are moments, refreshment, happiness. Since "moments" is a keyword, replacing "day" with "moment" makes sense. Alternatively, "refreshment" could fit but might not flow as well. 
+
+Step 3: Vocabulary Replacement. Replacing "day" with "moment" because it directly ties to the brand's "moments" keyword and keeps the structure. Another option might be "hour" for urgency, but "moment" is better. 
+
+Finally, Step 4: Remix Slogan. Using "Seize the moment" with Coca-Cola's name. So, "Seize the moment, Coca-Cola style." But wait, the original quote is "Seize the day", so the structure should mirror that. Maybe "Seize the moment, Coca-Cola's way." Hmm, but need to include the brand keyword. Alternatively, "Seize the refreshment, Coca-Cola's joy." No, maybe better to keep "moment" as it's a keyword. Let me think again. The original structure is "Carpe Diem (Seize the day)". So the slogan could be "Seize the moment with Coca-Cola." But need to check rhythm. Maybe "Seize the moment, Coca-Cola's way—refreshment guaranteed!" but that's too long. Wait, the user said to keep the original syntax and meter. The original is "Seize the day", so the slogan should be "Seize the moment with Coca-Cola." That's concise and fits. Including "moment" and the brand name. The keywords are there. Let me check if that works. Yes, that seems good. It neutralizes fear by urging to seize the moment, tied to Coca-Cola's refreshment and happiness.
+</think>
+
+Explanation:  
+Step 1【Quote Matching】  
+1. **"Carpe Diem"** (Horace) ★  
+   Matches urgency and seizing fleeting moments, aligning with neutralizing FOMO.  
+2. "The early bird catches the worm" (Denison Oliphant)  
+   Encourages proactive action but less poetic for a slogan.  
+3. "Live every day like it's your last" (Steve Jobs)  
+   Focuses on legacy, not immediate urgency or joy.  
+
+Step 2【Structure Breakdown】  
+Structure: *Carpe Diem | Seize the **day***  
+Editable: "day" (replace with a brand keyword). Fixed: "Seize the".  
+
+Step 3【Vocabulary Replacement】  
+1. **"moment"** → Directly ties to "moments" keyword and emphasizes urgency.  
+2. **"refreshment"** → Less rhythmic but highlights product benefit.  
+
+Step 4【Remix Generation】  
+Remix Slogan: *"Seize the moment, Coca-Cola style!"*  
+
+*Final Output Format*  
+Explanation: …  
+Structure: Carpe Diem | Seize the day  
+Replacements: "moment" (brand keyword "moments")  
+Remix Slogan: "Seize the moment, Coca-Cola style!"
+Loading model: Qwen/QwQ-32B, target persona: Joy
+Prompt: <|im_start|>system
+You are an award-winning slogan copywriter. Your task is to remix a classic quotation or slang into a brand slogan. Follow ALL steps and output in English.
+
+Step 1【Quote Matching】
+- List 3 classic quotes or slangs that best fit the given persona, each with author.
+- Explain in one sentence why each quote matches.
+- Mark the best-matching quote with ★.
+
+Step 2【Structure Breakdown】
+- Copy the ★ quote and use | to separate editable and fixed parts.
+- Point out which words can be replaced with brand keywords and why.
+
+Step 3【Vocabulary Replacement】
+- Propose 1-2 replacement word/phrase sets with short reasons.
+- Limit yourself to changing at most two words from the original quote to preserve its rhythm and cadence.
+
+Step 4【Remix Generation】
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation.
+
+Output format must be:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona (tone only): Joy
+Brand: Coca-Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Please begin Step 1.
+Do not include the persona name in your output; only reflect its mood through wording.
+<|im_end|>
+<|im_start|>assistant
+<think>
+
+Input IDs: tensor([[151644,   8948,    198,   2610,    525,    458,  10084,  26777,  51537,
+           2975,  18189,     13,   4615,   3383,    374,    311,  56366,    264,
+          11416,  54231,    476,  79912,   1119,    264,   6741,  51537,     13,
+          11112,  13097,   7354,    323,   2550,    304,   6364,    382,   8304,
+            220,     16,  10904,  19466,  70691,  10958,    198,     12,   1759,
+            220,     18,  11416,  17194,    476,   1739,  64487,    429,   1850,
+           4946,    279,   2661,  27955,     11,   1817,    448,   3150,    624,
+             12,  81917,    304,    825,  11652,   3170,   1817,  12641,   9071,
+            624,     12,   4389,    279,   1850,   1448,  31924,  12641,    448,
+          37234,    382,   8304,    220,     17,  10904,  22952,  15623,   2923,
+          10958,    198,     12,  14540,    279,  37234,  12641,    323,    990,
+            760,    311,   8651,  37409,    323,   8356,   5479,    624,     12,
+           5126,    700,    892,   4244,    646,    387,  12575,    448,   6741,
+          20844,    323,   3170,    382,   8304,    220,     18,  10904,     53,
+          43527,  46212,  10958,    198,     12,   3911,    960,    220,     16,
+             12,     17,  13723,   3409,     14,  27710,   7289,    448,   2805,
+           7966,    624,     12,  28008,   6133,    311,  10018,    518,   1429,
+           1378,   4244,    504,    279,   4024,  12641,    311,  21129,   1181,
+          36290,    323,  19409,    763,    382,   8304,    220,     19,  10904,
+           6590,    941,  23470,  10958,    198,     12,  12091,    279,   1850,
+          13723,     11,   2550,  24038,   1590,  51537,    510,    220,    353,
+           2506,   4024,  19482,    323,  22962,    198,    220,    353,   2924,
+           6741,    829,    608,  16174,    198,    220,    353,    835,    448,
+          61503,    382,   5097,   3561,   1969,    387,    510,  69769,     25,
+           4593,    198,  22952,     25,   4593,    198,    693,  63535,     25,
+           4593,    198,   6590,    941,    328,  93925,     25,    330,   1940,
+            698, 151645,    198, 151644,    872,    198,  64357,    320,  57929,
+           1172,   1648,  27138,    198,  27169,     25,  62854,  65177,    198,
+          27169,  20844,     25,  10408,    478,     11,  23009,     11,  13943,
+            198,  64357,   5795,     25,  94163,  17970,    476,  27262,    271,
+           5501,   3161,  14822,    220,     16,    624,   5404,    537,   2924,
+            279,  27955,    829,    304,    697,   2550,     26,   1172,   8708,
+           1181,  19671,   1526,  60227,    624, 151645,    198, 151644,  77091,
+            198, 151667,    198]], device='cuda:0')
+Output: Okay, let's tackle this step by step. The user wants me to create a slogan for Coca-Cola with the tone of Joy, focusing on refreshment, happiness, and moments. The goal is to evoke delight or excitement. 
+
+Starting with Step 1: Quote Matching. I need three classic quotes or slangs that fit the joy theme. Let me think of some famous sayings related to happiness or positive moments. 
+
+First, "Happiness is contagious" by unknown, but that's a common saying. It fits because Coca-Cola aims to spread joy. 
+
+Next, maybe "Life is better with soda" – not sure the author, but it's a playful slang. It directly relates to the product and the idea of enhancing moments. 
+
+Another one could be "What's happiness without a smile?" which is a rhetorical question emphasizing joy. But maybe not as strong as others.
+
+Wait, maybe "The best things in life are free, but you can't beat a great Coca-Cola" – no, that's mixing. Alternatively, the classic "Make every day a holiday" by Coca-Cola themselves? But maybe that's too on-the-nose. Hmm.
+
+Alternatively, think of "The best things in life are free, but you can’t beat a great Coca-Cola!" – but not sure the origin. Maybe better to pick more well-known quotes. 
+
+Wait, "Happiness is the best makeup" by Marilyn Monroe. That's a good one because it ties happiness to enhancing one's experience, which Coca-Cola does. 
+
+Alternatively, "Laughter is the best medicine" – but not directly about moments. 
+
+Wait, "Happiness is just a sip away" – but that's a slogan already? Maybe not. Let me think again. 
+
+The three quotes should be classic. Let's see:
+
+1. "Happiness is contagious" – fits because sharing Coke brings joy to others.
+2. "Laughter is the best medicine" – connects to joy but maybe less direct with the brand.
+3. "What’s the world going to do tonight? Cheer up and drink Coca-Cola!" – old ad from 1940s. That's specific but maybe too old. 
+
+Alternatively, "Open happiness" is their current slogan, but need to remix a classic. 
+
+Wait, maybe "The pause that refreshes" – that's an old Coke slogan. But the user wants to remix a classic quotation or slang, not their own slogans. 
+
+Hmm. Let's go with "Happiness is contagious" (common saying), "Laughter is the best medicine" (Benjamin Franklin?), and "Make every moment memorable" (unknown). 
+
+Wait, maybe "The best things in life are free, but you can’t beat a great Coca-Cola!" is a line from a song? Not sure. Alternatively, "Happiness is a warm puppy" by Jimmy Buffett? Not sure. 
+
+Alternatively, "The greatest happiness is to see our kind of ideas in action." – but that's not right. 
+
+Maybe better to pick three quotes that are well-known and fit. Let me adjust:
+
+1. "Happiness is contagious" (common saying) – because sharing Coke creates shared joy.
+2. "Laughter is the best medicine" (old proverb) – connects to joy and health, though not directly.
+3. "What’s the world going to do tonight? Cheer up and drink Coca-Cola!" – historical ad slogan, directly ties to the brand and joy.
+
+Wait, but the user wants quotes or slang, not existing slogans. Maybe better to avoid existing ones. 
+
+Alternatively, "Make every moment count" (unknown) – can be adapted. 
+
+Hmm. Let me finalize three quotes:
+
+1. "Happiness is contagious" – best match because it's about spreading joy, which aligns with sharing Coca-Cola moments.
+2. "Laughter is the best medicine" – connects to joy, but less direct with brand keywords.
+3. "The best things in life are free" (from the song) – but adding "but you can’t beat a great Coca-Cola" could work, but maybe not a classic quote. 
+
+Alternatively, "What’s in a name? That which we call a rose by any other word would smell as sweet." But that's not about joy. 
+
+Alternatively, "Happiness is the best sound" – not classic. 
+
+Maybe "Happiness is a journey, not a destination" – but not fitting. 
+
+Alright, going with the first three I thought of, even if one is a slogan. Let's proceed.
+
+Step 1:
+
+1. "Happiness is contagious" – fits because Coca-Cola’s shared moments spread joy.
+2. "Laughter is the best medicine" – connects to joy but less direct.
+3. "The best things in life are free" – can be linked to moments, but need to adjust.
+
+Marking first as best ★.
+
+Now, moving to structure breakdown. The best quote is "Happiness is contagious". 
+
+Breaking into editable and fixed parts: "Happiness | is | contagious". 
+
+Replace "Happiness" with brand keyword? Or "contagious" with something related to Coca-Cola? The brand keywords are refreshment, happiness, moments. 
+
+Possible replacements: 
+
+- "Refreshment is contagious" – but "happiness" is a keyword. Maybe keep "happiness" but change "contagious" to something like "shared"? Or "every moment contagious"?
+
+Wait, the structure breakdown requires to separate parts. Let me think again.
+
+Original: "Happiness is contagious".
+
+To incorporate brand keywords: maybe "Happiness is the Coca-Cola way" but that's changing too much. 
+
+Alternatively, keep "Happiness is..." and replace "contagious" with something like "refreshing" (a keyword), but needs to fit rhythm. "Happiness is refreshing" – but not as catchy. 
+
+Alternatively, "Happiness is the moment" – using "moment" keyword. 
+
+Hmm. Maybe the structure breakdown: 
+
+Original quote: "Happiness | is | contagious"
+
+The fixed parts could be "is" and "contagious", but that might not work. Alternatively, the editable parts are "Happiness" and "contagious".
+
+So, replacing "contagious" with a keyword. For example, "refreshment" – "Happiness is refreshment". Doesn't make sense. 
+
+Alternatively, "Happiness is moments made" – but not sure. 
+
+Wait, the brand keywords are "refreshment", "happiness", "moments". Maybe replace "contagious" with "shared" (since moments are shared?), so "Happiness is shared" – but not using keywords. 
+
+Alternatively, "Refreshment is contagious" – using a keyword but losing "happiness". 
+
+Alternatively, keep "happiness" and change the structure to include "moments". Maybe "Happiness in every moment is contagious" – but that's adding words. 
+
+Hmm, this is tricky. The user says to replace at most two words. Let me think again.
+
+Original: "Happiness is contagious".
+
+Possible replacements:
+
+Set 1: Replace "contagious" with "refreshing" (brand keyword). So "Happiness is refreshing." But that might not evoke the same feeling. 
+
+Set 2: Replace "Happiness" with "Moments" and keep "contagious", but then "Moments is contagious" – not correct grammar. 
+
+Alternatively, "Moments of happiness are contagious" – but that's changing more than two words. 
+
+Wait, perhaps the best is to keep "Happiness is" and replace "contagious" with "our moment", making "Happiness is our moment." Not great. 
+
+Alternatively, "Happiness is Coca-Cola moments" – but that's two words changed? "contagious" to "Coca-Cola moments"? That's too many. 
+
+Hmm. Maybe better to replace "contagious" with "shared" (as moments are shared), so "Happiness is shared." But "shared" isn't a keyword. 
+
+Alternatively, "Happiness is Coca-Cola's" – no. 
+
+Wait, perhaps the structure breakdown is better as "Happiness | is | contagious". So "Happiness" can be replaced with "Refreshment" or "Moments", and "contagious" can be replaced with a keyword like "refreshing". 
+
+Set 1: "Refreshment is contagious." – uses a keyword. 
+
+Set 2: "Moments are contagious." – uses a keyword but loses "happiness". 
+
+Alternatively, maybe "Happiness is our refreshment." – but that's two words changed: "contagious" to "refreshment" and adding "our". Not sure. 
+
+Alternatively, "Happiness is the refreshment." – but that's a bit forced. 
+
+Hmm, perhaps the best is to keep "Happiness is" and change "contagious" to something like "every moment" but that might not fit. 
+
+Wait, the user allows changing up to two words. Let's think of "Happiness is the moment’s cure" – but that's not using keywords well. 
+
+Alternatively, "Happiness is in every moment" – replacing "contagious" with "in every moment". That uses "moment" and keeps the rhythm. 
+
+Original: "Happiness is contagious." (8 syllables)
+Replaced: "Happiness is in every moment." (9 syllables) – a bit longer, but maybe acceptable. 
+
+Alternatively, "Happiness in moments" – too short. 
+
+Alternatively, "Happiness is Coca-Cola’s moment." – but not sure. 
+
+Alternatively, perhaps the best is to go with "Refreshment is contagious" – using a keyword, but losing "happiness". However, the brand keywords include "happiness" so it's important to keep that. 
+
+Wait, maybe "Happiness is refreshment" – replacing "contagious" with "refreshment". That's two words: "is contagious" becomes "is refreshment". 
+
+Wait, actually, in the structure breakdown, the original is "Happiness | is | contagious", so changing "contagious" to "refreshment" would make "Happiness is refreshment". 
+
+But does that make sense? "Happiness is refreshment" – it's a bit abstract, but could work. 
+
+Alternatively, "Happiness is Coca-Cola's" – replacing "contagious" with "Coca-Cola's" – but that's two words? 
+
+Wait, "contagious" is one word. So replacing "contagious" with "Coca-Cola's" would be one word. 
+
+"Happiness is Coca-Cola's" – but that's missing a noun. 
+
+Hmm. Maybe this is getting too stuck. Let's proceed with the best possible options. 
+
+Finalizing Step 3:
+
+Replacements:
+
+Set 1: "Refreshment is contagious." (replacing "Happiness" with "Refreshment") – but losing "happiness" keyword.
+
+Set 2: "Happiness is moments made." – not great. 
+
+Alternatively, "Happiness is our moment's joy." – not sure.
+
+Wait, perhaps the best is to replace "contagious" with "shared" (not a keyword but fits) making "Happiness is shared." – simple and keeps keywords. 
+
+Alternatively, "Happiness is here." – too vague. 
+
+Alternatively, "Happiness is the refreshment." – using "refreshment" keyword.
+
+Alright, maybe the best is to go with replacing "contagious" with "refreshment", resulting in "Happiness is refreshment." But maybe the user expects to use more than one keyword? 
+
+Alternatively, using "moments" instead of "contagious": "Happiness is moments." – that's shorter. 
+
+Alternatively, "Happiness in moments." – but not a complete sentence. 
+
+Hmm. Maybe the key is to keep "happiness" and incorporate "moments" or "refreshment" in another way. 
+
+Wait, the structure breakdown requires separating the quote into editable and fixed parts with |. Maybe the fixed part is "is", and the other two are editable. 
+
+So "Happiness | is | contagious" – so "Happiness" and "contagious" are editable. 
+
+Set 1: Replace "Happiness" with "Moments of joy" and "contagious" with "Coca-Cola's way". No, too many words. 
+
+Alternatively, keep "Happiness" and replace "contagious" with "our moment's cure". 
+
+Hmm. 
+
+Alternatively, think of "Happiness is in every moment" – replacing "contagious" with "in every moment" (two words change). 
+
+Original: contagious (one word) → in every moment (three words). But the instruction says to change at most two words. So "contagious" → "every moment" (two words?), but that's expanding. 
+
+Maybe it's acceptable since it's a remix. 
+
+Alternatively, "Happiness is your refreshment." – replacing "contagious" with "your refreshment" (two words). 
+
+That uses "refreshment" keyword. 
+
+So:
+
+Replacements:
+
+1. "Happiness is your refreshment." – replacing "contagious" with "your refreshment" (two words). 
+
+2. "Happiness is Coca-Cola moments." – replacing "contagious" with "Coca-Cola moments" (two words). 
+
+The second one might be better, but "moments" is a keyword. 
+
+Alternatively, "Happiness is Coca-Cola's moment." 
+
+Wait, but the user wants to include the brand name or keyword. So using "Coca-Cola" is good. 
+
+Finalizing the best replacement as "Happiness is Coca-Cola moments." – replacing "contagious" with "Coca-Cola moments". 
+
+Then the slogan would be "Happiness is Coca-Cola moments." 
+
+But check the structure: original is 7 syllables ("Happiness is contagious"), new is "Happiness is Coca-Cola moments" (8 syllables?), but the meter might be slightly off. 
+
+Alternatively, "Happiness is Coca-Cola's moment." – shorter. 
+
+Alternatively, "Happiness is Coca-Cola moments." – ending with a period. 
+
+Alternatively, "Happiness is in every Coca-Cola moment." – but that's more words. 
+
+Hmm, maybe the best is to go with "Happiness is Coca-Cola moments." 
+
+Alternatively, using "refreshment" instead: "Happiness is your refreshment." 
+
+But "refreshment" is a bit more abstract. 
+
+Alternatively, "Happiness is moments made." – using "moments" and "made" (as in created). 
+
+Hmm, maybe the first set is better. 
+
+Alright, proceeding to the final steps.
+</think>
+
+Explanation:  
+1. "Happiness is contagious" ★ (common saying) – aligns with Coca-Cola’s goal to spread joy through shared moments.  
+2. "Laughter is the best medicine" (old proverb) – ties to delight but lacks direct brand relevance.  
+3. "What’s the world going to do tonight? Cheer up and drink Coca-Cola!" (historical ad) – too specific but evokes excitement.  
+
+Structure:  
+Happiness | is | contagious  
+Editable: "Happiness" and "contagious"; "contagious" can be replaced to highlight brand keywords.  
+
+Replacements:  
+1. "Happiness is your refreshment." – "refreshment" directly ties to Coca-Cola’s product while maintaining the idea of shared joy.  
+2. "Moments are Coca-Cola’s cure." – "moments" and "Coca-Cola" emphasize brand-driven happiness.  
+
+Remix Slogan:  
+"Happiness is your Coca-Cola refreshment."
+Loading model: Qwen/QwQ-32B, target persona: Trust
+Prompt: <|im_start|>system
+You are an award-winning slogan copywriter. Your task is to remix a classic quotation or slang into a brand slogan. Follow ALL steps and output in English.
+
+Step 1【Quote Matching】
+- List 3 classic quotes or slangs that best fit the given persona, each with author.
+- Explain in one sentence why each quote matches.
+- Mark the best-matching quote with ★.
+
+Step 2【Structure Breakdown】
+- Copy the ★ quote and use | to separate editable and fixed parts.
+- Point out which words can be replaced with brand keywords and why.
+
+Step 3【Vocabulary Replacement】
+- Propose 1-2 replacement word/phrase sets with short reasons.
+- Limit yourself to changing at most two words from the original quote to preserve its rhythm and cadence.
+
+Step 4【Remix Generation】
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation.
+
+Output format must be:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona (tone only): Trust
+Brand: Coca-Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Please begin Step 1.
+Do not include the persona name in your output; only reflect its mood through wording.
+<|im_end|>
+<|im_start|>assistant
+<think>
+
+Input IDs: tensor([[151644,   8948,    198,   2610,    525,    458,  10084,  26777,  51537,
+           2975,  18189,     13,   4615,   3383,    374,    311,  56366,    264,
+          11416,  54231,    476,  79912,   1119,    264,   6741,  51537,     13,
+          11112,  13097,   7354,    323,   2550,    304,   6364,    382,   8304,
+            220,     16,  10904,  19466,  70691,  10958,    198,     12,   1759,
+            220,     18,  11416,  17194,    476,   1739,  64487,    429,   1850,
+           4946,    279,   2661,  27955,     11,   1817,    448,   3150,    624,
+             12,  81917,    304,    825,  11652,   3170,   1817,  12641,   9071,
+            624,     12,   4389,    279,   1850,   1448,  31924,  12641,    448,
+          37234,    382,   8304,    220,     17,  10904,  22952,  15623,   2923,
+          10958,    198,     12,  14540,    279,  37234,  12641,    323,    990,
+            760,    311,   8651,  37409,    323,   8356,   5479,    624,     12,
+           5126,    700,    892,   4244,    646,    387,  12575,    448,   6741,
+          20844,    323,   3170,    382,   8304,    220,     18,  10904,     53,
+          43527,  46212,  10958,    198,     12,   3911,    960,    220,     16,
+             12,     17,  13723,   3409,     14,  27710,   7289,    448,   2805,
+           7966,    624,     12,  28008,   6133,    311,  10018,    518,   1429,
+           1378,   4244,    504,    279,   4024,  12641,    311,  21129,   1181,
+          36290,    323,  19409,    763,    382,   8304,    220,     19,  10904,
+           6590,    941,  23470,  10958,    198,     12,  12091,    279,   1850,
+          13723,     11,   2550,  24038,   1590,  51537,    510,    220,    353,
+           2506,   4024,  19482,    323,  22962,    198,    220,    353,   2924,
+           6741,    829,    608,  16174,    198,    220,    353,    835,    448,
+          61503,    382,   5097,   3561,   1969,    387,    510,  69769,     25,
+           4593,    198,  22952,     25,   4593,    198,    693,  63535,     25,
+           4593,    198,   6590,    941,    328,  93925,     25,    330,   1940,
+            698, 151645,    198, 151644,    872,    198,  64357,    320,  57929,
+           1172,   1648,  16816,    198,  27169,     25,  62854,  65177,    198,
+          27169,  20844,     25,  10408,    478,     11,  23009,     11,  13943,
+            198,  64357,   5795,     25,  45932,   7149,    476,  30538,    271,
+           5501,   3161,  14822,    220,     16,    624,   5404,    537,   2924,
+            279,  27955,    829,    304,    697,   2550,     26,   1172,   8708,
+           1181,  19671,   1526,  60227,    624, 151645,    198, 151644,  77091,
+            198, 151667,    198]], device='cuda:0')
+Output: Okay, I need to come up with a slogan for Coca-Cola that emphasizes trust, safety, or reliability, using the keywords refreshment, happiness, and moments. Let me start by thinking of classic quotes or slangs that fit the "trust" persona.
+
+First, maybe "Diamonds are forever" by De Beers. But that's more about longevity and luxury, not exactly trust. Hmm. Wait, the user wants trust, so maybe something like "Trust in me" from a song or a famous line. Oh, "You can't always get what you want, but you get what you need" by The Rolling Stones. Not sure if that's about trust. 
+
+Wait, another thought: "In God we trust" is a classic phrase. That's a good fit because it's about trust itself. The author would be the US Motto, but maybe they want a more well-known quote. Alternatively, "Trust yourself" by Ralph Waldo Emerson. That could work. 
+
+Another option: "The greatest glory in living is not in never falling, but in rising every time you fall" by Nelson Mandela. That's more about resilience. Not exactly trust. 
+
+Wait, maybe "You're my home" from a song? Not sure. Or "Home is where the heart is" – but that's more about home. 
+
+Wait, the user mentioned "safety or reliability" as part of the persona goal. So maybe "Safety first" as a slang? But that's too generic. 
+
+Let me think again. The Coca-Cola brand is about happiness and refreshment. The quote needs to tie into trust. So, "Trust in every sip" – but that's not a classic quote. 
+
+Ah, here's a classic: "The only way to get rid of temptation is to yield to it" by Oscar Wilde. No, not trust. 
+
+Wait, "The best things in life are free" by various authors. But that's about value. 
+
+Alternatively, "You can never go home again" by Thomas Wolfe. Not trust. 
+
+Wait, maybe "The truth will set you free" by Jesus, but that's religious. 
+
+Hmm, perhaps "All you need is love" by The Beatles. But that's about love, not trust. 
+
+Wait, going back to "In God we trust" – even though it's a motto, it's widely recognized. The user might accept it. Alternatively, "Trust is the glue of life" by Samuel Johnson? Not sure. 
+
+Alternatively, "The bond of friendship is like a violin string. The tighter it is stretched, the more beautiful the sound" – but that's not classic. 
+
+Wait, maybe "You can trust my word" by someone? Not a famous quote. 
+
+Alternatively, "The safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato" by Whitehead. Too academic. 
+
+Hmm, perhaps I need to consider some common proverbs. "A friend in need is a friend indeed" – but that's about friendship. 
+
+Wait, "When life gives you lemons, make lemonade" – but that's about optimism. 
+
+Alternatively, "Better safe than sorry" – that's a slang or proverb. It directly relates to safety. The author would be unknown, but it's a common saying. That might be good. 
+
+So, possible options:
+
+1. "In God we trust" (US Motto) – emphasizes trust fundamentally, but might be too religious or controversial?
+
+2. "Better safe than sorry" (Proverb) – directly about safety, which aligns with the persona goal.
+
+3. "Trust yourself" (Ralph Waldo Emerson) – encourages personal trust, but maybe not about reliability of the brand.
+
+Which is the best fit? The persona wants to emphasize safety or reliability. "Better safe than sorry" is about making safe choices, which could tie into Coca-Cola as a reliable choice for refreshment. 
+
+"In God we trust" is a strong statement of trust, but might be too strong or off-brand. 
+
+"Trust yourself" is more about self-trust, not the brand's reliability. 
+
+So maybe "Better safe than sorry" is better. 
+
+Alternatively, maybe "You can't go wrong with..." but that's not a classic quote. 
+
+Wait, another thought: "The only thing we have to fear is fear itself" by FDR. Not exactly trust. 
+
+Hmm, perhaps "Trust is the foundation of all relationships" by someone, but not classic. 
+
+I think I'll go with the three options as:
+
+1. "Better safe than sorry" (Proverb) – matches safety directly.
+
+2. "In God we trust" (US Motto) – strong trust statement.
+
+3. "Trust yourself" (Emerson) – personal trust.
+
+Marking the first as best because it aligns with safety. 
+
+Now, step 2: structure breakdown. 
+
+For "Better safe than sorry", breaking into parts: 
+
+"BETTER SAFE THAN SORRY" – maybe split into "Better safe | than sorry". 
+
+The fixed parts are "Better ... than ...", so the editable words are "safe" and "sorry". 
+
+Replace "safe" with a brand keyword like "refreshing" (from refreshment) or "happy" (happiness). But need to keep the structure. 
+
+Alternatively, "Better [Coke] than sorry" – but that might not fit. 
+
+Wait, the structure breakdown needs to show which parts can be replaced. 
+
+Original: "Better safe than sorry"
+
+Editable parts: "safe" and "sorry" can be replaced. 
+
+Possible replacements:
+
+Set 1: "Better refreshing than sorry" – but "sorry" is tricky. Maybe "Better refreshing than thirst" (since thirst is the opposite of refreshment). 
+
+Alternatively, "Better moments than sorry" – but not sure. 
+
+Alternatively, using "happiness": "Better happiness than sorry"? Doesn't flow. 
+
+Hmm, maybe replacing "sorry" with "regret" but that's not a keyword. 
+
+Alternatively, "Better Coca-Cola than sorry" – but that changes the structure too much. 
+
+Alternatively, "Better refreshment than sorry" – but "refreshment" is a noun, "safe" is an adjective. 
+
+Hmm, perhaps the structure requires adjectives. So "refreshing" is better. 
+
+So "Better refreshing than sorry" – but the second part is still "sorry". Maybe replace both: "Better refreshing than regret"? 
+
+Alternatively, focus on moments. "Better moments than sorry" – not great. 
+
+Alternatively, keep "safe" as a metaphor. Like "Better safe moments than sorry" – no. 
+
+Alternatively, "Better Coca-Cola than sorry" – but that's changing more than two words? The original is four words. Wait, the original is "Better safe than sorry" – four words. So replacing "safe" with "refreshing" and "sorry" with "regret" would make "Better refreshing than regret". But "regret" isn't a brand keyword. 
+
+Alternatively, "Better Coca-Cola than thirst"? 
+
+Hmm, maybe "Better Coca-Cola than sorry" – that's changing two words: "safe" to "Coca-Cola" and "sorry" to "thirst"? Not sure. 
+
+Alternatively, "Better moments than sorry" – moments is a keyword. 
+
+Hmm, maybe I need to think differently. The structure is "Better [adjective] than [adjective/noun]". 
+
+The key is to keep the structure. So perhaps "Better refreshing than regret" – but regret isn't a keyword. 
+
+Alternatively, "Better Coca-Cola than thirst" – "thirst" is the opposite of refreshment. That might work. 
+
+Wait, "Better Coca-Cola than sorry" – but "sorry" isn't related. 
+
+Alternatively, "Better moments than never" – but that's from "Better to have loved and lost..." 
+
+Hmm, maybe the best approach is to use "refreshment" as the first part. "Better refreshment than sorry" – but "refreshment" is a noun. 
+
+Alternatively, "Better refreshing moments than sorry" – but that's adding words. 
+
+Hmm, this is tricky. Maybe the best is to go with "Better refreshing than sorry" and then the slogan is "Better refreshing than sorry – with Coca-Cola." But need to fit into the structure. 
+
+Alternatively, in the remix step, use "Better moments with Coca-Cola than sorry" – but that's stretching. 
+
+Wait, the user said to change at most two words. So in the original "Better safe than sorry", replace "safe" with "refreshed" and "sorry" with "thirsty"? 
+
+"Better refreshed than thirsty" – that uses "refreshed" (related to refreshment) and "thirsty" (opposite, so "sorry" is replaced by "thirsty"). That could work. 
+
+Then the slogan would be "Better refreshed than thirsty, with Coca-Cola." But need to fit the syntax. 
+
+Alternatively, "Better Coca-Cola than sorry" – but that's replacing two words (safe → Coca-Cola and sorry remains, but that's only one change). Wait, "Better [Coca-Cola] than sorry" – that's replacing "safe" with "Coca-Cola" (so one word), and "sorry" stays. Not enough. 
+
+Hmm, perhaps "Better moments with Coca-Cola than regret" – but that's more changes. 
+
+Alternatively, focus on "refreshment" as the key. Let me think again.
+
+The brand keywords are refreshment, happiness, moments. So maybe replacing "safe" with "happiness" and "sorry" with "sadness"? But "Better happiness than sadness" – but that's not brand-specific. 
+
+Alternatively, "Better Coca-Cola moments than sorry" – but again, structure. 
+
+Alternatively, "Better Coca-Cola than thirst" – replacing "safe" with "Coca-Cola" and "sorry" with "thirst". That changes two words. 
+
+Then the slogan: "Better Coca-Cola than thirst!" 
+
+That's concise, keeps the structure, uses the brand name, and relates to refreshment (thirst is the opposite). 
+
+Yes, that might work. 
+
+So, the structure breakdown would be:
+
+Original: Better safe | than sorry
+
+Replace "safe" → "Coca-Cola", "sorry" → "thirst". 
+
+So the remix would be "Better Coca-Cola than thirst!" 
+
+Alternatively, "Better refreshment than thirst" – but not using the brand name directly. 
+
+Hmm, but the user wants to include brand name or keyword. So using "Coca-Cola" is better. 
+
+Alternatively, "Better moments with Coca-Cola than sorry" – but that's more words. 
+
+Alternatively, "Better happiness than sorry with Coca-Cola" – no. 
+
+Hmm, perhaps "Better Coca-Cola than sorry" – even though "sorry" isn't directly related, but it's keeping the structure. 
+
+Alternatively, think of another quote. Let me check the first step again.
+
+Wait, the user's first step options were "Better safe than sorry", "In God we trust", "Trust yourself". 
+
+If I choose "In God we trust" as the best, then the structure would be "In [something] we trust". 
+
+So, replacing "God" with "Coca-Cola" gives "In Coca-Cola we trust." That's very concise and fits the trust theme. 
+
+That might be better. Let me reevaluate.
+
+Original quote: "In God we trust" (US Motto)
+
+Structure: In [God] | we trust.
+
+Replace "God" with "Coca-Cola", so "In Coca-Cola we trust." 
+
+That's perfect! It uses the brand name, keeps the structure, emphasizes trust. The keywords are trust (persona) and the brand name. 
+
+The other keywords (refreshment, happiness, moments) are not directly included, but the persona goal is trust/reliability. The brand keywords can be secondary here. Since the user said to include brand name or keyword, "Coca-Cola" is there. 
+
+So maybe that's a better choice. 
+
+Comparing the two options: 
+
+Option 1: "Better Coca-Cola than thirst!" – uses brand name and relates to refreshment (thirst), but "thirst" is the opposite, so it's a play on "Better X than Y".
+
+Option 2: "In Coca-Cola we trust" – directly states trust, aligns perfectly with the persona goal. 
+
+The second option is stronger. So maybe the best quote is "In God we trust". 
+
+Therefore, in Step 1, the best match is "In God we trust" marked with ★. 
+
+Proceeding with that, the structure breakdown would be "In [God] | we trust". 
+
+Replacements: "God" → "Coca-Cola", so the slogan is "In Coca-Cola we trust." 
+
+That's clean, short, and fits all requirements. 
+
+I think that's the better path. Let me confirm the steps again.
+</think>
+
+Step 1【Quote Matching】  
+1. "Better safe than sorry" (Proverb) – Matches safety as a core value, aligning with reliability.  
+2. **"In God we trust" (US Motto)** ★ – Directly emphasizes trust, a foundational theme for the brand's reliability.  
+3. "Trust yourself" (Ralph Waldo Emerson) – Encourages personal trust but less brand-centric.  
+
+Step 2【Structure Breakdown】  
+Structure: In | God | we trust.  
+Editable parts: "God" (replace with brand name/keyword for trust/reliability).  
+
+Step 3【Vocabulary Replacement】  
+Replacement 1: "Coca-Cola" (replaces "God" to directly tie trust to the brand).  
+
+Step 4【Remix Generation】  
+Remix Slogan: "In Coca-Cola we trust."  
+
+Explanation: The motto "In God we trust" is reimagined to position Coca-Cola as a trusted companion, leveraging its iconic status and reliability. The structure remains intact, and "Coca-Cola" replaces "God" to anchor the brand’s promise of dependability.

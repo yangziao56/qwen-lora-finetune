@@ -1,0 +1,275 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+<|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors (no duplicates).
+4. Do NOT mention the persona name (e.g. Joy/Fear/etc.); convey the mood implicitly.
+5. Do NOT output any other text, reasoning, or apologies.<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Joy” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+1. "Happiness is like a butterfly, the more you chase it, the more it will elude you. But if you turn your attention to other things, it will come and sit softly on your shoulder." — Lawrence J. Peters: Reflecting the delicate nature of joy, often found in unexpected moments.
+
+2. "The best thing to hold onto in life is each other." — Audrey Hepburn: Emphasizing the joy derived from human connection and community.
+
+3. "Joy is the net outcome of small things." — Dale Carnegie: Suggesting that joy comes from appreciating the simple pleasures in life.
+
+4. "If you want to be happy, be." — Buddha: Asserting that happiness is a choice and can be cultivated within oneself.
+
+5. "Joy is the simplest form of gratitude." — Robert Brault: Linking joy to gratitude, highlighting its essence as a positive emotion stemming from appreciation.
+
+6. "Happiness is not something ready-made. It comes from your own actions." — Dalai Lama: Encouraging the reader to create their own happiness through personal effort.
+
+7. "The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela: Inspiring resilience and the joy found in overcoming challenges.
+
+8. "The only way to do great work is to love what you do." — Steve Jobs: Connecting joy with passion and excellence in one's endeavors.
+
+9. "Joy is the light in your heart that shines from your soul." — Unknown: Describing joy as an inner light that emanates from within.
+
+10. "Happiness is not about finding the perfect situation; it’s about making the most of the situation you’re in." — Unknown: Focusing on contentment and finding joy in one’s current circumstances.
+=== Stage 2: Remix slogans ===
+=== Stage 2 Prompt ===
+<|im_start|>system
+You are an award-winning slogan copywriter. Follow ALL steps and output in English.
+
+Step 1【Structure Breakdown】
+- Copy the ★ quote and use | to separate editable/fixed parts.
+
+Step 2【Vocabulary Replacement】
+- Propose 1–2 replacement word/phrase sets with brief reasons.
+
+Step 3【Remix Generation】
+- Using the best replacement, output ONE final slogan: keep original syntax and meter, include brand name/keyword, end with punctuation.
+
+Output format must be:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"<|im_end|>
+<|im_start|>user
+Persona (tone only): Joy
+Brand: Coca-Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Here are some quotes:
+- 1. "Happiness is like a butterfly, the more you chase it, the more it will elude you. But if you turn your attention to other things, it will come and sit softly on your shoulder." — Lawrence J. Peters: Reflecting the delicate nature of joy, often found in unexpected moments.
+- 2. "The best thing to hold onto in life is each other." — Audrey Hepburn: Emphasizing the joy derived from human connection and community.
+- 3. "Joy is the net outcome of small things." — Dale Carnegie: Suggesting that joy comes from appreciating the simple pleasures in life.
+- 4. "If you want to be happy, be." — Buddha: Asserting that happiness is a choice and can be cultivated within oneself.
+- 5. "Joy is the simplest form of gratitude." — Robert Brault: Linking joy to gratitude, highlighting its essence as a positive emotion stemming from appreciation.
+- 6. "Happiness is not something ready-made. It comes from your own actions." — Dalai Lama: Encouraging the reader to create their own happiness through personal effort.
+- 7. "The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela: Inspiring resilience and the joy found in overcoming challenges.
+- 8. "The only way to do great work is to love what you do." — Steve Jobs: Connecting joy with passion and excellence in one's endeavors.
+- 9. "Joy is the light in your heart that shines from your soul." — Unknown: Describing joy as an inner light that emanates from within.
+- 10. "Happiness is not about finding the perfect situation; it’s about making the most of the situation you’re in." — Unknown: Focusing on contentment and finding joy in one’s current circumstances.
+
+Please begin Step 1.<|im_end|>
+<|im_start|>assistant
+<think>
+
+=== Stage 2 Output ===
+Okay, let's see. The user wants me to act as an award-winning slogan copywriter for Coca-Cola, focusing on the persona tone of Joy, and using the keywords refreshment, happiness, and moments. The goal is to evoke delight or excitement. They provided several quotes, and I need to pick one to work with. 
+
+First, I need to go through each quote and see which one fits best with Coca-Cola's brand. Let's look at the options again. The user wants the slogan to include the brand name or keyword, so I should pick a quote that can naturally incorporate those elements.
+
+Looking at the quotes: quote 2 talks about holding onto each other, which is about connection, which aligns with Coca-Cola's themes of togetherness. Quote 3 mentions small things leading to joy, which connects with moments. Quote 5 links joy to gratitude. Quote 6 emphasizes creating happiness through actions. Maybe quote 2 is a good fit because Coca-Cola often markets sharing moments with others. 
+
+Let me pick quote 2: "The best thing to hold onto in life is each other." — Audrey Hepburn. That quote's about human connection, which Coca-Cola can leverage by tying their product to those shared moments.
+
+Now Step 1 is to break down the quote into fixed and editable parts using |. The original quote is: "The best thing to hold onto in life is each other."
+
+Breaking it down, the structure might be: 
+"The best thing to hold onto in life | is | each other."
+
+Wait, but maybe "hold onto" is part of the phrase. Let me check again. The structure breakdown should separate parts that are fixed and parts that can be edited. The brand keywords are refreshment, happiness, moments. So, replacing "each other" with something related to Coca-Cola. The fixed parts would be "The best thing to hold onto in life is |", and the editable part is "each other".
+
+Alternatively, perhaps the entire structure can be separated as: "The best thing to hold onto in life | is | [each other]." So the first part is fixed, then the second clause, with the last part being replaceable.
+
+Step 2 is to propose replacements. The original quote's end is "each other," which emphasizes connection between people. The brand keywords are happiness, moments. Maybe replace "each other" with something like "a Coca-Cola moment" or "Coke and good times" or "moments of happiness."
+
+Alternatively, using "Coca-Cola's refreshing joy" to include the brand and the keywords. Need to keep the same meter. Original is "each other" which is two syllables. "Coca-Cola moments" is six syllables, maybe too long. Hmm, maybe "Coke moments" for two syllables. Wait, the original "each other" is two words, two syllables each? "Each" is one, "other" is two. So total three syllables. Let's see:
+
+Possible replacements:
+
+Set 1: "Coca-Cola's embrace" — but that's more syllables. Alternatively, "a shared Coke" — 2 syllables. Or "Coke's delight". Wait, "each other" is three syllables: "each" (1), "other" (2) = 3? "Coke's joy" (2 syllables). Maybe "Coca-Cola’s joy" (4). Hmm.
+
+Alternatively, "Coke with friends" (three syllables). "Coke moments" (two). 
+
+Another angle: The brand wants to link to "refreshment". Maybe "a Coca-Cola" but that's not a full phrase. 
+
+Alternatively, "the moments we share"—but that changes the meaning slightly. Wait, original is "hold onto in life is each other"—so the replacement should be something that's "hold onto in life is..." 
+
+Perhaps "Coca-Cola’s joy" (4 syllables) but might not fit. 
+
+Alternatively, "every happy moment" (4 syllables). Let's think of two options. 
+
+First replacement set: "the moments we share" — but that's more syllables. Alternatively "Coca-Cola’s love" (4 syllables). 
+
+Alternatively, "Coke’s refreshing embrace" (5 syllables) — too long. Maybe "Coke’s joy" (2 syllables, but the original was 3 syllables). Hmm, meter might be off. 
+
+Alternatively, maybe rephrase slightly but keeping structure. Let me check the original quote's meter again. The original is: "The best thing to hold onto in life is each other." The key part we're replacing is "each other".
+
+The fixed structure is: "The best thing to hold onto in life is | [replacement]". 
+
+So, the replacement needs to fit the rhythm. "Each other" is 3 syllables. 
+
+Possible replacements:
+
+Option 1: "Coca-Cola's joy" (4 syllables) – slight off, but maybe acceptable.
+
+Option 2: "moments in hand" (3 syllables) – but "moments in hand" is more abstract.
+
+Option 3: "Coke’s embrace" (3 syllables) – perhaps better. "Coke's embrace" is 3 syllables (Coke’s [1] em-brace [2]). 
+
+Option 4: "shared Coke moments" – but too long.
+
+Option 5: "joy in every sip" (5 syllables) – but might break the meter. 
+
+Alternatively, "Coca-Cola’s happiness" – maybe, but syllable count again. 
+
+Wait, let me think of the exact wording. The original quote's structure ends with "each other" so to keep the same meter, the replacement should be about 3 syllables. "Coke's joy" (2 syllables: Coke is 1, joy 1), but that's short. Alternatively, "a Coke" (2), but that's not as meaningful. 
+
+Hmm, perhaps the first part can be adjusted a bit. Wait the user's instructions say to keep the original syntax and meter. So the structure of the quote must be maintained. 
+
+Alternatively, maybe "the moments we share" even if longer? Let me count syllables again:
+
+Original: "each other" – 3 syllables.
+
+Option: "moments shared" (3 syllables: mo-ments shared = 2 +1? Wait "moments" is two syllables, "shared" is one. Total three. That's good. "Moments shared."
+
+So replacing "each other" with "moments shared." That would keep the same structure. 
+
+So the first possible replacement set is:
+
+Replacements 1: "moments shared" – because it's three syllables, and ties into the keyword "moments". 
+
+Another option could be "Coke's embrace" (three syllables) to include the brand name. "Coke's embrace" – but does that fit with the theme? It suggests holding onto Coca-Cola's embrace, which is a bit abstract. 
+
+Alternatively, "Coca-Cola's joy" (4 syllables) – but might stretch the meter. 
+
+So maybe the first option is better: "moments shared" to emphasize that the best thing to hold onto is the moments, and with Coca-Cola. 
+
+Alternatively, maybe "a Coca-Cola" – but that's only two syllables. 
+
+Alternatively, "our moments" (three syllables). 
+
+Wait, another angle: The brand keyword "happiness" could be used. "happiness itself" – three syllables? Hap-pi-ness its-self? Wait, "happiness" is three syllables, so "happiness itself" would be five. Maybe "pure joy" (two syllables). Hmm.
+
+Perhaps another approach is better. Let's see:
+
+The goal is to end the slogan with the brand name or keyword. Since "Coca-Cola" is the brand name, maybe inserting it into the sentence. 
+
+The original quote's ending is "each other". Maybe we can have "Coca-Cola" as the replacement, but that might not fit the meter. 
+
+Alternatively, "with Coca-Cola" – but that's 4 syllables. 
+
+Alternatively, "Coke" as the brand keyword. So "holding onto Coke" but that's not exactly the replacement part. 
+
+Wait the structure after "is" should be the key part. The quote's structure is:
+
+"The best thing to hold onto in life is [replacement]."
+
+So replacing "each other" with something that includes the brand or keyword. 
+
+If I go with "moments shared", that's neutral. Alternatively, "Coca-Cola’s refreshment" – but that's more syllables. 
+
+Alternatively, "joy with Coke" – three syllables (joy with Coke: 1+1+1=3). That works. "Joy with Coke" keeps it to three syllables and includes the brand. 
+
+That could be a good option. "joy with Coke" is three syllables and ties in the brand. 
+
+So first replacement set: Option 1: "moments shared" (emphasizes moments keyword), Option 2: "joy with Coke" (ties brand and keyword). 
+
+These are two viable options. 
+
+Step 3 is to choose the best one and generate the slogan. 
+
+The brand keywords are happiness, moments. "moments shared" emphasizes "moments" and connection, which aligns with Coca-Cola's message. "joy with Coke" ties in the brand and the happiness aspect. 
+
+Since the persona is Joy, and the goal is to evoke delight, "joy with Coke" might be more direct. Also, the original quote's focus on holding onto something; "holding onto joy with Coke" makes sense. 
+
+Wait, but the structure after "is" would be "joy with Coke." So the full sentence would be "The best thing to hold onto in life is joy with Coke."
+
+Hmm, that flows okay. Alternatively, "moments shared" gives "The best thing to hold onto in life is moments shared." That’s good but doesn't include the brand name. 
+
+The requirement is to "include brand name/keyword". "moments shared" uses a keyword but not the brand name. "joy with Coke" includes the brand abbreviation (Coke) but is less about moments. 
+
+Perhaps combining both? Maybe "moments of Coke's joy" but syllable count. 
+
+Alternatively, "moments, with Coke" – but structure? 
+
+Hmm, maybe "moments, shared with Coke" – but that's longer. 
+
+Alternatively, "the moments with Coke" (5 syllables) which might break the meter. 
+
+Alternatively, "Coke moments" – but "Coke moments shared"? 
+
+This is getting tricky. 
+
+Perhaps the better option is "joy with Coke" as it meets the brand inclusion and keyword (happiness via joy). Alternatively, "a Coca-Cola moment" (4 syllables) but that might be longer. 
+
+Wait let me count again:
+
+Original: "each other" is three syllables: each (1) + oth-er (2) = 3.
+
+"joy with Coke" – joy (1) with (1) Coke (1) = three syllables. Perfect. 
+
+"moments shared" – mo-ments (2) + shared (1) = 3 syllables. 
+
+Both are good. 
+
+So, which one is better? 
+
+The goal is to evoke delight. "joy with Coke" directly mentions joy and the brand. "moments shared" is more about the connection and moments, but doesn't include the brand name. The user said to include brand name or keyword. So either is okay. But since Coke is the brand, perhaps using the abbreviation is better for brand recognition. 
+
+So the replacement would be "joy with Coke".
+
+Thus the final slogan would be: "The best thing to hold onto in life is joy with Coke."
+
+Alternatively, "Coca-Cola" instead of Coke: but "joy with Coca-Cola" is more syllables. 
+
+Original: "each other" 3. "joy with Coca-Cola" would be 6 syllables, which breaks the meter. 
+
+So "Coke" is better here for brevity. 
+
+Alternatively, "joy in a Coke" – three syllables. "Joy in a Coke’s embrace" – no, that's too long. 
+
+Alright, proceeding with "joy with Coke" as the replacement. 
+
+Then, the Remix Slogan is "The best thing to hold onto in life is joy with Coke." 
+
+Check if it ends with punctuation: yes. The original ends with a period, so that's good. 
+
+Alternatively, maybe "The best thing to hold onto in life is a Coca-Cola moment." But "a Coca-Cola moment" is five syllables, which is more. The original part was three. But maybe acceptable? Let me see:
+
+Original structure: "The best thing to hold onto in life is [X]." 
+
+If X is "a Coca-Cola moment", it's a bit longer, but perhaps still works. However, the user said to keep the original syntax and meter. The meter is about syllable count. 
+
+Alternatively, "Coca-Cola's moments" (four syllables). Hmm. 
+
+Alternatively, "moments with Coke" (four syllables). Hmm, maybe that's pushing it. 
+
+Perhaps "joy with Coke" is better for maintaining meter. 
+
+Yes, I think that's the way to go. Let's put it all together now in the required format.
+</think>
+
+Explanation:  
+Audrey Hepburn's quote emphasizes connection, aligning with Coca-Cola's focus on shared moments. Replacing "each other" with phrases tied to the brand’s keywords and name maintains the quote’s essence while reinforcing Coca-Cola’s role in creating happiness.  
+
+Structure:  
+"The best thing to hold onto in life | is | each other."  
+
+Replacements:  
+1. **moments shared**: Highlights the keyword "moments" and human connection without mentioning the brand.  
+2. **joy with Coke**: Directly ties the brand (via "Coke") and the keyword "happiness" (joy), maintaining the original 3-syllable rhythm.  
+
+Remix Slogan:  
+"The best thing to hold onto in life is joy with Coke."

@@ -1,0 +1,1136 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+ <|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors.
+4. Do NOT mention the persona name; convey the mood implicitly.
+5. Do NOT output any other text.6. Quotes will be used for slogan remixing, so avoid overly complex or lengthy quotes.
+<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Pride” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+ 1. "I am what I have." — Oscar Wilde: You’re not just your appearance but all you’ve been through and accomplished too.
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela: Your pride is strong enough to keep getting up after failure.
+3. "If a man cannot express his thoughts clearly he has no right to consider himself highly gifted." — Napoleon Bonaparte: If someone can’t appreciate their own achievements they don’t deserve praise from others.
+4. "Don't let anyone steal your dreams!" — Dr Seuss: Never give into fear because it’s easy to lose confidence if you believe everyone else could do better than you.
+5. "When I examine myself and my life I realize that I am happy in proportion as I live by faith rather than by sight." — St Paul: Pride comes when you trust yourself more than those around you who may criticize your choices.
+6. "There's nothing to being great - find something you love doing and figure out how to get paid to do it." — Tony Robbins: When people see your work ethic and dedication they’ll respect you even though they might not understand why this matters so much to you personally.
+7. "A true friend sees me and knows me just as I am without judgment or criticism." — Unknown: Those who admire us tend to only show interest in our successes while ignoring flaws which lead many people towards arrogance instead of humility.
+8. "We must learn to hate the sin and not the sinner, as we would wish men to forgive us.” — William Shakespeare: Everyone makes mistakes sometimes yet it takes real strength to admit fault publicly especially amongst friends who know everything about ourselves already anyway!
+9. "It was hard at first. But then things got easier." — Mark Zuckerberg: People often underestimate themselves thinking anything worthwhile requires effort beyond comprehension whereas actually once started on path becomes less daunting over time due perseverance alone..
+10. "Be bold. Be brave. Take chances. The worst thing possible is to regret not having done something." — Oprah Winfrey: Embrace risks knowing full well consequences either way aren't necessarily negative ones always since failures teach lessons valuable later down road..
+=== Stage 2: 3‑step Remix ===
+
+--- Quote 1/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+1. "I am what I have." — Oscar Wilde: You’re not just your appearance but all you’ve been through and accomplished too.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: I am |refreshment|, |happiness| in |moments|, celebrating |achievement| and exclusivity.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+1. "I am what I have." — Oscar Wilde: You’re not just your appearance but all you’ve been through and accomplished too.
+
+Previous breakdown:
+Structure: I am |refreshment|, |happiness| in |moments|, celebrating |achievement| and exclusivity.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "I am the essence of |refreshment|, |happiness| in every |moment|, commemorating |accomplishment| and uniqueness."
+2. "I am the embodiment of |refreshment|, |joy| in each |instant|, honoring |success| and exclusivity."
+
+Reasons:
+- "essence" and "embodiment" both replace "what" and emphasize a stronger connection between the subject and the qualities they represent, aligning with the pride persona.
+- "commemorating" and "honoring" are synonyms that better convey the celebratory nature of the goal, focusing on the act of acknowledging achievements.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+1. "I am what I have." — Oscar Wilde: You’re not just your appearance but all you’ve been through and accomplished too.
+
+Breakdown:
+Structure: I am |refreshment|, |happiness| in |moments|, celebrating |achievement| and exclusivity.
+
+Candidate replacements:
+Replacements: 
+1. "I am the essence of |refreshment|, |happiness| in every |moment|, commemorating |accomplishment| and uniqueness."
+2. "I am the embodiment of |refreshment|, |joy| in each |instant|, honoring |success| and exclusivity."
+
+Reasons:
+- "essence" and "embodiment" both replace "what" and emphasize a stronger connection between the subject and the qualities they represent, aligning with the pride persona.
+- "commemorating" and "honoring" are synonyms that better convey the celebratory nature of the goal, focusing on the act of acknowledging achievements.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ I am the essence of refreshment, happiness in every moment, commemorating accomplishment and uniqueness.
+
+--- Quote 2/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela: Your pride is strong enough to keep getting up after failure.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "The [refreshment] glory in living lies not in never falling, but in [happiness] every time we [moments]." — [Brand keyword]: Your [persona goal] is strong enough to keep getting up after [failure].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela: Your pride is strong enough to keep getting up after failure.
+
+Previous breakdown:
+Structure: "The [refreshment] glory in living lies not in never falling, but in [happiness] every time we [moments]." — [Brand keyword]: Your [persona goal] is strong enough to keep getting up after [failure].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "The greatest refreshment in living lies not in avoiding falls, but in celebrating every rise."
+   - Reason: This replacement emphasizes the celebratory aspect of overcoming challenges, aligning with the persona's goal of celebrating achievements and the brand's theme of happiness and moments.
+
+2. "Your pride is robust enough to persistently rise above every setback."
+   - Reason: This alteration focuses on the strength and persistence of pride, directly relating to the persona's goal of celebrating exclusivity and achievement, while maintaining the essence of the original quote.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela: Your pride is strong enough to keep getting up after failure.
+
+Breakdown:
+Structure: "The [refreshment] glory in living lies not in never falling, but in [happiness] every time we [moments]." — [Brand keyword]: Your [persona goal] is strong enough to keep getting up after [failure].
+
+Candidate replacements:
+Replacements: 
+1. "The greatest refreshment in living lies not in avoiding falls, but in celebrating every rise."
+   - Reason: This replacement emphasizes the celebratory aspect of overcoming challenges, aligning with the persona's goal of celebrating achievements and the brand's theme of happiness and moments.
+
+2. "Your pride is robust enough to persistently rise above every setback."
+   - Reason: This alteration focuses on the strength and persistence of pride, directly relating to the persona's goal of celebrating exclusivity and achievement, while maintaining the essence of the original quote.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ The greatest refreshment in living lies not in avoiding falls, but in celebrating every rise.
+
+--- Quote 3/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+3. "If a man cannot express his thoughts clearly he has no right to consider himself highly gifted." — Napoleon Bonaparte: If someone can’t appreciate their own achievements they don’t deserve praise from others.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: 
+"If [Person] can't [verb] their [noun] clearly, they have no right to consider themselves highly [adjective]." — [Historical figure]: If someone can’t [verb] their [noun] of [specific achievement] they don’t deserve praise from others.
+
+Replaceable words:
+- verb: express
+- noun: thoughts
+- adjective: gifted
+- specific achievement: celebration or exclusivity
+
+Replacements:
+- verb: appreciate
+- noun: achievements
+- adjective: deserving
+- specific achievement: (remains as "achievement" since it's more general and can encompass various types of accomplishments)
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+3. "If a man cannot express his thoughts clearly he has no right to consider himself highly gifted." — Napoleon Bonaparte: If someone can’t appreciate their own achievements they don’t deserve praise from others.
+
+Previous breakdown:
+Structure: 
+"If [Person] can't [verb] their [noun] clearly, they have no right to consider themselves highly [adjective]." — [Historical figure]: If someone can’t [verb] their [noun] of [specific achievement] they don’t deserve praise from others.
+
+Replaceable words:
+- verb: express
+- noun: thoughts
+- adjective: gifted
+- specific achievement: celebration or exclusivity
+
+Replacements:
+- verb: appreciate
+- noun: achievements
+- adjective: deserving
+- specific achievement: (remains as "achievement" since it's more general and can encompass various types of accomplishments)
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "If a man cannot appreciate his achievements clearly he has no right to consider himself deserving of high praise." — Napoleon Bonaparte: If someone can’t recognize their own achievements they don’t deserve praise from others.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+3. "If a man cannot express his thoughts clearly he has no right to consider himself highly gifted." — Napoleon Bonaparte: If someone can’t appreciate their own achievements they don’t deserve praise from others.
+
+Breakdown:
+Structure: 
+"If [Person] can't [verb] their [noun] clearly, they have no right to consider themselves highly [adjective]." — [Historical figure]: If someone can’t [verb] their [noun] of [specific achievement] they don’t deserve praise from others.
+
+Replaceable words:
+- verb: express
+- noun: thoughts
+- adjective: gifted
+- specific achievement: celebration or exclusivity
+
+Replacements:
+- verb: appreciate
+- noun: achievements
+- adjective: deserving
+- specific achievement: (remains as "achievement" since it's more general and can encompass various types of accomplishments)
+
+Candidate replacements:
+Replacements: "If a man cannot appreciate his achievements clearly he has no right to consider himself deserving of high praise." — Napoleon Bonaparte: If someone can’t recognize their own achievements they don’t deserve praise from others.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "If a man cannot appreciate his achievements clearly, he has no right to consider himself deserving of high praise."
+
+--- Quote 4/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+4. "Don't let anyone steal your dreams!" — Dr Seuss: Never give into fear because it’s easy to lose confidence if you believe everyone else could do better than you.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "Don't let anyone __your __!" — [Author]: Never let fear __confidence, as believing in others' potential doesn't mean they'll surpass yours; celebrate your unique __and share your joy of __."
+
+Replaceable words:
+- "steal" with "diminish" to maintain a positive tone.
+- "dreams" with "achievements" to align with the persona goal of celebrating achievement.
+- "confidence" with "in yourself" to emphasize personal empowerment.
+- "unique" with "talents" to connect with the brand keyword of celebration.
+- "joy of" with "moments of happiness" to align with the brand keyword of happiness.
+
+Final structure: "Don't let anyone diminish your achievements!" — [Author]: Never let fear undermine your confidence, as believing in others' potential doesn't mean they'll surpass yours; celebrate your unique talents and share your moments of happiness.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+4. "Don't let anyone steal your dreams!" — Dr Seuss: Never give into fear because it’s easy to lose confidence if you believe everyone else could do better than you.
+
+Previous breakdown:
+Structure: "Don't let anyone __your __!" — [Author]: Never let fear __confidence, as believing in others' potential doesn't mean they'll surpass yours; celebrate your unique __and share your joy of __."
+
+Replaceable words:
+- "steal" with "diminish" to maintain a positive tone.
+- "dreams" with "achievements" to align with the persona goal of celebrating achievement.
+- "confidence" with "in yourself" to emphasize personal empowerment.
+- "unique" with "talents" to connect with the brand keyword of celebration.
+- "joy of" with "moments of happiness" to align with the brand keyword of happiness.
+
+Final structure: "Don't let anyone diminish your achievements!" — [Author]: Never let fear undermine your confidence, as believing in others' potential doesn't mean they'll surpass yours; celebrate your unique talents and share your moments of happiness.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "steal" with "undermine"
+- "dreams" with "accomplishments"
+
+Reasons:
+- "Undermine" better captures the subtle erosion of confidence that can come from feeling outdone by others, maintaining a more positive and motivational tone aligned with the persona's pride.
+- "Accomplishments" aligns closely with the persona goal of celebrating achievement, providing a direct connection to the brand keywords without altering the core message.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+4. "Don't let anyone steal your dreams!" — Dr Seuss: Never give into fear because it’s easy to lose confidence if you believe everyone else could do better than you.
+
+Breakdown:
+Structure: "Don't let anyone __your __!" — [Author]: Never let fear __confidence, as believing in others' potential doesn't mean they'll surpass yours; celebrate your unique __and share your joy of __."
+
+Replaceable words:
+- "steal" with "diminish" to maintain a positive tone.
+- "dreams" with "achievements" to align with the persona goal of celebrating achievement.
+- "confidence" with "in yourself" to emphasize personal empowerment.
+- "unique" with "talents" to connect with the brand keyword of celebration.
+- "joy of" with "moments of happiness" to align with the brand keyword of happiness.
+
+Final structure: "Don't let anyone diminish your achievements!" — [Author]: Never let fear undermine your confidence, as believing in others' potential doesn't mean they'll surpass yours; celebrate your unique talents and share your moments of happiness.
+
+Candidate replacements:
+Replacements: 
+- "steal" with "undermine"
+- "dreams" with "accomplishments"
+
+Reasons:
+- "Undermine" better captures the subtle erosion of confidence that can come from feeling outdone by others, maintaining a more positive and motivational tone aligned with the persona's pride.
+- "Accomplishments" aligns closely with the persona goal of celebrating achievement, providing a direct connection to the brand keywords without altering the core message.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Don't let anyone undermine your accomplishments!
+
+--- Quote 5/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+5. "When I examine myself and my life I realize that I am happy in proportion as I live by faith rather than by sight." — St Paul: Pride comes when you trust yourself more than those around you who may criticize your choices.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "When I imbibe [refreshment] and my life experiences, I realize that I feel [happiness] in proportion as I live by [brand keyword] rather than by [sight]." — St Paul: Pride comes when one trusts their own [brand keyword] over external [criticism].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+5. "When I examine myself and my life I realize that I am happy in proportion as I live by faith rather than by sight." — St Paul: Pride comes when you trust yourself more than those around you who may criticize your choices.
+
+Previous breakdown:
+Structure: "When I imbibe [refreshment] and my life experiences, I realize that I feel [happiness] in proportion as I live by [brand keyword] rather than by [sight]." — St Paul: Pride comes when one trusts their own [brand keyword] over external [criticism].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "imbibe" with "savor" - This change better aligns with the celebratory and indulgent nature of the persona's goal, emphasizing the joy in experiencing Coca-Cola as a moment of pride.
+2. "criticism" with "doubt" - This substitution reinforces the theme of self-confidence and trust in one's own judgment, suggesting that pride comes from believing in oneself over any lingering doubt.
+
+Final quote after replacements: "When I savor [refreshment] and my life experiences, I realize that I feel [happiness] in proportion as I live by [brand keyword] rather than by [doubt]." — St Paul: Pride comes when one trusts their own [brand keyword] over any lingering [doubt].
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+5. "When I examine myself and my life I realize that I am happy in proportion as I live by faith rather than by sight." — St Paul: Pride comes when you trust yourself more than those around you who may criticize your choices.
+
+Breakdown:
+Structure: "When I imbibe [refreshment] and my life experiences, I realize that I feel [happiness] in proportion as I live by [brand keyword] rather than by [sight]." — St Paul: Pride comes when one trusts their own [brand keyword] over external [criticism].
+
+Candidate replacements:
+Replacements: 
+1. "imbibe" with "savor" - This change better aligns with the celebratory and indulgent nature of the persona's goal, emphasizing the joy in experiencing Coca-Cola as a moment of pride.
+2. "criticism" with "doubt" - This substitution reinforces the theme of self-confidence and trust in one's own judgment, suggesting that pride comes from believing in oneself over any lingering doubt.
+
+Final quote after replacements: "When I savor [refreshment] and my life experiences, I realize that I feel [happiness] in proportion as I live by [brand keyword] rather than by [doubt]." — St Paul: Pride comes when one trusts their own [brand keyword] over any lingering [doubt].
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "When I savor refreshment and my life experiences, I realize that I feel happiness in proportion as I live by faith rather than by doubt."
+
+--- Quote 6/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+6. "There's nothing to being great - find something you love doing and figure out how to get paid to do it." — Tony Robbins: When people see your work ethic and dedication they’ll respect you even though they might not understand why this matters so much to you personally.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "There's nothing to being [refreshment] - find something you love doing and figure out how to make it [happiness]. When people taste your [moments] and dedication, they'll admire you, even if they don't grasp the [importance] to you personally."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+6. "There's nothing to being great - find something you love doing and figure out how to get paid to do it." — Tony Robbins: When people see your work ethic and dedication they’ll respect you even though they might not understand why this matters so much to you personally.
+
+Previous breakdown:
+Structure: "There's nothing to being [refreshment] - find something you love doing and figure out how to make it [happiness]. When people taste your [moments] and dedication, they'll admire you, even if they don't grasp the [importance] to you personally."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "There's nothing to being [refreshing] - find something you love doing and figure out how to make it [exclusive]. When people savor your [moments] and dedication, they'll respect you, even if they don't fully comprehend the [value] to you personally."
+
+Reasons: 
+1. "Refreshing" replaces "greatness" as a more relatable and aspirational concept that aligns with Coca-Cola's image of bringing joy and refreshment. It also connects with the brand's promise of providing a refreshing experience.
+2. "Exclusive" replaces "happiness" as it suggests a sense of uniqueness and personal fulfillment, which can be associated with special achievements or moments. This term also subtly promotes Coca-Cola as a choice for celebrating such occasions.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+6. "There's nothing to being great - find something you love doing and figure out how to get paid to do it." — Tony Robbins: When people see your work ethic and dedication they’ll respect you even though they might not understand why this matters so much to you personally.
+
+Breakdown:
+Structure: "There's nothing to being [refreshment] - find something you love doing and figure out how to make it [happiness]. When people taste your [moments] and dedication, they'll admire you, even if they don't grasp the [importance] to you personally."
+
+Candidate replacements:
+Replacements: "There's nothing to being [refreshing] - find something you love doing and figure out how to make it [exclusive]. When people savor your [moments] and dedication, they'll respect you, even if they don't fully comprehend the [value] to you personally."
+
+Reasons: 
+1. "Refreshing" replaces "greatness" as a more relatable and aspirational concept that aligns with Coca-Cola's image of bringing joy and refreshment. It also connects with the brand's promise of providing a refreshing experience.
+2. "Exclusive" replaces "happiness" as it suggests a sense of uniqueness and personal fulfillment, which can be associated with special achievements or moments. This term also subtly promotes Coca-Cola as a choice for celebrating such occasions.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ There's nothing to being refreshing - find something you love doing and figure out how to make it exclusive. When people savor your moments and dedication, they'll respect you, even if they don't fully comprehend the value to you personally.
+
+--- Quote 7/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+7. "A true friend sees me and knows me just as I am without judgment or criticism." — Unknown: Those who admire us tend to only show interest in our successes while ignoring flaws which lead many people towards arrogance instead of humility.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "A [refreshment] friend sees [persona goal], and knows them just as they are, celebrating both their successes and [happiness] without [judgment or criticism]."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+7. "A true friend sees me and knows me just as I am without judgment or criticism." — Unknown: Those who admire us tend to only show interest in our successes while ignoring flaws which lead many people towards arrogance instead of humility.
+
+Previous breakdown:
+Structure: "A [refreshment] friend sees [persona goal], and knows them just as they are, celebrating both their successes and [happiness] without [judgment or criticism]."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+Structure: "A [refreshment] friend sees [persona goal], and knows them just as they are, embracing both their triumphs and [moments] with [happiness] without [judgment or criticism]."
+
+Reasoning: 
+- Changed "successes" to "triumphs" to add a sense of grandeur and celebration, aligning better with the persona goal of celebrating achievement or exclusivity.
+- Replaced "happiness" with "moments" to emphasize shared experiences, which is more closely tied to the brand keywords of moments and happiness. This also broadens the scope beyond just personal feelings to include experiences that bring joy.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+7. "A true friend sees me and knows me just as I am without judgment or criticism." — Unknown: Those who admire us tend to only show interest in our successes while ignoring flaws which lead many people towards arrogance instead of humility.
+
+Breakdown:
+Structure: "A [refreshment] friend sees [persona goal], and knows them just as they are, celebrating both their successes and [happiness] without [judgment or criticism]."
+
+Candidate replacements:
+Replacements: 
+Structure: "A [refreshment] friend sees [persona goal], and knows them just as they are, embracing both their triumphs and [moments] with [happiness] without [judgment or criticism]."
+
+Reasoning: 
+- Changed "successes" to "triumphs" to add a sense of grandeur and celebration, aligning better with the persona goal of celebrating achievement or exclusivity.
+- Replaced "happiness" with "moments" to emphasize shared experiences, which is more closely tied to the brand keywords of moments and happiness. This also broadens the scope beyond just personal feelings to include experiences that bring joy.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: Changed “successes” to “triumphs” to add a sense of grandeur and celebration and replaced “happiness” with “moments” to emphasize shared experiences.
+Structure: “A [refreshment] friend sees [persona goal], and knows them just as they are, embracing both their triumphs and [moments] with [happiness] without [judgment or criticism].”
+Replacements: Replaced “successes” with “triumphs” and “happiness” with “moments.”
+Remix Slogan: “A Coca-Cola friend sees celebration, and knows them just as they are, embracing both their triumphs and moments with happiness without judgment or criticism.”
+
+--- Quote 8/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+8. "We must learn to hate the sin and not the sinner, as we would wish men to forgive us.” — William Shakespeare: Everyone makes mistakes sometimes yet it takes real strength to admit fault publicly especially amongst friends who know everything about ourselves already anyway!
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: We must [learn to hate the sin and not the sinner] | as we would wish men to [forgive us]. | Everyone makes mistakes | [yet it takes real strength] | to admit fault publicly | especially amongst friends | who know everything about ourselves already | anyway! 
+
+Replacements:
+- "learn to hate the sin and not the sinner" -> "choose refreshment over judgment"
+- "forgive us" -> "enjoy happiness in every moment"
+- "yet it takes real strength" -> "because true moments of celebration"
+- "to admit fault publicly" -> "when acknowledging our achievements"
+- "especially amongst friends" -> "among those who share our journey"
+- "who know everything about ourselves already" -> "where transparency is celebrated"
+- "anyway!" -> "after all!"
+
+Reasoning:
+1. "Choose refreshment over judgment" - This aligns with Coca-Cola's image of providing a refreshing drink that helps people enjoy life's moments without focusing on negative aspects.
+2. "Enjoy happiness in every moment" - Emphasizes the brand's focus on happiness, encouraging consumers to appreciate the good times.
+3. "True moments of celebration" - Reflects the brand's desire to be associated with joyous occasions and personal achievements.
+4. "Acknowledging our achievements" - Highlights the connection between Coca-Cola and celebrating success, reinforcing its role in making special moments memorable.
+5. "Among those who share our journey" - Suggests that Coca-Cola is there for people through all stages of their lives, from mistakes to achievements.
+6. "Transparency is celebrated" - Aligns with the brand's inclusive and open culture, promoting authenticity and honesty among its audience.
+7. "After all!" - Concludes the thought by reaffirming the importance of embracing both successes and learning experiences, reflecting the brand's values.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+8. "We must learn to hate the sin and not the sinner, as we would wish men to forgive us.” — William Shakespeare: Everyone makes mistakes sometimes yet it takes real strength to admit fault publicly especially amongst friends who know everything about ourselves already anyway!
+
+Previous breakdown:
+Structure: We must [learn to hate the sin and not the sinner] | as we would wish men to [forgive us]. | Everyone makes mistakes | [yet it takes real strength] | to admit fault publicly | especially amongst friends | who know everything about ourselves already | anyway! 
+
+Replacements:
+- "learn to hate the sin and not the sinner" -> "choose refreshment over judgment"
+- "forgive us" -> "enjoy happiness in every moment"
+- "yet it takes real strength" -> "because true moments of celebration"
+- "to admit fault publicly" -> "when acknowledging our achievements"
+- "especially amongst friends" -> "among those who share our journey"
+- "who know everything about ourselves already" -> "where transparency is celebrated"
+- "anyway!" -> "after all!"
+
+Reasoning:
+1. "Choose refreshment over judgment" - This aligns with Coca-Cola's image of providing a refreshing drink that helps people enjoy life's moments without focusing on negative aspects.
+2. "Enjoy happiness in every moment" - Emphasizes the brand's focus on happiness, encouraging consumers to appreciate the good times.
+3. "True moments of celebration" - Reflects the brand's desire to be associated with joyous occasions and personal achievements.
+4. "Acknowledging our achievements" - Highlights the connection between Coca-Cola and celebrating success, reinforcing its role in making special moments memorable.
+5. "Among those who share our journey" - Suggests that Coca-Cola is there for people through all stages of their lives, from mistakes to achievements.
+6. "Transparency is celebrated" - Aligns with the brand's inclusive and open culture, promoting authenticity and honesty among its audience.
+7. "After all!" - Concludes the thought by reaffirming the importance of embracing both successes and learning experiences, reflecting the brand's values.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "learn to hate the sin and not the sinner" -> "choose refreshment over judgment"
+- "forgive us" -> "enjoy happiness in every moment"
+- "yet it takes real strength" -> "because true moments of celebration"
+- "to admit fault publicly" -> "when acknowledging our achievements"
+- "especially amongst friends" -> "among those who share our journey"
+- "who know everything about ourselves already" -> "where transparency is celebrated"
+- "anyway!" -> "after all!"
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+8. "We must learn to hate the sin and not the sinner, as we would wish men to forgive us.” — William Shakespeare: Everyone makes mistakes sometimes yet it takes real strength to admit fault publicly especially amongst friends who know everything about ourselves already anyway!
+
+Breakdown:
+Structure: We must [learn to hate the sin and not the sinner] | as we would wish men to [forgive us]. | Everyone makes mistakes | [yet it takes real strength] | to admit fault publicly | especially amongst friends | who know everything about ourselves already | anyway! 
+
+Replacements:
+- "learn to hate the sin and not the sinner" -> "choose refreshment over judgment"
+- "forgive us" -> "enjoy happiness in every moment"
+- "yet it takes real strength" -> "because true moments of celebration"
+- "to admit fault publicly" -> "when acknowledging our achievements"
+- "especially amongst friends" -> "among those who share our journey"
+- "who know everything about ourselves already" -> "where transparency is celebrated"
+- "anyway!" -> "after all!"
+
+Reasoning:
+1. "Choose refreshment over judgment" - This aligns with Coca-Cola's image of providing a refreshing drink that helps people enjoy life's moments without focusing on negative aspects.
+2. "Enjoy happiness in every moment" - Emphasizes the brand's focus on happiness, encouraging consumers to appreciate the good times.
+3. "True moments of celebration" - Reflects the brand's desire to be associated with joyous occasions and personal achievements.
+4. "Acknowledging our achievements" - Highlights the connection between Coca-Cola and celebrating success, reinforcing its role in making special moments memorable.
+5. "Among those who share our journey" - Suggests that Coca-Cola is there for people through all stages of their lives, from mistakes to achievements.
+6. "Transparency is celebrated" - Aligns with the brand's inclusive and open culture, promoting authenticity and honesty among its audience.
+7. "After all!" - Concludes the thought by reaffirming the importance of embracing both successes and learning experiences, reflecting the brand's values.
+
+Candidate replacements:
+Replacements: 
+- "learn to hate the sin and not the sinner" -> "choose refreshment over judgment"
+- "forgive us" -> "enjoy happiness in every moment"
+- "yet it takes real strength" -> "because true moments of celebration"
+- "to admit fault publicly" -> "when acknowledging our achievements"
+- "especially amongst friends" -> "among those who share our journey"
+- "who know everything about ourselves already" -> "where transparency is celebrated"
+- "anyway!" -> "after all!"
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: ...
+
+--- Quote 9/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+9. "It was hard at first. But then things got easier." — Mark Zuckerberg: People often underestimate themselves thinking anything worthwhile requires effort beyond comprehension whereas actually once started on path becomes less daunting over time due perseverance alone..
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: It was hard at first. But then things got easier. | [refreshment] | [happiness] | [moments] | People often underestimate themselves thinking anything worthwhile requires [effort beyond comprehension] whereas actually, once [started on path], it becomes less daunting over time due to [perseverance alone].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+9. "It was hard at first. But then things got easier." — Mark Zuckerberg: People often underestimate themselves thinking anything worthwhile requires effort beyond comprehension whereas actually once started on path becomes less daunting over time due perseverance alone..
+
+Previous breakdown:
+Structure: It was hard at first. But then things got easier. | [refreshment] | [happiness] | [moments] | People often underestimate themselves thinking anything worthwhile requires [effort beyond comprehension] whereas actually, once [started on path], it becomes less daunting over time due to [perseverance alone].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "It was challenging initially. But then everything became more refreshing." 
+
+Reasons: The term "hard" is replaced with "challenging" to emphasize the positive aspect of overcoming obstacles, which aligns with the pride persona. The phrase "effort beyond comprehension" is replaced with "more refreshing" to reflect the brand's image of providing a delightful and invigorating experience, enhancing the connection between the brand and the quote.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+9. "It was hard at first. But then things got easier." — Mark Zuckerberg: People often underestimate themselves thinking anything worthwhile requires effort beyond comprehension whereas actually once started on path becomes less daunting over time due perseverance alone..
+
+Breakdown:
+Structure: It was hard at first. But then things got easier. | [refreshment] | [happiness] | [moments] | People often underestimate themselves thinking anything worthwhile requires [effort beyond comprehension] whereas actually, once [started on path], it becomes less daunting over time due to [perseverance alone].
+
+Candidate replacements:
+Replacements: "It was challenging initially. But then everything became more refreshing." 
+
+Reasons: The term "hard" is replaced with "challenging" to emphasize the positive aspect of overcoming obstacles, which aligns with the pride persona. The phrase "effort beyond comprehension" is replaced with "more refreshing" to reflect the brand's image of providing a delightful and invigorating experience, enhancing the connection between the brand and the quote.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "It was challenging initially. But then everything became more refreshing."
+
+--- Quote 10/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+10. "Be bold. Be brave. Take chances. The worst thing possible is to regret not having done something." — Oprah Winfrey: Embrace risks knowing full well consequences either way aren't necessarily negative ones always since failures teach lessons valuable later down road..
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Be [bold] / [brave] / [take chances]. The worst thing possible is to regret [not having done something]. [Embrace risks] knowing full well that consequences aren't necessarily negative ones always, since [failures teach lessons valuable] later down [road].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+10. "Be bold. Be brave. Take chances. The worst thing possible is to regret not having done something." — Oprah Winfrey: Embrace risks knowing full well consequences either way aren't necessarily negative ones always since failures teach lessons valuable later down road..
+
+Previous breakdown:
+Structure: Be [bold] / [brave] / [take chances]. The worst thing possible is to regret [not having done something]. [Embrace risks] knowing full well that consequences aren't necessarily negative ones always, since [failures teach lessons valuable] later down [road].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+
+Structure: Be [Coca-Cola] refreshing / [happiness] spreading / [memories] creating. The worst thing possible is to regret [missing out on] [exclusive moments]. [Celebrate achievements] knowing full well that outcomes aren't always predictable, since [challenges enrich experiences] later down [life's journey].
+
+Reasons: 
+1. Replacing "be bold" and "be brave" with "Coca-Cola refreshing" and "happiness spreading" aligns with the brand's image of providing refreshment and spreading joy. This change enhances the brand's presence in the statement.
+2. "Memories creating" instead of "take chances" emphasizes the emotional connection and positive experiences associated with the brand, particularly around shared moments and occasions. It also subtly shifts the focus to the value of memories created with Coca-Cola, which can be a more relatable and positive concept for the audience.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+10. "Be bold. Be brave. Take chances. The worst thing possible is to regret not having done something." — Oprah Winfrey: Embrace risks knowing full well consequences either way aren't necessarily negative ones always since failures teach lessons valuable later down road..
+
+Breakdown:
+Structure: Be [bold] / [brave] / [take chances]. The worst thing possible is to regret [not having done something]. [Embrace risks] knowing full well that consequences aren't necessarily negative ones always, since [failures teach lessons valuable] later down [road].
+
+Candidate replacements:
+Replacements: 
+
+Structure: Be [Coca-Cola] refreshing / [happiness] spreading / [memories] creating. The worst thing possible is to regret [missing out on] [exclusive moments]. [Celebrate achievements] knowing full well that outcomes aren't always predictable, since [challenges enrich experiences] later down [life's journey].
+
+Reasons: 
+1. Replacing "be bold" and "be brave" with "Coca-Cola refreshing" and "happiness spreading" aligns with the brand's image of providing refreshment and spreading joy. This change enhances the brand's presence in the statement.
+2. "Memories creating" instead of "take chances" emphasizes the emotional connection and positive experiences associated with the brand, particularly around shared moments and occasions. It also subtly shifts the focus to the value of memories created with Coca-Cola, which can be a more relatable and positive concept for the audience.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Be Coca-Cola refreshing / happiness spreading / memories creating. The worst thing possible is to regret [missing out on] [exclusive moments]. Celebrate achievements knowing full well that outcomes aren't always predictable, since challenges enrich experiences later down life's journey.
+
+=== All Remixes ===
+
+I am the essence of refreshment, happiness in every moment, commemorating accomplishment and uniqueness.
+
+The greatest refreshment in living lies not in avoiding falls, but in celebrating every rise.
+
+Remix Slogan: "If a man cannot appreciate his achievements clearly, he has no right to consider himself deserving of high praise."
+
+Don't let anyone undermine your accomplishments!
+
+Remix Slogan: "When I savor refreshment and my life experiences, I realize that I feel happiness in proportion as I live by faith rather than by doubt."
+
+There's nothing to being refreshing - find something you love doing and figure out how to make it exclusive. When people savor your moments and dedication, they'll respect you, even if they don't fully comprehend the value to you personally.
+
+Explanation: Changed “successes” to “triumphs” to add a sense of grandeur and celebration and replaced “happiness” with “moments” to emphasize shared experiences.
+Structure: “A [refreshment] friend sees [persona goal], and knows them just as they are, embracing both their triumphs and [moments] with [happiness] without [judgment or criticism].”
+Replacements: Replaced “successes” with “triumphs” and “happiness” with “moments.”
+Remix Slogan: “A Coca-Cola friend sees celebration, and knows them just as they are, embracing both their triumphs and moments with happiness without judgment or criticism.”
+
+Explanation: ...
+
+Remix Slogan: "It was challenging initially. But then everything became more refreshing."
+
+Be Coca-Cola refreshing / happiness spreading / memories creating. The worst thing possible is to regret [missing out on] [exclusive moments]. Celebrate achievements knowing full well that outcomes aren't always predictable, since challenges enrich experiences later down life's journey.

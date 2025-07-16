@@ -1,0 +1,1057 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+ <|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors.
+4. Do NOT mention the persona name; convey the mood implicitly.
+5. Do NOT output any other text.6. Quotes will be used for slogan remixing, so avoid overly complex or lengthy quotes.
+<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Anticipation” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+ 1. The world is a book and those who do not travel read only one page." - St Augustine: Travel brings you closer to yourself than anything else can. 
+2. "If winter comes, can spring be far behind?" - Percy Bysse Shelley: Even in darkness there’s always hope waiting ahead.  
+3. "I am becoming myself every day." – Mary Oliver: Personal growth happens when we embrace our true selves.   
+4. "The best thing about tomorrow is it's full of possibilities." - Dr Seuss: Optimism fuels anticipation as much as curiosity does discovery.    
+5. "There would have been no Shakespeare without Shakespearian theatre." - John Gross: Live experiences often inspire creative works like plays, novels, etcetera.     
+6. "To see a world in a grain of sand And heaven in a wild flower, Hold infinity in the palm Of your hand, And eternity in an hour." - William Blake: Finding beauty in small things sparks wonder within us all.      
+7. "We must love more bravely if we wish to live fully."- Elizabeth Gilbert: Anticipating new relationships fills us with excitement over potential adventures together.          
+8. "In order to write well, one has first to feel.” - Colette: Emotional readiness enhances writing skills by allowing deeper expression through words.         
+9. "Let me tell you this: Life is beautiful!" - Paulo Coelho: Embracing life’s unexpected twists makes the journey worth cherishing deeply.        
+10. "Life is what happens when you're busy making other plans." - John Lennon: Our most memorable moments usually come from unplanned events filled with serendipity.
+=== Stage 2: 3‑step Remix ===
+
+--- Quote 1/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+1. The world is a book and those who do not travel read only one page." - St Augustine: Travel brings you closer to yourself than anything else can.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: 
+"The [brand] is a [refreshment] and those who [do not] [brand action] read only one taste." - [quote author]: [Action that leads to] [outcome] brings you closer to yourself than anything else can.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+1. The world is a book and those who do not travel read only one page." - St Augustine: Travel brings you closer to yourself than anything else can.
+
+Previous breakdown:
+Structure: 
+"The [brand] is a [refreshment] and those who [do not] [brand action] read only one taste." - [quote author]: [Action that leads to] [outcome] brings you closer to yourself than anything else can.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "The world" to "each moment", "travel" to "sip", "read only one page" to "miss unique flavors", resulting in:
+
+"The [brand] is a [refreshment] and those who [do not] [sip] miss unique flavors. Each moment brings you closer to yourself than anything else can."
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+1. The world is a book and those who do not travel read only one page." - St Augustine: Travel brings you closer to yourself than anything else can.
+
+Breakdown:
+Structure: 
+"The [brand] is a [refreshment] and those who [do not] [brand action] read only one taste." - [quote author]: [Action that leads to] [outcome] brings you closer to yourself than anything else can.
+
+Candidate replacements:
+Replacements: "The world" to "each moment", "travel" to "sip", "read only one page" to "miss unique flavors", resulting in:
+
+"The [brand] is a [refreshment] and those who [do not] [sip] miss unique flavors. Each moment brings you closer to yourself than anything else can."
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "Each moment is a Coca-Cola and those who sip miss unique flavors. Happiness brings you closer to yourself than anything else can."
+
+--- Quote 2/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+2. "If winter comes, can spring be far behind?" - Percy Bysse Shelley: Even in darkness there’s always hope waiting ahead.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: [If] [winter comes], can [spring be] [far behind]? - [Percy Bysse Shelley]: [Even in darkness] there’s always [hope waiting] ahead. 
+
+- "winter": Can be replaced with "hot summer days" or "cold winter nights" as it fits the anticipation theme of looking forward to something refreshing or happy.
+- "spring": Can be replaced with "refreshing moments" or "joyful experiences" to align with the brand keywords.
+- "darkness": Can be replaced with "challenges" or "uncertainty" to add a relatable context that the brand can relate to.
+- "hope": Can be replaced with "happiness" or "refreshment" to directly connect with the brand's essence.
+- "waiting": Can be replaced with "around the corner" or "just beyond" to create a sense of anticipation and movement towards a positive outcome.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+2. "If winter comes, can spring be far behind?" - Percy Bysse Shelley: Even in darkness there’s always hope waiting ahead.
+
+Previous breakdown:
+Structure: [If] [winter comes], can [spring be] [far behind]? - [Percy Bysse Shelley]: [Even in darkness] there’s always [hope waiting] ahead. 
+
+- "winter": Can be replaced with "hot summer days" or "cold winter nights" as it fits the anticipation theme of looking forward to something refreshing or happy.
+- "spring": Can be replaced with "refreshing moments" or "joyful experiences" to align with the brand keywords.
+- "darkness": Can be replaced with "challenges" or "uncertainty" to add a relatable context that the brand can relate to.
+- "hope": Can be replaced with "happiness" or "refreshment" to directly connect with the brand's essence.
+- "waiting": Can be replaced with "around the corner" or "just beyond" to create a sense of anticipation and movement towards a positive outcome.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: hot summer days, refreshing moments, challenges, happiness, just beyond
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+2. "If winter comes, can spring be far behind?" - Percy Bysse Shelley: Even in darkness there’s always hope waiting ahead.
+
+Breakdown:
+Structure: [If] [winter comes], can [spring be] [far behind]? - [Percy Bysse Shelley]: [Even in darkness] there’s always [hope waiting] ahead. 
+
+- "winter": Can be replaced with "hot summer days" or "cold winter nights" as it fits the anticipation theme of looking forward to something refreshing or happy.
+- "spring": Can be replaced with "refreshing moments" or "joyful experiences" to align with the brand keywords.
+- "darkness": Can be replaced with "challenges" or "uncertainty" to add a relatable context that the brand can relate to.
+- "hope": Can be replaced with "happiness" or "refreshment" to directly connect with the brand's essence.
+- "waiting": Can be replaced with "around the corner" or "just beyond" to create a sense of anticipation and movement towards a positive outcome.
+
+Candidate replacements:
+Replacements: hot summer days, refreshing moments, challenges, happiness, just beyond
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "If hot summer days come, can refreshing moments be far behind?"
+
+--- Quote 3/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+3. "I am becoming myself every day." – Mary Oliver: Personal growth happens when we embrace our true selves.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "I am becoming [brand keyword] every day." – [author]: [benefit of brand keyword] happens when we embrace our true selves.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+3. "I am becoming myself every day." – Mary Oliver: Personal growth happens when we embrace our true selves.
+
+Previous breakdown:
+Structure: "I am becoming [brand keyword] every day." – [author]: [benefit of brand keyword] happens when we embrace our true selves.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+"refreshment" -> "craving"
+"happiness" -> "joy"
+
+Output:
+"I am sparking joy and craving every day." – [author]: Embracing your true self leads to experiencing refreshing moments filled with pure joy.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+3. "I am becoming myself every day." – Mary Oliver: Personal growth happens when we embrace our true selves.
+
+Breakdown:
+Structure: "I am becoming [brand keyword] every day." – [author]: [benefit of brand keyword] happens when we embrace our true selves.
+
+Candidate replacements:
+Replacements: 
+"refreshment" -> "craving"
+"happiness" -> "joy"
+
+Output:
+"I am sparking joy and craving every day." – [author]: Embracing your true self leads to experiencing refreshing moments filled with pure joy.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanations: ...
+
+--- Quote 4/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+4. "The best thing about tomorrow is it's full of possibilities." - Dr Seuss: Optimism fuels anticipation as much as curiosity does discovery.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: 
+"The best thing about [tomorrow] is it's full of [possibilities]." - Dr Seuss: [Optimism] fuels [anticipation] as much as [curiosity] does [discovery]. 
+
+Explanation:
+1. "The best thing about" - This phrase sets up a positive sentiment and can be replaced with a brand keyword like "refreshment" to align with Coca-Cola's image of providing a delightful experience.
+2. "[tomorrow]" - This placeholder indicates a variable that could represent a specific moment or event. It can be replaced with a brand keyword such as "moments" to emphasize the ephemeral yet significant nature of experiences.
+3. "is it's full of" - This phrase connects the subject with its attribute and can be kept as is since it maintains the structure without needing to introduce new words.
+4. "[possibilities]" - This word represents potential and can be replaced with "happiness" to reflect the emotional value Coca-Cola aims to convey.
+5. "- Dr Seuss" - This attribution remains fixed as it provides context and credibility to the quote.
+6. "[Optimism] fuels [anticipation]" - Here, "optimism" can be replaced with "refreshment" to reinforce the idea of a positive outlook leading to excitement. "Anticipation" is a suitable placeholder that fits the context.
+7. "as much as" - This conjunction can remain unchanged as it serves to compare two ideas effectively.
+8. "[curiosity] does [discovery]" - Both "curiosity" and "discovery" are placeholders that maintain the sentence structure but can be adjusted in context. "Discovery" could be replaced with another brand keyword like "moments" to emphasize the exploration aspect of the quote.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+4. "The best thing about tomorrow is it's full of possibilities." - Dr Seuss: Optimism fuels anticipation as much as curiosity does discovery.
+
+Previous breakdown:
+Structure: 
+"The best thing about [tomorrow] is it's full of [possibilities]." - Dr Seuss: [Optimism] fuels [anticipation] as much as [curiosity] does [discovery]. 
+
+Explanation:
+1. "The best thing about" - This phrase sets up a positive sentiment and can be replaced with a brand keyword like "refreshment" to align with Coca-Cola's image of providing a delightful experience.
+2. "[tomorrow]" - This placeholder indicates a variable that could represent a specific moment or event. It can be replaced with a brand keyword such as "moments" to emphasize the ephemeral yet significant nature of experiences.
+3. "is it's full of" - This phrase connects the subject with its attribute and can be kept as is since it maintains the structure without needing to introduce new words.
+4. "[possibilities]" - This word represents potential and can be replaced with "happiness" to reflect the emotional value Coca-Cola aims to convey.
+5. "- Dr Seuss" - This attribution remains fixed as it provides context and credibility to the quote.
+6. "[Optimism] fuels [anticipation]" - Here, "optimism" can be replaced with "refreshment" to reinforce the idea of a positive outlook leading to excitement. "Anticipation" is a suitable placeholder that fits the context.
+7. "as much as" - This conjunction can remain unchanged as it serves to compare two ideas effectively.
+8. "[curiosity] does [discovery]" - Both "curiosity" and "discovery" are placeholders that maintain the sentence structure but can be adjusted in context. "Discovery" could be replaced with another brand keyword like "moments" to emphasize the exploration aspect of the quote.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "moments" for "tomorrow", "happiness" for "possibilities"
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+4. "The best thing about tomorrow is it's full of possibilities." - Dr Seuss: Optimism fuels anticipation as much as curiosity does discovery.
+
+Breakdown:
+Structure: 
+"The best thing about [tomorrow] is it's full of [possibilities]." - Dr Seuss: [Optimism] fuels [anticipation] as much as [curiosity] does [discovery]. 
+
+Explanation:
+1. "The best thing about" - This phrase sets up a positive sentiment and can be replaced with a brand keyword like "refreshment" to align with Coca-Cola's image of providing a delightful experience.
+2. "[tomorrow]" - This placeholder indicates a variable that could represent a specific moment or event. It can be replaced with a brand keyword such as "moments" to emphasize the ephemeral yet significant nature of experiences.
+3. "is it's full of" - This phrase connects the subject with its attribute and can be kept as is since it maintains the structure without needing to introduce new words.
+4. "[possibilities]" - This word represents potential and can be replaced with "happiness" to reflect the emotional value Coca-Cola aims to convey.
+5. "- Dr Seuss" - This attribution remains fixed as it provides context and credibility to the quote.
+6. "[Optimism] fuels [anticipation]" - Here, "optimism" can be replaced with "refreshment" to reinforce the idea of a positive outlook leading to excitement. "Anticipation" is a suitable placeholder that fits the context.
+7. "as much as" - This conjunction can remain unchanged as it serves to compare two ideas effectively.
+8. "[curiosity] does [discovery]" - Both "curiosity" and "discovery" are placeholders that maintain the sentence structure but can be adjusted in context. "Discovery" could be replaced with another brand keyword like "moments" to emphasize the exploration aspect of the quote.
+
+Candidate replacements:
+Replacements: "moments" for "tomorrow", "happiness" for "possibilities"
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "The best thing about moments is they're full of happiness."
+
+--- Quote 5/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+5. "There would have been no Shakespeare without Shakespearian theatre." - John Gross: Live experiences often inspire creative works like plays, novels, etcetera.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "There would have been no [Brand keyword] without [Brand keyword] [Brand keyword]." - John Gross: [Brand keyword] often [verb] [Brand keyword], [Brand keyword], etcetera.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+5. "There would have been no Shakespeare without Shakespearian theatre." - John Gross: Live experiences often inspire creative works like plays, novels, etcetera.
+
+Previous breakdown:
+Structure: "There would have been no [Brand keyword] without [Brand keyword] [Brand keyword]." - John Gross: [Brand keyword] often [verb] [Brand keyword], [Brand keyword], etcetera.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "There would have been no Coca-Cola without refreshing moments of joy." - John Gross: Joyful experiences often inspire delightful beverages, happiness, etcetera.
+2. "There would have been no Coca-Cola without moments of bubbly delight." - John Gross: Delightful moments often inspire fizzy drinks, happiness, etcetera. 
+
+Reasons:
+1. Replacing "Shakespeare" with "Coca-Cola" and "Shakespearian theatre" with "refreshing moments of joy" creates a sense of anticipation by associating the brand with positive emotions and experiences. The phrase "moments of joy" also evokes a feeling of happiness and liveliness, which aligns with the brand's personality.
+2. Altering "Shakespeare" to "Coca-Cola" and "Shakespearian theatre" to "moments of bubbly delight" emphasizes the refreshing aspect of the brand while maintaining the poetic and curious tone. The term "bubbly delight" is not only relevant to Coca-Cola but also suggests a light-hearted and intriguing quality that could spark interest in the audience.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+5. "There would have been no Shakespeare without Shakespearian theatre." - John Gross: Live experiences often inspire creative works like plays, novels, etcetera.
+
+Breakdown:
+Structure: "There would have been no [Brand keyword] without [Brand keyword] [Brand keyword]." - John Gross: [Brand keyword] often [verb] [Brand keyword], [Brand keyword], etcetera.
+
+Candidate replacements:
+Replacements: 
+1. "There would have been no Coca-Cola without refreshing moments of joy." - John Gross: Joyful experiences often inspire delightful beverages, happiness, etcetera.
+2. "There would have been no Coca-Cola without moments of bubbly delight." - John Gross: Delightful moments often inspire fizzy drinks, happiness, etcetera. 
+
+Reasons:
+1. Replacing "Shakespeare" with "Coca-Cola" and "Shakespearian theatre" with "refreshing moments of joy" creates a sense of anticipation by associating the brand with positive emotions and experiences. The phrase "moments of joy" also evokes a feeling of happiness and liveliness, which aligns with the brand's personality.
+2. Altering "Shakespeare" to "Coca-Cola" and "Shakespearian theatre" to "moments of bubbly delight" emphasizes the refreshing aspect of the brand while maintaining the poetic and curious tone. The term "bubbly delight" is not only relevant to Coca-Cola but also suggests a light-hearted and intriguing quality that could spark interest in the audience.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "There would have been no Coca-Cola without moments of bubbly delight."
+
+--- Quote 6/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+6. "To see a world in a grain of sand And heaven in a wild flower, Hold infinity in the palm Of your hand, And eternity in an hour." - William Blake: Finding beauty in small things sparks wonder within us all.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: To see [refreshment] in a [drink], And [happiness] in a [moment], Hold [infinity] in the [palm] of your hand, And [eternity] in an [hour].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+6. "To see a world in a grain of sand And heaven in a wild flower, Hold infinity in the palm Of your hand, And eternity in an hour." - William Blake: Finding beauty in small things sparks wonder within us all.
+
+Previous breakdown:
+Structure: To see [refreshment] in a [drink], And [happiness] in a [moment], Hold [infinity] in the [palm] of your hand, And [eternity] in an [hour].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "To taste a universe in a sip of [Coca-Cola], And revel in joyous [moments] like stars, Capture the boundless [refreshment] in the [palm] of your hand, And let the endless [happiness] linger in a fleeting [hour]."
+2. "To savor a cosmos in a draught of [Coca-Cola], And bask in radiant [moments] as sunbeams, Embrace the infinite [refreshment] in the [palm] of your hand, And let the timeless [happiness] resonate in a transient [hour]." 
+
+Reasons:
+These replacements emphasize the brand's key attributes (refreshment and happiness) while also connecting them to the poetic theme of finding vastness in small things. The altered structure maintains the original's imagery but shifts focus to experiencing these emotions through the lens of drinking Coca-Cola.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+6. "To see a world in a grain of sand And heaven in a wild flower, Hold infinity in the palm Of your hand, And eternity in an hour." - William Blake: Finding beauty in small things sparks wonder within us all.
+
+Breakdown:
+Structure: To see [refreshment] in a [drink], And [happiness] in a [moment], Hold [infinity] in the [palm] of your hand, And [eternity] in an [hour].
+
+Candidate replacements:
+Replacements: 
+1. "To taste a universe in a sip of [Coca-Cola], And revel in joyous [moments] like stars, Capture the boundless [refreshment] in the [palm] of your hand, And let the endless [happiness] linger in a fleeting [hour]."
+2. "To savor a cosmos in a draught of [Coca-Cola], And bask in radiant [moments] as sunbeams, Embrace the infinite [refreshment] in the [palm] of your hand, And let the timeless [happiness] resonate in a transient [hour]." 
+
+Reasons:
+These replacements emphasize the brand's key attributes (refreshment and happiness) while also connecting them to the poetic theme of finding vastness in small things. The altered structure maintains the original's imagery but shifts focus to experiencing these emotions through the lens of drinking Coca-Cola.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ To savor a cosmos in a draught of Coca-Cola, And bask in radiant moments as sunbeams, Embrace the infinite refreshment in the palm of your hand, And let the timeless happiness resonate in a transient hour.
+
+--- Quote 7/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+7. "We must love more bravely if we wish to live fully."- Elizabeth Gilbert: Anticipating new relationships fills us with excitement over potential adventures together.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "We must [refreshment] more [happily] if we wish to [live] fully."- Elizabeth Gilbert: Anticipating [moments] fills us with [curiosity] over potential [adventures] together.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+7. "We must love more bravely if we wish to live fully."- Elizabeth Gilbert: Anticipating new relationships fills us with excitement over potential adventures together.
+
+Previous breakdown:
+Structure: "We must [refreshment] more [happily] if we wish to [live] fully."- Elizabeth Gilbert: Anticipating [moments] fills us with [curiosity] over potential [adventures] together.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "refreshment" to "craving"
+- "happily" to "eagerly"
+
+Reasons:
+- "Craving" better captures the anticipation and excitement for something new, making the quote more engaging.
+- "Eagerly" adds a sense of enthusiasm and eagerness, emphasizing the desire for these new experiences.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+7. "We must love more bravely if we wish to live fully."- Elizabeth Gilbert: Anticipating new relationships fills us with excitement over potential adventures together.
+
+Breakdown:
+Structure: "We must [refreshment] more [happily] if we wish to [live] fully."- Elizabeth Gilbert: Anticipating [moments] fills us with [curiosity] over potential [adventures] together.
+
+Candidate replacements:
+Replacements: 
+- "refreshment" to "craving"
+- "happily" to "eagerly"
+
+Reasons:
+- "Craving" better captures the anticipation and excitement for something new, making the quote more engaging.
+- "Eagerly" adds a sense of enthusiasm and eagerness, emphasizing the desire for these new experiences.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "We must crave more eagerly if we wish to live fully.- Elizabeth Gilbert: Anticipating moments fills us with curiosity over potential adventures together."
+
+--- Quote 8/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+8. "In order to write well, one has first to feel.” - Colette: Emotional readiness enhances writing skills by allowing deeper expression through words.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: In order to [refreshment], one has first to [happiness]. - [Coca-Cola]: Emotional readiness [moments] by allowing deeper expression through [drink].
+
+Explanation:
+- "In order to write well" is replaced with "In order to [refreshment]" because Coca-Cola is a beverage that can provide refreshment, aligning with the persona's goal of sparking anticipation.
+- "one has first to feel” is changed to "one has first to [happiness]" as it connects with Coca-Cola's ability to bring happiness and joy, enhancing the emotional connection.
+- "Emotional readiness enhances writing skills" is altered to "[moments] by allowing deeper expression through [drink]," focusing on how Coca-Cola's moments can inspire deeper feelings and expressions in consumers, fitting the persona's goal of anticipation.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+8. "In order to write well, one has first to feel.” - Colette: Emotional readiness enhances writing skills by allowing deeper expression through words.
+
+Previous breakdown:
+Structure: In order to [refreshment], one has first to [happiness]. - [Coca-Cola]: Emotional readiness [moments] by allowing deeper expression through [drink].
+
+Explanation:
+- "In order to write well" is replaced with "In order to [refreshment]" because Coca-Cola is a beverage that can provide refreshment, aligning with the persona's goal of sparking anticipation.
+- "one has first to feel” is changed to "one has first to [happiness]" as it connects with Coca-Cola's ability to bring happiness and joy, enhancing the emotional connection.
+- "Emotional readiness enhances writing skills" is altered to "[moments] by allowing deeper expression through [drink]," focusing on how Coca-Cola's moments can inspire deeper feelings and expressions in consumers, fitting the persona's goal of anticipation.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "In order to [refreshment]", "one has first to [happiness]", "allowing deeper expression through [Coca-Cola]". 
+
+Reasons: These replacements maintain the original sentiment while integrating Coca-Cola's brand keywords—refreshment, happiness, and moments—into the quote. The revised structure effectively conveys anticipation, aligning with the persona's goal.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+8. "In order to write well, one has first to feel.” - Colette: Emotional readiness enhances writing skills by allowing deeper expression through words.
+
+Breakdown:
+Structure: In order to [refreshment], one has first to [happiness]. - [Coca-Cola]: Emotional readiness [moments] by allowing deeper expression through [drink].
+
+Explanation:
+- "In order to write well" is replaced with "In order to [refreshment]" because Coca-Cola is a beverage that can provide refreshment, aligning with the persona's goal of sparking anticipation.
+- "one has first to feel” is changed to "one has first to [happiness]" as it connects with Coca-Cola's ability to bring happiness and joy, enhancing the emotional connection.
+- "Emotional readiness enhances writing skills" is altered to "[moments] by allowing deeper expression through [drink]," focusing on how Coca-Cola's moments can inspire deeper feelings and expressions in consumers, fitting the persona's goal of anticipation.
+
+Candidate replacements:
+Replacements: "In order to [refreshment]", "one has first to [happiness]", "allowing deeper expression through [Coca-Cola]". 
+
+Reasons: These replacements maintain the original sentiment while integrating Coca-Cola's brand keywords—refreshment, happiness, and moments—into the quote. The revised structure effectively conveys anticipation, aligning with the persona's goal.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ \
+
+--- Quote 9/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+9. "Let me tell you this: Life is beautiful!" - Paulo Coelho: Embracing life’s unexpected twists makes the journey worth cherishing deeply.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Let me tell you this: [Life] is [brand keyword 1]! - [Author]: Embracing [brand keyword 2]'s unexpected [brand keyword 3] makes the journey worth [verb] deeply.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+9. "Let me tell you this: Life is beautiful!" - Paulo Coelho: Embracing life’s unexpected twists makes the journey worth cherishing deeply.
+
+Previous breakdown:
+Structure: Let me tell you this: [Life] is [brand keyword 1]! - [Author]: Embracing [brand keyword 2]'s unexpected [brand keyword 3] makes the journey worth [verb] deeply.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- Unexpected twists -> Unforeseen moments
+- Makes the journey worth cherishing deeply -> Makes every moment worth savoring.
+
+Justification:
+1. "Unforeseen moments" replaces "unexpected twists" to emphasize the excitement and surprise in life's journey, aligning with anticipation.
+2. "Savoring" is used instead of "cherishing" to imply a more active enjoyment of each moment, fitting the persona tone of anticipation.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+9. "Let me tell you this: Life is beautiful!" - Paulo Coelho: Embracing life’s unexpected twists makes the journey worth cherishing deeply.
+
+Breakdown:
+Structure: Let me tell you this: [Life] is [brand keyword 1]! - [Author]: Embracing [brand keyword 2]'s unexpected [brand keyword 3] makes the journey worth [verb] deeply.
+
+Candidate replacements:
+Replacements: 
+- Unexpected twists -> Unforeseen moments
+- Makes the journey worth cherishing deeply -> Makes every moment worth savoring.
+
+Justification:
+1. "Unforeseen moments" replaces "unexpected twists" to emphasize the excitement and surprise in life's journey, aligning with anticipation.
+2. "Savoring" is used instead of "cherishing" to imply a more active enjoyment of each moment, fitting the persona tone of anticipation.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Let me tell you this: Life is refreshing!
+
+--- Quote 10/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+10. "Life is what happens when you're busy making other plans." - John Lennon: Our most memorable moments usually come from unplanned events filled with serendipity.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Life is [refreshment] when you're busy creating [happiness] moments filled with unexpected [moments]. Our most cherished experiences often arise from unplanned [events], brimming with serendipity.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+10. "Life is what happens when you're busy making other plans." - John Lennon: Our most memorable moments usually come from unplanned events filled with serendipity.
+
+Previous breakdown:
+Structure: Life is [refreshment] when you're busy creating [happiness] moments filled with unexpected [moments]. Our most cherished experiences often arise from unplanned [events], brimming with serendipity.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "Life is a continuous stream of delightful surprises when you're immersed in crafting joyous instances filled with unforeseen encounters." - This keeps the anticipation tone and emphasizes the idea of surprises and unexpected joys.
+2. "Life is an endless parade of refreshing moments when you're absorbed in weaving happiness through unplanned, serendipitous experiences." - Here, the focus is on the continuous nature of life and the refreshing quality of spontaneous happy moments.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Anticipation
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: spark curiosity or suspense
+
+Quote:
+10. "Life is what happens when you're busy making other plans." - John Lennon: Our most memorable moments usually come from unplanned events filled with serendipity.
+
+Breakdown:
+Structure: Life is [refreshment] when you're busy creating [happiness] moments filled with unexpected [moments]. Our most cherished experiences often arise from unplanned [events], brimming with serendipity.
+
+Candidate replacements:
+Replacements: 
+1. "Life is a continuous stream of delightful surprises when you're immersed in crafting joyous instances filled with unforeseen encounters." - This keeps the anticipation tone and emphasizes the idea of surprises and unexpected joys.
+2. "Life is an endless parade of refreshing moments when you're absorbed in weaving happiness through unplanned, serendipitous experiences." - Here, the focus is on the continuous nature of life and the refreshing quality of spontaneous happy moments.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "Life is an endless parade of refreshing moments when you're absorbed in weaving happiness through unplanned, serendipitous experiences."
+
+=== All Remixes ===
+
+Remix Slogan: "Each moment is a Coca-Cola and those who sip miss unique flavors. Happiness brings you closer to yourself than anything else can."
+
+Remix Slogan: "If hot summer days come, can refreshing moments be far behind?"
+
+Explanations: ...
+
+Remix Slogan: "The best thing about moments is they're full of happiness."
+
+Remix Slogan: "There would have been no Coca-Cola without moments of bubbly delight."
+
+To savor a cosmos in a draught of Coca-Cola, And bask in radiant moments as sunbeams, Embrace the infinite refreshment in the palm of your hand, And let the timeless happiness resonate in a transient hour.
+
+Remix Slogan: "We must crave more eagerly if we wish to live fully.- Elizabeth Gilbert: Anticipating moments fills us with curiosity over potential adventures together."
+
+\
+
+Let me tell you this: Life is refreshing!
+
+Remix Slogan: "Life is an endless parade of refreshing moments when you're absorbed in weaving happiness through unplanned, serendipitous experiences."

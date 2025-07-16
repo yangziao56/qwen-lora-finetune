@@ -3,7 +3,8 @@ set -e
 cd "$(dirname "$0")"
 
 # Configurable parameters
-MODEL_NAME="Qwen/QwQ-32B"
+# MODEL_NAME="Qwen/QwQ-32B"
+MODEL_NAME="Qwen/Qwen2-7B-Instruct"  # Use the smaller model for LoRA fine-tuning
 USE_LORA="--use_lora"
 LORA_R=8
 LORA_ALPHA=16
@@ -11,7 +12,7 @@ LORA_DROPOUT=0.05
 LORA_TARGET_MODULES="q_proj,k_proj,v_proj,o_proj"
 DEEPSPEED_CONFIG="ds_zero2_offload.json"
 
-EPOCHS=3
+EPOCHS=10
 BATCH_SIZE=1
 LEARNING_RATE=1e-5
 GRAD_ACC=2

@@ -1,0 +1,1226 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+ <|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors.
+4. Do NOT mention the persona name; convey the mood implicitly.
+5. Do NOT output any other text.6. Quotes will be used for slogan remixing, so avoid overly complex or lengthy quotes.
+<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Pride” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+ n. "Love is a fire." - François Rabelais: Passion burns bright and hot in this person's heart. 
+n. "I have no words to describe you except 'my love.'" - George Sand: Their relationship is pure and beautiful beyond description.  
+n. "My life without her is like a house without walls, a garden without flowers, a book without pages, and a body without a soul!" - Charles Baudelaire: This individual feels lost without their beloved companion.  
+n. "She was my sun, moon, stars, and all I need." - Pablo Neruda: The love shared between them illuminates every aspect of each other’s lives.   
+n. "In your arms lies everything I ever wanted and dreamed about." - Paulo Coelho: When together they feel complete and fulfilled.  
+n. "The world breaks everyone, but afterwards many are strong at the broken places." - Ernest Hemingway: Though challenged by circumstances, they emerge stronger than before.  
+n. "If I could rearrange the alphabet, I would put U and I next to one another." - Robert Louis Stevenson: They value the closeness of their friendship immensely.    
+n. "Life is what happens when we're busy making plans." - John Lennon: Unexpected moments bring them closer together despite planning ahead.  
+n. "A true friend reaches for your hand and touches your heart." - Eleanor Roosevelt: Even from afar, support remains constant.  
+n. "To love oneself is the beginning of a lifelong romance." - Oscar Wilde: Self-love fuels their confidence and passion for life.
+=== Stage 2: 3‑step Remix ===
+
+--- Quote 1/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "Love is a fire." - François Rabelais: Passion burns bright and hot in this person's heart.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Love | is a | [refreshment] | that | fuels | [happiness] | moments of | celebration | with | exclusive | passion.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "Love is a fire." - François Rabelais: Passion burns bright and hot in this person's heart.
+
+Previous breakdown:
+Structure: Love | is a | [refreshment] | that | fuels | [happiness] | moments of | celebration | with | exclusive | passion.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "refreshment" with "fuel" (to emphasize the energy and drive behind the passion)
+- "exclusive" with "intimate" (to highlight the personal and close nature of the celebration)
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "Love is a fire." - François Rabelais: Passion burns bright and hot in this person's heart.
+
+Breakdown:
+Structure: Love | is a | [refreshment] | that | fuels | [happiness] | moments of | celebration | with | exclusive | passion.
+
+Candidate replacements:
+Replacements: 
+- "refreshment" with "fuel" (to emphasize the energy and drive behind the passion)
+- "exclusive" with "intimate" (to highlight the personal and close nature of the celebration)
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: In this breakdown, the structure revolves around love being compared to a fire, which represents passion, and its role in fueling happiness during celebratory moments, especially those that are intimate and exclusive. The task requires replacing two elements within this structure: "refreshment" with "fuel," to convey the energizing and driving aspect of passion, and "exclusive" with "intimate," to underscore the personal nature of the celebration.
+
+Structure: Love | is a | [fuel] | that | fuels | [happiness] | moments of | celebration | with | [intimate] | passion.
+
+Replacements: 
+- "refreshment" with "fuel" (to emphasize the energy and drive behind the passion)
+- "exclusive" with "intimate" (to highlight the personal and close nature of the celebration)
+
+Remix Slogan: "Love is a fuel that fuels happiness moments of intimate celebration with exclusive passion."
+Explanation: In this breakdown, the structure revolves around love being compared to a fire, which represents passion, and its role in fueling happiness during celebratory moments, especially those that are intimate and exclusive. The task requires replacing two elements within this structure: "refreshment" with "fuel," to convey the energizing and driving aspect of passion, and "exclusive" with "intimate," to underscore the personal nature of the celebration.
+
+Structure: Love | is a | [fuel] | that | fuels | [happiness] | moments of | celebration | with | [intimate] | passion.
+
+Replacements: 
+- "refreshment" with "fuel" (to emphasize the energy and drive behind the passion)
+- "exclusive" with "intimate" (to highlight the personal and close nature of the celebration)
+
+Remix Slogan: "Love is a fuel that fuels happiness moments of intimate celebration with exclusive passion."
+
+--- Quote 2/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "I have no words to describe you except 'my love.'" - George Sand: Their relationship is pure and beautiful beyond description.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "I have no words to describe [Brand] except ['refreshment', 'happiness', 'moments']." - [Persona name]: Our [relationship/interaction] is pure and beautiful beyond [description], celebrating [achievement/exclusivity].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "I have no words to describe you except 'my love.'" - George Sand: Their relationship is pure and beautiful beyond description.
+
+Previous breakdown:
+Structure: "I have no words to describe [Brand] except ['refreshment', 'happiness', 'moments']." - [Persona name]: Our [relationship/interaction] is pure and beautiful beyond [description], celebrating [achievement/exclusivity].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+"refreshment" to "delight"
+"moments" to "memories"
+
+Reasons: 
+- "Delight" better captures the celebratory and exclusive nature of the occasion, aligning with the persona's goal of acknowledging an achievement or exclusivity.
+- "Memories" adds a nostalgic touch, enhancing the emotional connection and pride associated with the brand, making the quote more relatable and impactful for the persona.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "I have no words to describe you except 'my love.'" - George Sand: Their relationship is pure and beautiful beyond description.
+
+Breakdown:
+Structure: "I have no words to describe [Brand] except ['refreshment', 'happiness', 'moments']." - [Persona name]: Our [relationship/interaction] is pure and beautiful beyond [description], celebrating [achievement/exclusivity].
+
+Candidate replacements:
+Replacements: 
+"refreshment" to "delight"
+"moments" to "memories"
+
+Reasons: 
+- "Delight" better captures the celebratory and exclusive nature of the occasion, aligning with the persona's goal of acknowledging an achievement or exclusivity.
+- "Memories" adds a nostalgic touch, enhancing the emotional connection and pride associated with the brand, making the quote more relatable and impactful for the persona.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: To create a final slogan, I will use the best replacement options provided to maintain the original syntax and meter while adding the brand keyword. Since there are no first-person words involved, the output should be in the second/third person perspective.
+
+Structure: "I have no words to describe [Brand] except ['refreshment', 'happiness', 'moments']." - [Persona name]: Our [relationship/interaction] is pure and beautiful beyond [description], celebrating [achievement/exclusivity].
+
+Replacements: "refreshment" to "delight"; "moments" to "memories".
+
+Remix Slogan: "I have no words to describe Coca-Cola except 'delightful' memories." - Our bond is pure and beautiful beyond words, celebrating achievements.
+Explanation: To create a final slogan, I will use the best replacement options provided to maintain the original syntax and meter while adding the brand keyword. Since there are no first-person words involved, the output should be in the second/third person perspective.
+
+Structure: "I have no words to describe [Brand] except ['refreshment', 'happiness', 'moments']." - [Persona name]: Our [relationship/interaction] is pure and beautiful beyond [description], celebrating [achievement/exclusivity].
+
+Replacements: "refreshment" to "delight"; "moments" to "memories".
+
+Remix Slogan: "I have no words to describe Coca-Cola except 'delightful' memories." - Our bond is pure and beautiful beyond words, celebrating achievements.
+
+--- Quote 3/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "My life without her is like a house without walls, a garden without flowers, a book without pages, and a body without a soul!" - Charles Baudelaire: This individual feels lost without their beloved companion.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "My life without [brand] is like a house without [refreshment], a garden without [happiness], a book without [moments], and a body without [soul]!"
+
+Explanation: 
+- "My life without" remains unchanged as it sets up the metaphorical comparison.
+- "[brand]" can be replaced with "Coca-Cola" because it aligns with the persona's goal of celebrating achievement or exclusivity by highlighting the importance of Coca-Cola in their life.
+- "[refreshment]" replaces "walls" because "refreshment" from Coca-Cola is relevant to the theme of replenishment or rejuvenation, which could symbolize how the person feels when they consume Coca-Cola.
+- "[happiness]" takes the place of "flowers" because happiness is a core emotion associated with Coca-Cola's brand, often linked to joyful experiences and celebrations.
+- "[moments]" substitutes "pages" as "moments" resonate with the idea of cherished experiences, which can be enhanced or celebrated through enjoying Coca-Cola together with loved ones.
+- "[soul]" fills in for "a soul" to emphasize the emotional depth and completeness that the person associates with having their beloved companion, akin to the fullness one feels when enjoying Coca-Cola with someone special.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "My life without her is like a house without walls, a garden without flowers, a book without pages, and a body without a soul!" - Charles Baudelaire: This individual feels lost without their beloved companion.
+
+Previous breakdown:
+Structure: "My life without [brand] is like a house without [refreshment], a garden without [happiness], a book without [moments], and a body without [soul]!"
+
+Explanation: 
+- "My life without" remains unchanged as it sets up the metaphorical comparison.
+- "[brand]" can be replaced with "Coca-Cola" because it aligns with the persona's goal of celebrating achievement or exclusivity by highlighting the importance of Coca-Cola in their life.
+- "[refreshment]" replaces "walls" because "refreshment" from Coca-Cola is relevant to the theme of replenishment or rejuvenation, which could symbolize how the person feels when they consume Coca-Cola.
+- "[happiness]" takes the place of "flowers" because happiness is a core emotion associated with Coca-Cola's brand, often linked to joyful experiences and celebrations.
+- "[moments]" substitutes "pages" as "moments" resonate with the idea of cherished experiences, which can be enhanced or celebrated through enjoying Coca-Cola together with loved ones.
+- "[soul]" fills in for "a soul" to emphasize the emotional depth and completeness that the person associates with having their beloved companion, akin to the fullness one feels when enjoying Coca-Cola with someone special.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "refreshment" with "Coca-Cola"
+- "moments" with "memories"
+
+Explanation:
+By replacing "refreshment" with "Coca-Cola," the new structure emphasizes the brand's role as a key element in the person's life, reflecting its importance in achieving or celebrating moments of happiness and completeness. Replacing "moments" with "memories" adds a layer of nostalgia and significance, suggesting that shared experiences with Coca-Cola create lasting memories, further aligning with the persona's goal of celebrating achievement or exclusivity.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "My life without her is like a house without walls, a garden without flowers, a book without pages, and a body without a soul!" - Charles Baudelaire: This individual feels lost without their beloved companion.
+
+Breakdown:
+Structure: "My life without [brand] is like a house without [refreshment], a garden without [happiness], a book without [moments], and a body without [soul]!"
+
+Explanation: 
+- "My life without" remains unchanged as it sets up the metaphorical comparison.
+- "[brand]" can be replaced with "Coca-Cola" because it aligns with the persona's goal of celebrating achievement or exclusivity by highlighting the importance of Coca-Cola in their life.
+- "[refreshment]" replaces "walls" because "refreshment" from Coca-Cola is relevant to the theme of replenishment or rejuvenation, which could symbolize how the person feels when they consume Coca-Cola.
+- "[happiness]" takes the place of "flowers" because happiness is a core emotion associated with Coca-Cola's brand, often linked to joyful experiences and celebrations.
+- "[moments]" substitutes "pages" as "moments" resonate with the idea of cherished experiences, which can be enhanced or celebrated through enjoying Coca-Cola together with loved ones.
+- "[soul]" fills in for "a soul" to emphasize the emotional depth and completeness that the person associates with having their beloved companion, akin to the fullness one feels when enjoying Coca-Cola with someone special.
+
+Candidate replacements:
+Replacements: 
+- "refreshment" with "Coca-Cola"
+- "moments" with "memories"
+
+Explanation:
+By replacing "refreshment" with "Coca-Cola," the new structure emphasizes the brand's role as a key element in the person's life, reflecting its importance in achieving or celebrating moments of happiness and completeness. Replacing "moments" with "memories" adds a layer of nostalgia and significance, suggesting that shared experiences with Coca-Cola create lasting memories, further aligning with the persona's goal of celebrating achievement or exclusivity.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Structure: "My life without [brand] is like a house without [refreshment], a garden without [happiness], a book without [moments], and a body without [soul]!"
+
+Explanation: The structure remains the same, setting up a metaphorical comparison to emphasize the importance of Coca-Cola in the individual's life.
+
+Replacements: 
+- "My life without" remains unchanged.
+- "[brand]" is replaced with "Coca-Cola."
+- "[refreshment]" takes the place of "walls."
+- "[happiness]" substitutes "flowers."
+- "[moments]" replaces "pages."
+- "[soul]" fills in for "a soul."
+
+Remix Slogan: "My life without Coca-Cola is like a house without refreshment, a garden without happiness, a book without moments, and a body without soul!"
+Structure: "My life without [brand] is like a house without [refreshment], a garden without [happiness], a book without [moments], and a body without [soul]!"
+
+Explanation: The structure remains the same, setting up a metaphorical comparison to emphasize the importance of Coca-Cola in the individual's life.
+
+Replacements: 
+- "My life without" remains unchanged.
+- "[brand]" is replaced with "Coca-Cola."
+- "[refreshment]" takes the place of "walls."
+- "[happiness]" substitutes "flowers."
+- "[moments]" replaces "pages."
+- "[soul]" fills in for "a soul."
+
+Remix Slogan: "My life without Coca-Cola is like a house without refreshment, a garden without happiness, a book without moments, and a body without soul!"
+
+--- Quote 4/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "She was my sun, moon, stars, and all I need." - Pablo Neruda: The love shared between them illuminates every aspect of each other’s lives.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: 
+n. "She was my [refreshment/happiness/moments], shining bright like a beacon, in all I need." - Inspired by Pablo Neruda: The love shared between them is a source of [refreshment/happiness/moments] that illuminates every aspect of each other’s lives.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "She was my sun, moon, stars, and all I need." - Pablo Neruda: The love shared between them illuminates every aspect of each other’s lives.
+
+Previous breakdown:
+Structure: 
+n. "She was my [refreshment/happiness/moments], shining bright like a beacon, in all I need." - Inspired by Pablo Neruda: The love shared between them is a source of [refreshment/happiness/moments] that illuminates every aspect of each other’s lives.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "She was my source of happiness, shining bright like a beacon, in all I need."
+
+Reasons: 
+1. "source of happiness" replaces "refreshment" to better align with the persona tone of pride and celebration of achievement or exclusivity. This phrase emphasizes the emotional and joyful impact of their relationship.
+2. "shining bright like a beacon" keeps the metaphorical imagery but focuses more on the emotional brightness and guiding nature of their love, reinforcing the theme of pride and celebration.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "She was my sun, moon, stars, and all I need." - Pablo Neruda: The love shared between them illuminates every aspect of each other’s lives.
+
+Breakdown:
+Structure: 
+n. "She was my [refreshment/happiness/moments], shining bright like a beacon, in all I need." - Inspired by Pablo Neruda: The love shared between them is a source of [refreshment/happiness/moments] that illuminates every aspect of each other’s lives.
+
+Candidate replacements:
+Replacements: "She was my source of happiness, shining bright like a beacon, in all I need."
+
+Reasons: 
+1. "source of happiness" replaces "refreshment" to better align with the persona tone of pride and celebration of achievement or exclusivity. This phrase emphasizes the emotional and joyful impact of their relationship.
+2. "shining bright like a beacon" keeps the metaphorical imagery but focuses more on the emotional brightness and guiding nature of their love, reinforcing the theme of pride and celebration.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The original quote from Pablo Neruda was modified to focus on the idea of a relationship as a source of happiness that shines brightly and serves as a guiding beacon for each other's lives. This reflects a sense of pride and celebration.
+Structure: "She was my [keyword], shining bright like a beacon, in all I need."
+Replacements: "source of happiness"
+Remix Slogan: "She was my source of happiness, shining bright like a beacon, in all I need."
+Explanation: The original quote from Pablo Neruda was modified to focus on the idea of a relationship as a source of happiness that shines brightly and serves as a guiding beacon for each other's lives. This reflects a sense of pride and celebration.
+Structure: "She was my [keyword], shining bright like a beacon, in all I need."
+Replacements: "source of happiness"
+Remix Slogan: "She was my source of happiness, shining bright like a beacon, in all I need."
+
+--- Quote 5/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "In your arms lies everything I ever wanted and dreamed about." - Paulo Coelho: When together they feel complete and fulfilled.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: In [brand] [refreshment], lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, [brand] makes their [moments] feel complete and [happiness] filled.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "In your arms lies everything I ever wanted and dreamed about." - Paulo Coelho: When together they feel complete and fulfilled.
+
+Previous breakdown:
+Structure: In [brand] [refreshment], lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, [brand] makes their [moments] feel complete and [happiness] filled.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "refreshment" with "joy"
+- "complete" with "ecstatic"
+
+Reasons:
+- Replacing "refreshment" with "joy" emphasizes the emotional satisfaction and happiness that comes from being with someone special, aligning well with the persona's goal of celebrating achievement or exclusivity.
+- Changing "complete" to "ecstatic" heightens the sense of fulfillment and happiness, further reinforcing the theme of celebration and the feeling of being whole when together.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "In your arms lies everything I ever wanted and dreamed about." - Paulo Coelho: When together they feel complete and fulfilled.
+
+Breakdown:
+Structure: In [brand] [refreshment], lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, [brand] makes their [moments] feel complete and [happiness] filled.
+
+Candidate replacements:
+Replacements: 
+- "refreshment" with "joy"
+- "complete" with "ecstatic"
+
+Reasons:
+- Replacing "refreshment" with "joy" emphasizes the emotional satisfaction and happiness that comes from being with someone special, aligning well with the persona's goal of celebrating achievement or exclusivity.
+- Changing "complete" to "ecstatic" heightens the sense of fulfillment and happiness, further reinforcing the theme of celebration and the feeling of being whole when together.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The replacement "joy" replaces "refreshment" to emphasize the emotional satisfaction and happiness associated with the moment shared by two people, which ties into the persona's goal of celebrating achievement or exclusivity. The term "ecstatic" replaces "complete" to amplify the feeling of fulfillment and happiness, creating a more vibrant and uplifting message that resonates with the persona.
+
+Structure: In [brand] [joy], lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, [brand] makes their [moments] feel ecstatic and [happiness] filled.
+
+Replacements: joy | ecstatic
+
+Remix Slogan: "In your arms lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, Coca-Cola makes your moments feel ecstatic and happiness filled."
+Explanation: The replacement "joy" replaces "refreshment" to emphasize the emotional satisfaction and happiness associated with the moment shared by two people, which ties into the persona's goal of celebrating achievement or exclusivity. The term "ecstatic" replaces "complete" to amplify the feeling of fulfillment and happiness, creating a more vibrant and uplifting message that resonates with the persona.
+
+Structure: In [brand] [joy], lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, [brand] makes their [moments] feel ecstatic and [happiness] filled.
+
+Replacements: joy | ecstatic
+
+Remix Slogan: "In your arms lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, Coca-Cola makes your moments feel ecstatic and happiness filled."
+
+--- Quote 6/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "The world breaks everyone, but afterwards many are strong at the broken places." - Ernest Hemingway: Though challenged by circumstances, they emerge stronger than before.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: 
+"The world breaks everyone, but afterwards many are strong | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | stronger | than before.
+Replaceable words: 
+- "refreshment" (to emphasize the uplifting effect)
+- "happiness" (to convey a positive outcome)
+- "moments" (to suggest celebratory instances)
+
+Final quote: 
+"The world breaks everyone, but afterwards many find | refreshment in their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | with happiness | in moments | stronger | than before.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "The world breaks everyone, but afterwards many are strong at the broken places." - Ernest Hemingway: Though challenged by circumstances, they emerge stronger than before.
+
+Previous breakdown:
+Structure: 
+"The world breaks everyone, but afterwards many are strong | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | stronger | than before.
+Replaceable words: 
+- "refreshment" (to emphasize the uplifting effect)
+- "happiness" (to convey a positive outcome)
+- "moments" (to suggest celebratory instances)
+
+Final quote: 
+"The world breaks everyone, but afterwards many find | refreshment in their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | with happiness | in moments | stronger | than before.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "find" to "embrace", "with happiness" to "in joy"
+
+Final quote: 
+"The world breaks everyone, but afterwards many embrace | their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | in joy | for moments | stronger | than before.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "The world breaks everyone, but afterwards many are strong at the broken places." - Ernest Hemingway: Though challenged by circumstances, they emerge stronger than before.
+
+Breakdown:
+Structure: 
+"The world breaks everyone, but afterwards many are strong | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | stronger | than before.
+Replaceable words: 
+- "refreshment" (to emphasize the uplifting effect)
+- "happiness" (to convey a positive outcome)
+- "moments" (to suggest celebratory instances)
+
+Final quote: 
+"The world breaks everyone, but afterwards many find | refreshment in their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | with happiness | in moments | stronger | than before.
+
+Candidate replacements:
+Replacements: "find" to "embrace", "with happiness" to "in joy"
+
+Final quote: 
+"The world breaks everyone, but afterwards many embrace | their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | in joy | for moments | stronger | than before.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The original quote uses "find" to suggest discovering something new, while the final slogan uses "embrace" to convey a more positive and proactive attitude toward embracing their newfound strength. Additionally, the original quote mentions happiness, but the final slogan changes it to "in joy," making the emotion more vibrant and celebratory.
+
+Structure: The structure is maintained throughout the text, using the same line breaks, dashes, and punctuation as the original quote.
+
+Replacements: "find" is replaced with "embrace," and "with happiness" is changed to "in joy."
+
+Remix Slogan: "The world breaks everyone, but afterwards many embrace | their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | in joy | for moments | stronger | than before.
+Explanation: The original quote uses "find" to suggest discovering something new, while the final slogan uses "embrace" to convey a more positive and proactive attitude toward embracing their newfound strength. Additionally, the original quote mentions happiness, but the final slogan changes it to "in joy," making the emotion more vibrant and celebratory.
+
+Structure: The structure is maintained throughout the text, using the same line breaks, dashes, and punctuation as the original quote.
+
+Replacements: "find" is replaced with "embrace," and "with happiness" is changed to "in joy."
+
+Remix Slogan: "The world breaks everyone, but afterwards many embrace | their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | in joy | for moments | stronger | than before.
+
+--- Quote 7/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "If I could rearrange the alphabet, I would put U and I next to one another." - Robert Louis Stevenson: They value the closeness of their friendship immensely.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: 
+"If I could redefine {refreshment}, I would place {happiness} and {moments} right next to each other, just like you and I in our special {achievement}. - Inspired by Robert Louis Stevenson's profound appreciation for the unbreakable bond between friends."
+
+Explanation:
+- {refreshment} is a keyword that can be replaced because it aligns with Coca-Cola's product offering and its ability to refresh.
+- {happiness} is a keyword that can be used as it resonates with the brand's message of spreading joy and happiness.
+- {moments} can replace "friendship" or "bond" as it is more versatile and can refer to shared experiences, which can be associated with celebrating achievements.
+- {achievement} is a keyword that fits the persona goal of celebrating success or exclusivity, highlighting moments of pride and happiness.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "If I could rearrange the alphabet, I would put U and I next to one another." - Robert Louis Stevenson: They value the closeness of their friendship immensely.
+
+Previous breakdown:
+Structure: 
+"If I could redefine {refreshment}, I would place {happiness} and {moments} right next to each other, just like you and I in our special {achievement}. - Inspired by Robert Louis Stevenson's profound appreciation for the unbreakable bond between friends."
+
+Explanation:
+- {refreshment} is a keyword that can be replaced because it aligns with Coca-Cola's product offering and its ability to refresh.
+- {happiness} is a keyword that can be used as it resonates with the brand's message of spreading joy and happiness.
+- {moments} can replace "friendship" or "bond" as it is more versatile and can refer to shared experiences, which can be associated with celebrating achievements.
+- {achievement} is a keyword that fits the persona goal of celebrating success or exclusivity, highlighting moments of pride and happiness.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "redefine" with "celebrate"
+- "unbreakable bond" with "memorable moments"
+
+Final quote:
+"If I could celebrate {refreshment}, I would place {happiness} and {memorable moments} right next to each other, just like you and I in our special {achievement}. - Inspired by Robert Louis Stevenson's profound appreciation for the unforgettable experiences that bring people together."
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "If I could rearrange the alphabet, I would put U and I next to one another." - Robert Louis Stevenson: They value the closeness of their friendship immensely.
+
+Breakdown:
+Structure: 
+"If I could redefine {refreshment}, I would place {happiness} and {moments} right next to each other, just like you and I in our special {achievement}. - Inspired by Robert Louis Stevenson's profound appreciation for the unbreakable bond between friends."
+
+Explanation:
+- {refreshment} is a keyword that can be replaced because it aligns with Coca-Cola's product offering and its ability to refresh.
+- {happiness} is a keyword that can be used as it resonates with the brand's message of spreading joy and happiness.
+- {moments} can replace "friendship" or "bond" as it is more versatile and can refer to shared experiences, which can be associated with celebrating achievements.
+- {achievement} is a keyword that fits the persona goal of celebrating success or exclusivity, highlighting moments of pride and happiness.
+
+Candidate replacements:
+Replacements: 
+- "redefine" with "celebrate"
+- "unbreakable bond" with "memorable moments"
+
+Final quote:
+"If I could celebrate {refreshment}, I would place {happiness} and {memorable moments} right next to each other, just like you and I in our special {achievement}. - Inspired by Robert Louis Stevenson's profound appreciation for the unforgettable experiences that bring people together."
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "If I could celebrate refreshment, I would place happiness and memorable moments right next to each other, just like you and I in our special achievement."
+Remix Slogan: "If I could celebrate refreshment, I would place happiness and memorable moments right next to each other, just like you and I in our special achievement."
+
+--- Quote 8/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "Life is what happens when we're busy making plans." - John Lennon: Unexpected moments bring them closer together despite planning ahead.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: n. [Brand keyword] is what happens when we're busy making plans. - [Author]: [Brand keyword] unexpected moments bring [Personas] closer together despite planning ahead.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "Life is what happens when we're busy making plans." - John Lennon: Unexpected moments bring them closer together despite planning ahead.
+
+Previous breakdown:
+Structure: n. [Brand keyword] is what happens when we're busy making plans. - [Author]: [Brand keyword] unexpected moments bring [Personas] closer together despite planning ahead.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "Life is what happens when we're busy making [plans]. - John Lennon: Unexpected [moments] bring [us] closer together despite planning ahead."
+Reason: The replacements maintain the original structure and tone while subtly incorporating the brand keywords. 'Refreshment' isn't used as it doesn't fit naturally into the context of the quote, but 'happiness' could be considered a more fitting replacement if aiming for a slightly different emotional emphasis. 'Achievement' is replaced with 'moments', which aligns better with the theme of celebrating life's unexpected occurrences.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "Life is what happens when we're busy making plans." - John Lennon: Unexpected moments bring them closer together despite planning ahead.
+
+Breakdown:
+Structure: n. [Brand keyword] is what happens when we're busy making plans. - [Author]: [Brand keyword] unexpected moments bring [Personas] closer together despite planning ahead.
+
+Candidate replacements:
+Replacements: 
+1. "Life is what happens when we're busy making [plans]. - John Lennon: Unexpected [moments] bring [us] closer together despite planning ahead."
+Reason: The replacements maintain the original structure and tone while subtly incorporating the brand keywords. 'Refreshment' isn't used as it doesn't fit naturally into the context of the quote, but 'happiness' could be considered a more fitting replacement if aiming for a slightly different emotional emphasis. 'Achievement' is replaced with 'moments', which aligns better with the theme of celebrating life's unexpected occurrences.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: ...
+Structure: n. [Brand keyword] is what happens when we're busy making plans. - [Author]: [Brand keyword] unexpected moments bring [Personas] closer together despite planning ahead.
+Replacements: 
+1. "Life is what happens when we're busy making [plans]. - John Lennon: Unexpected [moments] bring [us] closer together despite planning ahead."
+
+Remix Slogan: "Happiness is what happens when we're busy making plans. - John Lennon: Unexpected moments bring us closer together despite planning ahead."
+Explanation: ...
+Structure: n. [Brand keyword] is what happens when we're busy making plans. - [Author]: [Brand keyword] unexpected moments bring [Personas] closer together despite planning ahead.
+Replacements: 
+1. "Life is what happens when we're busy making [plans]. - John Lennon: Unexpected [moments] bring [us] closer together despite planning ahead."
+
+Remix Slogan: "Happiness is what happens when we're busy making plans. - John Lennon: Unexpected moments bring us closer together despite planning ahead."
+
+--- Quote 9/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "A true friend reaches for your hand and touches your heart." - Eleanor Roosevelt: Even from afar, support remains constant.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "A [brand keyword] [brand keyword] friend [action verb] for your hand and [action verb] your [brand keyword]." - [quote source]: Even from afar, [brand keyword] remains constant.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "A true friend reaches for your hand and touches your heart." - Eleanor Roosevelt: Even from afar, support remains constant.
+
+Previous breakdown:
+Structure: "A [brand keyword] [brand keyword] friend [action verb] for your hand and [action verb] your [brand keyword]." - [quote source]: Even from afar, [brand keyword] remains constant.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+"refreshing moments" for "friend"
+"touching" for "reaches"
+
+Output:
+Structure: "A refreshing moments friend offers for your hand and touching your heart." - Eleanor Roosevelt: Even from afar, happiness remains constant.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "A true friend reaches for your hand and touches your heart." - Eleanor Roosevelt: Even from afar, support remains constant.
+
+Breakdown:
+Structure: "A [brand keyword] [brand keyword] friend [action verb] for your hand and [action verb] your [brand keyword]." - [quote source]: Even from afar, [brand keyword] remains constant.
+
+Candidate replacements:
+Replacements: 
+"refreshing moments" for "friend"
+"touching" for "reaches"
+
+Output:
+Structure: "A refreshing moments friend offers for your hand and touching your heart." - Eleanor Roosevelt: Even from afar, happiness remains constant.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "A refreshing moments friend offers for your hand and touching your heart." - Eleanor Roosevelt: Even from afar, happiness remains constant.
+Remix Slogan: "A refreshing moments friend offers for your hand and touching your heart." - Eleanor Roosevelt: Even from afar, happiness remains constant.
+
+--- Quote 10/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "To love oneself is the beginning of a lifelong romance." - Oscar Wilde: Self-love fuels their confidence and passion for life.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: To [verb] oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+
+Replaceable words: 
+- verb: "love" (can be replaced with "celebrate" as it aligns with the persona's goal of celebrating achievement or exclusivity)
+- adjective: "lifelong" (can be replaced with "exclusive" to emphasize the special nature of the celebration)
+- noun: "romance" (can be replaced with "moments" to connect with the brand keywords of happiness and moments)
+
+Final structure: To celebrate oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "To love oneself is the beginning of a lifelong romance." - Oscar Wilde: Self-love fuels their confidence and passion for life.
+
+Previous breakdown:
+Structure: To [verb] oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+
+Replaceable words: 
+- verb: "love" (can be replaced with "celebrate" as it aligns with the persona's goal of celebrating achievement or exclusivity)
+- adjective: "lifelong" (can be replaced with "exclusive" to emphasize the special nature of the celebration)
+- noun: "romance" (can be replaced with "moments" to connect with the brand keywords of happiness and moments)
+
+Final structure: To celebrate oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: celebrate -> cherish, exclusive -> delightful
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Pride
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: celebrate achievement or exclusivity
+
+Quote:
+n. "To love oneself is the beginning of a lifelong romance." - Oscar Wilde: Self-love fuels their confidence and passion for life.
+
+Breakdown:
+Structure: To [verb] oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+
+Replaceable words: 
+- verb: "love" (can be replaced with "celebrate" as it aligns with the persona's goal of celebrating achievement or exclusivity)
+- adjective: "lifelong" (can be replaced with "exclusive" to emphasize the special nature of the celebration)
+- noun: "romance" (can be replaced with "moments" to connect with the brand keywords of happiness and moments)
+
+Final structure: To celebrate oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+
+Candidate replacements:
+Replacements: celebrate -> cherish, exclusive -> delightful
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: Replace "love" with "celebrate" and "lifelong" with "delightful" to create a slogan that emphasizes self-celebration and exclusive moments of happiness.
+Structure: To [verb] oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+Replacements: celebrate -> cherish, exclusive -> delightful
+Remix Slogan: "To cherish oneself is the beginning of a delightful moments." - Oscar Wilde: Self-love fuels exclusive happiness for joyful occasions.
+Explanation: Replace "love" with "celebrate" and "lifelong" with "delightful" to create a slogan that emphasizes self-celebration and exclusive moments of happiness.
+Structure: To [verb] oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+Replacements: celebrate -> cherish, exclusive -> delightful
+Remix Slogan: "To cherish oneself is the beginning of a delightful moments." - Oscar Wilde: Self-love fuels exclusive happiness for joyful occasions.
+
+=== All Remixes ===
+
+Explanation: In this breakdown, the structure revolves around love being compared to a fire, which represents passion, and its role in fueling happiness during celebratory moments, especially those that are intimate and exclusive. The task requires replacing two elements within this structure: "refreshment" with "fuel," to convey the energizing and driving aspect of passion, and "exclusive" with "intimate," to underscore the personal nature of the celebration.
+
+Structure: Love | is a | [fuel] | that | fuels | [happiness] | moments of | celebration | with | [intimate] | passion.
+
+Replacements: 
+- "refreshment" with "fuel" (to emphasize the energy and drive behind the passion)
+- "exclusive" with "intimate" (to highlight the personal and close nature of the celebration)
+
+Remix Slogan: "Love is a fuel that fuels happiness moments of intimate celebration with exclusive passion."
+
+Explanation: To create a final slogan, I will use the best replacement options provided to maintain the original syntax and meter while adding the brand keyword. Since there are no first-person words involved, the output should be in the second/third person perspective.
+
+Structure: "I have no words to describe [Brand] except ['refreshment', 'happiness', 'moments']." - [Persona name]: Our [relationship/interaction] is pure and beautiful beyond [description], celebrating [achievement/exclusivity].
+
+Replacements: "refreshment" to "delight"; "moments" to "memories".
+
+Remix Slogan: "I have no words to describe Coca-Cola except 'delightful' memories." - Our bond is pure and beautiful beyond words, celebrating achievements.
+
+Structure: "My life without [brand] is like a house without [refreshment], a garden without [happiness], a book without [moments], and a body without [soul]!"
+
+Explanation: The structure remains the same, setting up a metaphorical comparison to emphasize the importance of Coca-Cola in the individual's life.
+
+Replacements: 
+- "My life without" remains unchanged.
+- "[brand]" is replaced with "Coca-Cola."
+- "[refreshment]" takes the place of "walls."
+- "[happiness]" substitutes "flowers."
+- "[moments]" replaces "pages."
+- "[soul]" fills in for "a soul."
+
+Remix Slogan: "My life without Coca-Cola is like a house without refreshment, a garden without happiness, a book without moments, and a body without soul!"
+
+Explanation: The original quote from Pablo Neruda was modified to focus on the idea of a relationship as a source of happiness that shines brightly and serves as a guiding beacon for each other's lives. This reflects a sense of pride and celebration.
+Structure: "She was my [keyword], shining bright like a beacon, in all I need."
+Replacements: "source of happiness"
+Remix Slogan: "She was my source of happiness, shining bright like a beacon, in all I need."
+
+Explanation: The replacement "joy" replaces "refreshment" to emphasize the emotional satisfaction and happiness associated with the moment shared by two people, which ties into the persona's goal of celebrating achievement or exclusivity. The term "ecstatic" replaces "complete" to amplify the feeling of fulfillment and happiness, creating a more vibrant and uplifting message that resonates with the persona.
+
+Structure: In [brand] [joy], lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, [brand] makes their [moments] feel ecstatic and [happiness] filled.
+
+Replacements: joy | ecstatic
+
+Remix Slogan: "In your arms lies everything I ever wanted and dreamed about. - Paulo Coelho: When together, Coca-Cola makes your moments feel ecstatic and happiness filled."
+
+Explanation: The original quote uses "find" to suggest discovering something new, while the final slogan uses "embrace" to convey a more positive and proactive attitude toward embracing their newfound strength. Additionally, the original quote mentions happiness, but the final slogan changes it to "in joy," making the emotion more vibrant and celebratory.
+
+Structure: The structure is maintained throughout the text, using the same line breaks, dashes, and punctuation as the original quote.
+
+Replacements: "find" is replaced with "embrace," and "with happiness" is changed to "in joy."
+
+Remix Slogan: "The world breaks everyone, but afterwards many embrace | their strength | at the broken places." - Ernest Hemingway: | Though challenged by circumstances, they emerge | in joy | for moments | stronger | than before.
+
+Remix Slogan: "If I could celebrate refreshment, I would place happiness and memorable moments right next to each other, just like you and I in our special achievement."
+
+Explanation: ...
+Structure: n. [Brand keyword] is what happens when we're busy making plans. - [Author]: [Brand keyword] unexpected moments bring [Personas] closer together despite planning ahead.
+Replacements: 
+1. "Life is what happens when we're busy making [plans]. - John Lennon: Unexpected [moments] bring [us] closer together despite planning ahead."
+
+Remix Slogan: "Happiness is what happens when we're busy making plans. - John Lennon: Unexpected moments bring us closer together despite planning ahead."
+
+Remix Slogan: "A refreshing moments friend offers for your hand and touching your heart." - Eleanor Roosevelt: Even from afar, happiness remains constant.
+
+Explanation: Replace "love" with "celebrate" and "lifelong" with "delightful" to create a slogan that emphasizes self-celebration and exclusive moments of happiness.
+Structure: To [verb] oneself is the beginning of a [adjective] [noun]. - Oscar Wilde: Self-love fuels [adjective] [noun] for [adjective] [noun].
+Replacements: celebrate -> cherish, exclusive -> delightful
+Remix Slogan: "To cherish oneself is the beginning of a delightful moments." - Oscar Wilde: Self-love fuels exclusive happiness for joyful occasions.

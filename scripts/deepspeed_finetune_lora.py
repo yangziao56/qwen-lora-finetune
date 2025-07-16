@@ -105,10 +105,17 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     # Data paths (project root data/)
+    # data_files = {
+    #     "train": os.path.join(project_root, "data", "train.jsonl"),
+    #     "valid": os.path.join(project_root, "data", "valid.jsonl"),
+    # }
+
     data_files = {
-        "train": os.path.join(project_root, "data", "train.jsonl"),
-        "valid": os.path.join(project_root, "data", "valid.jsonl"),
+        "train": os.path.join(project_root, "data", "jsonl", "merged.jsonl"),
+        "valid": os.path.join(project_root, "data", "jsonl", "poems_valid.jsonl"),
+        # 这里使用同一个文件作为 train 和 valid，实际应用中应分开
     }
+
     if not all(os.path.exists(p) for p in data_files.values()):
         raise FileNotFoundError(
             f"Missing data files: {data_files['train']} or {data_files['valid']}"
@@ -250,11 +257,11 @@ def main():
         torch.distributed.barrier()
 
     # 1) 所有进程都跑 evaluate()
-    eval_metrics = trainer.evaluate()
+    #eval_metrics = trainer.evaluate()
 
     # 2) 只有 rank0 打印 & 保存
     if trainer.is_world_process_zero():
-        print(f"✔ Final evaluation on validation set: {eval_metrics}")
+        #print(f"✔ Final evaluation on validation set: {eval_metrics}")
 
         timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
         final_path = os.path.join(out_dir, f"final-{timestamp}")

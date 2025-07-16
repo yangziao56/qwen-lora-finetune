@@ -1,0 +1,1045 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+ <|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors.
+4. Do NOT mention the persona name; convey the mood implicitly.
+5. Do NOT output any other text.6. Quotes will be used for slogan remixing, so avoid overly complex or lengthy quotes.
+<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Trust” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+ n. "The most beautiful thing we can experience is the mysterious." — Albert Einstein: It’s a reminder to have faith in life and its mysteries. 
+n. "We all need people who challenge us, force us out of our comfort zones, inspire us to do better than before, push us toward excellence." — John C. Maxwell: A gentle reminder not to shy away from trust because it means taking risks.  
+n. "When you feel yourself getting angry at someone else's mistake, remember your own mistakes as well." — Anthony Bourdain: Encourages empathy when dealing with others' shortcomings.   
+n. "There isn’t anything wrong with being scared, just don’t let fear dictate how far you go.”— Anonymous: The courage needed to step into new relationships based on trust.    
+n. "I’ve learned more from accepting criticism gracefully than I ever did by defending myself against it." — Steve Jobs: Demonstrating trust through vulnerability and openness.  
+n. "Life shrinks or expands depending on what you pay attention to." — Anaïs Nin: Emphasizes focusing on positive aspects while building relationships founded upon mutual respect and understanding.     
+n. "In order to build something strong and lasting, you must first understand why things fall apart." — Seth Godin: Reflects the importance of learning lessons together to strengthen bonds between individuals.        
+n. "It takes a great deal of bravery to stand up to our enemies but even greater to stand up to our friends." - J.K. Rowling: Trust involves standing up for oneself without causing unnecessary conflict within friendships.      
+n. "Love does not require that you fix everything about each other. But love requires honesty, transparency, and vulnerability." — Unknown: Underlines the value of genuine connections built on authenticity rather than perfectionism.       
+n. "Don't try to control every aspect of their lives – let them find themselves along the way!" — Unknown: Advice given to parents showing trust towards children's self-discovery process.
+=== Stage 2: 3‑step Remix ===
+
+--- Quote 1/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "The most beautiful thing we can experience is the mysterious." — Albert Einstein: It’s a reminder to have faith in life and its mysteries.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "The [refreshment] thing we can experience is the [happiness]."
+Reason: "refreshment" and "happiness" can be replaced because they align with Coca-Cola's image of providing a refreshing drink that brings joy and happiness. This maintains the original poetic and inspirational tone while integrating the brand's values.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "The most beautiful thing we can experience is the mysterious." — Albert Einstein: It’s a reminder to have faith in life and its mysteries.
+
+Previous breakdown:
+Structure: "The [refreshment] thing we can experience is the [happiness]."
+Reason: "refreshment" and "happiness" can be replaced because they align with Coca-Cola's image of providing a refreshing drink that brings joy and happiness. This maintains the original poetic and inspirational tone while integrating the brand's values.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+"The most reassuring thing we can experience is the mysterious."
+Reason: By replacing "beautiful" with "reassuring," the quote emphasizes safety and reliability, aligning with the persona goal. The term "reassuring" suggests a sense of comfort and security, which, when combined with the theme of mystery, creates a dual-layered message that resonates with the brand's persona tone of trust.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "The most beautiful thing we can experience is the mysterious." — Albert Einstein: It’s a reminder to have faith in life and its mysteries.
+
+Breakdown:
+Structure: "The [refreshment] thing we can experience is the [happiness]."
+Reason: "refreshment" and "happiness" can be replaced because they align with Coca-Cola's image of providing a refreshing drink that brings joy and happiness. This maintains the original poetic and inspirational tone while integrating the brand's values.
+
+Candidate replacements:
+Replacements: 
+"The most reassuring thing we can experience is the mysterious."
+Reason: By replacing "beautiful" with "reassuring," the quote emphasizes safety and reliability, aligning with the persona goal. The term "reassuring" suggests a sense of comfort and security, which, when combined with the theme of mystery, creates a dual-layered message that resonates with the brand's persona tone of trust.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ The most reassuring thing we can experience is the mysterious.
+
+--- Quote 2/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "We all need people who challenge us, force us out of our comfort zones, inspire us to do better than before, push us toward excellence." — John C. Maxwell: A gentle reminder not to shy away from trust because it means taking risks.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "We all need [refreshment] in our lives, [happiness] that challenges us, forces us out of our [comfort zones], inspires us to [do better] than before, and pushes us toward [excellence]. A gentle reminder not to shy away from [trust] because it means taking [risks]."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "We all need people who challenge us, force us out of our comfort zones, inspire us to do better than before, push us toward excellence." — John C. Maxwell: A gentle reminder not to shy away from trust because it means taking risks.
+
+Previous breakdown:
+Structure: "We all need [refreshment] in our lives, [happiness] that challenges us, forces us out of our [comfort zones], inspires us to [do better] than before, and pushes us toward [excellence]. A gentle reminder not to shy away from [trust] because it means taking [risks]."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "We all need people who ensure our safety, uphold reliability, inspire us to elevate our standards, and push us toward success."
+
+Reasons: By replacing "refreshment" with "safety" and "pushes us toward excellence" with "push us toward success", we focus on the reliability and security aspects that Coca-Cola could emphasize, aligning with its brand values of happiness and moments. This change also shifts the context slightly towards a more universally positive and reassuring message, highlighting Coca-Cola's role in contributing to these feelings and experiences.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "We all need people who challenge us, force us out of our comfort zones, inspire us to do better than before, push us toward excellence." — John C. Maxwell: A gentle reminder not to shy away from trust because it means taking risks.
+
+Breakdown:
+Structure: "We all need [refreshment] in our lives, [happiness] that challenges us, forces us out of our [comfort zones], inspires us to [do better] than before, and pushes us toward [excellence]. A gentle reminder not to shy away from [trust] because it means taking [risks]."
+
+Candidate replacements:
+Replacements: "We all need people who ensure our safety, uphold reliability, inspire us to elevate our standards, and push us toward success."
+
+Reasons: By replacing "refreshment" with "safety" and "pushes us toward excellence" with "push us toward success", we focus on the reliability and security aspects that Coca-Cola could emphasize, aligning with its brand values of happiness and moments. This change also shifts the context slightly towards a more universally positive and reassuring message, highlighting Coca-Cola's role in contributing to these feelings and experiences.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "We all need people who ensure our safety, uphold reliability, inspire us to elevate our standards, and push us toward success."
+
+--- Quote 3/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "When you feel yourself getting angry at someone else's mistake, remember your own mistakes as well." — Anthony Bourdain: Encourages empathy when dealing with others' shortcomings.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "When you feel yourself getting [refreshment] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "When you feel yourself getting angry at someone else's mistake, remember your own mistakes as well." — Anthony Bourdain: Encourages empathy when dealing with others' shortcomings.
+
+Previous breakdown:
+Structure: "When you feel yourself getting [refreshment] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "When you feel yourself getting [safety] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].  
+Reason: "Safety" aligns better with trust and reliability, emphasizing a more positive and protective approach towards others' errors.
+
+2. "When you feel yourself getting [reliability] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].  
+Reason: "Reliability" highlights dependability and trustworthiness, which can be related to trust in interpersonal relationships, making it a suitable replacement for "refreshment."
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "When you feel yourself getting angry at someone else's mistake, remember your own mistakes as well." — Anthony Bourdain: Encourages empathy when dealing with others' shortcomings.
+
+Breakdown:
+Structure: "When you feel yourself getting [refreshment] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].
+
+Candidate replacements:
+Replacements: 
+1. "When you feel yourself getting [safety] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].  
+Reason: "Safety" aligns better with trust and reliability, emphasizing a more positive and protective approach towards others' errors.
+
+2. "When you feel yourself getting [reliability] at someone else's [mistake], remember your own [mistakes] as well." - Anthony Bourdain: Encourages empathy when dealing with others' [shortcomings].  
+Reason: "Reliability" highlights dependability and trustworthiness, which can be related to trust in interpersonal relationships, making it a suitable replacement for "refreshment."
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ When you feel yourself getting reliability at someone else's mistake, remember your own mistakes as well.
+
+--- Quote 4/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "There isn’t anything wrong with being scared, just don’t let fear dictate how far you go.”— Anonymous: The courage needed to step into new relationships based on trust.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: There isn't anything wrong with [being cautious/safe/reliable], just don't let [fear/anxiety] dictate how [far/deep/high] you [go/step].
+
+Explanation: 
+- [being cautious/safe/reliable]: These can be replaced with "refreshment" because they all imply a sense of comfort and security, aligning with Coca-Cola's reputation as a refreshing drink that brings people together in a safe and enjoyable environment.
+- [fear/anxiety]: Replaced with "fear" as it maintains the original meaning while keeping the persona tone focused on trust and safety.
+- [far/deep/high]: These can be replaced with "go" to maintain the original structure and meaning of the quote, emphasizing the journey or experience rather than the physical distance or depth.
+- [step/stepping]: Replaced with "go" for the same reason as above, keeping the focus on moving forward with confidence and trust.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "There isn’t anything wrong with being scared, just don’t let fear dictate how far you go.”— Anonymous: The courage needed to step into new relationships based on trust.
+
+Previous breakdown:
+Structure: There isn't anything wrong with [being cautious/safe/reliable], just don't let [fear/anxiety] dictate how [far/deep/high] you [go/step].
+
+Explanation: 
+- [being cautious/safe/reliable]: These can be replaced with "refreshment" because they all imply a sense of comfort and security, aligning with Coca-Cola's reputation as a refreshing drink that brings people together in a safe and enjoyable environment.
+- [fear/anxiety]: Replaced with "fear" as it maintains the original meaning while keeping the persona tone focused on trust and safety.
+- [far/deep/high]: These can be replaced with "go" to maintain the original structure and meaning of the quote, emphasizing the journey or experience rather than the physical distance or depth.
+- [step/stepping]: Replaced with "go" for the same reason as above, keeping the focus on moving forward with confidence and trust.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+
+- "being cautious/safe/reliable" -> "enjoying refreshment"
+- "fear" -> "uncertainty"
+
+Explanation:
+- By replacing "being cautious/safe/reliable" with "enjoying refreshment," we emphasize the positive aspect of safety, aligning with Coca-Cola's promise of providing a refreshing and enjoyable experience. This change also subtly reinforces the brand's role in enhancing moments of happiness and togetherness.
+- Keeping "uncertainty" instead of "fear" allows for a broader interpretation that includes any doubts or hesitations, which is more relatable and inclusive to a wider audience. It also maintains the emphasis on trust and safety without directly invoking a strong emotional response associated with fear.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "There isn’t anything wrong with being scared, just don’t let fear dictate how far you go.”— Anonymous: The courage needed to step into new relationships based on trust.
+
+Breakdown:
+Structure: There isn't anything wrong with [being cautious/safe/reliable], just don't let [fear/anxiety] dictate how [far/deep/high] you [go/step].
+
+Explanation: 
+- [being cautious/safe/reliable]: These can be replaced with "refreshment" because they all imply a sense of comfort and security, aligning with Coca-Cola's reputation as a refreshing drink that brings people together in a safe and enjoyable environment.
+- [fear/anxiety]: Replaced with "fear" as it maintains the original meaning while keeping the persona tone focused on trust and safety.
+- [far/deep/high]: These can be replaced with "go" to maintain the original structure and meaning of the quote, emphasizing the journey or experience rather than the physical distance or depth.
+- [step/stepping]: Replaced with "go" for the same reason as above, keeping the focus on moving forward with confidence and trust.
+
+Candidate replacements:
+Replacements: 
+
+- "being cautious/safe/reliable" -> "enjoying refreshment"
+- "fear" -> "uncertainty"
+
+Explanation:
+- By replacing "being cautious/safe/reliable" with "enjoying refreshment," we emphasize the positive aspect of safety, aligning with Coca-Cola's promise of providing a refreshing and enjoyable experience. This change also subtly reinforces the brand's role in enhancing moments of happiness and togetherness.
+- Keeping "uncertainty" instead of "fear" allows for a broader interpretation that includes any doubts or hesitations, which is more relatable and inclusive to a wider audience. It also maintains the emphasis on trust and safety without directly invoking a strong emotional response associated with fear.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Enjoying refreshing moments isn't wrong, just don't let uncertainty dictate how far you go.
+
+--- Quote 5/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "I’ve learned more from accepting criticism gracefully than I ever did by defending myself against it." — Steve Jobs: Demonstrating trust through vulnerability and openness.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "I've learned more from embracing [refreshment] in feedback than I ever did by resisting it." — Steve Jobs: Highlighting trust through openness and receptiveness.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "I’ve learned more from accepting criticism gracefully than I ever did by defending myself against it." — Steve Jobs: Demonstrating trust through vulnerability and openness.
+
+Previous breakdown:
+Structure: "I've learned more from embracing [refreshment] in feedback than I ever did by resisting it." — Steve Jobs: Highlighting trust through openness and receptiveness.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "embracing" to "valuing", "resisting" to "avoiding"
+
+Reasons: By replacing "embracing" with "valuing" and "resisting" with "avoiding," the revised quote emphasizes a more balanced perspective on feedback, showcasing trust in the process of considering different viewpoints rather than solely on one's own defense. This change aligns better with the persona tone of trust, as it suggests a deeper appreciation for the value of others' insights and a commitment to reliability in decision-making.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "I’ve learned more from accepting criticism gracefully than I ever did by defending myself against it." — Steve Jobs: Demonstrating trust through vulnerability and openness.
+
+Breakdown:
+Structure: "I've learned more from embracing [refreshment] in feedback than I ever did by resisting it." — Steve Jobs: Highlighting trust through openness and receptiveness.
+
+Candidate replacements:
+Replacements: "embracing" to "valuing", "resisting" to "avoiding"
+
+Reasons: By replacing "embracing" with "valuing" and "resisting" with "avoiding," the revised quote emphasizes a more balanced perspective on feedback, showcasing trust in the process of considering different viewpoints rather than solely on one's own defense. This change aligns better with the persona tone of trust, as it suggests a deeper appreciation for the value of others' insights and a commitment to reliability in decision-making.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ I've learned more from valuing [refreshment] in feedback than I ever did by avoiding it.
+
+--- Quote 6/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Life shrinks or expands depending on what you pay attention to." — Anaïs Nin: Emphasizes focusing on positive aspects while building relationships founded upon mutual respect and understanding.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Life shrinks or expands depending on [what you pay attention to] | using [refreshment] to [emphasize safety or reliability] in [moments] shared with loved ones, fostering a [happiness] atmosphere built on [mutual respect and understanding].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Life shrinks or expands depending on what you pay attention to." — Anaïs Nin: Emphasizes focusing on positive aspects while building relationships founded upon mutual respect and understanding.
+
+Previous breakdown:
+Structure: Life shrinks or expands depending on [what you pay attention to] | using [refreshment] to [emphasize safety or reliability] in [moments] shared with loved ones, fostering a [happiness] atmosphere built on [mutual respect and understanding].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "Life shrinks or expands depending on [what you focus on]" 
+- "using [Coca-Cola] to [emphasize safety or reliability]"
+
+Reasons:
+- Replacing "pay attention to" with "focus on" maintains the original meaning but subtly shifts the emphasis to a more proactive stance, aligning better with a persona focused on safety and reliability.
+- Incorporating "Coca-Cola" directly into the sentence provides a clear connection to the brand, reinforcing its role in emphasizing safety or reliability in shared moments.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Life shrinks or expands depending on what you pay attention to." — Anaïs Nin: Emphasizes focusing on positive aspects while building relationships founded upon mutual respect and understanding.
+
+Breakdown:
+Structure: Life shrinks or expands depending on [what you pay attention to] | using [refreshment] to [emphasize safety or reliability] in [moments] shared with loved ones, fostering a [happiness] atmosphere built on [mutual respect and understanding].
+
+Candidate replacements:
+Replacements: 
+- "Life shrinks or expands depending on [what you focus on]" 
+- "using [Coca-Cola] to [emphasize safety or reliability]"
+
+Reasons:
+- Replacing "pay attention to" with "focus on" maintains the original meaning but subtly shifts the emphasis to a more proactive stance, aligning better with a persona focused on safety and reliability.
+- Incorporating "Coca-Cola" directly into the sentence provides a clear connection to the brand, reinforcing its role in emphasizing safety or reliability in shared moments.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Life shrinks or expands depending on what you focus on | using Coca-Cola to emphasize safety or reliability in moments shared with loved ones, fostering a happiness atmosphere built on mutual respect and understanding.
+
+--- Quote 7/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "In order to build something strong and lasting, you must first understand why things fall apart." — Seth Godin: Reflects the importance of learning lessons together to strengthen bonds between individuals.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "To build [refreshment] and [happiness] lasting [moments], first learn from [safety] lessons to strengthen [bonds]."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "In order to build something strong and lasting, you must first understand why things fall apart." — Seth Godin: Reflects the importance of learning lessons together to strengthen bonds between individuals.
+
+Previous breakdown:
+Structure: "To build [refreshment] and [happiness] lasting [moments], first learn from [safety] lessons to strengthen [bonds]."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "To build [refreshment] and [happiness] lasting [moments], first learn from [reliability] lessons to strengthen [connections]." 
+
+Reason: By replacing "safety" with "reliability," we emphasize trustworthiness and dependability, which aligns better with the persona's goal of emphasizing safety or reliability. Additionally, "connections" is a more inclusive term than "bonds," suggesting that the shared experiences can be meaningful in a broader social context.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "In order to build something strong and lasting, you must first understand why things fall apart." — Seth Godin: Reflects the importance of learning lessons together to strengthen bonds between individuals.
+
+Breakdown:
+Structure: "To build [refreshment] and [happiness] lasting [moments], first learn from [safety] lessons to strengthen [bonds]."
+
+Candidate replacements:
+Replacements: "To build [refreshment] and [happiness] lasting [moments], first learn from [reliability] lessons to strengthen [connections]." 
+
+Reason: By replacing "safety" with "reliability," we emphasize trustworthiness and dependability, which aligns better with the persona's goal of emphasizing safety or reliability. Additionally, "connections" is a more inclusive term than "bonds," suggesting that the shared experiences can be meaningful in a broader social context.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "To build refreshing and happy lasting moments, first learn from reliability lessons to strengthen connections."
+
+--- Quote 8/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "It takes a great deal of bravery to stand up to our enemies but even greater to stand up to our friends." - J.K. Rowling: Trust involves standing up for oneself without causing unnecessary conflict within friendships.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: It takes a great deal of bravery to [stand up] to our enemies but even greater to [stand up] to our [friends]. - J.K. Rowling | "stand up" can be replaced with "stand for" or "defend", "enemies" can be replaced with "challenges" or "obstacles", "friends" can be replaced with "allies" or "connections", to emphasize safety or reliability while maintaining the theme of trust.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "It takes a great deal of bravery to stand up to our enemies but even greater to stand up to our friends." - J.K. Rowling: Trust involves standing up for oneself without causing unnecessary conflict within friendships.
+
+Previous breakdown:
+Structure: It takes a great deal of bravery to [stand up] to our enemies but even greater to [stand up] to our [friends]. - J.K. Rowling | "stand up" can be replaced with "stand for" or "defend", "enemies" can be replaced with "challenges" or "obstacles", "friends" can be replaced with "allies" or "connections", to emphasize safety or reliability while maintaining the theme of trust.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "stand up" to "stand for"
+2. "enemies" to "uncertainties"
+
+Reasons:
+1. "Stand up" is often associated with confrontation. By replacing it with "stand for," we shift the focus towards advocating for something, which aligns better with the theme of emphasizing safety and reliability in relationships.
+2. Replacing "enemies" with "uncertainties" broadens the scope of what the phrase could represent, allowing for a more inclusive interpretation that encompasses not just direct conflict, but also any potential threats to trust or safety within a friendship.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "It takes a great deal of bravery to stand up to our enemies but even greater to stand up to our friends." - J.K. Rowling: Trust involves standing up for oneself without causing unnecessary conflict within friendships.
+
+Breakdown:
+Structure: It takes a great deal of bravery to [stand up] to our enemies but even greater to [stand up] to our [friends]. - J.K. Rowling | "stand up" can be replaced with "stand for" or "defend", "enemies" can be replaced with "challenges" or "obstacles", "friends" can be replaced with "allies" or "connections", to emphasize safety or reliability while maintaining the theme of trust.
+
+Candidate replacements:
+Replacements: 
+1. "stand up" to "stand for"
+2. "enemies" to "uncertainties"
+
+Reasons:
+1. "Stand up" is often associated with confrontation. By replacing it with "stand for," we shift the focus towards advocating for something, which aligns better with the theme of emphasizing safety and reliability in relationships.
+2. Replacing "enemies" with "uncertainties" broadens the scope of what the phrase could represent, allowing for a more inclusive interpretation that encompasses not just direct conflict, but also any potential threats to trust or safety within a friendship.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "It takes a great deal of bravery to stand for our uncertainties but even greater to stand for our allies."
+
+--- Quote 9/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Love does not require that you fix everything about each other. But love requires honesty, transparency, and vulnerability." — Unknown: Underlines the value of genuine connections built on authenticity rather than perfectionism.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Love | does not require | that you fix | everything about | each other. | But | love | requires | honesty, | transparency, | and | vulnerability. | — Unknown: | Emphasizes | genuine connections | built on | authenticity | rather | than | perfectionism. | 
+
+Explanation: 
+- "Love" can be replaced with "refreshment" to emphasize the rejuvenating aspect of the brand.
+- "requires" can be replaced with "brings" to maintain a softer, more welcoming tone.
+- "everything" can be replaced with "perfections" to align with the brand's focus on imperfection as a source of connection.
+- "built on" can be replaced with "enriched by" to highlight the positive addition of authenticity to relationships.
+- "rather than" can be replaced with "because" to create a more straightforward, flowing sentence structure.
+- The rest of the quote remains unchanged to preserve its original meaning while integrating the brand keywords.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Love does not require that you fix everything about each other. But love requires honesty, transparency, and vulnerability." — Unknown: Underlines the value of genuine connections built on authenticity rather than perfectionism.
+
+Previous breakdown:
+Structure: Love | does not require | that you fix | everything about | each other. | But | love | requires | honesty, | transparency, | and | vulnerability. | — Unknown: | Emphasizes | genuine connections | built on | authenticity | rather | than | perfectionism. | 
+
+Explanation: 
+- "Love" can be replaced with "refreshment" to emphasize the rejuvenating aspect of the brand.
+- "requires" can be replaced with "brings" to maintain a softer, more welcoming tone.
+- "everything" can be replaced with "perfections" to align with the brand's focus on imperfection as a source of connection.
+- "built on" can be replaced with "enriched by" to highlight the positive addition of authenticity to relationships.
+- "rather than" can be replaced with "because" to create a more straightforward, flowing sentence structure.
+- The rest of the quote remains unchanged to preserve its original meaning while integrating the brand keywords.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+- "refreshment" for "love"
+- "brings" for "requires"
+
+Original quote: "Love does not require that you fix everything about each other. But love requires honesty, transparency, and vulnerability." 
+
+Proposed step 3: "Refreshment brings honesty, transparency, and vulnerability, enriching relationships because they're built on authenticity rather than perfections."
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Love does not require that you fix everything about each other. But love requires honesty, transparency, and vulnerability." — Unknown: Underlines the value of genuine connections built on authenticity rather than perfectionism.
+
+Breakdown:
+Structure: Love | does not require | that you fix | everything about | each other. | But | love | requires | honesty, | transparency, | and | vulnerability. | — Unknown: | Emphasizes | genuine connections | built on | authenticity | rather | than | perfectionism. | 
+
+Explanation: 
+- "Love" can be replaced with "refreshment" to emphasize the rejuvenating aspect of the brand.
+- "requires" can be replaced with "brings" to maintain a softer, more welcoming tone.
+- "everything" can be replaced with "perfections" to align with the brand's focus on imperfection as a source of connection.
+- "built on" can be replaced with "enriched by" to highlight the positive addition of authenticity to relationships.
+- "rather than" can be replaced with "because" to create a more straightforward, flowing sentence structure.
+- The rest of the quote remains unchanged to preserve its original meaning while integrating the brand keywords.
+
+Candidate replacements:
+Replacements: 
+- "refreshment" for "love"
+- "brings" for "requires"
+
+Original quote: "Love does not require that you fix everything about each other. But love requires honesty, transparency, and vulnerability." 
+
+Proposed step 3: "Refreshment brings honesty, transparency, and vulnerability, enriching relationships because they're built on authenticity rather than perfections."
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "Refreshment brings honesty, transparency, and vulnerability, enriching relationships because they're built on authenticity rather than perfections."
+
+--- Quote 10/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Don't try to control every aspect of their lives – let them find themselves along the way!" — Unknown: Advice given to parents showing trust towards children's self-discovery process.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: [Persona tone] "Let [Brand keywords] guide their journey, ensuring [Persona goal]: [Advice quote]"
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Don't try to control every aspect of their lives – let them find themselves along the way!" — Unknown: Advice given to parents showing trust towards children's self-discovery process.
+
+Previous breakdown:
+Structure: [Persona tone] "Let [Brand keywords] guide their journey, ensuring [Persona goal]: [Advice quote]"
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "Let Coca-Cola refreshment guide their journey, ensuring safety in their exploration." 
+
+Reasons: The replacement focuses on refreshing and safety, aligning with Coca-Cola's brand identity while emphasizing trust and reliability.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan.
+- The slogan must be enclosed in double quotes.
+- Do NOT output any text after the closing double quote of the slogan.
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "Don't try to control every aspect of their lives – let them find themselves along the way!" — Unknown: Advice given to parents showing trust towards children's self-discovery process.
+
+Breakdown:
+Structure: [Persona tone] "Let [Brand keywords] guide their journey, ensuring [Persona goal]: [Advice quote]"
+
+Candidate replacements:
+Replacements: "Let Coca-Cola refreshment guide their journey, ensuring safety in their exploration." 
+
+Reasons: The replacement focuses on refreshing and safety, aligning with Coca-Cola's brand identity while emphasizing trust and reliability.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Don't try to control every moment of their happiness – let Coca-Cola moments guide their journey, ensuring they find their own path for happiness.
+
+=== All Remixes ===
+
+The most reassuring thing we can experience is the mysterious.
+
+Remix Slogan: "We all need people who ensure our safety, uphold reliability, inspire us to elevate our standards, and push us toward success."
+
+When you feel yourself getting reliability at someone else's mistake, remember your own mistakes as well.
+
+Enjoying refreshing moments isn't wrong, just don't let uncertainty dictate how far you go.
+
+I've learned more from valuing [refreshment] in feedback than I ever did by avoiding it.
+
+Life shrinks or expands depending on what you focus on | using Coca-Cola to emphasize safety or reliability in moments shared with loved ones, fostering a happiness atmosphere built on mutual respect and understanding.
+
+Remix Slogan: "To build refreshing and happy lasting moments, first learn from reliability lessons to strengthen connections."
+
+Remix Slogan: "It takes a great deal of bravery to stand for our uncertainties but even greater to stand for our allies."
+
+Remix Slogan: "Refreshment brings honesty, transparency, and vulnerability, enriching relationships because they're built on authenticity rather than perfections."
+
+Don't try to control every moment of their happiness – let Coca-Cola moments guide their journey, ensuring they find their own path for happiness.

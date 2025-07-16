@@ -1,0 +1,1094 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+ <|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors.
+4. Do NOT mention the persona name; convey the mood implicitly.
+5. Do NOT output any other text.6. Quotes will be used for slogan remixing, so avoid overly complex or lengthy quotes.
+<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Joy” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+ 1. "It is a good thing to enjoy life." — Marcus Aurelius: Celebrating the present moment.
+2. "Laughter and joy are the two great medicines in this world." — William Shakespeare: Embracing happiness as a key ingredient to healthful living.
+3. "If you want others to be happy act kindly yourself If you want to be happy think kindly." — Buddha: Encouraging kindness towards oneself.
+4. "Life's greatest gift is friendship...in my book it comes first!" — Robert Louis Stevenson: The importance of true friendships.
+5. "The most beautiful things we can experience are the mysteries of nature." — Albert Einstein: Finding awe in natural wonders.
+6. "Happiness is like dancing no need to explain the feeling just do it and let people watch if they wish to." — Unknown: Happiness should not be defined by external validation but enjoyed within.
+7. "A smile goes straight to your heart." — Charles Dickens: Smiling has positive effects on both giver and receiver’s emotions.
+8. "Be happy for this very minute holds more possibility than all the past combined." — Brian Tracy: Living fully each day instead of dwelling on regrets about missed opportunities from years ago.
+9. "I am always doing that which I cannot do believing that at some future time I shall succeed in doing it." — Michelangelo Buonarroti: Pursuing passions regardless of perceived limitations leads to joyous accomplishments over time.
+10. "When the power of love surpasses all reasons men will fly to its light." — Mother Teresa: Love transcends logic bringing immense joy and purpose into our lives.
+=== Stage 2: 3‑step Remix ===
+
+--- Quote 1/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+1. "It is a good thing to enjoy life." — Marcus Aurelius: Celebrating the present moment.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "It's a great moment of [refreshment] and [happiness] to [enjoy] life's [moments]."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+1. "It is a good thing to enjoy life." — Marcus Aurelius: Celebrating the present moment.
+
+Previous breakdown:
+Structure: "It's a great moment of [refreshment] and [happiness] to [enjoy] life's [moments]."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "It's a grand moment of refreshing joy to embrace life's delightful moments."
+2. "It's a splendid moment of invigorating cheer to relish life's blissful moments."
+
+Reasons:
+- "Grand" and "splendid" enhance the sense of excitement and celebration, aligning with the joyful persona.
+- "Invigorating" adds a touch of energy and freshness, complementing the brand's message of refreshment.
+- "Cheer" and "blissful" further emphasize happiness and delight, fitting the persona tone.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+1. "It is a good thing to enjoy life." — Marcus Aurelius: Celebrating the present moment.
+
+Breakdown:
+Structure: "It's a great moment of [refreshment] and [happiness] to [enjoy] life's [moments]."
+
+Candidate replacements:
+Replacements: 
+1. "It's a grand moment of refreshing joy to embrace life's delightful moments."
+2. "It's a splendid moment of invigorating cheer to relish life's blissful moments."
+
+Reasons:
+- "Grand" and "splendid" enhance the sense of excitement and celebration, aligning with the joyful persona.
+- "Invigorating" adds a touch of energy and freshness, complementing the brand's message of refreshment.
+- "Cheer" and "blissful" further emphasize happiness and delight, fitting the persona tone.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "It's a grand moment of refreshing joy to embrace life's delightful moments."
+Remix Slogan: "It's a grand moment of refreshing joy to embrace life's delightful moments."
+
+--- Quote 2/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+2. "Laughter and joy are the two great medicines in this world." — William Shakespeare: Embracing happiness as a key ingredient to healthful living.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "Coca-Cola's [brand keyword] moments: [brand keyword] for [brand keyword], the ultimate [brand keyword] for your [persona goal]."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+2. "Laughter and joy are the two great medicines in this world." — William Shakespeare: Embracing happiness as a key ingredient to healthful living.
+
+Previous breakdown:
+Structure: "Coca-Cola's [brand keyword] moments: [brand keyword] for [brand keyword], the ultimate [brand keyword] for your [persona goal]."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "Laughter and joy" -> "Cheerful moments" - To emphasize the brand keywords (happiness, moments) and align with the persona tone of joy.
+2. "the two great medicines" -> "the perfect elixir" - This change adds a poetic touch that resonates with the brand's heritage and evokes a sense of delight and excitement.
+
+Final output:
+"Coca-Cola's cheerful moments: Happiness for happiness, the perfect elixir for your delight."
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+2. "Laughter and joy are the two great medicines in this world." — William Shakespeare: Embracing happiness as a key ingredient to healthful living.
+
+Breakdown:
+Structure: "Coca-Cola's [brand keyword] moments: [brand keyword] for [brand keyword], the ultimate [brand keyword] for your [persona goal]."
+
+Candidate replacements:
+Replacements: 
+1. "Laughter and joy" -> "Cheerful moments" - To emphasize the brand keywords (happiness, moments) and align with the persona tone of joy.
+2. "the two great medicines" -> "the perfect elixir" - This change adds a poetic touch that resonates with the brand's heritage and evokes a sense of delight and excitement.
+
+Final output:
+"Coca-Cola's cheerful moments: Happiness for happiness, the perfect elixir for your delight."
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: I have chosen "Cheerful moments" and "the perfect elixir" to replace "Laughter and joy" and "the two great medicines," respectively. These replacements help emphasize the brand keywords and persona goal while also aligning with the joyful tone.
+Structure: "Coca-Cola's [brand keyword] moments: [replacement phrase], [replacement phrase] for your [persona goal]."
+Replacements: "Laughter and joy" -> "Cheerful moments", "the two great medicines" -> "the perfect elixir".
+Remix Slogan: "Coca-Cola's cheerful moments: Happiness for happiness, the perfect elixir for your delight."
+Explanation: I have chosen "Cheerful moments" and "the perfect elixir" to replace "Laughter and joy" and "the two great medicines," respectively. These replacements help emphasize the brand keywords and persona goal while also aligning with the joyful tone.
+Structure: "Coca-Cola's [brand keyword] moments: [replacement phrase], [replacement phrase] for your [persona goal]."
+Replacements: "Laughter and joy" -> "Cheerful moments", "the two great medicines" -> "the perfect elixir".
+Remix Slogan: "Coca-Cola's cheerful moments: Happiness for happiness, the perfect elixir for your delight."
+
+--- Quote 3/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+3. "If you want others to be happy act kindly yourself If you want to be happy think kindly." — Buddha: Encouraging kindness towards oneself.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "If you want [refreshment/happiness] act [kindly/positively] yourself If you want to be [happy/happy/memorable moments]." — Buddha: Encouraging kindness towards oneself.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+3. "If you want others to be happy act kindly yourself If you want to be happy think kindly." — Buddha: Encouraging kindness towards oneself.
+
+Previous breakdown:
+Structure: "If you want [refreshment/happiness] act [kindly/positively] yourself If you want to be [happy/happy/memorable moments]." — Buddha: Encouraging kindness towards oneself.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "If you want [joy] act [optimistically] yourself If you want to be [memorable moments]." — Buddha: Encouraging positivity and joyfulness for memorable experiences.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+3. "If you want others to be happy act kindly yourself If you want to be happy think kindly." — Buddha: Encouraging kindness towards oneself.
+
+Breakdown:
+Structure: "If you want [refreshment/happiness] act [kindly/positively] yourself If you want to be [happy/happy/memorable moments]." — Buddha: Encouraging kindness towards oneself.
+
+Candidate replacements:
+Replacements: "If you want [joy] act [optimistically] yourself If you want to be [memorable moments]." — Buddha: Encouraging positivity and joyfulness for memorable experiences.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The task asks to use the best replacement for the given candidate replacements in the structure of the original quote. The goal is to create a slogan that evokes delight or excitement while maintaining the original syntax and meter, and ends with punctuation. The best replacement will replace the placeholders in the structure with appropriate keywords and maintain the original meaning and tone.
+
+Structure: "If you want [refreshment/happiness] act [kindly/positively] yourself If you want to be [happy/happy/memorable moments]." — Buddha: Encouraging kindness towards oneself.
+
+Replacements: "If you want [joy] act [optimistically] yourself If you want to be [memorable moments]." — Buddha: Encouraging positivity and joyfulness for memorable experiences.
+
+Remix Slogan: "If you want joy act optimistically yourself If you want to be memorable moments."
+Explanation: The task asks to use the best replacement for the given candidate replacements in the structure of the original quote. The goal is to create a slogan that evokes delight or excitement while maintaining the original syntax and meter, and ends with punctuation. The best replacement will replace the placeholders in the structure with appropriate keywords and maintain the original meaning and tone.
+
+Structure: "If you want [refreshment/happiness] act [kindly/positively] yourself If you want to be [happy/happy/memorable moments]." — Buddha: Encouraging kindness towards oneself.
+
+Replacements: "If you want [joy] act [optimistically] yourself If you want to be [memorable moments]." — Buddha: Encouraging positivity and joyfulness for memorable experiences.
+
+Remix Slogan: "If you want joy act optimistically yourself If you want to be memorable moments."
+
+--- Quote 4/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+4. "Life's greatest gift is friendship...in my book it comes first!" — Robert Louis Stevenson: The importance of true friendships.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "Life's [refreshment] gift is [happiness] companionship...in my book, it's the [moments] that matter most!" — [Author]: Emphasizing the value of genuine connections.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+4. "Life's greatest gift is friendship...in my book it comes first!" — Robert Louis Stevenson: The importance of true friendships.
+
+Previous breakdown:
+Structure: "Life's [refreshment] gift is [happiness] companionship...in my book, it's the [moments] that matter most!" — [Author]: Emphasizing the value of genuine connections.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "Life's greatest joy is friendship...in my book, it's all about those special [moments] shared with loved ones!" — [Author]: Highlighting the delight in cherished moments and meaningful relationships.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+4. "Life's greatest gift is friendship...in my book it comes first!" — Robert Louis Stevenson: The importance of true friendships.
+
+Breakdown:
+Structure: "Life's [refreshment] gift is [happiness] companionship...in my book, it's the [moments] that matter most!" — [Author]: Emphasizing the value of genuine connections.
+
+Candidate replacements:
+Replacements: "Life's greatest joy is friendship...in my book, it's all about those special [moments] shared with loved ones!" — [Author]: Highlighting the delight in cherished moments and meaningful relationships.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: In this step, I replace the given structure with the candidate replacements to create a final slogan. I focus on keeping the original syntax and meter while integrating the brand keywords.
+Structure: Life's [refreshment] gift is [happiness] companionship...in my book, it's the [moments] that matter most!
+Replacements: Life's greatest joy is friendship...in my book, it's all about those special [moments] shared with loved ones!
+Remix Slogan: "Life's greatest joy is friendship...in my book, it's all about those special moments shared with loved ones!"
+Explanation: In this step, I replace the given structure with the candidate replacements to create a final slogan. I focus on keeping the original syntax and meter while integrating the brand keywords.
+Structure: Life's [refreshment] gift is [happiness] companionship...in my book, it's the [moments] that matter most!
+Replacements: Life's greatest joy is friendship...in my book, it's all about those special [moments] shared with loved ones!
+Remix Slogan: "Life's greatest joy is friendship...in my book, it's all about those special moments shared with loved ones!"
+
+--- Quote 5/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+5. "The most beautiful things we can experience are the mysteries of nature." — Albert Einstein: Finding awe in natural wonders.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "Coca-Cola | brings | refreshing moments | that evoke | pure happiness | in | the awe-inspiring wonders of nature."
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+5. "The most beautiful things we can experience are the mysteries of nature." — Albert Einstein: Finding awe in natural wonders.
+
+Previous breakdown:
+Structure: "Coca-Cola | brings | refreshing moments | that evoke | pure happiness | in | the awe-inspiring wonders of nature."
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+"pure joy"
+"awe-inspiring delights"
+
+Reasons: 
+I've replaced "pure happiness" with "pure joy" to emphasize a more vibrant and enthusiastic emotional response, aligning with the persona's goal of evoking delight or excitement. Additionally, I've changed "the mysteries of nature" to "awe-inspiring delights" to highlight the captivating aspects of nature, which resonates well with the brand keywords for Coca-Cola.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+5. "The most beautiful things we can experience are the mysteries of nature." — Albert Einstein: Finding awe in natural wonders.
+
+Breakdown:
+Structure: "Coca-Cola | brings | refreshing moments | that evoke | pure happiness | in | the awe-inspiring wonders of nature."
+
+Candidate replacements:
+Replacements: 
+"pure joy"
+"awe-inspiring delights"
+
+Reasons: 
+I've replaced "pure happiness" with "pure joy" to emphasize a more vibrant and enthusiastic emotional response, aligning with the persona's goal of evoking delight or excitement. Additionally, I've changed "the mysteries of nature" to "awe-inspiring delights" to highlight the captivating aspects of nature, which resonates well with the brand keywords for Coca-Cola.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The speaker in this slogan aims to express delight or excitement by connecting Coca-Cola's refreshing moments with feelings of happiness. To achieve this, the focus is shifted from happiness to joy, a synonym that evokes a stronger sense of delight. Furthermore, nature is rephrased to emphasize its awe-inspiring qualities rather than being mysterious, which better aligns with the brand keywords and persona goal.
+
+Structure: Coca-Cola brings refreshing moments that evoke pure joy in the awe-inspiring delights of nature.
+
+Replacements: "pure happiness" with "pure joy", "the mysteries of nature" with "the awe-inspiring delights of nature".
+
+Remix Slogan: "Coca-Cola brings refreshing moments that evoke pure joy in the awe-inspiring delights of nature."
+Explanation: The speaker in this slogan aims to express delight or excitement by connecting Coca-Cola's refreshing moments with feelings of happiness. To achieve this, the focus is shifted from happiness to joy, a synonym that evokes a stronger sense of delight. Furthermore, nature is rephrased to emphasize its awe-inspiring qualities rather than being mysterious, which better aligns with the brand keywords and persona goal.
+
+Structure: Coca-Cola brings refreshing moments that evoke pure joy in the awe-inspiring delights of nature.
+
+Replacements: "pure happiness" with "pure joy", "the mysteries of nature" with "the awe-inspiring delights of nature".
+
+Remix Slogan: "Coca-Cola brings refreshing moments that evoke pure joy in the awe-inspiring delights of nature."
+
+--- Quote 6/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+6. "Happiness is like dancing no need to explain the feeling just do it and let people watch if they wish to." — Unknown: Happiness should not be defined by external validation but enjoyed within.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Happiness is like [refreshment] no need to [explain] the feeling just [enjoy] it and let people [observe] if they wish to. — Unknown: [Joy] should not be defined by external validation but enjoyed within.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+6. "Happiness is like dancing no need to explain the feeling just do it and let people watch if they wish to." — Unknown: Happiness should not be defined by external validation but enjoyed within.
+
+Previous breakdown:
+Structure: Happiness is like [refreshment] no need to [explain] the feeling just [enjoy] it and let people [observe] if they wish to. — Unknown: [Joy] should not be defined by external validation but enjoyed within.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "Happiness is akin to sipping a refreshing Coca-Cola, no need to articulate the feeling, just indulge in it and allow others to observe if they choose to." — Unknown: Joy should not be confined by external validation but savored internally.
+2. "Happiness is comparable to quenching your thirst with a cold Coca-Cola, no need to verbalize the sensation, simply relish it and permit others to witness if they desire to." — Unknown: Joy should not be limited by external judgment but experienced internally.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+6. "Happiness is like dancing no need to explain the feeling just do it and let people watch if they wish to." — Unknown: Happiness should not be defined by external validation but enjoyed within.
+
+Breakdown:
+Structure: Happiness is like [refreshment] no need to [explain] the feeling just [enjoy] it and let people [observe] if they wish to. — Unknown: [Joy] should not be defined by external validation but enjoyed within.
+
+Candidate replacements:
+Replacements: 
+1. "Happiness is akin to sipping a refreshing Coca-Cola, no need to articulate the feeling, just indulge in it and allow others to observe if they choose to." — Unknown: Joy should not be confined by external validation but savored internally.
+2. "Happiness is comparable to quenching your thirst with a cold Coca-Cola, no need to verbalize the sensation, simply relish it and permit others to witness if they desire to." — Unknown: Joy should not be limited by external judgment but experienced internally.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: Replaced "like dancing" with "akin to sipping a refreshing Coca-Cola" and "just do it" with "just indulge in it". Changed "let people watch" to "allow people to observe" for clarity. Also used "sip" to make the comparison more tangible and "cold" to emphasize refreshment.
+Structure: Happiness is like [refreshment] no need to [explain] the feeling just [enjoy] it and let people [observe] if they wish to. — Unknown: [Joy] should not be defined by external validation but enjoyed within.
+Replacements: "akin to sipping a refreshing Coca-Cola", "articulate the feeling", "indulge in it", "allow others to observe".
+Remix Slogan: "Happiness is akin to sipping a refreshing Coca-Cola, no need to articulate the feeling, just indulge in it and allow others to observe if they choose to."
+Explanation: Replaced "like dancing" with "akin to sipping a refreshing Coca-Cola" and "just do it" with "just indulge in it". Changed "let people watch" to "allow people to observe" for clarity. Also used "sip" to make the comparison more tangible and "cold" to emphasize refreshment.
+Structure: Happiness is like [refreshment] no need to [explain] the feeling just [enjoy] it and let people [observe] if they wish to. — Unknown: [Joy] should not be defined by external validation but enjoyed within.
+Replacements: "akin to sipping a refreshing Coca-Cola", "articulate the feeling", "indulge in it", "allow others to observe".
+Remix Slogan: "Happiness is akin to sipping a refreshing Coca-Cola, no need to articulate the feeling, just indulge in it and allow others to observe if they choose to."
+
+--- Quote 7/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+7. "A smile goes straight to your heart." — Charles Dickens: Smiling has positive effects on both giver and receiver’s emotions.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "A [refreshment] goes straight to your [happiness]."
+Reason: The words in brackets can be replaced with brand keywords because they fit the context of the original quote and resonate with the persona's tone of joy. "Refreshment" aligns with Coca-Cola as a drink that is often associated with quenching thirst and providing energy, while "happiness" reflects the emotional uplift that comes from sharing a moment with Coca-Cola.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+7. "A smile goes straight to your heart." — Charles Dickens: Smiling has positive effects on both giver and receiver’s emotions.
+
+Previous breakdown:
+Structure: "A [refreshment] goes straight to your [happiness]."
+Reason: The words in brackets can be replaced with brand keywords because they fit the context of the original quote and resonate with the persona's tone of joy. "Refreshment" aligns with Coca-Cola as a drink that is often associated with quenching thirst and providing energy, while "happiness" reflects the emotional uplift that comes from sharing a moment with Coca-Cola.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+"A smile" to "a Coke goes"
+"straight to your" to "brings pure"
+
+Reason: By replacing "A smile" with "a Coke goes" and "straight to your" with "brings pure," the revised quote directly connects Coca-Cola to the feeling of joy and happiness, reinforcing its role as a source of delight and excitement. This alteration aligns well with the brand's keywords (refreshment, happiness, moments) and persona's goal of evoking delight or excitement.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+7. "A smile goes straight to your heart." — Charles Dickens: Smiling has positive effects on both giver and receiver’s emotions.
+
+Breakdown:
+Structure: "A [refreshment] goes straight to your [happiness]."
+Reason: The words in brackets can be replaced with brand keywords because they fit the context of the original quote and resonate with the persona's tone of joy. "Refreshment" aligns with Coca-Cola as a drink that is often associated with quenching thirst and providing energy, while "happiness" reflects the emotional uplift that comes from sharing a moment with Coca-Cola.
+
+Candidate replacements:
+Replacements: 
+"A smile" to "a Coke goes"
+"straight to your" to "brings pure"
+
+Reason: By replacing "A smile" with "a Coke goes" and "straight to your" with "brings pure," the revised quote directly connects Coca-Cola to the feeling of joy and happiness, reinforcing its role as a source of delight and excitement. This alteration aligns well with the brand's keywords (refreshment, happiness, moments) and persona's goal of evoking delight or excitement.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The revised quote now directly connects Coca-Cola to the feeling of joy and happiness, reinforcing its role as a source of delight and excitement.
+Structure: "A [refreshment] goes straight to your [happiness]."
+Replacements: "A smile" to "a Coke goes"; "straight to your" to "brings pure".
+Remix Slogan: "A Coke goes straight to your heart."
+Explanation: The revised quote now directly connects Coca-Cola to the feeling of joy and happiness, reinforcing its role as a source of delight and excitement.
+Structure: "A [refreshment] goes straight to your [happiness]."
+Replacements: "A smile" to "a Coke goes"; "straight to your" to "brings pure".
+Remix Slogan: "A Coke goes straight to your heart."
+
+--- Quote 8/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+8. "Be happy for this very minute holds more possibility than all the past combined." — Brian Tracy: Living fully each day instead of dwelling on regrets about missed opportunities from years ago.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: Be [refreshment] for this [moment] holds more [happiness] than all the past combined. — [Coca-Cola]: Living fully each day instead of dwelling on [memories].
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+8. "Be happy for this very minute holds more possibility than all the past combined." — Brian Tracy: Living fully each day instead of dwelling on regrets about missed opportunities from years ago.
+
+Previous breakdown:
+Structure: Be [refreshment] for this [moment] holds more [happiness] than all the past combined. — [Coca-Cola]: Living fully each day instead of dwelling on [memories].
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: "Sparkle" for "Be", "joyful" for "happy"
+
+Final quote: "Sparkle joyful for this moment holds more possibility than all the past combined." — [Coca-Cola]: Living fully each day instead of dwelling on memories.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+8. "Be happy for this very minute holds more possibility than all the past combined." — Brian Tracy: Living fully each day instead of dwelling on regrets about missed opportunities from years ago.
+
+Breakdown:
+Structure: Be [refreshment] for this [moment] holds more [happiness] than all the past combined. — [Coca-Cola]: Living fully each day instead of dwelling on [memories].
+
+Candidate replacements:
+Replacements: "Sparkle" for "Be", "joyful" for "happy"
+
+Final quote: "Sparkle joyful for this moment holds more possibility than all the past combined." — [Coca-Cola]: Living fully each day instead of dwelling on memories.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: The original structure was changed to focus on 'sparkle' as a metaphor for being lively and refreshing, emphasizing that the current moment is full of potential, while 'joyful' replaced 'happy' to add a more uplifting emotion to the sentence. The goal was to convey that the present moment brings excitement and happiness, surpassing the value of past experiences.
+Structure: Sparkle [refreshment] for this [moment] holds more [joyful] than all the past combined. — [Coca-Cola]: Living fully each day instead of dwelling on [memories].
+Replacements: "Sparkle" for "Be", "joyful" for "happy"
+Remix Slogan: "Sparkle joyful for this moment holds more possibility than all the past combined." — [Coca-Cola]: Living fully each day instead of dwelling on memories.
+Explanation: The original structure was changed to focus on 'sparkle' as a metaphor for being lively and refreshing, emphasizing that the current moment is full of potential, while 'joyful' replaced 'happy' to add a more uplifting emotion to the sentence. The goal was to convey that the present moment brings excitement and happiness, surpassing the value of past experiences.
+Structure: Sparkle [refreshment] for this [moment] holds more [joyful] than all the past combined. — [Coca-Cola]: Living fully each day instead of dwelling on [memories].
+Replacements: "Sparkle" for "Be", "joyful" for "happy"
+Remix Slogan: "Sparkle joyful for this moment holds more possibility than all the past combined." — [Coca-Cola]: Living fully each day instead of dwelling on memories.
+
+--- Quote 9/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+9. "I am always doing that which I cannot do believing that at some future time I shall succeed in doing it." — Michelangelo Buonarroti: Pursuing passions regardless of perceived limitations leads to joyous accomplishments over time.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: "I am always [doing] that which I cannot [do], believing that at some future time I shall succeed in doing it." | [brand keyword: refreshment] | [brand keyword: happiness] | [brand keyword: moments]
+
+Explanation:
+1. "I am always doing" - This phrase can be replaced with a brand keyword related to refreshing experiences or moments, such as "I am always enjoying", because it sets a positive, ongoing action that aligns with Coca-Cola's promise of providing delightful, refreshing moments.
+2. "that which I cannot do" - This part can be rephrased using a brand keyword that conveys overcoming challenges, like "that which I cannot imagine", emphasizing the idea of pushing boundaries, which is a joyful pursuit often associated with Coca-Cola.
+3. "believing that at some future time" - This section can be adapted to include a brand keyword that speaks to the anticipation of happiness, such as "looking forward to the moment when", to highlight the excitement and joy of future moments shared with Coca-Cola.
+4. "I shall succeed in doing it" - This can be changed to something like "I will celebrate with", linking the achievement back to the brand's role in making those moments special and celebratory.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+9. "I am always doing that which I cannot do believing that at some future time I shall succeed in doing it." — Michelangelo Buonarroti: Pursuing passions regardless of perceived limitations leads to joyous accomplishments over time.
+
+Previous breakdown:
+Structure: "I am always [doing] that which I cannot [do], believing that at some future time I shall succeed in doing it." | [brand keyword: refreshment] | [brand keyword: happiness] | [brand keyword: moments]
+
+Explanation:
+1. "I am always doing" - This phrase can be replaced with a brand keyword related to refreshing experiences or moments, such as "I am always enjoying", because it sets a positive, ongoing action that aligns with Coca-Cola's promise of providing delightful, refreshing moments.
+2. "that which I cannot do" - This part can be rephrased using a brand keyword that conveys overcoming challenges, like "that which I cannot imagine", emphasizing the idea of pushing boundaries, which is a joyful pursuit often associated with Coca-Cola.
+3. "believing that at some future time" - This section can be adapted to include a brand keyword that speaks to the anticipation of happiness, such as "looking forward to the moment when", to highlight the excitement and joy of future moments shared with Coca-Cola.
+4. "I shall succeed in doing it" - This can be changed to something like "I will celebrate with", linking the achievement back to the brand's role in making those moments special and celebratory.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "I am always enjoying"
+2. "that which I cannot imagine"
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+9. "I am always doing that which I cannot do believing that at some future time I shall succeed in doing it." — Michelangelo Buonarroti: Pursuing passions regardless of perceived limitations leads to joyous accomplishments over time.
+
+Breakdown:
+Structure: "I am always [doing] that which I cannot [do], believing that at some future time I shall succeed in doing it." | [brand keyword: refreshment] | [brand keyword: happiness] | [brand keyword: moments]
+
+Explanation:
+1. "I am always doing" - This phrase can be replaced with a brand keyword related to refreshing experiences or moments, such as "I am always enjoying", because it sets a positive, ongoing action that aligns with Coca-Cola's promise of providing delightful, refreshing moments.
+2. "that which I cannot do" - This part can be rephrased using a brand keyword that conveys overcoming challenges, like "that which I cannot imagine", emphasizing the idea of pushing boundaries, which is a joyful pursuit often associated with Coca-Cola.
+3. "believing that at some future time" - This section can be adapted to include a brand keyword that speaks to the anticipation of happiness, such as "looking forward to the moment when", to highlight the excitement and joy of future moments shared with Coca-Cola.
+4. "I shall succeed in doing it" - This can be changed to something like "I will celebrate with", linking the achievement back to the brand's role in making those moments special and celebratory.
+
+Candidate replacements:
+Replacements: 
+1. "I am always enjoying"
+2. "that which I cannot imagine"
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Remix Slogan: "I am always enjoying that which I cannot imagine, looking forward to the moment when I will celebrate with."
+Remix Slogan: "I am always enjoying that which I cannot imagine, looking forward to the moment when I will celebrate with."
+
+--- Quote 10/10 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+10. "When the power of love surpasses all reasons men will fly to its light." — Mother Teresa: Love transcends logic bringing immense joy and purpose into our lives.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: When [brand keyword] [verb] [adjective] power, [brand keyword] [verb] [adjective] joy, flying to [brand keyword] light.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+10. "When the power of love surpasses all reasons men will fly to its light." — Mother Teresa: Love transcends logic bringing immense joy and purpose into our lives.
+
+Previous breakdown:
+Structure: When [brand keyword] [verb] [adjective] power, [brand keyword] [verb] [adjective] joy, flying to [brand keyword] light.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+Structure: When [brand keyword] [verb] [adjective] heart, [brand keyword] [verb] [adjective] spirits, soaring to [brand keyword] essence.
+
+Reasons:
+1. Replaced "power" with "heart" to emphasize the emotional connection and personal experience that Coca-Cola evokes.
+2. Changed "joy" to "spirits" to add a sense of uplifting and energizing, reflecting the brand's refreshing qualities.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Joy
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: evoke delight or excitement
+
+Quote:
+10. "When the power of love surpasses all reasons men will fly to its light." — Mother Teresa: Love transcends logic bringing immense joy and purpose into our lives.
+
+Breakdown:
+Structure: When [brand keyword] [verb] [adjective] power, [brand keyword] [verb] [adjective] joy, flying to [brand keyword] light.
+
+Candidate replacements:
+Replacements: 
+Structure: When [brand keyword] [verb] [adjective] heart, [brand keyword] [verb] [adjective] spirits, soaring to [brand keyword] essence.
+
+Reasons:
+1. Replaced "power" with "heart" to emphasize the emotional connection and personal experience that Coca-Cola evokes.
+2. Changed "joy" to "spirits" to add a sense of uplifting and energizing, reflecting the brand's refreshing qualities.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: This slogan remix takes the essence of the original quote, focusing on the power of Coca-Cola to bring delight and happiness into people's lives. It shifts the focus from transcending logic to connecting hearts, making the brand feel more personal and intimate. The addition of "spirits" conveys the uplifting, invigorating nature of Coca-Cola, while "soaring to the essence" suggests that the drink elevates one's spirit and experience to new heights.
+
+Structure: When [brand keyword] [verb] [adjective] heart, [brand keyword] [verb] [adjective] spirits, soaring to [brand keyword] essence.
+
+Replacements: Replaced "power" with "heart", changed "joy" to "spirits", and used "soaring" as the verb for "flying".
+
+Remix Slogan: "When Coca-Cola refreshes heart, happiness soars in spirits, soaring to Coca-Cola essence."
+Explanation: This slogan remix takes the essence of the original quote, focusing on the power of Coca-Cola to bring delight and happiness into people's lives. It shifts the focus from transcending logic to connecting hearts, making the brand feel more personal and intimate. The addition of "spirits" conveys the uplifting, invigorating nature of Coca-Cola, while "soaring to the essence" suggests that the drink elevates one's spirit and experience to new heights.
+
+Structure: When [brand keyword] [verb] [adjective] heart, [brand keyword] [verb] [adjective] spirits, soaring to [brand keyword] essence.
+
+Replacements: Replaced "power" with "heart", changed "joy" to "spirits", and used "soaring" as the verb for "flying".
+
+Remix Slogan: "When Coca-Cola refreshes heart, happiness soars in spirits, soaring to Coca-Cola essence."
+
+=== All Remixes ===
+
+Remix Slogan: "It's a grand moment of refreshing joy to embrace life's delightful moments."
+
+Explanation: I have chosen "Cheerful moments" and "the perfect elixir" to replace "Laughter and joy" and "the two great medicines," respectively. These replacements help emphasize the brand keywords and persona goal while also aligning with the joyful tone.
+Structure: "Coca-Cola's [brand keyword] moments: [replacement phrase], [replacement phrase] for your [persona goal]."
+Replacements: "Laughter and joy" -> "Cheerful moments", "the two great medicines" -> "the perfect elixir".
+Remix Slogan: "Coca-Cola's cheerful moments: Happiness for happiness, the perfect elixir for your delight."
+
+Explanation: The task asks to use the best replacement for the given candidate replacements in the structure of the original quote. The goal is to create a slogan that evokes delight or excitement while maintaining the original syntax and meter, and ends with punctuation. The best replacement will replace the placeholders in the structure with appropriate keywords and maintain the original meaning and tone.
+
+Structure: "If you want [refreshment/happiness] act [kindly/positively] yourself If you want to be [happy/happy/memorable moments]." — Buddha: Encouraging kindness towards oneself.
+
+Replacements: "If you want [joy] act [optimistically] yourself If you want to be [memorable moments]." — Buddha: Encouraging positivity and joyfulness for memorable experiences.
+
+Remix Slogan: "If you want joy act optimistically yourself If you want to be memorable moments."
+
+Explanation: In this step, I replace the given structure with the candidate replacements to create a final slogan. I focus on keeping the original syntax and meter while integrating the brand keywords.
+Structure: Life's [refreshment] gift is [happiness] companionship...in my book, it's the [moments] that matter most!
+Replacements: Life's greatest joy is friendship...in my book, it's all about those special [moments] shared with loved ones!
+Remix Slogan: "Life's greatest joy is friendship...in my book, it's all about those special moments shared with loved ones!"
+
+Explanation: The speaker in this slogan aims to express delight or excitement by connecting Coca-Cola's refreshing moments with feelings of happiness. To achieve this, the focus is shifted from happiness to joy, a synonym that evokes a stronger sense of delight. Furthermore, nature is rephrased to emphasize its awe-inspiring qualities rather than being mysterious, which better aligns with the brand keywords and persona goal.
+
+Structure: Coca-Cola brings refreshing moments that evoke pure joy in the awe-inspiring delights of nature.
+
+Replacements: "pure happiness" with "pure joy", "the mysteries of nature" with "the awe-inspiring delights of nature".
+
+Remix Slogan: "Coca-Cola brings refreshing moments that evoke pure joy in the awe-inspiring delights of nature."
+
+Explanation: Replaced "like dancing" with "akin to sipping a refreshing Coca-Cola" and "just do it" with "just indulge in it". Changed "let people watch" to "allow people to observe" for clarity. Also used "sip" to make the comparison more tangible and "cold" to emphasize refreshment.
+Structure: Happiness is like [refreshment] no need to [explain] the feeling just [enjoy] it and let people [observe] if they wish to. — Unknown: [Joy] should not be defined by external validation but enjoyed within.
+Replacements: "akin to sipping a refreshing Coca-Cola", "articulate the feeling", "indulge in it", "allow others to observe".
+Remix Slogan: "Happiness is akin to sipping a refreshing Coca-Cola, no need to articulate the feeling, just indulge in it and allow others to observe if they choose to."
+
+Explanation: The revised quote now directly connects Coca-Cola to the feeling of joy and happiness, reinforcing its role as a source of delight and excitement.
+Structure: "A [refreshment] goes straight to your [happiness]."
+Replacements: "A smile" to "a Coke goes"; "straight to your" to "brings pure".
+Remix Slogan: "A Coke goes straight to your heart."
+
+Explanation: The original structure was changed to focus on 'sparkle' as a metaphor for being lively and refreshing, emphasizing that the current moment is full of potential, while 'joyful' replaced 'happy' to add a more uplifting emotion to the sentence. The goal was to convey that the present moment brings excitement and happiness, surpassing the value of past experiences.
+Structure: Sparkle [refreshment] for this [moment] holds more [joyful] than all the past combined. — [Coca-Cola]: Living fully each day instead of dwelling on [memories].
+Replacements: "Sparkle" for "Be", "joyful" for "happy"
+Remix Slogan: "Sparkle joyful for this moment holds more possibility than all the past combined." — [Coca-Cola]: Living fully each day instead of dwelling on memories.
+
+Remix Slogan: "I am always enjoying that which I cannot imagine, looking forward to the moment when I will celebrate with."
+
+Explanation: This slogan remix takes the essence of the original quote, focusing on the power of Coca-Cola to bring delight and happiness into people's lives. It shifts the focus from transcending logic to connecting hearts, making the brand feel more personal and intimate. The addition of "spirits" conveys the uplifting, invigorating nature of Coca-Cola, while "soaring to the essence" suggests that the drink elevates one's spirit and experience to new heights.
+
+Structure: When [brand keyword] [verb] [adjective] heart, [brand keyword] [verb] [adjective] spirits, soaring to [brand keyword] essence.
+
+Replacements: Replaced "power" with "heart", changed "joy" to "spirits", and used "soaring" as the verb for "flying".
+
+Remix Slogan: "When Coca-Cola refreshes heart, happiness soars in spirits, soaring to Coca-Cola essence."

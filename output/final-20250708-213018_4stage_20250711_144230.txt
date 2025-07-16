@@ -1,0 +1,136 @@
+=== Stage 1: Getting famous quotes ===
+=== Stage 1 Prompt ===
+ <|im_start|>system
+You are an expert famous-quote curator.
+Rules:
+1. Output exactly 10 lines.
+2. Each line format: n. "Quote" — Author: one-sentence reason reflecting the mood.
+3. Use 10 distinct authors.
+4. Do NOT mention the persona name; convey the mood implicitly.
+5. Do NOT output any other text.<|im_end|>
+<|im_start|>user
+List 10 famous quotes that align with the mood of the “Trust” persona.
+Format: n. "Quote" — Author: one-sentence reason.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 1 Output ===
+ n. "If you trust your heart, it will take care of itself." — Oscar Wilde: Trust in yourself to be able to listen to your own voice and make good decisions for yourself without being swayed by others' opinions or expectations.
+=== Stage 2: 3‑step Remix ===
+
+--- Quote 1/1 ---
+=== Stage 2a Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 2【Structure Breakdown】 for the given quote.
+- Copy the quote and use | to separate editable / fixed parts.
+- Indicate which words can be replaced with brand keywords and why.
+Output format:
+Structure: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "If you trust your heart, it will take care of itself." — Oscar Wilde: Trust in yourself to be able to listen to your own voice and make good decisions for yourself without being swayed by others' opinions or expectations.
+
+Please output Step 2 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2a Output ===
+ Structure: If you [trust] your [heart], it will take care of [yourself]. — Oscar Wilde: Trust in [yourself] to be able to listen to [your own voice] and make [good decisions] for [yourself] without being swayed by [others'] opinions or expectations.
+=== Stage 2b Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 3【Vocabulary Replacement】.
+- Propose 1-2 replacement word/phrase sets with brief reasons.
+- Limit yourself to changing at most two words from the original quote; adding the brand name counts toward the two-word limit.
+Output format:
+Replacements: …
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "If you trust your heart, it will take care of itself." — Oscar Wilde: Trust in yourself to be able to listen to your own voice and make good decisions for yourself without being swayed by others' opinions or expectations.
+
+Previous breakdown:
+Structure: If you [trust] your [heart], it will take care of [yourself]. — Oscar Wilde: Trust in [yourself] to be able to listen to [your own voice] and make [good decisions] for [yourself] without being swayed by [others'] opinions or expectations.
+Please output Step 3 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2b Output ===
+ Replacements: 
+1. "If you trust in Coca-Cola's promise, it will ensure your refreshment and happiness."
+   Reason: This replacement emphasizes Coca-Cola's role in providing a reliable source of refreshment and happiness, aligning with the brand keywords and persona goal of emphasizing safety or reliability.
+
+2. "Trust Coca-Cola to safeguard your moments with its refreshing drinks, ensuring pure happiness."
+   Reason: This phrase highlights Coca-Cola's ability to protect cherished moments through its products, focusing on both safety and happiness, which are key brand attributes.
+=== Stage 2c Prompt ===
+ <|im_start|>system
+You are an award-winning slogan copywriter.
+Task: **ONLY** perform Step 4【Remix Generation】.
+- Using the best replacement, output ONE final slogan:
+  * keep original syntax and meter
+  * include brand name / keyword
+  * end with punctuation
+- NO first‑person words (I, we, our…). Speak neutrally or in 2nd/3rd person.
+Output format:
+Explanation: …
+Structure: …
+Replacements: …
+Remix Slogan: "…"
+<|im_end|>
+<|im_start|>user
+Persona tone: Trust
+Brand: Coca‑Cola
+Brand keywords: refreshment, happiness, moments
+Persona goal: emphasize safety or reliability
+
+Quote:
+n. "If you trust your heart, it will take care of itself." — Oscar Wilde: Trust in yourself to be able to listen to your own voice and make good decisions for yourself without being swayed by others' opinions or expectations.
+
+Breakdown:
+Structure: If you [trust] your [heart], it will take care of [yourself]. — Oscar Wilde: Trust in [yourself] to be able to listen to [your own voice] and make [good decisions] for [yourself] without being swayed by [others'] opinions or expectations.
+
+Candidate replacements:
+Replacements: 
+1. "If you trust in Coca-Cola's promise, it will ensure your refreshment and happiness."
+   Reason: This replacement emphasizes Coca-Cola's role in providing a reliable source of refreshment and happiness, aligning with the brand keywords and persona goal of emphasizing safety or reliability.
+
+2. "Trust Coca-Cola to safeguard your moments with its refreshing drinks, ensuring pure happiness."
+   Reason: This phrase highlights Coca-Cola's ability to protect cherished moments through its products, focusing on both safety and happiness, which are key brand attributes.
+
+Please output Step 4 only.<|im_end|>
+<|im_start|>assistant
+
+=== Stage 2c Output ===
+ Explanation: I kept the structure intact and focused on incorporating the brand name, Coca-Cola, into the sentence. I aimed to highlight how Coca-Cola can provide trust, refreshment, and happiness in one's moments, reinforcing the persona goal of emphasizing safety or reliability.
+Structure: If you [trust] in [Coca-Cola], it will ensure [refreshment] and [happiness].
+Replacements: 
+1. "If you trust in Coca-Cola's promise, it will ensure your refreshment and happiness."
+2. "Trust Coca-Cola to safeguard your moments with its refreshing drinks, ensuring pure happiness."
+
+Remix Slogan: "Trust Coca-Cola to ensure your refreshment and happiness."
+Explanation: I kept the structure intact and focused on incorporating the brand name, Coca-Cola, into the sentence. I aimed to highlight how Coca-Cola can provide trust, refreshment, and happiness in one's moments, reinforcing the persona goal of emphasizing safety or reliability.
+Structure: If you [trust] in [Coca-Cola], it will ensure [refreshment] and [happiness].
+Replacements: 
+1. "If you trust in Coca-Cola's promise, it will ensure your refreshment and happiness."
+2. "Trust Coca-Cola to safeguard your moments with its refreshing drinks, ensuring pure happiness."
+
+Remix Slogan: "Trust Coca-Cola to ensure your refreshment and happiness."
+
+=== All Remixes ===
+
+Explanation: I kept the structure intact and focused on incorporating the brand name, Coca-Cola, into the sentence. I aimed to highlight how Coca-Cola can provide trust, refreshment, and happiness in one's moments, reinforcing the persona goal of emphasizing safety or reliability.
+Structure: If you [trust] in [Coca-Cola], it will ensure [refreshment] and [happiness].
+Replacements: 
+1. "If you trust in Coca-Cola's promise, it will ensure your refreshment and happiness."
+2. "Trust Coca-Cola to safeguard your moments with its refreshing drinks, ensuring pure happiness."
+
+Remix Slogan: "Trust Coca-Cola to ensure your refreshment and happiness."

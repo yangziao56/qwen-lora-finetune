@@ -1,0 +1,338 @@
+Loading model: /sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250708-205411
+Persona: Joy | Passes (k): 1
+Generating…
+
+--- Pass 1 (valid) ---
+Okay, so I need to come up with a slogan for Coca-Cola that evokes joy and excitement. Let's start with Step 1: Quote Matching. I need three classic quotes that fit the vibe.
+
+First thought: "Life is a party" by The Killers. That's upbeat and festive, which matches Coca-Cola's celebratory image. 
+
+Another idea: "Just do it" by Nike, but that's more about action than joy. Maybe not the best fit. Wait, maybe "Happy together" from The Turtles? That's about togetherness and happiness, which Coca-Cola often promotes. 
+
+Hmm, "What's love got to do with it?" by Tina Turner is a classic, but maybe not directly about joy. Alternatively, "Living on a prayer" by Bon Jovi? Not quite. 
+
+Wait, "Make every moment a party" could be a variation. But I need existing quotes. Maybe "The best things in life are free" but that's more about cost. 
+
+Oh, "Live for today" by Avril Lavigne? Not sure. Let me think again. 
+
+Another possibility: "Turn up the volume" but that's more about sound. 
+
+Wait, "Laughter is the best medicine" but that's more about health. 
+
+Wait, maybe "Happiness is the best makeup" by Marilyn Monroe? That's about joy and positivity. 
+
+So compiling the three:
+
+1. "Life is a party" - The Killers. It's all about living joyfully and celebrating, which aligns with Coca-Cola's branding. 
+
+2. "Happy together" - The Turtles. Emphasizes shared joy and harmony, which fits with Coca-Cola's social drinking moments. 
+
+3. "Happiness is the best makeup" - Marilyn Monroe. Focuses on genuine happiness, linking to the brand's uplifting effect. 
+
+Now, which is the best? "Life is a party" is more energetic and matches the excitement aspect. "Happy together" is good but maybe too specific to relationships. "Happiness is the best..." is a bit wordy. So mark the first one with ★.
+
+Step 2: Structure breakdown. The quote is "Life is a party |" with "Life" and "party" as fixed? Wait, need to break into editable parts. Let me think. The original quote is "Life is a party", so structure would be "Life | is a | party." But maybe the "party" is the part that can be replaced. The brand keyword would go into the party part? Like replacing "party" with "Coca-Cola moment" or something. 
+
+Wait, the structure breakdown requires separating the parts. The original is 5 words. Let's split it as "Life is | a | party" where "party" can be replaced. Alternatively, maybe "Life | is a party" with "Life" being fixed and "party" editable. 
+
+Alternatively, "Life is a | [party]" so the replaceable part is "party". The fixed parts are "Life is a" and then the keyword goes where "party" is. 
+
+Step 3: Replacements. Coca-Cola could replace "party" with something like "Coca-Cola moment" but that might be too long. Maybe "Coca-Cola" as the brand name can be inserted. Alternatively, "Coca-Cola is life" but that's changing more words. 
+
+Wait the limit is changing at most two words. The original quote is "Life is a party". Let me see:
+
+Option 1: "Life is a Coca-Cola moment." Here, replacing "party" with "Coca-Cola moment". The reason is to tie the idea of Coca-Cola being part of every joyful moment. 
+
+Option 2: "Coca-Cola is life’s party." Replacing "Life is a" with "Coca-Cola is" and "party" remains, but that changes two words (Life -> Coca-Cola, "a" -> "s life’s"?) Hmm, maybe "Coca-Cola is life's party" changes "Life" to "Coca-Cola" and "a" to "life's". Wait, that's two words changed. 
+
+Alternatively, "Life's a Coca-Cola party!" which replaces "party" with "Coca-Cola party", adding the brand name. That's changing two words: "party" to "Coca-Cola party" (so adding "Coca-Cola"). 
+
+Wait, the instruction says "change at most two words from the original quote to preserve rhythm". Adding the brand name counts towards the limit. So inserting "Coca-Cola" as a replacement might need to swap two words. 
+
+Hmm. Let me think again. The original is "Life is a party" (5 words). To insert "Coca-Cola", maybe:
+
+Option 1: "Life is a Coca-Cola moment." (replace "party" with "Coca-Cola moment") - two words changed ("party" to "Coca-Cola moment", but that's three words added, but the original "party" is one word. So maybe that's replacing one word with three, which might be over. Wait, the instruction says "change at most two words from the original quote". So the original has five words. To replace one word with two, that's an addition of one word. So total changes would be adding one word and replacing another. Hmm, not sure.
+
+Alternatively, "Coca-Cola is life's party." (replacing "Life is a" with "Coca-Cola is", and "party" stays. Wait, that's changing two words: "Life" becomes "Coca-Cola", "a" becomes "life's". So "Life" to "Coca-Cola" (one change), "a" to "life's" (another). That's two changes, keeping the sentence structure similar. The result is "Coca-Cola is life's party." which makes sense.
+
+Or "Life's a Coca-Cola party!" (changing "party" to "Coca-Cola party" which adds two words, but replaces "party" with "Coca-Cola party", so that's two words replacing one. Maybe that's over the limit. Hmm, the instruction says "change at most two words from the original quote". So replacing "party" with "Coca-Cola party" would be adding two words instead of one. So that's adding two words, which counts as two changes. So that's allowed. So the original "party" (one word) becomes "Coca-Cola party" (three words?), but actually "Coca-Cola party" is three words but replacing "party" (one word). So adding two words, so that's two changes beyond the original. Not sure if that's allowed. 
+
+Alternatively, "Coca-Cola: Life's a party!" which uses a colon and keeps "Life's a party" but adds the brand name before. But the structure would be different. 
+
+Hmm. Maybe the best is the first option: "Coca-Cola is life's party." replacing "Life" with "Coca-Cola" and "a" with "life's". 
+
+Alternatively, "Life is a Coca-Cola party." Replacing "party" with "Coca-Cola party", so adding the brand name there. That way, the original "party" becomes "Coca-Cola party", so replacing one word with three? That's adding two words, so two changes. 
+
+Alternatively, maybe "Life is Coca-Cola’s party." replacing "a party" with "Coca-Cola’s party", which changes two words: removing "a" and adding "Coca-Cola’s". That's two changes. 
+
+I think "Life is a Coca-Cola party." is a good option, as it's replacing "party" with "Coca-Cola party", adding the brand name there, which changes two words (since "Coca-Cola" is two words, but replacing one word). Wait, no, "party" becomes "Coca-Cola party" which is two words added. So the original had 5 words: Life is a party → 5 words. The new sentence would be "Life is a Coca-Cola party." → 7 words. That's adding two words (Coca-Cola and party?), no, actually "Coca-Cola party" is three words, but replacing "party" (one word) with "Coca-Cola party" (three words), so that's a net addition of two words. The instruction allows changing at most two words. But maybe the count is about the number of words replaced, not added. Hmm, perhaps it's better to keep the word count similar. 
+
+Alternatively, "Coca-Cola: Life’s a party." which uses the colon and keeps the structure. But that might be better. 
+
+Alternatively, "Life’s a Coca-Cola party." replacing "party" with "Coca-Cola party" → but again, adding two words. 
+
+Alternatively, "Coca-Cola is life’s party." which changes "Life is a" to "Coca-Cola is" → two words changed (Life → Coca-Cola and "a" → "life's"). 
+
+This seems better. Let me go with that. 
+
+So for the replacements: 
+
+Option 1: Replace "party" with "Coca-Cola moment" → "Life is a Coca-Cola moment." 
+
+Option 2: Replace "Life is a" with "Coca-Cola is life's" → "Coca-Cola is life's party." 
+
+The second option might be better because it integrates the brand name more centrally. 
+
+Step 4: Then the final slogan would be "Coca-Cola is life's party!" (with exclamation mark for excitement). 
+
+Wait, but need to end with punctuation. The original quote ends with a period, so maybe a period, but the persona is about excitement, so an exclamation might be better. 
+
+Alternatively, "Coca-Cola: Life’s a party!" which uses the colon and exclamation. 
+
+Hmm. Let me structure all steps properly.
+</think>
+
+Step 1【Quote Matching】  
+1. **Life is a party** (The Killers) ★ — Captures perpetual celebration, aligning with Coca-Cola’s joyful, communal moments.  
+2. **Happy together** (The Turtles) — Evokes shared joy, but less dynamic.  
+3. **Happiness is the best makeup** (Marilyn Monroe) — Focused on individual positivity, less brand-specific.  
+
+Step 2【Structure Breakdown】  
+Structure: *Life is | a | party*  
+Replaceable parts: "Life", "a", or "party". "Party" is best to swap for brand keywords since it’s the focal metaphor for joy.  
+
+Step 3【Vocabulary Replacement】  
+1. **Replace "party" with "Coca-Cola moment"** — "Coca-Cola moment" ties the brand to celebratory experiences (adds two words: "Coca-Cola").  
+2. **Replace "Life is a" with "Coca-Cola is life’s"** — Centers the brand as the catalyst for celebration (changes two words: "Life" → "Coca-Cola", "a" → "life’s").  
+
+Step 4【Remix Generation】  
+Remix Slogan: *"Coca-Cola is life’s party!"*  
+
+Explanation:  
+- Maintains original syntax and cadence ("X is life’s Y").  
+- "Coca-Cola" replaces "Life" (first word), while "party" remains as the metaphor for joy.  
+- The exclamation mark amplifies excitement.
+
+================ BEST CANDIDATE ================
+Decision: highest confidence (voting disabled)
+Slogan  : Okay, so I need to come up with a slogan for Coca-Cola that evokes joy and excitement. Let's start with Step 1: Quote Matching. I need three classic quotes that fit the vibe.
+
+First thought: "Life is a party" by The Killers. That's upbeat and festive, which matches Coca-Cola's celebratory image. 
+
+Another idea: "Just do it" by Nike, but that's more about action than joy. Maybe not the best fit. Wait, maybe "Happy together" from The Turtles? That's about togetherness and happiness, which Coca-Cola often promotes. 
+
+Hmm, "What's love got to do with it?" by Tina Turner is a classic, but maybe not directly about joy. Alternatively, "Living on a prayer" by Bon Jovi? Not quite. 
+
+Wait, "Make every moment a party" could be a variation. But I need existing quotes. Maybe "The best things in life are free" but that's more about cost. 
+
+Oh, "Live for today" by Avril Lavigne? Not sure. Let me think again. 
+
+Another possibility: "Turn up the volume" but that's more about sound. 
+
+Wait, "Laughter is the best medicine" but that's more about health. 
+
+Wait, maybe "Happiness is the best makeup" by Marilyn Monroe? That's about joy and positivity. 
+
+So compiling the three:
+
+1. "Life is a party" - The Killers. It's all about living joyfully and celebrating, which aligns with Coca-Cola's branding. 
+
+2. "Happy together" - The Turtles. Emphasizes shared joy and harmony, which fits with Coca-Cola's social drinking moments. 
+
+3. "Happiness is the best makeup" - Marilyn Monroe. Focuses on genuine happiness, linking to the brand's uplifting effect. 
+
+Now, which is the best? "Life is a party" is more energetic and matches the excitement aspect. "Happy together" is good but maybe too specific to relationships. "Happiness is the best..." is a bit wordy. So mark the first one with ★.
+
+Step 2: Structure breakdown. The quote is "Life is a party |" with "Life" and "party" as fixed? Wait, need to break into editable parts. Let me think. The original quote is "Life is a party", so structure would be "Life | is a | party." But maybe the "party" is the part that can be replaced. The brand keyword would go into the party part? Like replacing "party" with "Coca-Cola moment" or something. 
+
+Wait, the structure breakdown requires separating the parts. The original is 5 words. Let's split it as "Life is | a | party" where "party" can be replaced. Alternatively, maybe "Life | is a party" with "Life" being fixed and "party" editable. 
+
+Alternatively, "Life is a | [party]" so the replaceable part is "party". The fixed parts are "Life is a" and then the keyword goes where "party" is. 
+
+Step 3: Replacements. Coca-Cola could replace "party" with something like "Coca-Cola moment" but that might be too long. Maybe "Coca-Cola" as the brand name can be inserted. Alternatively, "Coca-Cola is life" but that's changing more words. 
+
+Wait the limit is changing at most two words. The original quote is "Life is a party". Let me see:
+
+Option 1: "Life is a Coca-Cola moment." Here, replacing "party" with "Coca-Cola moment". The reason is to tie the idea of Coca-Cola being part of every joyful moment. 
+
+Option 2: "Coca-Cola is life’s party." Replacing "Life is a" with "Coca-Cola is" and "party" remains, but that changes two words (Life -> Coca-Cola, "a" -> "s life’s"?) Hmm, maybe "Coca-Cola is life's party" changes "Life" to "Coca-Cola" and "a" to "life's". Wait, that's two words changed. 
+
+Alternatively, "Life's a Coca-Cola party!" which replaces "party" with "Coca-Cola party", adding the brand name. That's changing two words: "party" to "Coca-Cola party" (so adding "Coca-Cola"). 
+
+Wait, the instruction says "change at most two words from the original quote to preserve rhythm". Adding the brand name counts towards the limit. So inserting "Coca-Cola" as a replacement might need to swap two words. 
+
+Hmm. Let me think again. The original is "Life is a party" (5 words). To insert "Coca-Cola", maybe:
+
+Option 1: "Life is a Coca-Cola moment." (replace "party" with "Coca-Cola moment") - two words changed ("party" to "Coca-Cola moment", but that's three words added, but the original "party" is one word. So maybe that's replacing one word with three, which might be over. Wait, the instruction says "change at most two words from the original quote". So the original has five words. To replace one word with two, that's an addition of one word. So total changes would be adding one word and replacing another. Hmm, not sure.
+
+Alternatively, "Coca-Cola is life's party." (replacing "Life is a" with "Coca-Cola is", and "party" stays. Wait, that's changing two words: "Life" becomes "Coca-Cola", "a" becomes "life's". So "Life" to "Coca-Cola" (one change), "a" to "life's" (another). That's two changes, keeping the sentence structure similar. The result is "Coca-Cola is life's party." which makes sense.
+
+Or "Life's a Coca-Cola party!" (changing "party" to "Coca-Cola party" which adds two words, but replaces "party" with "Coca-Cola party", so that's two words replacing one. Maybe that's over the limit. Hmm, the instruction says "change at most two words from the original quote". So replacing "party" with "Coca-Cola party" would be adding two words instead of one. So that's adding two words, which counts as two changes. So that's allowed. So the original "party" (one word) becomes "Coca-Cola party" (three words?), but actually "Coca-Cola party" is three words but replacing "party" (one word). So adding two words, so that's two changes beyond the original. Not sure if that's allowed. 
+
+Alternatively, "Coca-Cola: Life's a party!" which uses a colon and keeps "Life's a party" but adds the brand name before. But the structure would be different. 
+
+Hmm. Maybe the best is the first option: "Coca-Cola is life's party." replacing "Life" with "Coca-Cola" and "a" with "life's". 
+
+Alternatively, "Life is a Coca-Cola party." Replacing "party" with "Coca-Cola party", so adding the brand name there. That way, the original "party" becomes "Coca-Cola party", so replacing one word with three? That's adding two words, so two changes. 
+
+Alternatively, maybe "Life is Coca-Cola’s party." replacing "a party" with "Coca-Cola’s party", which changes two words: removing "a" and adding "Coca-Cola’s". That's two changes. 
+
+I think "Life is a Coca-Cola party." is a good option, as it's replacing "party" with "Coca-Cola party", adding the brand name there, which changes two words (since "Coca-Cola" is two words, but replacing one word). Wait, no, "party" becomes "Coca-Cola party" which is two words added. So the original had 5 words: Life is a party → 5 words. The new sentence would be "Life is a Coca-Cola party." → 7 words. That's adding two words (Coca-Cola and party?), no, actually "Coca-Cola party" is three words, but replacing "party" (one word) with "Coca-Cola party" (three words), so that's a net addition of two words. The instruction allows changing at most two words. But maybe the count is about the number of words replaced, not added. Hmm, perhaps it's better to keep the word count similar. 
+
+Alternatively, "Coca-Cola: Life’s a party." which uses the colon and keeps the structure. But that might be better. 
+
+Alternatively, "Life’s a Coca-Cola party." replacing "party" with "Coca-Cola party" → but again, adding two words. 
+
+Alternatively, "Coca-Cola is life’s party." which changes "Life is a" to "Coca-Cola is" → two words changed (Life → Coca-Cola and "a" → "life's"). 
+
+This seems better. Let me go with that. 
+
+So for the replacements: 
+
+Option 1: Replace "party" with "Coca-Cola moment" → "Life is a Coca-Cola moment." 
+
+Option 2: Replace "Life is a" with "Coca-Cola is life's" → "Coca-Cola is life's party." 
+
+The second option might be better because it integrates the brand name more centrally. 
+
+Step 4: Then the final slogan would be "Coca-Cola is life's party!" (with exclamation mark for excitement). 
+
+Wait, but need to end with punctuation. The original quote ends with a period, so maybe a period, but the persona is about excitement, so an exclamation might be better. 
+
+Alternatively, "Coca-Cola: Life’s a party!" which uses the colon and exclamation. 
+
+Hmm. Let me structure all steps properly.
+</think>
+
+Step 1【Quote Matching】  
+1. **Life is a party** (The Killers) ★ — Captures perpetual celebration, aligning with Coca-Cola’s joyful, communal moments.  
+2. **Happy together** (The Turtles) — Evokes shared joy, but less dynamic.  
+3. **Happiness is the best makeup** (Marilyn Monroe) — Focused on individual positivity, less brand-specific.  
+
+Step 2【Structure Breakdown】  
+Structure: *Life is | a | party*  
+Replaceable parts: "Life", "a", or "party". "Party" is best to swap for brand keywords since it’s the focal metaphor for joy.  
+
+Step 3【Vocabulary Replacement】  
+1. **Replace "party" with "Coca-Cola moment"** — "Coca-Cola moment" ties the brand to celebratory experiences (adds two words: "Coca-Cola").  
+2. **Replace "Life is a" with "Coca-Cola is life’s"** — Centers the brand as the catalyst for celebration (changes two words: "Life" → "Coca-Cola", "a" → "life’s").  
+
+Step 4【Remix Generation】  
+Remix Slogan: *"Coca-Cola is life’s party!"*  
+
+Explanation:  
+- Maintains original syntax and cadence ("X is life’s Y").  
+- "Coca-Cola" replaces "Life" (first word), while "party" remains as the metaphor for joy.  
+- The exclamation mark amplifies excitement.
+-----------------------------------------------
+Okay, so I need to come up with a slogan for Coca-Cola that evokes joy and excitement. Let's start with Step 1: Quote Matching. I need three classic quotes that fit the vibe.
+
+First thought: "Life is a party" by The Killers. That's upbeat and festive, which matches Coca-Cola's celebratory image. 
+
+Another idea: "Just do it" by Nike, but that's more about action than joy. Maybe not the best fit. Wait, maybe "Happy together" from The Turtles? That's about togetherness and happiness, which Coca-Cola often promotes. 
+
+Hmm, "What's love got to do with it?" by Tina Turner is a classic, but maybe not directly about joy. Alternatively, "Living on a prayer" by Bon Jovi? Not quite. 
+
+Wait, "Make every moment a party" could be a variation. But I need existing quotes. Maybe "The best things in life are free" but that's more about cost. 
+
+Oh, "Live for today" by Avril Lavigne? Not sure. Let me think again. 
+
+Another possibility: "Turn up the volume" but that's more about sound. 
+
+Wait, "Laughter is the best medicine" but that's more about health. 
+
+Wait, maybe "Happiness is the best makeup" by Marilyn Monroe? That's about joy and positivity. 
+
+So compiling the three:
+
+1. "Life is a party" - The Killers. It's all about living joyfully and celebrating, which aligns with Coca-Cola's branding. 
+
+2. "Happy together" - The Turtles. Emphasizes shared joy and harmony, which fits with Coca-Cola's social drinking moments. 
+
+3. "Happiness is the best makeup" - Marilyn Monroe. Focuses on genuine happiness, linking to the brand's uplifting effect. 
+
+Now, which is the best? "Life is a party" is more energetic and matches the excitement aspect. "Happy together" is good but maybe too specific to relationships. "Happiness is the best..." is a bit wordy. So mark the first one with ★.
+
+Step 2: Structure breakdown. The quote is "Life is a party |" with "Life" and "party" as fixed? Wait, need to break into editable parts. Let me think. The original quote is "Life is a party", so structure would be "Life | is a | party." But maybe the "party" is the part that can be replaced. The brand keyword would go into the party part? Like replacing "party" with "Coca-Cola moment" or something. 
+
+Wait, the structure breakdown requires separating the parts. The original is 5 words. Let's split it as "Life is | a | party" where "party" can be replaced. Alternatively, maybe "Life | is a party" with "Life" being fixed and "party" editable. 
+
+Alternatively, "Life is a | [party]" so the replaceable part is "party". The fixed parts are "Life is a" and then the keyword goes where "party" is. 
+
+Step 3: Replacements. Coca-Cola could replace "party" with something like "Coca-Cola moment" but that might be too long. Maybe "Coca-Cola" as the brand name can be inserted. Alternatively, "Coca-Cola is life" but that's changing more words. 
+
+Wait the limit is changing at most two words. The original quote is "Life is a party". Let me see:
+
+Option 1: "Life is a Coca-Cola moment." Here, replacing "party" with "Coca-Cola moment". The reason is to tie the idea of Coca-Cola being part of every joyful moment. 
+
+Option 2: "Coca-Cola is life’s party." Replacing "Life is a" with "Coca-Cola is" and "party" remains, but that changes two words (Life -> Coca-Cola, "a" -> "s life’s"?) Hmm, maybe "Coca-Cola is life's party" changes "Life" to "Coca-Cola" and "a" to "life's". Wait, that's two words changed. 
+
+Alternatively, "Life's a Coca-Cola party!" which replaces "party" with "Coca-Cola party", adding the brand name. That's changing two words: "party" to "Coca-Cola party" (so adding "Coca-Cola"). 
+
+Wait, the instruction says "change at most two words from the original quote to preserve rhythm". Adding the brand name counts towards the limit. So inserting "Coca-Cola" as a replacement might need to swap two words. 
+
+Hmm. Let me think again. The original is "Life is a party" (5 words). To insert "Coca-Cola", maybe:
+
+Option 1: "Life is a Coca-Cola moment." (replace "party" with "Coca-Cola moment") - two words changed ("party" to "Coca-Cola moment", but that's three words added, but the original "party" is one word. So maybe that's replacing one word with three, which might be over. Wait, the instruction says "change at most two words from the original quote". So the original has five words. To replace one word with two, that's an addition of one word. So total changes would be adding one word and replacing another. Hmm, not sure.
+
+Alternatively, "Coca-Cola is life's party." (replacing "Life is a" with "Coca-Cola is", and "party" stays. Wait, that's changing two words: "Life" becomes "Coca-Cola", "a" becomes "life's". So "Life" to "Coca-Cola" (one change), "a" to "life's" (another). That's two changes, keeping the sentence structure similar. The result is "Coca-Cola is life's party." which makes sense.
+
+Or "Life's a Coca-Cola party!" (changing "party" to "Coca-Cola party" which adds two words, but replaces "party" with "Coca-Cola party", so that's two words replacing one. Maybe that's over the limit. Hmm, the instruction says "change at most two words from the original quote". So replacing "party" with "Coca-Cola party" would be adding two words instead of one. So that's adding two words, which counts as two changes. So that's allowed. So the original "party" (one word) becomes "Coca-Cola party" (three words?), but actually "Coca-Cola party" is three words but replacing "party" (one word). So adding two words, so that's two changes beyond the original. Not sure if that's allowed. 
+
+Alternatively, "Coca-Cola: Life's a party!" which uses a colon and keeps "Life's a party" but adds the brand name before. But the structure would be different. 
+
+Hmm. Maybe the best is the first option: "Coca-Cola is life's party." replacing "Life" with "Coca-Cola" and "a" with "life's". 
+
+Alternatively, "Life is a Coca-Cola party." Replacing "party" with "Coca-Cola party", so adding the brand name there. That way, the original "party" becomes "Coca-Cola party", so replacing one word with three? That's adding two words, so two changes. 
+
+Alternatively, maybe "Life is Coca-Cola’s party." replacing "a party" with "Coca-Cola’s party", which changes two words: removing "a" and adding "Coca-Cola’s". That's two changes. 
+
+I think "Life is a Coca-Cola party." is a good option, as it's replacing "party" with "Coca-Cola party", adding the brand name there, which changes two words (since "Coca-Cola" is two words, but replacing one word). Wait, no, "party" becomes "Coca-Cola party" which is two words added. So the original had 5 words: Life is a party → 5 words. The new sentence would be "Life is a Coca-Cola party." → 7 words. That's adding two words (Coca-Cola and party?), no, actually "Coca-Cola party" is three words, but replacing "party" (one word) with "Coca-Cola party" (three words), so that's a net addition of two words. The instruction allows changing at most two words. But maybe the count is about the number of words replaced, not added. Hmm, perhaps it's better to keep the word count similar. 
+
+Alternatively, "Coca-Cola: Life’s a party." which uses the colon and keeps the structure. But that might be better. 
+
+Alternatively, "Life’s a Coca-Cola party." replacing "party" with "Coca-Cola party" → but again, adding two words. 
+
+Alternatively, "Coca-Cola is life’s party." which changes "Life is a" to "Coca-Cola is" → two words changed (Life → Coca-Cola and "a" → "life's"). 
+
+This seems better. Let me go with that. 
+
+So for the replacements: 
+
+Option 1: Replace "party" with "Coca-Cola moment" → "Life is a Coca-Cola moment." 
+
+Option 2: Replace "Life is a" with "Coca-Cola is life's" → "Coca-Cola is life's party." 
+
+The second option might be better because it integrates the brand name more centrally. 
+
+Step 4: Then the final slogan would be "Coca-Cola is life's party!" (with exclamation mark for excitement). 
+
+Wait, but need to end with punctuation. The original quote ends with a period, so maybe a period, but the persona is about excitement, so an exclamation might be better. 
+
+Alternatively, "Coca-Cola: Life’s a party!" which uses the colon and exclamation. 
+
+Hmm. Let me structure all steps properly.
+</think>
+
+Step 1【Quote Matching】  
+1. **Life is a party** (The Killers) ★ — Captures perpetual celebration, aligning with Coca-Cola’s joyful, communal moments.  
+2. **Happy together** (The Turtles) — Evokes shared joy, but less dynamic.  
+3. **Happiness is the best makeup** (Marilyn Monroe) — Focused on individual positivity, less brand-specific.  
+
+Step 2【Structure Breakdown】  
+Structure: *Life is | a | party*  
+Replaceable parts: "Life", "a", or "party". "Party" is best to swap for brand keywords since it’s the focal metaphor for joy.  
+
+Step 3【Vocabulary Replacement】  
+1. **Replace "party" with "Coca-Cola moment"** — "Coca-Cola moment" ties the brand to celebratory experiences (adds two words: "Coca-Cola").  
+2. **Replace "Life is a" with "Coca-Cola is life’s"** — Centers the brand as the catalyst for celebration (changes two words: "Life" → "Coca-Cola", "a" → "life’s").  
+
+Step 4【Remix Generation】  
+Remix Slogan: *"Coca-Cola is life’s party!"*  
+
+Explanation:  
+- Maintains original syntax and cadence ("X is life’s Y").  
+- "Coca-Cola" replaces "Life" (first word), while "party" remains as the metaphor for joy.  
+- The exclamation mark amplifies excitement.
+===============================================
+

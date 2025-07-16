@@ -1,0 +1,2844 @@
+Loading model: /sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250708-205411
+Persona: Pride | Passes (k): 5
+Generating…
+
+--- Pass 1 ---
+Okay, I need to come up with a slogan for Coca-Cola using the Pride persona. The goal is to celebrate achievement or exclusivity, and the keywords are refreshment, happiness, moments. Let me start with Step 1: Quote Matching.
+
+First, I should think of classic quotes or slang that fit the theme of pride, achievement, or exclusivity. Let me brainstorm some possibilities.
+
+1. "The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela. Hmm, this is about resilience, which relates to pride in overcoming challenges, but maybe not directly about celebration or exclusivity. Not sure yet.
+
+2. "I am because we are." - African proverb. This is about community, which ties into shared moments, but the brand keywords include happiness and moments. Maybe, but not sure if it's the best fit for exclusivity.
+
+3. "Success is not final, failure is not fatal: it is the courage to continue that counts." - Winston Churchill. This is about perseverance, but again, maybe not the best for celebrating achievements.
+
+Wait, maybe I need quotes more aligned with celebration. Let me think again.
+
+4. "I think, therefore I am." - Descartes. Not really fitting here.
+
+5. "Winning isn't everything, but wanting to win is." - Vince Lombardi. This is about the desire to achieve, which could tie into pride and celebrating achievements. Maybe this is better. Let me see.
+
+Alternatively, maybe "You can't win unless you learn how to lose." - Yogi Berra. Hmm, not sure.
+
+Wait, another one: "Victory is sweetest when you've known defeat." - Anonymous. That's about overcoming challenges, which is good, but again, maybe not the main focus on celebration.
+
+Wait, maybe a more positive quote. "The only way to do great work is to love what you do." - Steve Jobs. Not sure.
+
+Alternatively, "Success is a journey not a destination." - Ben Sweetland. Hmm.
+
+Wait, perhaps a better quote related to pride and celebration: "The greatest happiness is to see our opinion acclaimed by the masses." - Michel de Montaigne. That's about validation, which ties into pride, but maybe not the best.
+
+Alternatively, "Happiness is the best makeup." - Audrey Hepburn. This is about happiness, which is a keyword. Maybe this is better. Let me consider.
+
+Wait, let's think of the slang or quotes that are more about celebrating achievements. Like "You're the best!" or "You rock!" But those are slangs, not classic quotes.
+
+Wait, maybe the quote "We rise by lifting others." - Robert Ingersoll. But that's more about community.
+
+Alternatively, "Pride comes before the fall." - Proverb. But that's a negative connotation, so not good.
+
+Hmm. Let me think again. Maybe "I am proud to be me." - Unknown. But that's more of a slogan itself.
+
+Wait, the user wants a classic quote. Maybe the best fit would be "Success is the best revenge." - Franklin P. Jones. That's about triumph, which could tie into pride and celebrating achievements.
+
+Alternatively, "The only thing necessary for people to succeed is that they don't wish to fail." - French proverb. Not sure.
+
+Alternatively, "Be yourself; everyone else is already taken." - Oscar Wilde. This is about individuality, which can tie into pride, but not sure.
+
+Wait, another angle: "Happiness is the meaning and the purpose of life, the whole aim and end of human existence." - Aristotle. But that's a long quote, and maybe too philosophical.
+
+Wait, maybe "Be happy, it's the best revenge." - Unknown. Similar to the previous one, but again, not classic enough.
+
+Hmm. Let me go back to the first few options. The Vince Lombardi quote about winning is a classic and is about striving for achievement, which aligns with celebrating success. So perhaps:
+
+1. "Winning isn't everything, but wanting to win is." - Vince Lombardi. Why: Emphasizes the drive behind achievement, which aligns with pride in striving. 
+
+2. "I am because we are." - African proverb. Why: Celebrates shared moments and community, which ties into Coca-Cola's moments keyword. 
+
+3. "The greatest glory in living is not in never falling, but in rising every time you fall." - Nelson Mandela. Why: Pride in perseverance and overcoming challenges. 
+
+Now, which is the best? The persona is about pride in achievement or exclusivity. The Vince Lombardi quote directly relates to winning and the desire to achieve, which is a strong fit for pride. The Mandela quote is about resilience, which is good but not directly about celebrating the achievement. The African proverb is about community, which is good but maybe less about exclusivity.
+
+So, I'll mark the Vince Lombardi quote as the best (★). 
+
+Wait, but the user's persona goal is to celebrate achievement or exclusivity. The Mandela quote is about overcoming, which is part of achieving, so maybe it's also good. Alternatively, maybe "I think, therefore I am" is not. Hmm. Alternatively, maybe another quote. Let me think again.
+
+Wait, perhaps "The only way to keep your health is to eat what you don't want, drink what you don't like, and do what you'd rather not." - Mark Twain. No, that's not.
+
+Alternatively, "Success consists of going from failure to failure without loss of enthusiasm." - Churchill. But that's similar to his earlier quote.
+
+Wait, perhaps "You miss 100% of the shots you don't take." - Wayne Gretzky. That's about taking action, which relates to achievement but not directly to pride in success.
+
+Alternatively, "If you want to be happy, set a goal that commands your thoughts, liberates your energy, and inspires your hopes." - Andrew Carnegie. That's about happiness, which is a keyword. Maybe this is better.
+
+Hmm, I'm getting stuck. Let me re-express the persona goal: to celebrate achievement or exclusivity. So the quote should resonate with that. 
+
+The Vince Lombardi quote is about wanting to win, which is about the desire to achieve, which can tie into pride. The Mandela quote is about overcoming adversity to achieve, which is also good. The African proverb is about community, which might tie into shared moments. 
+
+Between them, the Lombardi quote is more about the drive to achieve, which is directly about achievement, so that's better. Hence, I'll go with that as the best.
+
+So Step 1:
+
+3 quotes:
+
+1. "Winning isn't everything, but wanting to win is." - Vince Lombardi. Why: Emphasizes the drive behind achievement, aligning with pride in striving. ★
+
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela. Why: Pride in overcoming challenges as part of achievement.
+
+3. "I am because we are." - African proverb. Why: Celebrates shared moments and community, tying into Coca-Cola's 'moments' keyword.
+
+Now Step 2: Structure Breakdown.
+
+Copy the ★ quote: "Winning isn't everything, but wanting to win is."
+
+We need to separate fixed and editable parts with |. The original quote is structured as:
+
+"Winning isn't everything, but wanting to win is."
+
+We can break it down as:
+
+"Winning | isn't everything, | but wanting to | win | is."
+
+The editable parts are "Winning", "everything", "wanting to", "win". But since we can only change up to two words, need to identify which parts can be replaced with the brand keywords: refreshment, happiness, moments.
+
+The brand wants to tie into celebrating achievements, so maybe replacing "Winning" with "Celebrating" (achievement) and "win" with "Coca-Cola" or another keyword. Let me think.
+
+Alternatively, replacing "Winning" with "Moments" (since moments are a keyword), and "everything" with "happiness"? Let's see:
+
+Original structure: "Winning isn't everything, but wanting to win is."
+
+Possible replacements:
+
+- "Moments aren't everything, but wanting to share is." But that might not fit. 
+
+Alternatively, "Happiness isn't everything, but wanting to share is." Hmm, but not sure.
+
+Alternatively, replace "Winning" with "Achieving" and "win" with "savor" (to tie in refreshment). But need to keep the structure.
+
+Wait, the brand keywords are refreshment, happiness, moments. So maybe "Moments" is a key word here. Let's see:
+
+Structure breakdown: "Winning | isn't everything, | but wanting to | win | is."
+
+We can replace "Winning" with "Moments", "win" with "Coca-Cola". But need to check syntax.
+
+Alternatively, "Moments aren't everything, but wanting to share is." Hmm, but not sure. Alternatively, "Moments aren't everything, but sharing is what makes them happy."
+
+Wait, maybe changing two words: "Winning" to "Celebrating" and "win" to "Coca-Cola".
+
+So "Celebrating isn't everything, but wanting to Coca-Cola is." No, that's awkward.
+
+Alternatively, "Moments aren't everything, but wanting to cherish is." Not sure.
+
+Alternatively, perhaps "Happiness isn't everything, but wanting to share is." Then brand name at the end.
+
+Hmm, maybe better to replace "Winning" with "Moments" and "win" with "share".
+
+So the structure would be:
+
+"MOMENTS | isn't everything, | but wanting to | share | is."
+
+Then adding the brand name at the end: "MOMENTS isn't everything, but wanting to share is Coca-Cola."
+
+Wait, but need to end with punctuation. Alternatively, "MOMENTS aren't everything, but wanting to share is what makes them happy."
+
+Hmm, maybe it's getting too convoluted. Let me think again.
+
+Alternatively, the original quote's structure is: [Achievement] isn't everything, but wanting to [Achieve] is.
+
+We can replace "Winning" with "Happiness" (brand keyword) and "win" with "share moments" (combining two keywords). But that might be more than two words. Since the limit is changing at most two words, perhaps:
+
+Original: "Winning isn't everything, but wanting to win is."
+
+Replace "Winning" with "Moments" and "win" with "share" → "Moments aren't everything, but wanting to share is." Then add the brand name at the end.
+
+So the slogan would be: "Moments aren't everything, but wanting to share is Coca-Cola." Hmm, that might work. 
+
+Alternatively, replace "Winning" with "Achieving" and "win" with "Coca-Cola's refreshment" but that's two words. Wait, "win" is a single word. So changing "win" to "refreshment" would be one word. Let me see:
+
+"Achieving isn't everything, but wanting to refreshment is." No, that doesn't make sense.
+
+Hmm, perhaps "Happiness isn't everything, but wanting to share is Coca-Cola." 
+
+Wait, maybe "Happiness isn't everything, but wanting to share is what Coca-Cola is." 
+
+Alternatively, "Moments aren't everything, but sharing is Coca-Cola's happiness." 
+
+Alternatively, replacing "Winning" with "Sharing" (since moments are shared) and "win" with "Coca-Cola":
+
+"Sharing isn't everything, but wanting to Coca-Cola is." No, that's awkward.
+
+Hmm, this is tricky. Let's go back. The original structure has two key verbs: "Winning" and "win". The brand keywords are refreshment, happiness, moments. 
+
+Perhaps "Happiness" can replace "Winning", and "share moments" replace "win", but that's two words. So:
+
+"Happiness isn't everything, but wanting to share moments is." Then add the brand name at the end: "Happiness isn't everything, but wanting to share moments is Coca-Cola."
+
+Alternatively, "Moments aren't everything, but wanting to refresh is." Not sure.
+
+Alternatively, replace "everything" with "refreshment" but that might not fit. 
+
+Alternatively, the main brand word to include is "Coca-Cola" itself. Maybe the structure can be:
+
+Original: "Winning isn't everything, but wanting to win is."
+
+Replace "Winning" with "Sharing Moments" (combining two keywords), but that's two words. Not allowed. 
+
+Alternatively, replace "Winning" with "Coca-Cola" and "win" with "refreshment":
+
+"Coca-Cola isn't everything, but wanting to refreshment is." Doesn't make sense.
+
+Hmm. Maybe the best approach is to replace "Winning" with "Celebrating" (since the goal is to celebrate achievement) and "win" with "Coca-Cola":
+
+"Celebrating isn't everything, but wanting to Coca-Cola is." Still awkward. 
+
+Alternatively, "Coca-Cola isn't everything, but wanting to celebrate is." That's better. But "Coca-Cola isn't everything" might not be the best message. 
+
+Wait, perhaps the structure can be altered to include the brand name at the end. Like:
+
+"Winning isn't everything, but wanting to win is Coca-Cola." No, that doesn't fit. 
+
+Alternatively, "Winning isn't everything, but wanting to win is what Coca-Cola is about." That's longer but might work. But need to keep the original meter. 
+
+Original quote has 12 syllables approximately. Let's count:
+
+Winning (2) isn't (2) everything (3), but (1) wanting (2) to (1) win (1) is (1). Total: 12.
+
+The replacement needs to keep that. 
+
+If I use "Moments aren't everything, but wanting to share is." That's 10 syllables. Maybe acceptable. 
+
+Then adding "Coca-Cola" at the end: "Moments aren't everything, but wanting to share is Coca-Cola." That's 12 syllables? Let's see:
+
+Mo-ments (2) aren't (2) every-thing (3), but (1) wan-ting (2) to (1) share (1) is (1) Co-ca-Cola (3). Total: 2+2+3+1+2+1+1+3 = 15? Hmm, not matching exactly. But maybe it's okay. 
+
+Alternatively, "Sharing isn't everything, but wanting to share is Coca-Cola." That's 11 syllables. 
+
+Hmm. Maybe another angle. Let me try the replacements again.
+
+Replacements: 
+
+Option 1:
+
+Replace "Winning" with "Moments" and "win" with "Coca-Cola":
+
+"Moments aren't everything, but wanting to Coca-Cola is." Not good. 
+
+Option 2:
+
+Replace "Winning" with "Celebrating" and "everything" with "refreshment" (but "everything" is fixed part? Wait, in the structure breakdown, the fixed parts are separated by |. Let me look again.
+
+Original structure breakdown was: "Winning | isn't everything, | but wanting to | win | is."
+
+So the editable parts are "Winning", "everything", "wanting to", "win". The "everything" is part of a fixed phrase "isn't everything". So maybe "everything" is fixed? Or can we change "everything"?
+
+Wait, the structure breakdown is to separate the fixed and editable parts. The user says to use | to separate editable and fixed parts. So perhaps the user expects to break the quote into parts where certain words can be swapped.
+
+Looking back at the user's example in their problem statement, maybe the structure is broken into fixed and editable sections, so the editable parts are the key words. 
+
+For instance, in the example:
+
+Original quote: "You can't have everything. Where would you put it?" by Oscar Wilde.
+
+Structure breakdown: "You can’t have | everything |. Where would you put | it |?"
+
+So in my case, the quote is: "Winning isn't everything, but wanting to win is."
+
+Breaking it into:
+
+"Winning | isn't everything, | but wanting to | win | is."
+
+So the editable parts are "Winning", "everything", "win". 
+
+We can change two of those. Since the brand keywords are refreshment, happiness, moments, perhaps:
+
+Replace "Winning" with "Moments" and "win" with "happiness".
+
+Resulting in: "Moments isn't everything, but wanting to happiness is." Hmm, that's not right. "Wanting to happiness" is incorrect grammar.
+
+Alternatively, "Moments aren't everything, but wanting to cherish is." (Cherish as a verb, but not a keyword). 
+
+Alternatively, replace "Winning" with "Sharing moments" but that's two words. 
+
+Alternatively, "Happiness isn't everything, but wanting to win is." No, that keeps "win".
+
+Hmm, maybe replacing "everything" with "refreshment", but "Winning isn't refreshment..." Not sure.
+
+Alternatively, replace "Winning" with "Coca-Cola" and "win" with "moments":
+
+"Coca-Cola isn't everything, but wanting to moments is." No, that's not good.
+
+Alternatively, "Happiness isn't everything, but wanting to Coca-Cola is." Still awkward.
+
+Hmm. Maybe the best approach is to replace "Winning" with "Moments" and "everything" with "refreshment":
+
+"MOMENTS isn't refreshment, but wanting to win is." No, not good.
+
+Alternatively, perhaps the structure should have "Winning" and "win" as the key parts. Let's try replacing "Winning" with "Coca-Cola" and "win" with "moments":
+
+"Coca-Cola isn't everything, but wanting to moments is." Not quite.
+
+Alternatively, "Coca-Cola isn't everything, but wanting to celebrate is." 
+
+That could work. Here, "celebrate" is not a keyword but relates to the achievement. 
+
+Wait, the brand keywords are refreshment, happiness, moments. Maybe "happiness" can replace "Winning":
+
+"Happiness isn't everything, but wanting to win is Coca-Cola." Hmm, but "win" is still there. 
+
+Alternatively, "Happiness isn't everything, but wanting to Coca-Cola is." 
+
+Hmm, maybe this is the best possible with two word changes. 
+
+Alternatively, replace "Winning" with "Moments" and "everything" with "refreshment":
+
+"MOMENTS aren't refreshment, but wanting to win is." Not right.
+
+Hmm. I'm struggling here. Maybe I need to consider that the structure allows adding the brand name at the end without counting it as a change. The user says: "Adding the brand name does not count towards this limit."
+
+Ah! So the brand name can be added anywhere without changing the two-word limit. 
+
+So the original quote has "Winning isn't everything, but wanting to win is."
+
+If I change "Winning" to "Moments" and "win" to "share", and add "Coca-Cola" at the end:
+
+"MOMENTS aren't everything, but wanting to share is Coca-Cola."
+
+That would be changing two words (Winning→Moments; win→share) and adding the brand name at the end. 
+
+That seems better. Let's check: 
+
+Original: "Winning isn't everything, but wanting to win is."
+
+After replacements: "Moments aren't everything, but wanting to share is Coca-Cola."
+
+This keeps the structure and meter. Syllables: 
+
+Win-ning (2) isn't (2) every-thing (3), but (1) wan-ting (2) to (1) win (1) is (1). → total: 2+2+3+1+2+1+1 = 12? Wait, "is" is one syllable. 
+
+The revised: Mo-ments (2) aren't (2) every-thing (3), but (1) wan-ting (2) to (1) share (1) is (1) Co-ca-Cola (3). → 2+2+3+1+2+1+1+3 = 15, but perhaps the punctuation is added. Wait, maybe the structure is acceptable even if the syllables aren't exact. 
+
+Alternatively, "Moments aren’t everything, but wanting to share is Coca-Cola." 
+
+That's more concise. 
+
+This seems better. So the replacements would be "Winning → Moments" and "win → share", with adding "Coca-Cola" at the end. 
+
+Alternatively, replacing "Winning" with "Coca-Cola" and "win" with "happiness":
+
+"Coca-Cola isn't everything, but wanting to happiness is." → No, grammar issue.
+
+Alternatively, "Coca-Cola isn't everything, but wanting to celebrate is." 
+
+But "celebrate" isn't a keyword, though it's related. 
+
+Hmm. Alternatively, "Moments aren't everything, but sharing is Coca-Cola's happiness." → Maybe but not as tight.
+
+Alternatively, "Moments aren't everything, but wanting to share is what Coca-Cola is about." → Too long.
+
+Perhaps the first option is best: "Moments aren't everything, but wanting to share is Coca-Cola."
+
+That uses "Moments" (brand keyword), "share" (implying shared moments), and ends with the brand name. It keeps the structure and rhythm of the original quote. 
+
+So the Replacements would be:
+
+- "Winning" → "Moments" (since moments is a key brand keyword)
+- "win" → "share" (to tie into sharing moments, which is a positive action associated with Coca-Cola)
+
+Thus, the final slogan would be that.
+
+Let me verify the structure again. The original quote's structure is:
+
+[Winning] isn't everything, but wanting to [win] is.
+
+Replaced with:
+
+[Moments] aren't everything, but wanting to [share] is Coca-Cola.
+
+That works. So I think that's the way to go.
+</think>
+
+Explanation:  
+1. "Winning isn’t everything, but wanting to win is." - Vince Lombardi ★ (Celebrates the drive behind achievement, aligning with pride in striving)  
+2. "The greatest glory in living lies not in never falling, but in rising every time you fall." - Nelson Mandela (Pride in perseverance, but less direct to achievement)  
+3. "I am because we are." - African proverb (Celebrates shared moments, but less about exclusivity)  
+
+Structure:  
+"Winning | isn’t everything, | but wanting to | win | is."  
+
+Replacements:  
+1. "Moments" (brand keyword) → "Winning" + "Share" → "win" (ties to shared moments, a key brand theme).  
+
+Remix Slogan: "Moments aren’t everything, but wanting to share is Coca-Cola."
+
+--- Pass 2 ---
+Okay, so I need to come up with a slogan for Coca-Cola using the persona of Pride, focusing on celebrating achievement or exclusivity. The brand keywords are refreshment, happiness, moments. Let's start with Step 1: Quote Matching.
+
+First, I need three classic quotes or slangs that fit the theme of pride, achievement, or exclusivity. Let me think of some famous quotes. Maybe "The early bird catches the worm" but that's more about being proactive. Hmm. "Pride comes before the fall" – that's a common saying, but it's about hubris, which might not be positive. Wait, maybe "Victory has a thousand fathers, but defeat is an orphan." But that's more about taking credit. Not sure.
+
+Alternatively, "I am the master of my fate, I am the captain of my soul." That's from Invictus by William Ernest Henley. Pride in personal achievement. That could work. 
+
+Another one: "Success is not final, failure is not fatal: it is the courage to continue that counts." From Churchill, but maybe too long. 
+
+Or "Be yourself; everyone else is already taken." Oscar Wilde. Maybe not exactly about achievement, but about pride in individuality. 
+
+Wait, there's "You can't stop the signal. Malcom in the Middle?" No, that's from Mr. Robot. Maybe not. 
+
+How about "The best things in life are free." But that's more about things being free, but maybe relates to happiness. The author is Haddaway's song, but maybe the original quote is older. 
+
+Alternatively, "Winning isn't everything, but wanting to win is." Vince Lombardi. That's about pride in effort. 
+
+Wait, maybe "To infinity and beyond!" from Buzz Lightyear, but that's more about aspiration. 
+
+Hmm. Let me think of the quotes related to pride and achievement. 
+
+1. "Pride is holding your head up when everyone else has their head down." Unknown. But that's a good match for celebrating achievement and pride. 
+
+2. "Pride is the feeling of knowing you did your best." Unknown again. 
+
+Alternatively, "The only way to do great work is to love what you do." Steve Jobs. Maybe not exactly about pride but about passion. 
+
+Wait, maybe "The greatest glory in living lies not in never falling, but in rising every time we fall." Nelson Mandela. That's about resilience, which is part of achievement. 
+
+Alternatively, "Fortune favors the bold." from Horace. That's about taking risks leading to success. 
+
+Wait, the user wants quotes that "best fit the persona of pride, with the brand's keywords: refreshment, happiness, moments, and the goal is to celebrate achievement or exclusivity." 
+
+So maybe pick quotes that emphasize pride in success, or being bold, or the feeling of victory. 
+
+Let me think again. 
+
+1. "Victory is always beautiful." – That's from a sports context, maybe not a quote. 
+
+Wait, "Victory is sweetest when you’ve struggled and sacrificed to achieve it." Unknown. 
+
+Alternatively, "I can fly! I can fly!" from Peter Pan. Not sure. 
+
+Hmm, maybe "I think therefore I am" is not relevant. 
+
+Wait, maybe "I came, I saw, I conquered." Julius Caesar. That's about victory, which ties into achievement and pride. 
+
+Okay, so three quotes:
+
+1. "Fortune favors the bold." – Horace. Because being bold can lead to success and pride in taking risks, aligning with celebrating achievement. 
+
+2. "Victory has a thousand fathers, but defeat is an orphan." – John F. Kennedy. But that's more about taking credit, so maybe not the best. 
+
+3. "The only thing necessary for evil to triumph is for good men to do nothing." – Edmund Burke. No, that's not. 
+
+Wait, maybe "Pride goes before a fall" is the opposite. 
+
+Wait, "The best things in life are free" – but Coca-Cola is about moments of happiness, so maybe that's better. The author is Haddaway's song, but the quote is older. 
+
+Alternatively, "Success is the best revenge." – William Congreve. That's about pride in overcoming challenges. 
+
+Alternatively, "I am large, I contain multitudes." – Walt Whitman. Not exactly about achievement. 
+
+Wait, "The greatest glory in living lies not in never falling, but in rising every time we fall." – Nelson Mandela. 
+
+Hmm. Maybe better to go with "Victory is sweetest when you’ve struggled and sacrificed to achieve it." But not sure. 
+
+Alternatively, "Pride is the feeling of knowing you did your best." 
+
+Wait, let me try to think of the three best options. 
+
+Option 1: "Fortune favors the bold." – Horace. This quote suggests that taking bold actions leads to success, which ties into celebrating achievement and pride in one's actions. 
+
+Option 2: "The greatest glory in living is not in never falling, but in rising every time you fall." – Nelson Mandela. This emphasizes resilience and pride in overcoming obstacles, aligning with achievement. 
+
+Option 3: "The only thing necessary for victory is to believe you will win." – Unknown. That's about belief leading to success. 
+
+Alternatively, "Winning isn’t everything, but wanting to win is." – Vince Lombardi. This highlights the pride in effort and striving for success. 
+
+Wait, the user's persona is Pride, and the brand is Coca-Cola, which wants to associate with moments of happiness and refreshment. Maybe the quote needs to be more about celebration. 
+
+Another angle: quotes about moments and happiness. Like "Happiness is the best makeup." – Unknown. Not quite. 
+
+Alternatively, "The best moments in life are free." – That's a Coca-Cola slogan itself, but maybe the user wants a different one. 
+
+Wait, the original Coca-Cola slogan was "The Pause That Refreshes." But maybe not relevant. 
+
+Hmm, perhaps a quote that's about celebrating moments. 
+
+Alternatively, "Life is a party, and I'm here to dance." – Unknown. Not sure. 
+
+Wait, maybe the best quote is "Fortune favors the bold." – Horace. Because it's classic and aligns with taking bold steps to achieve success, which can be linked to Coca-Cola as a moment of celebration. 
+
+Alternatively, "The only way to do great work is to love what you do." – Steve Jobs. But that's more about passion than pride. 
+
+Alternatively, "Pride is holding your head up when everyone else has their head down." – Unknown. This directly relates to pride and standing out, which ties to exclusivity. 
+
+Wait, that might be better. Let me consider:
+
+Option 1: "Pride is holding your head up when everyone else has their head down." – Unknown. This emphasizes pride in being unique and standing tall, which can link to Coca-Cola's moments of happiness and refreshment. 
+
+Option 2: "Fortune favors the bold." – Horace. About boldness leading to success, aligning with achievement. 
+
+Option 3: "The best moments in life are free." – Maybe from a Coca-Cola ad, but the user wants a classic quote. 
+
+Hmm. Alternatively, "The greatest glory is not in never falling, but in rising after you fall." – Confucius. 
+
+Wait, perhaps the best option is the first one I thought of: "Pride is holding your head up when everyone else has their head down." That's a good match because it directly relates to pride and standing out, which can be linked to Coca-Cola's moments as special and uplifting. 
+
+So compiling the three quotes:
+
+1. "Pride is holding your head up when everyone else has their head down." – Unknown. Because it emphasizes standing tall and taking pride, which fits celebrating achievement and exclusivity. 
+
+2. "Fortune favors the bold." – Horace. Because taking bold actions leads to success, aligning with achievement and pride. 
+
+3. "The only thing necessary for victory is to believe you will win." – Unknown. Because belief in success is key to pride in achievement. 
+
+Wait, but the third one's author is unknown. Maybe better to pick a known one. 
+
+Alternatively, "The greatest glory in living is not in never falling, but in rising every time you fall." – Nelson Mandela. 
+
+Hmm. Let me list the three quotes properly with authors and reasons:
+
+1. "Fortune favors the bold." – Horace ★ (because taking bold actions leads to success, aligning with achievement and pride)
+
+2. "The only way to do great work is to love what you do." – Steve Jobs (about passion, less directly about pride)
+
+3. "Pride is holding your head up when everyone else has their head down." – Unknown (directly about pride and standing out)
+
+Wait, maybe the first one is better. But I need to choose the best three and mark one as best. 
+
+Alternatively, the quote "Fortune favors the bold" is classic and fits well. 
+
+Alternatively, "Victory is sweetest when you’ve struggled and sacrificed to achieve it." But author is unknown. 
+
+Hmm, I'll go with the three I have. 
+
+Wait, another idea: "Pride comes before the fall" is the opposite, so bad. 
+
+Alternatively, "The best moments in life are free." – Maybe it's a Coca-Cola slogan already. 
+
+Alternatively, "The only thing necessary for victory is to believe you will win." 
+
+Alternatively, "I think, therefore I am" – no. 
+
+Hmm, maybe I should go with the three quotes I have, and mark "Fortune favors the bold" as best. 
+
+Alternatively, "The greatest glory in living is not in never falling, but in rising every time you fall." – Mandela. 
+
+Okay, I need to proceed. 
+
+Step 1 is to list three quotes with authors and reasons. Let me finalize the three:
+
+1. "Fortune favors the bold." – Horace. Because it highlights boldness leading to success, tying into achievement and pride. 
+
+2. "Pride is holding your head up when everyone else has their head down." – Unknown. Directly addresses pride and standing out, aligning with exclusivity. 
+
+3. "The greatest glory in living is not in never falling, but in rising every time you fall." – Nelson Mandela. Emphasizes resilience and pride in overcoming challenges. 
+
+Marking the first one as ★ because it's a classic quote and directly ties to taking bold actions (which can be linked to Coca-Cola's moments of celebration). 
+
+Proceeding to Step 2. 
+
+Step 2: Structure Breakdown. 
+
+Take the ★ quote: "Fortune favors the bold." 
+
+Break it into editable and fixed parts. Since it's short, maybe:
+
+Fortune | favors | the bold.
+
+Which parts can be replaced with brand keywords? "Fortune" could be replaced with "Moments" (since the brand keyword is moments, and moments can "favor" the bold). Or "bold" could be replaced with "happiness" or "refreshment". Wait, but need to keep the structure. 
+
+Alternatively, "Fortune" could be replaced with "Coca-Cola" but that's adding the brand name. The keywords are refreshment, happiness, moments. Maybe "Moments" instead of "Fortune" to tie in the keyword. 
+
+So structure breakdown: 
+
+Original: "Fortune favors the bold."
+
+Breaking down with |: 
+
+Fortune | favors | the bold.
+
+Replaceable words: "Fortune" (can be "Moments" or "Happiness"), "bold" (maybe "refreshed" or "happy" but needs to fit the structure). 
+
+Step 3: Vocabulary Replacement. 
+
+Propose 1-2 replacement sets. 
+
+Option 1: Replace "Fortune" with "Moments" and "bold" with "happy". 
+
+"MOMENTS FAVOR THE HAPPY." 
+
+Reason: Moments (brand keyword) leading to happiness, which aligns with the brand's happiness keyword. 
+
+But "the happy" might not fit the structure. Alternatively, "the happy" vs "bold" – maybe "bold" is an adjective, so "happy" is okay. 
+
+Alternatively, "refreshment" as an adjective? Not sure. 
+
+Alternatively, replace "bold" with "thirsty" – but that's not a keyword. 
+
+Option 2: Replace "Fortune" with "Happiness" and keep "bold". 
+
+"Happiness favors the bold." 
+
+But that might not tie to Coca-Cola's product. 
+
+Alternatively, "Coca-Cola favors the bold" but that changes two words (Fortune -> Coca-Cola, and bold stays). Wait, the user says can only change two words, but adding brand name doesn't count. So replacing "Fortune" with "Moments" and "bold" with "refreshed" (maybe not). 
+
+Wait, the structure is "Fortune | favors | the bold." 
+
+If I replace "Fortune" with "Moments" and "bold" with "refreshing", but "refreshing" is an adjective, so "the refreshing" might not work. 
+
+Hmm. Alternatively, "The refreshment favors the bold" – but that's changing "Fortune" to "The refreshment". But the original structure is Fortune (noun) + verb + object. 
+
+Alternatively, "Moments favor the bold" – just replacing "Fortune" with "Moments" and keeping "bold". 
+
+That way, it's "Moments favor the bold." – uses the brand keyword "moments", and "bold" is kept. Then adding the brand name. 
+
+Wait, the structure breakdown must include where to replace. Let me think again. 
+
+Original: "Fortune favors the bold."
+
+Possible replacements:
+
+1. "Moments" instead of "Fortune" → "Moments favors the bold." (needs "favor" to agree with plural, so "Moments favor the bold." That's better.)
+
+2. "Happiness" instead of "Fortune" → "Happiness favors the bold." 
+
+But "Moments" seems better since it's a keyword and ties into the moments of celebration. 
+
+Alternatively, "Happiness favors the bold" also works but less tied to the brand's moments. 
+
+Alternatively, "Refreshment favors the bold" – but "refreshment" is a keyword, but maybe less catchy. 
+
+So the best replacement would be "Moments favor the bold." 
+
+Then, adding the brand name at the end? The user says "include brand name / keyword" but the structure is to keep original syntax and meter. 
+
+Wait, the final slogan needs to include the brand name or keyword. So "Moments favor the bold. Coca-Cola." But that's adding, maybe not. 
+
+Alternatively, inserting the brand name into the quote. 
+
+Wait, the remix should include the brand name, perhaps at the end. Like:
+
+"Moments favor the bold – Coca-Cola." 
+
+But need to fit the meter. 
+
+Alternatively, the structure of the original is three parts with a subject, verb, object. Maybe the brand name can be placed at the beginning or end. 
+
+Wait, the user says "include brand name / keyword" but the example output in the problem shows that the brand name can be part of the slogan. 
+
+In the example given, the user's output format includes "Remix Slogan: "…", so maybe the brand name is part of it. 
+
+So, in this case, the slogan would be "Moments favor the bold – Coca-Cola." 
+
+Alternatively, "Moments favor the bold with Coca-Cola." 
+
+But need to keep the original meter. Let's see:
+
+Original: Fortune favors the bold. (syllables: 2-2-2, maybe?)
+
+"Fortune" (2), "favors" (2), "the bold" (2). 
+
+Replacing "Fortune" with "Moments" (2 syllables). "Moments favor the bold." (2, 2, 2). That works. 
+
+Then adding the brand name. Maybe "Moments favor the bold – Coca-Cola." 
+
+But perhaps better to integrate the brand name into the quote. 
+
+Alternatively, "Coca-Cola moments favor the bold." 
+
+But changing two words (Fortune → Coca-Cola moments, but that's two changes). Wait, "Coca-Cola moments" replaces "Fortune" as a noun phrase. 
+
+Original: Fortune (1 word) → "Coca-Cola moments" (two words). That changes more than two words? 
+
+Wait, the instruction says "changing at most two words from the original quote". 
+
+Original words: Fortune, favors, the, bold. 
+
+So replacing "Fortune" with "Coca-Cola moments" would be replacing one word with two, which counts as one change? Or is it considered two changes because it's two words? 
+
+Probably, the instruction counts the number of words changed, not the number of word replacements. So "Fortune" to "Coca-Cola moments" would be replacing one word with two, which counts as a single word change (since it's the first word). But maybe it's better to stick to replacing individual words. 
+
+Alternatively, "Moments favor the bold with Coca-Cola." 
+
+That keeps the structure: "Moments favor the bold" (original structure) plus "with Coca-Cola" at the end. 
+
+Alternatively, "Moments favor the bold – Coca-Cola." 
+
+The final slogan would then be: "Moments favor the bold – Coca-Cola." 
+
+Alternatively, the user might prefer the brand name to be part of the quote. Let me think of another replacement. 
+
+Alternatively, replace "bold" with "refreshing" – but "the refreshing" doesn't fit. 
+
+Alternatively, "Moments favor the bold. Coca-Cola." 
+
+That's concise and keeps the structure. 
+
+So the replacement set would be replacing "Fortune" with "Moments". 
+
+Another possible replacement: 
+
+Replace "bold" with "happy" → "Fortune favors the happy." But "happy" is a keyword, but maybe not as impactful. 
+
+Alternatively, "Fortune favors the refreshment" – but that doesn't make sense. 
+
+Hmm. So the best replacement is "Moments favor the bold." Then adding the brand name at the end. 
+
+Proceeding to Step 4. 
+
+Final slogan: "Moments favor the bold – Coca-Cola." 
+
+Wait, but the original quote was "Fortune favors the bold." The structure is "Fortune (noun) favors (verb) the bold (object)." 
+
+Changing "Fortune" to "Moments" keeps the noun, verb, object structure. So that's good. 
+
+The keywords used are "moments" (brand keyword) and "bold" stays. The brand name is added at the end. 
+
+This should work. 
+
+Now, compiling all steps:
+
+Step 1:
+
+1. "Fortune favors the bold." – Horace ★ (emphasizes bold actions leading to success, aligning with achievement and pride)
+2. "Pride is holding your head up when everyone else has their head down." – Unknown (directly addresses pride and standing out, aligning with exclusivity)
+3. "The greatest glory in living is not in never falling, but in rising every time you fall." – Nelson Mandela (emphasizes resilience and pride in overcoming challenges)
+
+Step 2:
+
+Structure: Fortune | favors | the bold.
+
+Replaceable parts: "Fortune" (can be replaced with brand keywords like "Moments" or "Happiness") and "bold" (maybe with "happy" or "refreshed").
+
+Step 3:
+
+Replacements:
+- "Moments" instead of "Fortune" → uses brand keyword and ties to celebratory moments.
+- "Happy" instead of "bold" → aligns with the keyword "happiness" but may not fit the structure as well.
+
+Step 4:
+
+Final slogan: "Moments favor the bold – Coca-Cola."
+
+Wait, but the user's example shows that the final slogan should end with punctuation, like a period or exclamation. So maybe "Moments favor the bold. Coca-Cola." 
+
+Alternatively, "Moments favor the bold—Coca-Cola." with an em dash. 
+
+The user's instruction says to end with punctuation, so maybe a period. 
+
+Alternatively, exclamation for excitement: "Moments favor the bold! Coca-Cola!" 
+
+But the original quote ends with a period. 
+
+Alternatively, "Moments favor the bold—Coca-Cola." 
+
+I think the dash is better to connect them. 
+
+But need to check the structure. 
+
+Alternatively, "Moments favor the bold, Coca-Cola." – but that changes the structure. 
+
+Hmm. Alternatively, the slogan can be "Moments favor the bold—Coca-Cola." 
+
+That keeps the original structure's rhythm and adds the brand name. 
+
+Yes, that should be the final slogan.
+</think>
+
+Explanation:  
+1. "Fortune favors the bold." – Horace ★ (emphasizes bold actions leading to success, aligning with achievement and pride)  
+2. "Pride is holding your head up when everyone else has their head down." – Unknown (directly addresses pride and standing out, aligning with exclusivity)  
+3. "The greatest glory in living is not in never falling, but in rising every time you fall." – Nelson Mandela (emphasizes resilience and pride in overcoming challenges)  
+
+Structure:  
+Fortune | favors | the bold.  
+
+Replaceable parts:  
+- "Fortune" (brand keyword "moments" ties to celebratory occasions)  
+- "bold" (brand keyword "happiness" or "refreshment" could align but may disrupt rhythm)  
+
+Replacements:  
+1. **"Moments"** replaces "Fortune" → "Moments favor the bold." (brand keyword "moments" anchors Coca-Cola’s connection to celebratory occasions)  
+
+Remix Slogan:  
+"Moments favor the bold—Coca-Cola."
+
+--- Pass 3 ---
+Okay, let's tackle this Coca-Cola slogan remix for the Pride persona. The goal is to celebrate achievement or exclusivity with keywords like refreshment, happiness, moments. 
+
+First, I need to find three classic quotes that fit the theme of pride and exclusivity. Let's think... Maybe something like "The best things in life are free," but that's more about value. Or "You can't always get what you want," but that's the opposite. Wait, "The only way to do great work is to love what you do" by Jobs? Hmm, not sure. Maybe a sports quote? "Winning isn't everything, but wanting to win is." No. Wait, "To infinity and beyond!" from Buzz Lightyear? Maybe too playful.
+
+Alternatively, think about exclusivity and pride. "Diamonds are forever" by De Beers? That's a slogan, but maybe a quote. "I am because we are" from African proverb? Not exactly. 
+
+Wait, here's one: "The impossible is just an opinion." Maybe not. Let me think of quotes that talk about pride in achievements. "Those who dare to fail miserably can achieve greatly." John F. Kennedy. That's good because it's about daring and achievement. 
+
+Another could be "The world is yours." from the Godfather? Wait, that's more about power. Or the Jay-Z song? Maybe too specific. Alternatively, "You are the best." But that's too simple. 
+
+Wait, "To be the greatest, you must beat the greatest." from Rocky? Not sure. 
+
+Wait, "Pride comes before a fall." Proverb, but negative. 
+
+Hmm. Let me think again. The user wants quotes that fit Pride's goal of celebrating achievement or exclusivity. Maybe "Winning isn't everything, but wanting to win is." But that's more about striving. Alternatively, "You are the salt of the earth." From the Bible? Not sure. 
+
+Wait, here's a classic one: "The only thing necessary for evil to triumph is for good men to do nothing." Edmund Burke. Not relevant. 
+
+Wait, "The difference between the impossible and the possible lies in a person's determination." Tommy Lasorda. Maybe. 
+
+Alternatively, "The only way to keep your health is to eat what you don't want, drink what you don't like, and do what you'd rather not." Mark Twain. Not relevant. 
+
+Wait, maybe "The way to get started is to quit talking and begin doing." Einstein. Not exactly. 
+
+Alternatively, "I have not failed. I've just found 10,000 ways that won't work." Edison. That's about persistence, which ties into achievement. 
+
+Hmm, maybe "The greatest glory in living lies not in never falling, but in rising every time we fall." Nelson Mandela. 
+
+Alternatively, "Success is not final, failure is not fatal: It is the courage to continue that counts." Churchill. 
+
+Wait, the key is Pride, so quotes that celebrate achievement or exclusivity. Let me pick three. 
+
+1. "The only thing necessary for evil to triumph is for good men to do nothing." – Edmund Burke (No, not right.)
+
+Wait, maybe "The best is yet to come." – Unknown, but often used. That's optimistic, fits achievement.
+
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." – Nelson Mandela. Talks about perseverance leading to achievement.
+
+3. "Winning isn't everything, but wanting to win is." – Vince Lombardi. Definitely about achievement and striving.
+
+So those three. Let's see why they match:
+
+1. "The best is yet to come" implies future achievements, so fits celebrating moments of achievement.
+
+2. Mandela's quote about rising after falling ties into overcoming challenges, which is a form of achievement.
+
+3. Lombardi's quote directly ties to the desire to win, which is about pride in achievement.
+
+The best might be Lombardi's because it's directly about winning and wanting to win, which is a clear link to achievement and pride.
+
+Now Step 2: Break down the best quote. Let's pick Lombardi's: "Winning isn't everything, but wanting to win is." 
+
+Wait, the quote is: "Winning isn’t everything, but wanting to win is the key to success." Or maybe the exact quote is "It's not whether you win or lose, but how you play the game." No, that's different. Wait, checking, actually Lombardi's actual quote is: "Winning isn't everything, but wanting to win is." So that's the exact quote. So structure breakdown: 
+
+Original: "Winning isn’t everything, but wanting to win is." 
+
+We can separate into parts: "Winning isn’t everything, but wanting to win is."
+
+The brand wants to tie in refreshment, happiness, moments, and pride. The goal is to celebrate achievement or exclusivity. 
+
+So, the parts that can be changed: "Winning" could be replaced with "Celebrating" (since they want to celebrate achievement). "Win" could be replaced with "moments" or "happiness". 
+
+Alternatively, "everything" could be replaced with "the only thing" to make it fit. Wait, but need to keep the structure.
+
+Wait, maybe replacing "Winning isn't everything" with "Moments aren't everything" but that might not fit. Let me think again. 
+
+The structure breakdown would separate the parts. Let's use | to separate fixed and editable. 
+
+Structure: "Winning | isn’t everything, but wanting to win | is."
+
+So the editable parts are "Winning" and "win". 
+
+So replacing "Winning" with "Achieving" (since achievement is part of the persona) and "win" with "happiness" (brand keyword). 
+
+Alternatively, "Celebrating" and "moments". 
+
+Wait, let's see possible replacements. 
+
+Replacement set 1: 
+
+"Achieving isn't everything, but wanting to achieve happiness is."
+
+But that might not flow well. Alternatively, "Celebrating isn't everything, but wanting to celebrate moments is."
+
+Hmm. 
+
+Alternatively, "Moments aren’t everything, but wanting to make moments perfect is." Maybe. 
+
+Wait, the brand keywords are refreshment, happiness, moments. 
+
+Maybe replacing "Winning" with "Moments" and "win" with "refreshment". 
+
+So: "Moments aren’t everything, but wanting to refreshment is." No, that doesn't make sense. 
+
+Alternatively, "Happiness isn’t everything, but wanting to be happy is." But that's not using "moments".
+
+Alternatively, "Moments aren't everything, but wanting to cherish them is." But "cherish" isn't a keyword. 
+
+Hmm, maybe another approach. Let's try to use "refreshment". Since Coca-Cola is a drink, "refreshment" is a key word. 
+
+Original: "Winning isn't everything, but wanting to win is."
+
+Change "Winning" to "Refreshment", and "win" to "happiness". 
+
+"Refreshment isn't everything, but wanting to happiness is." No, that's not correct grammar. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to be happy is." 
+
+Hmm, maybe better. 
+
+Or "Moments aren’t everything, but wanting to refresh is." 
+
+Wait, "refresh" as a verb? 
+
+Alternatively, "Happiness isn’t everything, but wanting to refreshment is." No, that's not right. 
+
+Maybe better to keep the structure more intact. Let's think of the quote again. 
+
+Original structure: "Winning isn't everything, but wanting to win is." 
+
+The replacement should keep the same structure. So "X isn't everything, but wanting to Y is." 
+
+X could be "Moments", and Y could be "Celebrate" or "Achieve happiness". 
+
+So "Moments aren't everything, but wanting to celebrate happiness is." 
+
+Hmm, but that's a bit forced. 
+
+Alternatively, "Happiness isn't everything, but wanting to share moments is." 
+
+Hmm. 
+
+Alternatively, "Refreshment isn't everything, but wanting to refresh happiness is." 
+
+Hmm, not quite. 
+
+Maybe better to focus on "moments" as the key. Since the persona is about celebrating achievement or exclusivity, moments are important. 
+
+So, "Moments aren't everything, but wanting to make them unforgettable is." 
+
+But "unforgettable" isn't a keyword. 
+
+Alternatively, "Moments aren't everything, but wanting to cherish them is." 
+
+Still not using keywords. 
+
+Hmm, perhaps the best is to use "Moments aren't everything, but wanting to make them perfect is." 
+
+But "perfect" isn't a keyword. 
+
+Alternatively, "Happiness isn't everything, but wanting to experience moments is." 
+
+Hmm. 
+
+Wait, maybe "refreshment" can be part of the verb. 
+
+"Refreshment isn't everything, but wanting to stay refreshed is." 
+
+That uses the keyword "refreshment" and "refreshed". 
+
+Alternatively, "Happiness isn’t everything, but wanting to keep it is." 
+
+But not sure. 
+
+Alternatively, maybe replace "Winning" with "Celebrating" and "win" with "moments": 
+
+"Celebrating isn’t everything, but wanting to celebrate moments is." 
+
+That's a bit redundant but flows well. 
+
+Alternatively, "Moments aren’t everything, but wanting to make them happy is." 
+
+Hmm, "make them happy" could work. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish them is." 
+
+Still not hitting the keywords exactly, but maybe it's acceptable. 
+
+Alternatively, the brand keywords are "refreshment, happiness, moments". So maybe combine two. 
+
+For example: 
+
+"MOMENTS aren't everything, but wanting to refresh happiness is." 
+
+Hmm, "refresh happiness" as a verb? 
+
+Alternatively, "Happiness isn't everything, but wanting to share moments is." 
+
+Using "share" as an action, but "share" isn't a keyword. 
+
+Alternatively, "Moments aren’t everything, but wanting to enjoy them is." 
+
+"Enjoy" is a positive verb. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to keep moments sweet is." 
+
+"Sweet" relates to taste, but maybe not. 
+
+Hmm, this is tricky. Maybe the best is to go with the first idea: 
+
+"MOMENTS aren’t everything, but wanting to celebrate them is." 
+
+That uses "moments" as a keyword, and "celebrate" ties to pride and achievement. 
+
+Alternatively, "Happiness isn’t everything, but wanting to savor moments is." 
+
+"Savor" implies enjoying, which is good. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to stay refreshed is." 
+
+This uses two keywords: "refreshment" and "refreshed", and fits the structure. 
+
+Original quote: "Winning isn't everything, but wanting to win is." 
+
+Replacing "Winning" with "Refreshment" and "win" with "refreshed"? Wait, but the structure is "Winning isn't everything, but wanting to win is." 
+
+So "win" is the verb form. So if I change "win" to "refresh", it would be "wanting to refresh is", but that might not make sense. 
+
+Wait, maybe "Refreshment isn't everything, but wanting to refresh is." 
+
+Hmm, that's short. Maybe better: "Refreshment isn’t everything, but wanting to stay refreshed is." 
+
+Yes, that's better. 
+
+Alternatively, "Moments aren't everything, but wanting to make them happy is." 
+
+No, "make them happy" is okay. 
+
+Hmm, perhaps the best is to use "moments" as the first word and "happiness" as the second. 
+
+"MOMENTS aren’t everything, but wanting to capture happiness is." 
+
+"Capture happiness" sounds good. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish them is." 
+
+Hmm. 
+
+Alternatively, since the brand is Coca-Cola, maybe include "sipping" or "enjoying". 
+
+Wait, the brand keywords are refreshment (the product), happiness, moments. 
+
+So maybe: 
+
+"REFRESHMENT isn’t everything, but wanting to enjoy moments is." 
+
+Yes! "Refreshment" (brand keyword) and "moments" (brand keyword). 
+
+That uses two keywords and fits the structure. 
+
+Original quote: "Winning isn't everything, but wanting to win is." 
+
+Change "Winning" to "Refreshment" and "win" to "enjoy moments". Wait, but the structure needs to keep the verb after "wanting to". 
+
+Hmm, maybe "Refreshment isn't everything, but wanting to enjoy moments is." 
+
+Yes! Because the original structure is "wanting to win is" so "win" is the verb. So "enjoy moments" would need to be a verb phrase, but "wanting to enjoy moments is" is okay. 
+
+Alternatively, "Refreshment isn't everything, but wanting to cherish moments is." 
+
+"Cherish" is a good verb here. 
+
+Alternatively, "Refreshment isn't everything, but wanting to share moments is." 
+
+"Share" is a verb that can pair well. 
+
+So the best options for replacement are either:
+
+Option 1: Replace "Winning" with "Refreshment" and "win" with "cherish moments" → "Refreshment isn’t everything, but wanting to cherish moments is."
+
+Option 2: "Refreshment isn’t everything, but wanting to enjoy moments is."
+
+Either works. 
+
+Now, the final slogan needs to include the brand name. The instructions say "include brand name / keyword". 
+
+So adding "Coca-Cola" at the end. 
+
+So the slogan would be: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+Wait, but the structure should keep the original syntax and meter. The original quote ends with "is." So maybe:
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+Alternatively, "Refreshment isn’t everything, but wanting to cherish moments is—Coca-Cola."
+
+Or integrate the brand name within. 
+
+Wait, the original quote ends with "is", so maybe the brand name comes after. 
+
+Alternatively, adjust to end with the brand name. 
+
+Hmm, maybe: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+That keeps the original structure and adds the brand name at the end. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to cherish moments is—Coca-Cola." 
+
+Using an em dash. 
+
+Alternatively, to make it more punchy: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola." 
+
+That's good. 
+
+Alternatively, using "enjoy" instead of "cherish": 
+
+"Refreshment isn’t everything, but wanting to enjoy moments is. Coca-Cola."
+
+That's also good. 
+
+Now, the user's instruction says to end with punctuation. So a period at the end is fine. 
+
+Between "cherish moments" and "enjoy moments", which is better? 
+
+"Cherish moments" feels more about valuing, while "enjoy moments" is about savoring. Both are good. 
+
+Since "happiness" is a keyword, maybe "cherish moments of happiness"—but that's adding more words. 
+
+Alternatively, "cherish happy moments"—but that's adding an extra word. 
+
+Alternatively, stick with the two-word replacement: "Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola." 
+
+This uses two keywords (refreshment and moments) and keeps the structure. 
+
+Alternatively, if replacing "win" with "enjoy moments", that's two words. Wait, "win" is one word, so "enjoy moments" is two words. The instruction says to replace at most two words. 
+
+Original quote has "win" as one word. So replacing "win" with "enjoy moments" would be replacing one word with two, which might be okay as long as the total replaced words are <=2. 
+
+Wait, the original quote has "Winning" and "win" as the two editable parts. 
+
+Original words to replace: "Winning" and "win". 
+
+So replacing "Winning" (1 word) with "Refreshment" (1 word), and "win" (1 word) with "enjoy moments" (2 words). That would be replacing two words with three total, but the instruction says to change at most two words from the original. 
+
+Hmm, maybe better to keep it to one word each. 
+
+So, for "win" (the second part), replacing "win" with "cherish" would make "wanting to cherish is"—but that doesn't fit with moments. 
+
+Alternatively, "cherish them" but "them" refers back to moments. 
+
+Wait, let me structure again. 
+
+The original structure is: 
+
+[X] isn’t everything, but wanting to [Y] is. 
+
+Where X is "Winning" and Y is "win". 
+
+To replace both X and Y with brand keywords. 
+
+If I set X to "Moments", then Y needs to be an action. 
+
+So "Moments aren’t everything, but wanting to [Y] is." 
+
+[Y] could be "refresh happiness" (two words). 
+
+But then replacing "win" with "refresh happiness" would be two words. 
+
+Total words replaced: X is "Moments" (1), Y is "refresh happiness" (2), total of 3 changes, but the instruction says maximum two. 
+
+Hmm. Alternatively, keeping Y as a single word. 
+
+If X is "Refreshment", then Y needs to be a verb. 
+
+"Refreshment isn’t everything, but wanting to [Y] is." 
+
+Y could be "cherish" (so "cherish moments" but moments is the object. 
+
+Wait, but the structure requires Y to be a verb phrase without an object. 
+
+Hmm, this is challenging. 
+
+Alternatively, perhaps using "happiness" as X and "cherish moments" as Y. 
+
+"Happiness isn’t everything, but wanting to cherish moments is." 
+
+Here, replacing "Winning" with "Happiness" (1 word), and "win" with "cherish moments" (2 words). Total of 3 replacements. 
+
+Still over. 
+
+Alternatively, "Happiness isn’t everything, but wanting to cherish is." 
+
+That keeps Y as a single word. 
+
+"Cherish" implies cherish moments, but it's implied. 
+
+That uses "Happiness" and "cherish" (brand keyword is happiness, but "cherish" isn't a keyword). 
+
+Hmm. 
+
+Maybe the best is to go with two single-word replacements: 
+
+"Refreshment isn’t everything, but wanting to cherish is." 
+
+Here, X is "Refreshment" (1 word), Y is "cherish" (1 word). 
+
+That's two words changed. 
+
+"Cherish" as the verb, implying cherish moments, but it's not explicit. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to share is." 
+
+"Share moments", but "share" is not a keyword. 
+
+Hmm. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish is." 
+
+Using "Moments" as X (1 word), and "cherish" as Y (1 word). 
+
+That way, both replacements are single words, keeping within the two-word limit. 
+
+This uses "Moments" (a keyword) and "cherish" as the verb. 
+
+Then the slogan would be: 
+
+"MOMENTS aren’t everything, but wanting to cherish is. Coca-Cola." 
+
+But "cherish" is not a keyword, but it's a positive verb. 
+
+Alternatively, "enjoy" as Y: 
+
+"MOMENTS aren’t everything, but wanting to enjoy is. Coca-Cola." 
+
+"Enjoy" is good. 
+
+This uses "Moments" (keyword) and "enjoy" (not a keyword but acceptable). 
+
+Alternatively, the brand keyword is "happiness", so maybe "achieve happiness": 
+
+"Happiness isn’t everything, but wanting to achieve is. Coca-Cola." 
+
+Achieve what? Not clear. 
+
+Hmm. 
+
+Alternatively, using "refreshment" as X and "refresh" as Y: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+This uses two keywords (refreshment and refresh as part of it), and fits the two-word limit. 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+This is concise, uses "refreshment" and "refresh" ties to the brand's product. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to stay refreshed is. Coca-Cola." 
+
+This uses "refreshment" and "refreshed" (a variation). 
+
+"Stay refreshed" is a common phrase, so that's good. 
+
+So this replacement would be: 
+
+Original quote: "Winning isn’t everything, but wanting to win is." 
+
+Replacements: 
+
+Winning → Refreshment 
+
+win → stay refreshed 
+
+Wait, "win" is one word, so replacing "win" with "stay refreshed" is two words. That would be two replacements (Winning and win), but changing "win" to two words would make the total replaced words as three. 
+
+Wait, the instruction says: "changing at most two words from the original quote". 
+
+The original quote has "Winning" (1 word) and "win" (1 word). So replacing "Winning" with "Refreshment" (1 word) and "win" with "stay refreshed" (2 words) would be changing two words but adding an extra word. 
+
+Hmm, maybe that's allowed as long as the total replaced words are two (the original two words are replaced by their substitutes, even if longer). 
+
+Alternatively, to stick strictly to two words, perhaps: 
+
+"Refreshment isn’t everything, but wanting to refresh is." 
+
+This changes "Winning" to "Refreshment" (1 word) and "win" to "refresh" (1 word). 
+
+That's exactly two words changed. 
+
+Yes! 
+
+So, the final slogan would be: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+That keeps the structure, uses two keywords ("refreshment" and the verb "refresh"), and fits the two-word replacement limit. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to refresh is—Coca-Cola." 
+
+Adding the brand name at the end. 
+
+Alternatively, the structure requires ending with punctuation, so: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+Yes. 
+
+Alternatively, to make it more emotional, maybe "Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+That's the final slogan. 
+
+Another option with "Moments" and "enjoy": 
+
+"MOMENTS aren’t everything, but wanting to enjoy is. Coca-Cola." 
+
+This uses the keyword "moments" and the verb "enjoy", which is positive. 
+
+Either could work, but the first one ties more directly to the product (refreshment). 
+
+So I'll go with the first option.
+</think>
+
+Step 1【Quote Matching】  
+1. "Winning isn’t everything, but wanting to win is." – Vince Lombardi ★  
+   Matches pride in achievement and the drive to succeed.  
+2. "The best is yet to come." – Frank Sinatra  
+   Evokes anticipation of future triumphs.  
+3. "To be the greatest, you must beat the greatest." – Rocky Balboa  
+   Highlights exclusivity and excellence.  
+
+Step 2【Structure Breakdown】  
+Structure: "Winning | isn’t everything, but wanting to win | is."  
+Editable parts: "Winning" (achievement focus) and "win" (action verb). Replaceable with brand keywords.  
+
+Step 3【Vocabulary Replacement】  
+Replacements:  
+1. "Refreshment" (brand keyword) and "refresh" (action tied to
+
+--- Pass 4 ---
+Okay, let's tackle this. The user wants a slogan for Coca-Cola with a pride tone, celebrating achievement or exclusivity. The brand keywords are refreshment, happiness, moments. 
+
+First, Step 1: Find three classic quotes or slangs that fit the pride persona. 
+
+Hmm, pride often relates to achievement, uniqueness, or confidence. Let's think of famous quotes. Maybe something like "The greatest glory in living is not in never falling, but in rising every time we fall." But that's more about perseverance. 
+
+Wait, there's "I am the master of my fate, I am the captain of my soul." from Invictus. That's strong, about control and pride in one's choices. 
+
+Another could be "We don't win unless we first learn to take pride in the struggle." Not sure about the origin, but it's about pride in effort. 
+
+Or maybe "Pride is holding your head up when everyone else is looking down." That's a slang or common saying. It fits pride in facing adversity. 
+
+Wait, the user mentioned exclusivity and achievement. Let me think again. 
+
+Maybe "The only way to do great work is to love what you do." - Steve Jobs. But that's more about passion. 
+
+Alternatively, "The true measure of a man is how he treats someone who can do him absolutely no good." - Samuel Johnson. Hmm, not sure. 
+
+Wait, "It's not about how hard you hit. It's about how hard you can get hit and keep moving forward." - Rocky. That's more perseverance again. 
+
+Wait, the quote "I am large, I contain multitudes." - Whitman. But not sure about pride. 
+
+Wait, maybe "Pride comes before the fall," but that's negative. 
+
+Alternatively, "Success is not final, failure is not fatal: It is the courage to continue that counts." Churchill. But again, not exactly pride. 
+
+Wait, let's go back. The user's goal is to celebrate achievement or exclusivity. So maybe "You miss 100% of the shots you don't take." - Wayne Gretzky. But that's about taking action. 
+
+Alternatively, "Excellence is not a skill, it's an attitude." - Vince Lombardi. That's closer to pride in excellence. 
+
+Wait, "The best way to predict the future is to invent it." - Alan Kay. Not exactly. 
+
+Wait, maybe "I have not failed. I've just found 10,000 ways that won't work." Edison. Pride in persistence. 
+
+Hmm, perhaps "Pride is the feeling of deep pleasure that comes from achievements." That's a definition, not a quote. 
+
+Wait, the user said "classic quotes or slangs". Let me think of another approach. 
+
+Maybe "The only thing necessary for evil to triumph is for good men to do nothing." Burke. No, that's different. 
+
+Wait, "To thine own self be true." Shakespeare. That's about integrity, but maybe not pride. 
+
+Alternatively, "The only limit to our realization of tomorrow will be our doubts of today." Franklin. 
+
+Hmm. Let me try again. 
+
+First quote: "Pride is holding your head up when everyone else is looking down." (slang). This emphasizes resilience and self-pride, which fits achievement. 
+
+Second: "I am the master of my fate, I am the captain of my soul." (William Ernest Henley, Invictus). This speaks to personal control and pride in one's destiny. 
+
+Third: "We rise by lifting others." (Bob Ruyle). Hmm, but that's more about community. 
+
+Alternatively, "Victory has a hundred fathers, but defeat is an orphan." (Proverb). But that's more about taking credit. 
+
+Wait, maybe "I have always believed that anybody can write a better letter, anybody can write a better book, than I have written." (Emily Dickinson). Not exactly. 
+
+Wait, the quote "Pride is the mask of one's own defects." (La Rochefoucauld). Negative again. 
+
+Hmm, perhaps "Pride must have a pride superior to its own to conquer it." (Emily Dickinson). Not sure. 
+
+Alternatively, "Pride goeth before a fall." Proverb, but negative. 
+
+Wait, maybe "The greatest thing in the world is to know how to belong to ourselves." (Michel de Montaigne). Not quite. 
+
+Alternatively, "The noblest pleasure is the joy of understanding." (Da Vinci). Not exactly. 
+
+Wait, going back, maybe "Pride is the outward reflection of inward poverty." (Khalil Gibran). Hmm, negative. 
+
+Wait, perhaps "Pride is essential to the soul." (Milton). 
+
+Alternatively, "Pride and vanity are no protection against criticism from others, nor are they a proper substitute for merit." (Franklin). 
+
+Hmm. Maybe the first two quotes I thought of are better. 
+
+First: "Pride is holding your head up when everyone else is looking down." (slang). 
+
+Second: "I am the master of my fate, I am the captain of my soul." (William Ernest Henley). 
+
+Third: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment." (Ralph Waldo Emerson). 
+
+Wait, the third quote is about staying true to oneself, which relates to pride in one's identity. 
+
+So three quotes:
+
+1. "Pride is holding your head up when everyone else is looking down." (slang) - because it emphasizes resilience and self-pride in tough times.
+
+2. "I am the master of my fate, I am the captain of my soul." (William Ernest Henley) - shows control and pride in one's life direction, aligning with achievement.
+
+3. "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment." (Ralph Waldo Emerson) - celebrates the pride in authenticity as an achievement.
+
+Marking the second as best because it's a strong, classic quote about personal mastery and pride in one's own agency, which fits the brand's goal of celebrating achievement and exclusivity.
+
+Moving to Step 2. The best quote is Henley's. 
+
+Original: "I am the master of my fate, I am the captain of my soul."
+
+Structure breakdown: need to separate fixed and editable parts. Maybe:
+
+"I am the master of my fate | I am the captain of my soul."
+
+The editable parts could be "master", "fate", "captain", "soul". The user wants to replace with brand keywords: refreshment, happiness, moments. But since the structure has two parts, maybe replace "master" and "captain" with brand terms. 
+
+Alternatively, "fate" and "soul" could be replaced, but they are more abstract. 
+
+Wait, the brand keywords are refreshment, happiness, moments. The goal is to celebrate achievement/exclusivity. 
+
+Possible replacements:
+
+Maybe "master" → "celebrator" (but that's not a keyword). Hmm. Alternatively, "captain" could be "champion" but again not keywords. 
+
+Alternatively, "fate" → "moment" (since "moments" is a keyword). 
+
+So replacing "fate" with "moment" and "soul" with "happiness"? 
+
+Wait, the sentence structure is "I am the [X] of my [Y], I am the [Z] of my [W]".
+
+Maybe replace "fate" with "moments" and "soul" with "happiness".
+
+So: "I am the master of my moments, I am the captain of my happiness."
+
+But need to ensure it flows well. 
+
+Alternatively, "I am the master of my happiness, I am the captain of my moments."
+
+Alternatively, "refreshment" is a key. Maybe "I am the master of my refreshment, I am the captain of my happiness." Hmm, but that might not fit. 
+
+Alternatively, using "brand name" somewhere. Since the structure says to include the brand name or keyword. 
+
+Wait, in Step 3, the user says to propose replacement sets. Let's think.
+
+Replacements:
+
+Set 1: Replace "fate" → "moments" and "soul" → "happiness".
+
+Reason: "moments" ties to brand keyword, "happiness" also a keyword, keeping the structure.
+
+Set 2: Replace "fate" with "refreshment" and "soul" with "joy". But "refreshment" is a noun, so maybe "I am the master of my refreshment, I am the captain of my joy."
+
+But "refreshment" as part of "master of my refreshment" is a bit forced.
+
+Alternatively, replace "master" with "celebrator" (not a keyword) and "captain" with "keeper". But that's stretching.
+
+Alternatively, keep the structure and focus on inserting the brand name. Maybe start with "Coca-Cola is the master of my moments..." but that might not fit. 
+
+Wait, the final slogan must include brand name/keyword. The structure breakdown allows replacing words, but the brand name can be added anywhere. 
+
+Hmm, perhaps the best is to replace "fate" with "moments" and "soul" with "happiness", leading to:
+
+"I am the master of my moments, I am the captain of my happiness."
+
+Then adding Coca-Cola at the end or beginning? Like "Coca-Cola: I am the master of my moments, I am the captain of my happiness."
+
+But the instruction says to include the brand name, so maybe:
+
+"I am the master of my moments, I am Coca-Cola's captain of happiness."
+
+Hmm, maybe not. Alternatively, start with the brand name. 
+
+Wait, the remix slogan should be a standalone quote. So perhaps:
+
+"Be the master of your moments, be the captain of your happiness with Coca-Cola."
+
+But that changes the structure. Need to keep original syntax and meter. 
+
+Original quote has parallel structure: "I am the [X] of my [Y], I am the [Z] of my [W]."
+
+So keeping that structure, perhaps:
+
+"I am the master of my moments, I am the captain of my Coca-Cola happiness."
+
+Hmm, maybe not. Alternatively, insert the brand name in the beginning or end. 
+
+Alternatively, the slogan could end with "Coca-Cola" as the punchline. For example:
+
+"I am the master of my moments, I am the captain of my soul—Coca-Cola."
+
+But that might disrupt the flow. 
+
+Alternatively, replace one word and add the brand name. Like "I am the master of my moments, I am the captain of my Coca-Cola happiness."
+
+Alternatively, since the brand keywords are refreshment, happiness, moments, perhaps the best is to replace "fate" with "moments" and "soul" with "happiness", then append the brand name. 
+
+The final slogan would be: "I am the master of my moments, I am the captain of my happiness. Coca-Cola." But needs to end with punctuation. 
+
+Alternatively, "I am the master of my moments, I am the captain of my happiness—Coca-Cola." (with an em dash). 
+
+Wait, the instructions say to end with punctuation. Maybe a period or exclamation. 
+
+Alternatively, make the brand name part of the last clause. 
+
+Wait, the original quote's cadence is two parallel clauses. To keep it, perhaps: 
+
+"Coca-Cola: I am the master of my moments, I am the captain of my happiness."
+
+That includes the brand name at the start. Alternatively, "I am the Coca-Cola master of my moments, I am the captain of my happiness."
+
+Hmm, but "Coca-Cola master" might not sound right. 
+
+Alternatively, use "refreshment" in there. Like "I am the master of my refreshment, I am the captain of my moments."
+
+But that uses two keywords. 
+
+Wait, the user allows changing at most two words. Let me re-examine Step 3.
+
+Step 3 says: propose 1-2 replacement sets, changing at most two words. 
+
+Original quote: "I am the master of my fate, I am the captain of my soul."
+
+Option 1: Replace "fate" with "moments" and "soul" with "happiness" → two changes.
+
+Option 2: Replace "fate" with "happiness" and "soul" with "moments" → but same as first.
+
+Alternatively, replace "master" with "champion" (but that's not a keyword). 
+
+Alternatively, keep "master" and "captain", replace "fate" with "moments" and "soul" with "happiness".
+
+That's two changes. 
+
+So the final slogan would be:
+
+"I am the master of my moments, I am the captain of my happiness."
+
+Then adding the brand name. Since the instruction says to include brand name/keyword, perhaps insert "Coca-Cola" at the beginning or end. 
+
+Wait, the user's Step 4 says the slogan must include the brand name/keyword. The structure allows adding the brand name without counting towards the two word limit. 
+
+So the final slogan could be: 
+
+"Coca-Cola: I am the master of my moments, I am the captain of my happiness."
+
+Alternatively, "I am the master of my moments, I am the captain of my happiness with Coca-Cola."
+
+But the original structure has "I am the X of my Y, I am the Z of my W." Adding "with" might disrupt. 
+
+Alternatively, "I am the master of my moments, I am the Coca-Cola captain of my happiness." But that changes "captain".
+
+Hmm, maybe the best is to keep the two changes and add the brand name at the end. Like:
+
+"I am the master of my moments, I am the captain of my happiness—Coca-Cola."
+
+The dash allows connecting, ending with the brand name. 
+
+Alternatively, "I am the master of my moments, I am the captain of my happiness. Coca-Cola." But that's two sentences. 
+
+The original quote is a single sentence with commas. So maybe:
+
+"I am the master of my moments, I am the captain of my happiness with Coca-Cola."
+
+Hmm, "with" might not be perfect. 
+
+Alternatively, "I am the master of my moments, I am the captain of my happiness—Coca-Cola." (ending with em dash and brand name). 
+
+Alternatively, just end with "Coca-Cola." as the final word. 
+
+Wait, perhaps the best approach is to follow the structure exactly except for the two word replacements and add the brand name in the beginning. 
+
+So the slogan would be:
+
+"Coca-Cola: I am the master of my moments, I am the captain of my happiness."
+
+This keeps the original structure's rhythm and meter, replaces two words (fate → moments; soul → happiness), and includes the brand name at the start. 
+
+Alternatively, "I am the master of my moments, I am the captain of my happiness—Coca-Cola." 
+
+I think that's better because the original quote is a single line, so ending with the brand name as a tagline works. The em dash connects the two parts. 
+
+So that's the plan. Let me structure the steps accordingly.
+</think>
+
+Explanation:  
+Step 1【Quote Matching】  
+1. "Pride is holding your head up when everyone else is looking down." (Slang) - Emphasizes resilience and self-assurance.  
+2. **"I am the master of my fate, I am the captain of my soul."** (William Ernest Henley, *Invictus*) ★ - Celebrates self-determination and control, aligning with achievement/exclusivity.  
+3. "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment." (Ralph Waldo Emerson) - Highlights pride in authenticity.  
+
+Step 2【Structure Breakdown】  
+Structure: *"I am the master of my fate | I am the captain of my soul."*  
+Editable parts: "fate" and "soul" (abstract concepts replaceable with brand keywords).  
+
+Step 3【Vocabulary Replacement】  
+Replacements:  
+1. *"moments" (brand keyword) for "fate", "happiness" (brand keyword) for "soul"*  
+   *Why*: "moments" ties to shared experiences, while "happiness" reflects Coca-Cola's emotional value.  
+
+Step 4【Remix Generation】  
+Remix Slogan: *"I am the master of my moments, I am the captain of my happiness—Coca-Cola."*
+
+--- Pass 5 ---
+Okay, let's tackle this. The user wants me to create a slogan for Coca-Cola with a pride tone, focusing on celebrating achievement or exclusivity using keywords like refreshment, happiness, moments. First, I need to find three classic quotes that fit pride.
+
+Hmm, famous quotes about pride... There's "Pride comes before the fall," but that's negative. Maybe "It is better to be hated for what you are than to be loved for what you are not." by Andre Gide. That talks about authenticity, which relates to pride in being true to oneself. 
+
+Another one could be "The Proud Tower" by something... Wait, maybe "Pride is holding on to your dignity when no one else is around." Not sure the author. Alternatively, "The only thing necessary for evil to triumph is for good men to do nothing." No, that's not pride. 
+
+Wait, there's "Pride must have a pride greater than itself to conquer it." by John Ruskin. That might work. Or "Pride is the outward sign of inward emptiness." No, that's negative again. 
+
+Oh, the slang "Pride is the first thing you lose." But that's from where? Maybe not. 
+
+Wait, maybe "Pride is a deep and abiding faith in one’s own worth." by Alice Walker. That's positive and about self-worth, which fits celebrating achievement. 
+
+So three quotes: 
+
+1. Andre Gide: "It is better to be hated for what you are than to be loved for what you are not." This is about authenticity, which ties into pride in being genuine. 
+
+2. Alice Walker: "Pride is a deep and abiding faith in one’s own worth." Directly mentions pride and self-worth, aligning with the persona. 
+
+3. Maybe "Pride goes before a fall" but that's negative. Alternatively, "Pride is the feeling of knowing you did your best." Not sure the author. 
+
+Alternatively, the slang "Pride is the first thing you lose" but not sure. Let me pick the top three. 
+
+The best might be Alice Walker's quote because it directly addresses pride and worth. 
+
+Next step, structure breakdown. The best quote is ★ Alice Walker's. 
+
+Break down the quote: "Pride is a deep and abiding faith in one’s own worth." Need to separate fixed and editable parts. 
+
+The key parts to replace would be "Pride" with Coca-Cola's keyword? But the brand is Coca-Cola, so maybe "Coca-Cola is..." 
+
+Wait, the structure would be: 
+
+Original: "Pride is a deep and abiding faith in one’s own worth."
+
+Replace "Pride" with "Coca-Cola" and then maybe "faith" with "moment" or "happiness". But need to keep the structure. 
+
+Alternatively, "Coca-Cola is a moment of happiness in every refreshment." Hmm, but that might not fit. 
+
+Wait, the keywords are refreshment, happiness, moments. So maybe replace "Pride" with "Coca-Cola", "faith" with "happiness", and "worth" with "moments"? Let me see. 
+
+Structure breakdown: 
+
+Original: Pride | is a deep and abiding | faith | in one’s own | worth.
+
+So the editable parts are "Pride", "faith", "worth". The fixed parts are "is a deep and abiding", "in one’s own".
+
+But maybe "Pride" can be replaced with "Coca-Cola", then "faith" could be "happiness" and "worth" could be "moments"? 
+
+So replacements: 
+
+Option 1: Replace "Pride" with "Coca-Cola", "faith" with "happiness", "worth" with "moments". But that might stretch. 
+
+Wait, the structure needs to keep the rhythm. The original is "deep and abiding faith in one’s own worth". So replacing "faith" with "happiness" and "worth" with "moments" might work. 
+
+So the slogan would be: "Coca-Cola is a deep and abiding happiness in one’s own moments." 
+
+Hmm, not quite catchy. Maybe replacing "Pride" with "Coca-Cola" and "faith" with "happiness". Then "in one’s own" becomes "in every refreshment". Wait, but need to use keywords. 
+
+Alternatively, "Coca-Cola is a moment of happiness in every refreshment." But that's changing more words. 
+
+Alternatively, maybe "Coca-Cola is the happiness in every moment." But that's shorter. 
+
+Wait, the original quote has a certain structure. Let me think again. 
+
+Original: "Pride is a deep and abiding faith in one’s own worth." 
+
+If we replace "Pride" with "Coca-Cola", "faith" with "happiness", and "worth" with "moments", the slogan would be: 
+
+"Coca-Cola is a deep and abiding happiness in one’s own moments." 
+
+Hmm, that's a bit long. Maybe "Coca-Cola is the happiness in every moment." That's concise but might lose some structure. 
+
+Alternatively, keeping the rhythm: "Coca-Cola is the moment of happiness in every refreshment." Not sure. 
+
+Alternatively, replacing "faith" with "refreshment" and "worth" with "moments". But that might not make sense. 
+
+Alternatively, maybe only replace two words: "Pride" with "Coca-Cola" and "faith" with "happiness". Then: "Coca-Cola is a deep and abiding happiness in one’s own worth." But "worth" might not be brand keywords. 
+
+Hmm, maybe the best is to keep "Pride" as the subject but integrate the brand name. Wait, the structure breakdown step says to separate fixed and editable parts. Let me redo that step properly. 
+
+The original quote is "Pride is a deep and abiding faith in one’s own worth." 
+
+Breaking into | sections where editable parts are separated: 
+
+"Pride | is a deep and abiding | faith | in one’s own | worth."
+
+So editable parts are "Pride", "faith", "worth". 
+
+The brand keywords are refreshment, happiness, moments. 
+
+So possible replacements: 
+
+1. "Coca-Cola | is a deep and abiding | happiness | in every | moment."
+
+That uses two replacements: "Pride" -> "Coca-Cola", "faith" -> "happiness", "worth" -> "moment". But that's three changes, which is over the limit. The user says to change at most two words. 
+
+Alternatively, replace "Pride" with "Coca-Cola" and "faith" with "happiness", leaving "worth" as is. 
+
+Result: "Coca-Cola is a deep and abiding happiness in one’s own worth." 
+
+But "worth" isn't a keyword. Alternatively, replace "worth" with "moments" but that's a third change. 
+
+Alternatively, maybe replace "faith" with "refreshment" and "worth" with "moments". 
+
+"Coca-Cola is a deep and abiding refreshment in one’s own moments." 
+
+Hmm, "deep and abiding refreshment" might not be ideal. 
+
+Alternatively, "Coca-Cola is a moment of happiness in every refreshment." 
+
+Wait, that's changing more words. 
+
+Alternatively, keep "faith" and "worth" but replace "Pride" with "Coca-Cola" and add the brand name. 
+
+Wait, the structure must include the brand name. 
+
+Alternatively, maybe "Coca-Cola's pride..." but the quote starts with "Pride". 
+
+Hmm, tricky. Let me think of another approach. Maybe the best is to change "Pride" to "Coca-Cola" and "faith" to "happiness", even if it's two changes. 
+
+So the slogan: "Coca-Cola is a deep and abiding happiness in one’s own worth." 
+
+But "worth" isn't a keyword. Alternatively, maybe "moments" instead of "worth", but that's a third change. 
+
+Alternatively, maybe the user allows adding the brand name as part of the replacement without counting towards the limit. 
+
+Wait, the instruction says "Adding the brand name does not count towards this limit." So replacing "Pride" with "Coca-Cola" is allowed, then two other words can be changed. 
+
+Ah! So if "Pride" is replaced with "Coca-Cola", that's one change, then can change two more words. 
+
+So, replacing "faith" with "happiness" and "worth" with "moments". 
+
+Result: "Coca-Cola is a deep and abiding happiness in one’s own moments." 
+
+That uses two keyword replacements (happiness and moments), plus the brand name. 
+
+That works. 
+
+Alternatively, "refreshment" instead of "happiness"? 
+
+"Coca-Cola is a deep and abiding refreshment in one’s own moments." 
+
+Hmm, "refreshment" is a keyword, but "deep and abiding refreshment" sounds a bit odd. 
+
+So the best might be using "happiness" and "moments". 
+
+So the final slogan would be "Coca-Cola is a deep and abiding happiness in one’s own moments." 
+
+But maybe "in every moment" instead of "in one’s own moments". 
+
+Wait, structure-wise, the original has "in one’s own worth". To fit "moments", maybe "in every moment" is better. 
+
+So adjusting: 
+
+"Coca-Cola is a deep and abiding happiness in every moment." 
+
+That changes "faith" to "happiness", "worth" to "moment" (so two changes, plus brand name), and keeps the rhythm. 
+
+Yes, that works. 
+
+So the structure breakdown would have "Pride | is a deep and abiding | faith | in one’s own | worth."
+
+Replacing "Pride" with "Coca-Cola", "faith" with "happiness", and "worth" with "moment" (changing two words besides the brand). 
+
+Wait, but "worth" to "moment" is a third change? Wait, replacing "faith" (1), "worth" (2). So two changes allowed. 
+
+Yes, since brand name is separate. 
+
+Alright, that should be the process. Now, compiling all steps.
+</think>
+
+Explanation:  
+1. "Pride is a deep and abiding faith in one’s own worth." - Alice Walker ★  
+   → Matches the theme of self-worth and celebration of achievement.  
+2. "It is better to be hated for what you are than to be loved for what you are not." - Andre Gide  
+   → Highlights authenticity, aligning with pride in truth.  
+3. "Pride must have a pride greater than itself to conquer it." - John Ruskin  
+   → Suggests strength through pride, but less directly relevant.  
+
+Structure:  
+Pride | is a deep and abiding | faith | in one’s own | worth.  
+
+Replacements:  
+1. Coca-Cola | is a deep and abiding | happiness | in every | moment.  
+   → "happiness" and "moment" replace "faith" and "worth" to emphasize joy and cherished experiences tied to the brand.  
+2. Coca-Cola | is a deep and abiding | refreshment | in every | triumph.  
+   → "refreshment" and "triumph" focus on product essence and celebration of success.  
+
+Remix Slogan: "Coca-Cola is a deep and abiding happiness in every moment."
+
+================ BEST CANDIDATE ================
+Decision: highest confidence
+Slogan  : Okay, let's tackle this Coca-Cola slogan remix for the Pride persona. The goal is to celebrate achievement or exclusivity with keywords like refreshment, happiness, moments. 
+
+First, I need to find three classic quotes that fit the theme of pride and exclusivity. Let's think... Maybe something like "The best things in life are free," but that's more about value. Or "You can't always get what you want," but that's the opposite. Wait, "The only way to do great work is to love what you do" by Jobs? Hmm, not sure. Maybe a sports quote? "Winning isn't everything, but wanting to win is." No. Wait, "To infinity and beyond!" from Buzz Lightyear? Maybe too playful.
+
+Alternatively, think about exclusivity and pride. "Diamonds are forever" by De Beers? That's a slogan, but maybe a quote. "I am because we are" from African proverb? Not exactly. 
+
+Wait, here's one: "The impossible is just an opinion." Maybe not. Let me think of quotes that talk about pride in achievements. "Those who dare to fail miserably can achieve greatly." John F. Kennedy. That's good because it's about daring and achievement. 
+
+Another could be "The world is yours." from the Godfather? Wait, that's more about power. Or the Jay-Z song? Maybe too specific. Alternatively, "You are the best." But that's too simple. 
+
+Wait, "To be the greatest, you must beat the greatest." from Rocky? Not sure. 
+
+Wait, "Pride comes before a fall." Proverb, but negative. 
+
+Hmm. Let me think again. The user wants quotes that fit Pride's goal of celebrating achievement or exclusivity. Maybe "Winning isn't everything, but wanting to win is." But that's more about striving. Alternatively, "You are the salt of the earth." From the Bible? Not sure. 
+
+Wait, here's a classic one: "The only thing necessary for evil to triumph is for good men to do nothing." Edmund Burke. Not relevant. 
+
+Wait, "The difference between the impossible and the possible lies in a person's determination." Tommy Lasorda. Maybe. 
+
+Alternatively, "The only way to keep your health is to eat what you don't want, drink what you don't like, and do what you'd rather not." Mark Twain. Not relevant. 
+
+Wait, maybe "The way to get started is to quit talking and begin doing." Einstein. Not exactly. 
+
+Alternatively, "I have not failed. I've just found 10,000 ways that won't work." Edison. That's about persistence, which ties into achievement. 
+
+Hmm, maybe "The greatest glory in living lies not in never falling, but in rising every time we fall." Nelson Mandela. 
+
+Alternatively, "Success is not final, failure is not fatal: It is the courage to continue that counts." Churchill. 
+
+Wait, the key is Pride, so quotes that celebrate achievement or exclusivity. Let me pick three. 
+
+1. "The only thing necessary for evil to triumph is for good men to do nothing." – Edmund Burke (No, not right.)
+
+Wait, maybe "The best is yet to come." – Unknown, but often used. That's optimistic, fits achievement.
+
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." – Nelson Mandela. Talks about perseverance leading to achievement.
+
+3. "Winning isn't everything, but wanting to win is." – Vince Lombardi. Definitely about achievement and striving.
+
+So those three. Let's see why they match:
+
+1. "The best is yet to come" implies future achievements, so fits celebrating moments of achievement.
+
+2. Mandela's quote about rising after falling ties into overcoming challenges, which is a form of achievement.
+
+3. Lombardi's quote directly ties to the desire to win, which is about pride in achievement.
+
+The best might be Lombardi's because it's directly about winning and wanting to win, which is a clear link to achievement and pride.
+
+Now Step 2: Break down the best quote. Let's pick Lombardi's: "Winning isn't everything, but wanting to win is." 
+
+Wait, the quote is: "Winning isn’t everything, but wanting to win is the key to success." Or maybe the exact quote is "It's not whether you win or lose, but how you play the game." No, that's different. Wait, checking, actually Lombardi's actual quote is: "Winning isn't everything, but wanting to win is." So that's the exact quote. So structure breakdown: 
+
+Original: "Winning isn’t everything, but wanting to win is." 
+
+We can separate into parts: "Winning isn’t everything, but wanting to win is."
+
+The brand wants to tie in refreshment, happiness, moments, and pride. The goal is to celebrate achievement or exclusivity. 
+
+So, the parts that can be changed: "Winning" could be replaced with "Celebrating" (since they want to celebrate achievement). "Win" could be replaced with "moments" or "happiness". 
+
+Alternatively, "everything" could be replaced with "the only thing" to make it fit. Wait, but need to keep the structure.
+
+Wait, maybe replacing "Winning isn't everything" with "Moments aren't everything" but that might not fit. Let me think again. 
+
+The structure breakdown would separate the parts. Let's use | to separate fixed and editable. 
+
+Structure: "Winning | isn’t everything, but wanting to win | is."
+
+So the editable parts are "Winning" and "win". 
+
+So replacing "Winning" with "Achieving" (since achievement is part of the persona) and "win" with "happiness" (brand keyword). 
+
+Alternatively, "Celebrating" and "moments". 
+
+Wait, let's see possible replacements. 
+
+Replacement set 1: 
+
+"Achieving isn't everything, but wanting to achieve happiness is."
+
+But that might not flow well. Alternatively, "Celebrating isn't everything, but wanting to celebrate moments is."
+
+Hmm. 
+
+Alternatively, "Moments aren’t everything, but wanting to make moments perfect is." Maybe. 
+
+Wait, the brand keywords are refreshment, happiness, moments. 
+
+Maybe replacing "Winning" with "Moments" and "win" with "refreshment". 
+
+So: "Moments aren’t everything, but wanting to refreshment is." No, that doesn't make sense. 
+
+Alternatively, "Happiness isn’t everything, but wanting to be happy is." But that's not using "moments".
+
+Alternatively, "Moments aren't everything, but wanting to cherish them is." But "cherish" isn't a keyword. 
+
+Hmm, maybe another approach. Let's try to use "refreshment". Since Coca-Cola is a drink, "refreshment" is a key word. 
+
+Original: "Winning isn't everything, but wanting to win is."
+
+Change "Winning" to "Refreshment", and "win" to "happiness". 
+
+"Refreshment isn't everything, but wanting to happiness is." No, that's not correct grammar. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to be happy is." 
+
+Hmm, maybe better. 
+
+Or "Moments aren’t everything, but wanting to refresh is." 
+
+Wait, "refresh" as a verb? 
+
+Alternatively, "Happiness isn’t everything, but wanting to refreshment is." No, that's not right. 
+
+Maybe better to keep the structure more intact. Let's think of the quote again. 
+
+Original structure: "Winning isn't everything, but wanting to win is." 
+
+The replacement should keep the same structure. So "X isn't everything, but wanting to Y is." 
+
+X could be "Moments", and Y could be "Celebrate" or "Achieve happiness". 
+
+So "Moments aren't everything, but wanting to celebrate happiness is." 
+
+Hmm, but that's a bit forced. 
+
+Alternatively, "Happiness isn't everything, but wanting to share moments is." 
+
+Hmm. 
+
+Alternatively, "Refreshment isn't everything, but wanting to refresh happiness is." 
+
+Hmm, not quite. 
+
+Maybe better to focus on "moments" as the key. Since the persona is about celebrating achievement or exclusivity, moments are important. 
+
+So, "Moments aren't everything, but wanting to make them unforgettable is." 
+
+But "unforgettable" isn't a keyword. 
+
+Alternatively, "Moments aren't everything, but wanting to cherish them is." 
+
+Still not using keywords. 
+
+Hmm, perhaps the best is to use "Moments aren't everything, but wanting to make them perfect is." 
+
+But "perfect" isn't a keyword. 
+
+Alternatively, "Happiness isn't everything, but wanting to experience moments is." 
+
+Hmm. 
+
+Wait, maybe "refreshment" can be part of the verb. 
+
+"Refreshment isn't everything, but wanting to stay refreshed is." 
+
+That uses the keyword "refreshment" and "refreshed". 
+
+Alternatively, "Happiness isn’t everything, but wanting to keep it is." 
+
+But not sure. 
+
+Alternatively, maybe replace "Winning" with "Celebrating" and "win" with "moments": 
+
+"Celebrating isn’t everything, but wanting to celebrate moments is." 
+
+That's a bit redundant but flows well. 
+
+Alternatively, "Moments aren’t everything, but wanting to make them happy is." 
+
+Hmm, "make them happy" could work. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish them is." 
+
+Still not hitting the keywords exactly, but maybe it's acceptable. 
+
+Alternatively, the brand keywords are "refreshment, happiness, moments". So maybe combine two. 
+
+For example: 
+
+"MOMENTS aren't everything, but wanting to refresh happiness is." 
+
+Hmm, "refresh happiness" as a verb? 
+
+Alternatively, "Happiness isn't everything, but wanting to share moments is." 
+
+Using "share" as an action, but "share" isn't a keyword. 
+
+Alternatively, "Moments aren’t everything, but wanting to enjoy them is." 
+
+"Enjoy" is a positive verb. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to keep moments sweet is." 
+
+"Sweet" relates to taste, but maybe not. 
+
+Hmm, this is tricky. Maybe the best is to go with the first idea: 
+
+"MOMENTS aren’t everything, but wanting to celebrate them is." 
+
+That uses "moments" as a keyword, and "celebrate" ties to pride and achievement. 
+
+Alternatively, "Happiness isn’t everything, but wanting to savor moments is." 
+
+"Savor" implies enjoying, which is good. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to stay refreshed is." 
+
+This uses two keywords: "refreshment" and "refreshed", and fits the structure. 
+
+Original quote: "Winning isn't everything, but wanting to win is." 
+
+Replacing "Winning" with "Refreshment" and "win" with "refreshed"? Wait, but the structure is "Winning isn't everything, but wanting to win is." 
+
+So "win" is the verb form. So if I change "win" to "refresh", it would be "wanting to refresh is", but that might not make sense. 
+
+Wait, maybe "Refreshment isn't everything, but wanting to refresh is." 
+
+Hmm, that's short. Maybe better: "Refreshment isn’t everything, but wanting to stay refreshed is." 
+
+Yes, that's better. 
+
+Alternatively, "Moments aren't everything, but wanting to make them happy is." 
+
+No, "make them happy" is okay. 
+
+Hmm, perhaps the best is to use "moments" as the first word and "happiness" as the second. 
+
+"MOMENTS aren’t everything, but wanting to capture happiness is." 
+
+"Capture happiness" sounds good. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish them is." 
+
+Hmm. 
+
+Alternatively, since the brand is Coca-Cola, maybe include "sipping" or "enjoying". 
+
+Wait, the brand keywords are refreshment (the product), happiness, moments. 
+
+So maybe: 
+
+"REFRESHMENT isn’t everything, but wanting to enjoy moments is." 
+
+Yes! "Refreshment" (brand keyword) and "moments" (brand keyword). 
+
+That uses two keywords and fits the structure. 
+
+Original quote: "Winning isn't everything, but wanting to win is." 
+
+Change "Winning" to "Refreshment" and "win" to "enjoy moments". Wait, but the structure needs to keep the verb after "wanting to". 
+
+Hmm, maybe "Refreshment isn't everything, but wanting to enjoy moments is." 
+
+Yes! Because the original structure is "wanting to win is" so "win" is the verb. So "enjoy moments" would need to be a verb phrase, but "wanting to enjoy moments is" is okay. 
+
+Alternatively, "Refreshment isn't everything, but wanting to cherish moments is." 
+
+"Cherish" is a good verb here. 
+
+Alternatively, "Refreshment isn't everything, but wanting to share moments is." 
+
+"Share" is a verb that can pair well. 
+
+So the best options for replacement are either:
+
+Option 1: Replace "Winning" with "Refreshment" and "win" with "cherish moments" → "Refreshment isn’t everything, but wanting to cherish moments is."
+
+Option 2: "Refreshment isn’t everything, but wanting to enjoy moments is."
+
+Either works. 
+
+Now, the final slogan needs to include the brand name. The instructions say "include brand name / keyword". 
+
+So adding "Coca-Cola" at the end. 
+
+So the slogan would be: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+Wait, but the structure should keep the original syntax and meter. The original quote ends with "is." So maybe:
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+Alternatively, "Refreshment isn’t everything, but wanting to cherish moments is—Coca-Cola."
+
+Or integrate the brand name within. 
+
+Wait, the original quote ends with "is", so maybe the brand name comes after. 
+
+Alternatively, adjust to end with the brand name. 
+
+Hmm, maybe: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+That keeps the original structure and adds the brand name at the end. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to cherish moments is—Coca-Cola." 
+
+Using an em dash. 
+
+Alternatively, to make it more punchy: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola." 
+
+That's good. 
+
+Alternatively, using "enjoy" instead of "cherish": 
+
+"Refreshment isn’t everything, but wanting to enjoy moments is. Coca-Cola."
+
+That's also good. 
+
+Now, the user's instruction says to end with punctuation. So a period at the end is fine. 
+
+Between "cherish moments" and "enjoy moments", which is better? 
+
+"Cherish moments" feels more about valuing, while "enjoy moments" is about savoring. Both are good. 
+
+Since "happiness" is a keyword, maybe "cherish moments of happiness"—but that's adding more words. 
+
+Alternatively, "cherish happy moments"—but that's adding an extra word. 
+
+Alternatively, stick with the two-word replacement: "Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola." 
+
+This uses two keywords (refreshment and moments) and keeps the structure. 
+
+Alternatively, if replacing "win" with "enjoy moments", that's two words. Wait, "win" is one word, so "enjoy moments" is two words. The instruction says to replace at most two words. 
+
+Original quote has "win" as one word. So replacing "win" with "enjoy moments" would be replacing one word with two, which might be okay as long as the total replaced words are <=2. 
+
+Wait, the original quote has "Winning" and "win" as the two editable parts. 
+
+Original words to replace: "Winning" and "win". 
+
+So replacing "Winning" (1 word) with "Refreshment" (1 word), and "win" (1 word) with "enjoy moments" (2 words). That would be replacing two words with three total, but the instruction says to change at most two words from the original. 
+
+Hmm, maybe better to keep it to one word each. 
+
+So, for "win" (the second part), replacing "win" with "cherish" would make "wanting to cherish is"—but that doesn't fit with moments. 
+
+Alternatively, "cherish them" but "them" refers back to moments. 
+
+Wait, let me structure again. 
+
+The original structure is: 
+
+[X] isn’t everything, but wanting to [Y] is. 
+
+Where X is "Winning" and Y is "win". 
+
+To replace both X and Y with brand keywords. 
+
+If I set X to "Moments", then Y needs to be an action. 
+
+So "Moments aren’t everything, but wanting to [Y] is." 
+
+[Y] could be "refresh happiness" (two words). 
+
+But then replacing "win" with "refresh happiness" would be two words. 
+
+Total words replaced: X is "Moments" (1), Y is "refresh happiness" (2), total of 3 changes, but the instruction says maximum two. 
+
+Hmm. Alternatively, keeping Y as a single word. 
+
+If X is "Refreshment", then Y needs to be a verb. 
+
+"Refreshment isn’t everything, but wanting to [Y] is." 
+
+Y could be "cherish" (so "cherish moments" but moments is the object. 
+
+Wait, but the structure requires Y to be a verb phrase without an object. 
+
+Hmm, this is challenging. 
+
+Alternatively, perhaps using "happiness" as X and "cherish moments" as Y. 
+
+"Happiness isn’t everything, but wanting to cherish moments is." 
+
+Here, replacing "Winning" with "Happiness" (1 word), and "win" with "cherish moments" (2 words). Total of 3 replacements. 
+
+Still over. 
+
+Alternatively, "Happiness isn’t everything, but wanting to cherish is." 
+
+That keeps Y as a single word. 
+
+"Cherish" implies cherish moments, but it's implied. 
+
+That uses "Happiness" and "cherish" (brand keyword is happiness, but "cherish" isn't a keyword). 
+
+Hmm. 
+
+Maybe the best is to go with two single-word replacements: 
+
+"Refreshment isn’t everything, but wanting to cherish is." 
+
+Here, X is "Refreshment" (1 word), Y is "cherish" (1 word). 
+
+That's two words changed. 
+
+"Cherish" as the verb, implying cherish moments, but it's not explicit. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to share is." 
+
+"Share moments", but "share" is not a keyword. 
+
+Hmm. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish is." 
+
+Using "Moments" as X (1 word), and "cherish" as Y (1 word). 
+
+That way, both replacements are single words, keeping within the two-word limit. 
+
+This uses "Moments" (a keyword) and "cherish" as the verb. 
+
+Then the slogan would be: 
+
+"MOMENTS aren’t everything, but wanting to cherish is. Coca-Cola." 
+
+But "cherish" is not a keyword, but it's a positive verb. 
+
+Alternatively, "enjoy" as Y: 
+
+"MOMENTS aren’t everything, but wanting to enjoy is. Coca-Cola." 
+
+"Enjoy" is good. 
+
+This uses "Moments" (keyword) and "enjoy" (not a keyword but acceptable). 
+
+Alternatively, the brand keyword is "happiness", so maybe "achieve happiness": 
+
+"Happiness isn’t everything, but wanting to achieve is. Coca-Cola." 
+
+Achieve what? Not clear. 
+
+Hmm. 
+
+Alternatively, using "refreshment" as X and "refresh" as Y: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+This uses two keywords (refreshment and refresh as part of it), and fits the two-word limit. 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+This is concise, uses "refreshment" and "refresh" ties to the brand's product. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to stay refreshed is. Coca-Cola." 
+
+This uses "refreshment" and "refreshed" (a variation). 
+
+"Stay refreshed" is a common phrase, so that's good. 
+
+So this replacement would be: 
+
+Original quote: "Winning isn’t everything, but wanting to win is." 
+
+Replacements: 
+
+Winning → Refreshment 
+
+win → stay refreshed 
+
+Wait, "win" is one word, so replacing "win" with "stay refreshed" is two words. That would be two replacements (Winning and win), but changing "win" to two words would make the total replaced words as three. 
+
+Wait, the instruction says: "changing at most two words from the original quote". 
+
+The original quote has "Winning" (1 word) and "win" (1 word). So replacing "Winning" with "Refreshment" (1 word) and "win" with "stay refreshed" (2 words) would be changing two words but adding an extra word. 
+
+Hmm, maybe that's allowed as long as the total replaced words are two (the original two words are replaced by their substitutes, even if longer). 
+
+Alternatively, to stick strictly to two words, perhaps: 
+
+"Refreshment isn’t everything, but wanting to refresh is." 
+
+This changes "Winning" to "Refreshment" (1 word) and "win" to "refresh" (1 word). 
+
+That's exactly two words changed. 
+
+Yes! 
+
+So, the final slogan would be: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+That keeps the structure, uses two keywords ("refreshment" and the verb "refresh"), and fits the two-word replacement limit. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to refresh is—Coca-Cola." 
+
+Adding the brand name at the end. 
+
+Alternatively, the structure requires ending with punctuation, so: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+Yes. 
+
+Alternatively, to make it more emotional, maybe "Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+That's the final slogan. 
+
+Another option with "Moments" and "enjoy": 
+
+"MOMENTS aren’t everything, but wanting to enjoy is. Coca-Cola." 
+
+This uses the keyword "moments" and the verb "enjoy", which is positive. 
+
+Either could work, but the first one ties more directly to the product (refreshment). 
+
+So I'll go with the first option.
+</think>
+
+Step 1【Quote Matching】  
+1. "Winning isn’t everything, but wanting to win is." – Vince Lombardi ★  
+   Matches pride in achievement and the drive to succeed.  
+2. "The best is yet to come." – Frank Sinatra  
+   Evokes anticipation of future triumphs.  
+3. "To be the greatest, you must beat the greatest." – Rocky Balboa  
+   Highlights exclusivity and excellence.  
+
+Step 2【Structure Breakdown】  
+Structure: "Winning | isn’t everything, but wanting to win | is."  
+Editable parts: "Winning" (achievement focus) and "win" (action verb). Replaceable with brand keywords.  
+
+Step 3【Vocabulary Replacement】  
+Replacements:  
+1. "Refreshment" (brand keyword) and "refresh" (action tied to
+-----------------------------------------------
+Okay, let's tackle this Coca-Cola slogan remix for the Pride persona. The goal is to celebrate achievement or exclusivity with keywords like refreshment, happiness, moments. 
+
+First, I need to find three classic quotes that fit the theme of pride and exclusivity. Let's think... Maybe something like "The best things in life are free," but that's more about value. Or "You can't always get what you want," but that's the opposite. Wait, "The only way to do great work is to love what you do" by Jobs? Hmm, not sure. Maybe a sports quote? "Winning isn't everything, but wanting to win is." No. Wait, "To infinity and beyond!" from Buzz Lightyear? Maybe too playful.
+
+Alternatively, think about exclusivity and pride. "Diamonds are forever" by De Beers? That's a slogan, but maybe a quote. "I am because we are" from African proverb? Not exactly. 
+
+Wait, here's one: "The impossible is just an opinion." Maybe not. Let me think of quotes that talk about pride in achievements. "Those who dare to fail miserably can achieve greatly." John F. Kennedy. That's good because it's about daring and achievement. 
+
+Another could be "The world is yours." from the Godfather? Wait, that's more about power. Or the Jay-Z song? Maybe too specific. Alternatively, "You are the best." But that's too simple. 
+
+Wait, "To be the greatest, you must beat the greatest." from Rocky? Not sure. 
+
+Wait, "Pride comes before a fall." Proverb, but negative. 
+
+Hmm. Let me think again. The user wants quotes that fit Pride's goal of celebrating achievement or exclusivity. Maybe "Winning isn't everything, but wanting to win is." But that's more about striving. Alternatively, "You are the salt of the earth." From the Bible? Not sure. 
+
+Wait, here's a classic one: "The only thing necessary for evil to triumph is for good men to do nothing." Edmund Burke. Not relevant. 
+
+Wait, "The difference between the impossible and the possible lies in a person's determination." Tommy Lasorda. Maybe. 
+
+Alternatively, "The only way to keep your health is to eat what you don't want, drink what you don't like, and do what you'd rather not." Mark Twain. Not relevant. 
+
+Wait, maybe "The way to get started is to quit talking and begin doing." Einstein. Not exactly. 
+
+Alternatively, "I have not failed. I've just found 10,000 ways that won't work." Edison. That's about persistence, which ties into achievement. 
+
+Hmm, maybe "The greatest glory in living lies not in never falling, but in rising every time we fall." Nelson Mandela. 
+
+Alternatively, "Success is not final, failure is not fatal: It is the courage to continue that counts." Churchill. 
+
+Wait, the key is Pride, so quotes that celebrate achievement or exclusivity. Let me pick three. 
+
+1. "The only thing necessary for evil to triumph is for good men to do nothing." – Edmund Burke (No, not right.)
+
+Wait, maybe "The best is yet to come." – Unknown, but often used. That's optimistic, fits achievement.
+
+2. "The greatest glory in living lies not in never falling, but in rising every time we fall." – Nelson Mandela. Talks about perseverance leading to achievement.
+
+3. "Winning isn't everything, but wanting to win is." – Vince Lombardi. Definitely about achievement and striving.
+
+So those three. Let's see why they match:
+
+1. "The best is yet to come" implies future achievements, so fits celebrating moments of achievement.
+
+2. Mandela's quote about rising after falling ties into overcoming challenges, which is a form of achievement.
+
+3. Lombardi's quote directly ties to the desire to win, which is about pride in achievement.
+
+The best might be Lombardi's because it's directly about winning and wanting to win, which is a clear link to achievement and pride.
+
+Now Step 2: Break down the best quote. Let's pick Lombardi's: "Winning isn't everything, but wanting to win is." 
+
+Wait, the quote is: "Winning isn’t everything, but wanting to win is the key to success." Or maybe the exact quote is "It's not whether you win or lose, but how you play the game." No, that's different. Wait, checking, actually Lombardi's actual quote is: "Winning isn't everything, but wanting to win is." So that's the exact quote. So structure breakdown: 
+
+Original: "Winning isn’t everything, but wanting to win is." 
+
+We can separate into parts: "Winning isn’t everything, but wanting to win is."
+
+The brand wants to tie in refreshment, happiness, moments, and pride. The goal is to celebrate achievement or exclusivity. 
+
+So, the parts that can be changed: "Winning" could be replaced with "Celebrating" (since they want to celebrate achievement). "Win" could be replaced with "moments" or "happiness". 
+
+Alternatively, "everything" could be replaced with "the only thing" to make it fit. Wait, but need to keep the structure.
+
+Wait, maybe replacing "Winning isn't everything" with "Moments aren't everything" but that might not fit. Let me think again. 
+
+The structure breakdown would separate the parts. Let's use | to separate fixed and editable. 
+
+Structure: "Winning | isn’t everything, but wanting to win | is."
+
+So the editable parts are "Winning" and "win". 
+
+So replacing "Winning" with "Achieving" (since achievement is part of the persona) and "win" with "happiness" (brand keyword). 
+
+Alternatively, "Celebrating" and "moments". 
+
+Wait, let's see possible replacements. 
+
+Replacement set 1: 
+
+"Achieving isn't everything, but wanting to achieve happiness is."
+
+But that might not flow well. Alternatively, "Celebrating isn't everything, but wanting to celebrate moments is."
+
+Hmm. 
+
+Alternatively, "Moments aren’t everything, but wanting to make moments perfect is." Maybe. 
+
+Wait, the brand keywords are refreshment, happiness, moments. 
+
+Maybe replacing "Winning" with "Moments" and "win" with "refreshment". 
+
+So: "Moments aren’t everything, but wanting to refreshment is." No, that doesn't make sense. 
+
+Alternatively, "Happiness isn’t everything, but wanting to be happy is." But that's not using "moments".
+
+Alternatively, "Moments aren't everything, but wanting to cherish them is." But "cherish" isn't a keyword. 
+
+Hmm, maybe another approach. Let's try to use "refreshment". Since Coca-Cola is a drink, "refreshment" is a key word. 
+
+Original: "Winning isn't everything, but wanting to win is."
+
+Change "Winning" to "Refreshment", and "win" to "happiness". 
+
+"Refreshment isn't everything, but wanting to happiness is." No, that's not correct grammar. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to be happy is." 
+
+Hmm, maybe better. 
+
+Or "Moments aren’t everything, but wanting to refresh is." 
+
+Wait, "refresh" as a verb? 
+
+Alternatively, "Happiness isn’t everything, but wanting to refreshment is." No, that's not right. 
+
+Maybe better to keep the structure more intact. Let's think of the quote again. 
+
+Original structure: "Winning isn't everything, but wanting to win is." 
+
+The replacement should keep the same structure. So "X isn't everything, but wanting to Y is." 
+
+X could be "Moments", and Y could be "Celebrate" or "Achieve happiness". 
+
+So "Moments aren't everything, but wanting to celebrate happiness is." 
+
+Hmm, but that's a bit forced. 
+
+Alternatively, "Happiness isn't everything, but wanting to share moments is." 
+
+Hmm. 
+
+Alternatively, "Refreshment isn't everything, but wanting to refresh happiness is." 
+
+Hmm, not quite. 
+
+Maybe better to focus on "moments" as the key. Since the persona is about celebrating achievement or exclusivity, moments are important. 
+
+So, "Moments aren't everything, but wanting to make them unforgettable is." 
+
+But "unforgettable" isn't a keyword. 
+
+Alternatively, "Moments aren't everything, but wanting to cherish them is." 
+
+Still not using keywords. 
+
+Hmm, perhaps the best is to use "Moments aren't everything, but wanting to make them perfect is." 
+
+But "perfect" isn't a keyword. 
+
+Alternatively, "Happiness isn't everything, but wanting to experience moments is." 
+
+Hmm. 
+
+Wait, maybe "refreshment" can be part of the verb. 
+
+"Refreshment isn't everything, but wanting to stay refreshed is." 
+
+That uses the keyword "refreshment" and "refreshed". 
+
+Alternatively, "Happiness isn’t everything, but wanting to keep it is." 
+
+But not sure. 
+
+Alternatively, maybe replace "Winning" with "Celebrating" and "win" with "moments": 
+
+"Celebrating isn’t everything, but wanting to celebrate moments is." 
+
+That's a bit redundant but flows well. 
+
+Alternatively, "Moments aren’t everything, but wanting to make them happy is." 
+
+Hmm, "make them happy" could work. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish them is." 
+
+Still not hitting the keywords exactly, but maybe it's acceptable. 
+
+Alternatively, the brand keywords are "refreshment, happiness, moments". So maybe combine two. 
+
+For example: 
+
+"MOMENTS aren't everything, but wanting to refresh happiness is." 
+
+Hmm, "refresh happiness" as a verb? 
+
+Alternatively, "Happiness isn't everything, but wanting to share moments is." 
+
+Using "share" as an action, but "share" isn't a keyword. 
+
+Alternatively, "Moments aren’t everything, but wanting to enjoy them is." 
+
+"Enjoy" is a positive verb. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to keep moments sweet is." 
+
+"Sweet" relates to taste, but maybe not. 
+
+Hmm, this is tricky. Maybe the best is to go with the first idea: 
+
+"MOMENTS aren’t everything, but wanting to celebrate them is." 
+
+That uses "moments" as a keyword, and "celebrate" ties to pride and achievement. 
+
+Alternatively, "Happiness isn’t everything, but wanting to savor moments is." 
+
+"Savor" implies enjoying, which is good. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to stay refreshed is." 
+
+This uses two keywords: "refreshment" and "refreshed", and fits the structure. 
+
+Original quote: "Winning isn't everything, but wanting to win is." 
+
+Replacing "Winning" with "Refreshment" and "win" with "refreshed"? Wait, but the structure is "Winning isn't everything, but wanting to win is." 
+
+So "win" is the verb form. So if I change "win" to "refresh", it would be "wanting to refresh is", but that might not make sense. 
+
+Wait, maybe "Refreshment isn't everything, but wanting to refresh is." 
+
+Hmm, that's short. Maybe better: "Refreshment isn’t everything, but wanting to stay refreshed is." 
+
+Yes, that's better. 
+
+Alternatively, "Moments aren't everything, but wanting to make them happy is." 
+
+No, "make them happy" is okay. 
+
+Hmm, perhaps the best is to use "moments" as the first word and "happiness" as the second. 
+
+"MOMENTS aren’t everything, but wanting to capture happiness is." 
+
+"Capture happiness" sounds good. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish them is." 
+
+Hmm. 
+
+Alternatively, since the brand is Coca-Cola, maybe include "sipping" or "enjoying". 
+
+Wait, the brand keywords are refreshment (the product), happiness, moments. 
+
+So maybe: 
+
+"REFRESHMENT isn’t everything, but wanting to enjoy moments is." 
+
+Yes! "Refreshment" (brand keyword) and "moments" (brand keyword). 
+
+That uses two keywords and fits the structure. 
+
+Original quote: "Winning isn't everything, but wanting to win is." 
+
+Change "Winning" to "Refreshment" and "win" to "enjoy moments". Wait, but the structure needs to keep the verb after "wanting to". 
+
+Hmm, maybe "Refreshment isn't everything, but wanting to enjoy moments is." 
+
+Yes! Because the original structure is "wanting to win is" so "win" is the verb. So "enjoy moments" would need to be a verb phrase, but "wanting to enjoy moments is" is okay. 
+
+Alternatively, "Refreshment isn't everything, but wanting to cherish moments is." 
+
+"Cherish" is a good verb here. 
+
+Alternatively, "Refreshment isn't everything, but wanting to share moments is." 
+
+"Share" is a verb that can pair well. 
+
+So the best options for replacement are either:
+
+Option 1: Replace "Winning" with "Refreshment" and "win" with "cherish moments" → "Refreshment isn’t everything, but wanting to cherish moments is."
+
+Option 2: "Refreshment isn’t everything, but wanting to enjoy moments is."
+
+Either works. 
+
+Now, the final slogan needs to include the brand name. The instructions say "include brand name / keyword". 
+
+So adding "Coca-Cola" at the end. 
+
+So the slogan would be: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+Wait, but the structure should keep the original syntax and meter. The original quote ends with "is." So maybe:
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+Alternatively, "Refreshment isn’t everything, but wanting to cherish moments is—Coca-Cola."
+
+Or integrate the brand name within. 
+
+Wait, the original quote ends with "is", so maybe the brand name comes after. 
+
+Alternatively, adjust to end with the brand name. 
+
+Hmm, maybe: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola."
+
+That keeps the original structure and adds the brand name at the end. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to cherish moments is—Coca-Cola." 
+
+Using an em dash. 
+
+Alternatively, to make it more punchy: 
+
+"Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola." 
+
+That's good. 
+
+Alternatively, using "enjoy" instead of "cherish": 
+
+"Refreshment isn’t everything, but wanting to enjoy moments is. Coca-Cola."
+
+That's also good. 
+
+Now, the user's instruction says to end with punctuation. So a period at the end is fine. 
+
+Between "cherish moments" and "enjoy moments", which is better? 
+
+"Cherish moments" feels more about valuing, while "enjoy moments" is about savoring. Both are good. 
+
+Since "happiness" is a keyword, maybe "cherish moments of happiness"—but that's adding more words. 
+
+Alternatively, "cherish happy moments"—but that's adding an extra word. 
+
+Alternatively, stick with the two-word replacement: "Refreshment isn’t everything, but wanting to cherish moments is. Coca-Cola." 
+
+This uses two keywords (refreshment and moments) and keeps the structure. 
+
+Alternatively, if replacing "win" with "enjoy moments", that's two words. Wait, "win" is one word, so "enjoy moments" is two words. The instruction says to replace at most two words. 
+
+Original quote has "win" as one word. So replacing "win" with "enjoy moments" would be replacing one word with two, which might be okay as long as the total replaced words are <=2. 
+
+Wait, the original quote has "Winning" and "win" as the two editable parts. 
+
+Original words to replace: "Winning" and "win". 
+
+So replacing "Winning" (1 word) with "Refreshment" (1 word), and "win" (1 word) with "enjoy moments" (2 words). That would be replacing two words with three total, but the instruction says to change at most two words from the original. 
+
+Hmm, maybe better to keep it to one word each. 
+
+So, for "win" (the second part), replacing "win" with "cherish" would make "wanting to cherish is"—but that doesn't fit with moments. 
+
+Alternatively, "cherish them" but "them" refers back to moments. 
+
+Wait, let me structure again. 
+
+The original structure is: 
+
+[X] isn’t everything, but wanting to [Y] is. 
+
+Where X is "Winning" and Y is "win". 
+
+To replace both X and Y with brand keywords. 
+
+If I set X to "Moments", then Y needs to be an action. 
+
+So "Moments aren’t everything, but wanting to [Y] is." 
+
+[Y] could be "refresh happiness" (two words). 
+
+But then replacing "win" with "refresh happiness" would be two words. 
+
+Total words replaced: X is "Moments" (1), Y is "refresh happiness" (2), total of 3 changes, but the instruction says maximum two. 
+
+Hmm. Alternatively, keeping Y as a single word. 
+
+If X is "Refreshment", then Y needs to be a verb. 
+
+"Refreshment isn’t everything, but wanting to [Y] is." 
+
+Y could be "cherish" (so "cherish moments" but moments is the object. 
+
+Wait, but the structure requires Y to be a verb phrase without an object. 
+
+Hmm, this is challenging. 
+
+Alternatively, perhaps using "happiness" as X and "cherish moments" as Y. 
+
+"Happiness isn’t everything, but wanting to cherish moments is." 
+
+Here, replacing "Winning" with "Happiness" (1 word), and "win" with "cherish moments" (2 words). Total of 3 replacements. 
+
+Still over. 
+
+Alternatively, "Happiness isn’t everything, but wanting to cherish is." 
+
+That keeps Y as a single word. 
+
+"Cherish" implies cherish moments, but it's implied. 
+
+That uses "Happiness" and "cherish" (brand keyword is happiness, but "cherish" isn't a keyword). 
+
+Hmm. 
+
+Maybe the best is to go with two single-word replacements: 
+
+"Refreshment isn’t everything, but wanting to cherish is." 
+
+Here, X is "Refreshment" (1 word), Y is "cherish" (1 word). 
+
+That's two words changed. 
+
+"Cherish" as the verb, implying cherish moments, but it's not explicit. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to share is." 
+
+"Share moments", but "share" is not a keyword. 
+
+Hmm. 
+
+Alternatively, "Moments aren’t everything, but wanting to cherish is." 
+
+Using "Moments" as X (1 word), and "cherish" as Y (1 word). 
+
+That way, both replacements are single words, keeping within the two-word limit. 
+
+This uses "Moments" (a keyword) and "cherish" as the verb. 
+
+Then the slogan would be: 
+
+"MOMENTS aren’t everything, but wanting to cherish is. Coca-Cola." 
+
+But "cherish" is not a keyword, but it's a positive verb. 
+
+Alternatively, "enjoy" as Y: 
+
+"MOMENTS aren’t everything, but wanting to enjoy is. Coca-Cola." 
+
+"Enjoy" is good. 
+
+This uses "Moments" (keyword) and "enjoy" (not a keyword but acceptable). 
+
+Alternatively, the brand keyword is "happiness", so maybe "achieve happiness": 
+
+"Happiness isn’t everything, but wanting to achieve is. Coca-Cola." 
+
+Achieve what? Not clear. 
+
+Hmm. 
+
+Alternatively, using "refreshment" as X and "refresh" as Y: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+This uses two keywords (refreshment and refresh as part of it), and fits the two-word limit. 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+This is concise, uses "refreshment" and "refresh" ties to the brand's product. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to stay refreshed is. Coca-Cola." 
+
+This uses "refreshment" and "refreshed" (a variation). 
+
+"Stay refreshed" is a common phrase, so that's good. 
+
+So this replacement would be: 
+
+Original quote: "Winning isn’t everything, but wanting to win is." 
+
+Replacements: 
+
+Winning → Refreshment 
+
+win → stay refreshed 
+
+Wait, "win" is one word, so replacing "win" with "stay refreshed" is two words. That would be two replacements (Winning and win), but changing "win" to two words would make the total replaced words as three. 
+
+Wait, the instruction says: "changing at most two words from the original quote". 
+
+The original quote has "Winning" (1 word) and "win" (1 word). So replacing "Winning" with "Refreshment" (1 word) and "win" with "stay refreshed" (2 words) would be changing two words but adding an extra word. 
+
+Hmm, maybe that's allowed as long as the total replaced words are two (the original two words are replaced by their substitutes, even if longer). 
+
+Alternatively, to stick strictly to two words, perhaps: 
+
+"Refreshment isn’t everything, but wanting to refresh is." 
+
+This changes "Winning" to "Refreshment" (1 word) and "win" to "refresh" (1 word). 
+
+That's exactly two words changed. 
+
+Yes! 
+
+So, the final slogan would be: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+That keeps the structure, uses two keywords ("refreshment" and the verb "refresh"), and fits the two-word replacement limit. 
+
+Alternatively, "Refreshment isn’t everything, but wanting to refresh is—Coca-Cola." 
+
+Adding the brand name at the end. 
+
+Alternatively, the structure requires ending with punctuation, so: 
+
+"Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+Yes. 
+
+Alternatively, to make it more emotional, maybe "Refreshment isn’t everything, but wanting to refresh is. Coca-Cola." 
+
+That's the final slogan. 
+
+Another option with "Moments" and "enjoy": 
+
+"MOMENTS aren’t everything, but wanting to enjoy is. Coca-Cola." 
+
+This uses the keyword "moments" and the verb "enjoy", which is positive. 
+
+Either could work, but the first one ties more directly to the product (refreshment). 
+
+So I'll go with the first option.
+</think>
+
+Step 1【Quote Matching】  
+1. "Winning isn’t everything, but wanting to win is." – Vince Lombardi ★  
+   Matches pride in achievement and the drive to succeed.  
+2. "The best is yet to come." – Frank Sinatra  
+   Evokes anticipation of future triumphs.  
+3. "To be the greatest, you must beat the greatest." – Rocky Balboa  
+   Highlights exclusivity and excellence.  
+
+Step 2【Structure Breakdown】  
+Structure: "Winning | isn’t everything, but wanting to win | is."  
+Editable parts: "Winning" (achievement focus) and "win" (action verb). Replaceable with brand keywords.  
+
+Step 3【Vocabulary Replacement】  
+Replacements:  
+1. "Refreshment" (brand keyword) and "refresh" (action tied to
+===============================================
+

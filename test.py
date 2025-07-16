@@ -1,105 +1,107 @@
+import os
+import sys
 import torch
 import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 def main():
-    parser = argparse.ArgumentParser(description="使用指定模型进行推理")
+    parser = argparse.ArgumentParser(description="Perform inference with a specified model")
     parser.add_argument(
         "--model_id_or_path",
         type=str,
-        default="/sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250624-153730",
-        #default="Qwen/QwQ-32B",
-        #default="Qwen/Qwen2-7B-Instruct",
-        #default="/sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/Qwen2-7B-Instruct-lora-singlegpu/final",
-        help="要加载的Hugging Face模型ID或本地模型路径, for example: Qwen/Qwen2-7B-Instruct, Qwen/QwQ-32B-lora-ds/final, ",
+        default="/sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250627-151621",
+        help="Hugging Face model ID or local path to load"
+    )
+    # 1) Add a persona argument; choose one of the predefined personas
+    personas = ["Pride", "Anticipation", "Fear", "Joy", "Trust"]
+    parser.add_argument(
+        "--persona",
+        type=str,
+        choices=personas,
+        default="Joy",
+        help="Persona for slogan generation"
     )
     args = parser.parse_args()
 
     model_id = args.model_id_or_path
-    print(f"正在加载模型: {model_id}")
+    persona = args.persona
+
+    # --- Create output directory, build filename from model name, redirect stdout ---
+    output_dir = "output"
+    os.makedirs(output_dir, exist_ok=True)
+    model_name = os.path.basename(model_id)
+    output_path = os.path.join(output_dir, f"{model_name}_output.txt")
+    sys.stdout = open(output_path, "a", encoding="utf-8")
+    # ---------------------------------------------------------------------------
+
+    print(f"Loading model: {model_id}, target persona: {persona}")
 
     quant_config = BitsAndBytesConfig(load_in_8bit=True)
 
-    # 1. 检查有几张可用 GPU
+    # 1. Check how many GPUs are available
     ngpu = torch.cuda.device_count()
 
-    # 2. 根据 GPU 数量选择 device_map
+    # 2. Select device_map depending on the number of GPUs
     if ngpu > 1:
-        # 多卡：让 HF 自动拆分（启用张量并行）
+        # Multi-GPU: allow HF to auto-split (tensor parallelism)
         device_map = "auto"
     else:
-        # 单卡：把模型全部放到 GPU:0
+        # Single GPU: place the entire model on GPU 0
         device_map = {"": 0}
 
-    # 3. 加载分词器
+    # 3. Load the tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
 
-    # 4. 从预训练权重加载模型
-    #    ─ from_pretrained 方法既能接受Hugging Face模型ID，也能接受本地路径
+    # 4. Load the model from pretrained weights
     model = AutoModelForCausalLM.from_pretrained(
         model_id,
-        #torch_dtype=torch.float16,
         device_map=device_map,
         trust_remote_code=True,
         quantization_config=quant_config
     )
 
-    #5. 构造一次示例对话
-    system = "Generate slogans for certain product."
-    user   = "Please generate slogan for coca cola. using different styles. promote happiness and refreshment."
+    # 5. Construct a sample conversation for the selected persona
+    system = "You are an award-winning slogan copywriter. Create slogan remixes using classic poetry. Don't change the sentence's structure and pattern, just replace words with synonyms or similar phrases. "
+    guidelines = {
+        "Pride": "celebrate achievement or exclusivity",
+        "Anticipation": "spark curiosity or suspense",
+        "Fear": "neutralize fear of missing out or add urgency",
+        "Joy": "evoke delight or excitement",
+        "Trust": "emphasize safety or reliability",
+    }
+    # Clarify this is a persona type, not a person’s name
+    user = (
+        f"Generate Coca-Cola slogans targeting the \"{persona}\" persona, "
+        f"conveying: {guidelines[persona]}.\n"
+    )
     messages = [
         {"role": "system", "content": system},
         {"role": "user",   "content": user}
     ]
 
-    # # 1) define personas in the required order
-    # personas = ["Pride", "Anticipation", "Fear", "Joy", "Trust"]
-
-    # # 2) system & user prompts
-    # system = "You are an award-winning advertising copywriter."
-
-    # user = (
-    #     "Generate five distinct Coca-Cola slogans—one for each persona listed below—"
-    #     "that all convey happiness and refreshment.\n"
-    #     "Personas (use this order): Pride, Anticipation, Fear, Joy, Trust.\n"
-    #     "Return each slogan in the format “<Persona>: <Slogan>”.\n"
-    #     "Persona guidelines:\n"
-    #     "• Pride: celebrate achievement or exclusivity\n"
-    #     "• Anticipation: spark curiosity or suspense\n"
-    #     "• Fear: neutralize fear of missing out or add urgency\n"
-    #     "• Joy: evoke delight or excitement\n"
-    #     "• Trust: emphasize safety or reliability\n"
-    #     "Keep every slogan under eight words, and vary the linguistic style."
-    # )
-
-    # messages = [
-    #     {"role": "system", "content": system},
-    #     {"role": "user",   "content": user}
-    # ]
-
-
-
-    # 6. 构造 prompt 并转张量
+    # 6. Build the prompt and convert it to tensors
     prompt = tokenizer.apply_chat_template(
         messages, tokenize=False, add_generation_prompt=True
     )
+    print("Prompt:", prompt)                    # Print the raw prompt text
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    print("Input IDs:", inputs.input_ids)       # Print the tokenized input IDs
 
-    # 7. 生成回答
+    # 7. Generate the model’s response
     outputs = model.generate(
         **inputs,
-        max_new_tokens=3000,
-        do_sample=True,         # 启用随机采样
-        temperature=0.6,        # 温度设置
-        top_k=50,               # top-k 采样
-        top_p=0.6,              # top-p 采样
-        repetition_penalty=1.1, # 防止重复
-        pad_token_id=tokenizer.eos_token_id  # 视情况而定，加上这行避免警告
+        max_new_tokens=10000,
+        do_sample=True,         # enable sampling
+        temperature=1.0,        # sampling temperature
+        top_k=50,               # top-k sampling
+        top_p=1.0,              # top-p sampling
+        repetition_penalty=1.0, # prevent repetition
+        pad_token_id=tokenizer.eos_token_id  # avoid warnings
     )
-    generated = outputs[0][ inputs.input_ids.shape[-1] : ]
+    generated = outputs[0][inputs.input_ids.shape[-1]:]
     reply = tokenizer.decode(generated, skip_special_tokens=True)
 
-    print("Output：", reply)
+    print("Output:", reply)
 
 if __name__ == "__main__":
     main()
