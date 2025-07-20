@@ -1,0 +1,392 @@
+Loading model: /sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250708-205411
+Generation type: headline | Persona: Joy | Passes (k): 1
+Generating…
+
+--- Pass 1 (valid) ---
+Okay, so I need to help the user create a remix of a classic quote for Coca-Cola, aiming to evoke delight or excitement. Let's start with Step 1: Quote Matching. The user wants three quotes that fit the brand and persona. 
+
+First, I should think of famous quotes, lyrics, or expressions that are associated with joy, happiness, or celebration. The quotes need to be concise (5-10 words). Let me brainstorm some possibilities.
+
+Maybe "Happiness is like a glass half full" by someone? Wait, that's more about optimism. How about "The best things in life are free, but you have to buy Coca-Cola" – but that's already a slogan. Hmm, need original sources. 
+
+Wait, the quote "To infinity and beyond!" from Toy Story. That's energetic and exciting. The author is Buzz Lightyear. That's good for excitement. 
+
+Another one could be "Where there's a will, there's a way" – but that's more determination. Maybe "Laughter is the best medicine," but that's more about health. 
+
+Thinking of lyrics, "I want to hold your hand" by The Beatles is too specific. Maybe "Happy together" from The Turtles? But that's a song title. Alternatively, "Don't worry, be happy" by Bobby McFerrin. That's a perfect match for joy. 
+
+Another classic is "Life is a party" from a commercial? Wait, actually, that's a Bacardi slogan. Need something else. 
+
+Maybe "Let’s go all the way!" from a movie? Or "Just do it!" but that's Nike. Hmm. 
+
+Wait, "Make every moment a party" – not sure the source. Maybe a lyric from "The party's just begun" by Donna Summer? But that's longer. 
+
+Alternatively, "The greatest joy is living the life you want" by someone? Not exact. Let me think of specific quotes.
+
+Wait, here's one: "Music is the wine that fills the cup of life." – Robert G. Ingersoll. Maybe not exactly. 
+
+Wait, maybe "The thrill of victory" from ABC's Wide World of Sports. The full quote is "The thrill of victory and the agony of defeat," but that's more about sports. Not sure. 
+
+Wait, "Happiness is the best makeup" – maybe attributed to Marilyn Monroe? Let me check. Yes, she said something like "Happiness is the best makeup." That's a good quote for joy. 
+
+So three quotes:
+
+1. "To infinity and beyond!" – Buzz Lightyear. Why? Excitement and endless possibilities, matching Coca-Cola's uplifting vibe. 
+
+2. "Don't worry, be happy." – Bobby McFerrin. Directly about joy, aligns with the goal.
+
+3. "Happiness is the best makeup." – Marilyn Monroe. Focuses on happiness as a positive trait, which Coca-Cola can symbolize.
+
+Now, which is the best? The first one (Buzz Lightyear) is more about excitement, "infinity and beyond" gives a sense of endless joy, which might pair well with Coca-Cola's global reach and celebratory nature. The second is more straightforward, but maybe a bit on the nose. The third is good but focuses on makeup, which might be less relevant. 
+
+So marking the first one as ★. 
+
+Proceeding to Step 2. Structure breakdown: take the ★ quote "To infinity and beyond!" and separate fixed parts. The fixed part is "To" and "and beyond!" The editable part is "infinity". The word "infinity" can be replaced with a Coca-Cola keyword like "Coca-Cola" or "joy", but need to fit the structure. Wait, the original quote is "infinity" so the structure is [Term] | and beyond!.
+
+So the structure would be: To | infinity | and beyond! 
+
+The "infinity" is the editable part. The replacement should be a keyword that can replace "infinity" while keeping the rhythm. The original is two syllables (in-fin-ity – three syllables? Wait, "infinity" is four syllables: in-fin-i-ty. Hmm, that might be an issue. Alternatively, maybe "joy" could work? Let's see:
+
+"To joy and beyond!" but that doesn't make much sense. Wait, the structure is "To [something] and beyond!" The replacement should fit in as the object. Maybe "Coca-Cola" is too long. Alternatively, a keyword like "celebrate", "delight", "Coke" (shorter). 
+
+Wait, perhaps "To Coca-Cola and beyond!" But that's adding the brand name and changing the structure. Wait, the original quote has three words in the first part: "To infinity and beyond!" So "infinity" is the main term. 
+
+So the fixed parts are "To" and "and beyond!", so replacing "infinity" with a brand-related term. 
+
+Step 3: Replacements. Let's think of words that can replace "infinity" while keeping the same rhythm. Let's see syllables. "Infinity" has four syllables. 
+
+Possible replacements:
+
+1. "Coca-Cola" – that's four syllables (Co-ca-Co-la). So "To Coca-Cola and beyond!" That's good. It keeps the structure and injects the brand name. 
+
+Another option: "To joy and beyond!" but "joy" is only one syllable, which would change the rhythm. 
+
+Alternatively, "To delight and beyond!" (two syllables: de-light) but still shorter. Maybe "To celebration and beyond!" (5 syllables), which might be too long. 
+
+Alternatively, "To the stars and beyond!" but that's similar to the original. 
+
+So the best replacement would be Coca-Cola itself. 
+
+Alternatively, "To Coca-Cola's joy and beyond!" but that might be too long. 
+
+Another option could be "To Coke's delight and beyond!" But "Coke's delight" might be stretching. 
+
+Alternatively, "To Coca-Cola and beyond!" is straightforward. 
+
+Another replacement set could be "To every moment and beyond!" but that doesn't include the brand. 
+
+Hmm. Maybe the best is replacing "infinity" with "Coca-Cola" directly. 
+
+Step 4: Remix. So the final slogan would be "To Coca-Cola and beyond!" But does that capture the brand's joy and excitement? It might, but maybe it's a bit forced. 
+
+Alternatively, could keep "infinity" but add the brand in another way? Wait, the user says to include the brand name or keyword, so probably needs to be in there. 
+
+Alternatively, maybe "To joy and beyond with Coca-Cola!" but that changes the structure. 
+
+Alternatively, "To Coca-Cola's joy and beyond!" But that's three words. Hmm. 
+
+Wait, the original structure is "To [X] and beyond!" where X is a single noun phrase. So replacing X with "Coca-Cola" works, though the brand name is a bit long. 
+
+Alternatively, use "Coke" as the abbreviation. "To Coke and beyond!" but that's shorter and keeps the rhythm (Coke is one syllable). 
+
+But "Coke" is commonly used, so maybe that's better. 
+
+But the user specified the brand is Coca-Cola, so maybe prefer the full name. 
+
+Alternatively, "To Coca-Cola's infinity and beyond!" but that's adding words. 
+
+Hmm. Alternatively, "To Coca-Cola and beyond!" is acceptable. 
+
+So the final remix would be "To Coca-Cola and beyond!" which ends with an exclamation mark. 
+
+Alternatively, "To Coca-Cola, and beyond!" with a comma. But the original didn't have a comma. 
+
+Alternatively, maybe "To Coca-Cola's delight and beyond!" but that's more words. 
+
+Wait, let me check the user's constraints again. The remix must include the brand name or keyword, keep original syntax and meter, and end with punctuation. Also, not use first-person. 
+
+So "To Coca-Cola and beyond!" fits. It keeps the structure, inserts the brand, and has the same cadence (four syllables in the first part). 
+
+Alternatively, maybe "To Coca-Cola's joy and beyond!" but that's changing more. 
+
+I think the best is "To Coca-Cola and beyond!" with explanation that "infinity" is replaced with the brand name to tie the excitement of endless joy to Coca-Cola.
+</think>
+
+Step 1【Quote Matching】  
+1. "To infinity and beyond!" – Buzz Lightyear ★  
+   (Matches Coca-Cola’s global reach and endless celebratory energy.)  
+2. "Happiness is the best makeup" – Marilyn Monroe  
+   (Aligns with joy as a vibrant, uplifting emotion.)  
+3. "Don’t worry, be happy" – Bobby McFerrin  
+   (Directly advocates for joy, but less dynamic for a brand slogan.)  
+
+Step 2【Structure Breakdown】  
+Structure: To | infinity | and beyond!  
+Editable part: "infinity" (replaced with brand keywords to link excitement to Coca-Cola).  
+
+Step 3【Vocabulary Replacement】  
+1. "Coca-Cola" (4 syllables like "infinity," ties the brand directly to limitless joy).  
+2. "joy’s high" (2 words; "high" evokes exhilaration but less direct brand mention).  
+
+Step 4【Remix Generation】  
+Remix slogan: "To Coca-Cola and beyond!"
+
+================ BEST CANDIDATE ================
+Decision: highest confidence (voting disabled)
+Headline: Okay, so I need to help the user create a remix of a classic quote for Coca-Cola, aiming to evoke delight or excitement. Let's start with Step 1: Quote Matching. The user wants three quotes that fit the brand and persona. 
+
+First, I should think of famous quotes, lyrics, or expressions that are associated with joy, happiness, or celebration. The quotes need to be concise (5-10 words). Let me brainstorm some possibilities.
+
+Maybe "Happiness is like a glass half full" by someone? Wait, that's more about optimism. How about "The best things in life are free, but you have to buy Coca-Cola" – but that's already a slogan. Hmm, need original sources. 
+
+Wait, the quote "To infinity and beyond!" from Toy Story. That's energetic and exciting. The author is Buzz Lightyear. That's good for excitement. 
+
+Another one could be "Where there's a will, there's a way" – but that's more determination. Maybe "Laughter is the best medicine," but that's more about health. 
+
+Thinking of lyrics, "I want to hold your hand" by The Beatles is too specific. Maybe "Happy together" from The Turtles? But that's a song title. Alternatively, "Don't worry, be happy" by Bobby McFerrin. That's a perfect match for joy. 
+
+Another classic is "Life is a party" from a commercial? Wait, actually, that's a Bacardi slogan. Need something else. 
+
+Maybe "Let’s go all the way!" from a movie? Or "Just do it!" but that's Nike. Hmm. 
+
+Wait, "Make every moment a party" – not sure the source. Maybe a lyric from "The party's just begun" by Donna Summer? But that's longer. 
+
+Alternatively, "The greatest joy is living the life you want" by someone? Not exact. Let me think of specific quotes.
+
+Wait, here's one: "Music is the wine that fills the cup of life." – Robert G. Ingersoll. Maybe not exactly. 
+
+Wait, maybe "The thrill of victory" from ABC's Wide World of Sports. The full quote is "The thrill of victory and the agony of defeat," but that's more about sports. Not sure. 
+
+Wait, "Happiness is the best makeup" – maybe attributed to Marilyn Monroe? Let me check. Yes, she said something like "Happiness is the best makeup." That's a good quote for joy. 
+
+So three quotes:
+
+1. "To infinity and beyond!" – Buzz Lightyear. Why? Excitement and endless possibilities, matching Coca-Cola's uplifting vibe. 
+
+2. "Don't worry, be happy." – Bobby McFerrin. Directly about joy, aligns with the goal.
+
+3. "Happiness is the best makeup." – Marilyn Monroe. Focuses on happiness as a positive trait, which Coca-Cola can symbolize.
+
+Now, which is the best? The first one (Buzz Lightyear) is more about excitement, "infinity and beyond" gives a sense of endless joy, which might pair well with Coca-Cola's global reach and celebratory nature. The second is more straightforward, but maybe a bit on the nose. The third is good but focuses on makeup, which might be less relevant. 
+
+So marking the first one as ★. 
+
+Proceeding to Step 2. Structure breakdown: take the ★ quote "To infinity and beyond!" and separate fixed parts. The fixed part is "To" and "and beyond!" The editable part is "infinity". The word "infinity" can be replaced with a Coca-Cola keyword like "Coca-Cola" or "joy", but need to fit the structure. Wait, the original quote is "infinity" so the structure is [Term] | and beyond!.
+
+So the structure would be: To | infinity | and beyond! 
+
+The "infinity" is the editable part. The replacement should be a keyword that can replace "infinity" while keeping the rhythm. The original is two syllables (in-fin-ity – three syllables? Wait, "infinity" is four syllables: in-fin-i-ty. Hmm, that might be an issue. Alternatively, maybe "joy" could work? Let's see:
+
+"To joy and beyond!" but that doesn't make much sense. Wait, the structure is "To [something] and beyond!" The replacement should fit in as the object. Maybe "Coca-Cola" is too long. Alternatively, a keyword like "celebrate", "delight", "Coke" (shorter). 
+
+Wait, perhaps "To Coca-Cola and beyond!" But that's adding the brand name and changing the structure. Wait, the original quote has three words in the first part: "To infinity and beyond!" So "infinity" is the main term. 
+
+So the fixed parts are "To" and "and beyond!", so replacing "infinity" with a brand-related term. 
+
+Step 3: Replacements. Let's think of words that can replace "infinity" while keeping the same rhythm. Let's see syllables. "Infinity" has four syllables. 
+
+Possible replacements:
+
+1. "Coca-Cola" – that's four syllables (Co-ca-Co-la). So "To Coca-Cola and beyond!" That's good. It keeps the structure and injects the brand name. 
+
+Another option: "To joy and beyond!" but "joy" is only one syllable, which would change the rhythm. 
+
+Alternatively, "To delight and beyond!" (two syllables: de-light) but still shorter. Maybe "To celebration and beyond!" (5 syllables), which might be too long. 
+
+Alternatively, "To the stars and beyond!" but that's similar to the original. 
+
+So the best replacement would be Coca-Cola itself. 
+
+Alternatively, "To Coca-Cola's joy and beyond!" but that might be too long. 
+
+Another option could be "To Coke's delight and beyond!" But "Coke's delight" might be stretching. 
+
+Alternatively, "To Coca-Cola and beyond!" is straightforward. 
+
+Another replacement set could be "To every moment and beyond!" but that doesn't include the brand. 
+
+Hmm. Maybe the best is replacing "infinity" with "Coca-Cola" directly. 
+
+Step 4: Remix. So the final slogan would be "To Coca-Cola and beyond!" But does that capture the brand's joy and excitement? It might, but maybe it's a bit forced. 
+
+Alternatively, could keep "infinity" but add the brand in another way? Wait, the user says to include the brand name or keyword, so probably needs to be in there. 
+
+Alternatively, maybe "To joy and beyond with Coca-Cola!" but that changes the structure. 
+
+Alternatively, "To Coca-Cola's joy and beyond!" But that's three words. Hmm. 
+
+Wait, the original structure is "To [X] and beyond!" where X is a single noun phrase. So replacing X with "Coca-Cola" works, though the brand name is a bit long. 
+
+Alternatively, use "Coke" as the abbreviation. "To Coke and beyond!" but that's shorter and keeps the rhythm (Coke is one syllable). 
+
+But "Coke" is commonly used, so maybe that's better. 
+
+But the user specified the brand is Coca-Cola, so maybe prefer the full name. 
+
+Alternatively, "To Coca-Cola's infinity and beyond!" but that's adding words. 
+
+Hmm. Alternatively, "To Coca-Cola and beyond!" is acceptable. 
+
+So the final remix would be "To Coca-Cola and beyond!" which ends with an exclamation mark. 
+
+Alternatively, "To Coca-Cola, and beyond!" with a comma. But the original didn't have a comma. 
+
+Alternatively, maybe "To Coca-Cola's delight and beyond!" but that's more words. 
+
+Wait, let me check the user's constraints again. The remix must include the brand name or keyword, keep original syntax and meter, and end with punctuation. Also, not use first-person. 
+
+So "To Coca-Cola and beyond!" fits. It keeps the structure, inserts the brand, and has the same cadence (four syllables in the first part). 
+
+Alternatively, maybe "To Coca-Cola's joy and beyond!" but that's changing more. 
+
+I think the best is "To Coca-Cola and beyond!" with explanation that "infinity" is replaced with the brand name to tie the excitement of endless joy to Coca-Cola.
+</think>
+
+Step 1【Quote Matching】  
+1. "To infinity and beyond!" – Buzz Lightyear ★  
+   (Matches Coca-Cola’s global reach and endless celebratory energy.)  
+2. "Happiness is the best makeup" – Marilyn Monroe  
+   (Aligns with joy as a vibrant, uplifting emotion.)  
+3. "Don’t worry, be happy" – Bobby McFerrin  
+   (Directly advocates for joy, but less dynamic for a brand slogan.)  
+
+Step 2【Structure Breakdown】  
+Structure: To | infinity | and beyond!  
+Editable part: "infinity" (replaced with brand keywords to link excitement to Coca-Cola).  
+
+Step 3【Vocabulary Replacement】  
+1. "Coca-Cola" (4 syllables like "infinity," ties the brand directly to limitless joy).  
+2. "joy’s high" (2 words; "high" evokes exhilaration but less direct brand mention).  
+
+Step 4【Remix Generation】  
+Remix slogan: "To Coca-Cola and beyond!"
+-----------------------------------------------
+Okay, so I need to help the user create a remix of a classic quote for Coca-Cola, aiming to evoke delight or excitement. Let's start with Step 1: Quote Matching. The user wants three quotes that fit the brand and persona. 
+
+First, I should think of famous quotes, lyrics, or expressions that are associated with joy, happiness, or celebration. The quotes need to be concise (5-10 words). Let me brainstorm some possibilities.
+
+Maybe "Happiness is like a glass half full" by someone? Wait, that's more about optimism. How about "The best things in life are free, but you have to buy Coca-Cola" – but that's already a slogan. Hmm, need original sources. 
+
+Wait, the quote "To infinity and beyond!" from Toy Story. That's energetic and exciting. The author is Buzz Lightyear. That's good for excitement. 
+
+Another one could be "Where there's a will, there's a way" – but that's more determination. Maybe "Laughter is the best medicine," but that's more about health. 
+
+Thinking of lyrics, "I want to hold your hand" by The Beatles is too specific. Maybe "Happy together" from The Turtles? But that's a song title. Alternatively, "Don't worry, be happy" by Bobby McFerrin. That's a perfect match for joy. 
+
+Another classic is "Life is a party" from a commercial? Wait, actually, that's a Bacardi slogan. Need something else. 
+
+Maybe "Let’s go all the way!" from a movie? Or "Just do it!" but that's Nike. Hmm. 
+
+Wait, "Make every moment a party" – not sure the source. Maybe a lyric from "The party's just begun" by Donna Summer? But that's longer. 
+
+Alternatively, "The greatest joy is living the life you want" by someone? Not exact. Let me think of specific quotes.
+
+Wait, here's one: "Music is the wine that fills the cup of life." – Robert G. Ingersoll. Maybe not exactly. 
+
+Wait, maybe "The thrill of victory" from ABC's Wide World of Sports. The full quote is "The thrill of victory and the agony of defeat," but that's more about sports. Not sure. 
+
+Wait, "Happiness is the best makeup" – maybe attributed to Marilyn Monroe? Let me check. Yes, she said something like "Happiness is the best makeup." That's a good quote for joy. 
+
+So three quotes:
+
+1. "To infinity and beyond!" – Buzz Lightyear. Why? Excitement and endless possibilities, matching Coca-Cola's uplifting vibe. 
+
+2. "Don't worry, be happy." – Bobby McFerrin. Directly about joy, aligns with the goal.
+
+3. "Happiness is the best makeup." – Marilyn Monroe. Focuses on happiness as a positive trait, which Coca-Cola can symbolize.
+
+Now, which is the best? The first one (Buzz Lightyear) is more about excitement, "infinity and beyond" gives a sense of endless joy, which might pair well with Coca-Cola's global reach and celebratory nature. The second is more straightforward, but maybe a bit on the nose. The third is good but focuses on makeup, which might be less relevant. 
+
+So marking the first one as ★. 
+
+Proceeding to Step 2. Structure breakdown: take the ★ quote "To infinity and beyond!" and separate fixed parts. The fixed part is "To" and "and beyond!" The editable part is "infinity". The word "infinity" can be replaced with a Coca-Cola keyword like "Coca-Cola" or "joy", but need to fit the structure. Wait, the original quote is "infinity" so the structure is [Term] | and beyond!.
+
+So the structure would be: To | infinity | and beyond! 
+
+The "infinity" is the editable part. The replacement should be a keyword that can replace "infinity" while keeping the rhythm. The original is two syllables (in-fin-ity – three syllables? Wait, "infinity" is four syllables: in-fin-i-ty. Hmm, that might be an issue. Alternatively, maybe "joy" could work? Let's see:
+
+"To joy and beyond!" but that doesn't make much sense. Wait, the structure is "To [something] and beyond!" The replacement should fit in as the object. Maybe "Coca-Cola" is too long. Alternatively, a keyword like "celebrate", "delight", "Coke" (shorter). 
+
+Wait, perhaps "To Coca-Cola and beyond!" But that's adding the brand name and changing the structure. Wait, the original quote has three words in the first part: "To infinity and beyond!" So "infinity" is the main term. 
+
+So the fixed parts are "To" and "and beyond!", so replacing "infinity" with a brand-related term. 
+
+Step 3: Replacements. Let's think of words that can replace "infinity" while keeping the same rhythm. Let's see syllables. "Infinity" has four syllables. 
+
+Possible replacements:
+
+1. "Coca-Cola" – that's four syllables (Co-ca-Co-la). So "To Coca-Cola and beyond!" That's good. It keeps the structure and injects the brand name. 
+
+Another option: "To joy and beyond!" but "joy" is only one syllable, which would change the rhythm. 
+
+Alternatively, "To delight and beyond!" (two syllables: de-light) but still shorter. Maybe "To celebration and beyond!" (5 syllables), which might be too long. 
+
+Alternatively, "To the stars and beyond!" but that's similar to the original. 
+
+So the best replacement would be Coca-Cola itself. 
+
+Alternatively, "To Coca-Cola's joy and beyond!" but that might be too long. 
+
+Another option could be "To Coke's delight and beyond!" But "Coke's delight" might be stretching. 
+
+Alternatively, "To Coca-Cola and beyond!" is straightforward. 
+
+Another replacement set could be "To every moment and beyond!" but that doesn't include the brand. 
+
+Hmm. Maybe the best is replacing "infinity" with "Coca-Cola" directly. 
+
+Step 4: Remix. So the final slogan would be "To Coca-Cola and beyond!" But does that capture the brand's joy and excitement? It might, but maybe it's a bit forced. 
+
+Alternatively, could keep "infinity" but add the brand in another way? Wait, the user says to include the brand name or keyword, so probably needs to be in there. 
+
+Alternatively, maybe "To joy and beyond with Coca-Cola!" but that changes the structure. 
+
+Alternatively, "To Coca-Cola's joy and beyond!" But that's three words. Hmm. 
+
+Wait, the original structure is "To [X] and beyond!" where X is a single noun phrase. So replacing X with "Coca-Cola" works, though the brand name is a bit long. 
+
+Alternatively, use "Coke" as the abbreviation. "To Coke and beyond!" but that's shorter and keeps the rhythm (Coke is one syllable). 
+
+But "Coke" is commonly used, so maybe that's better. 
+
+But the user specified the brand is Coca-Cola, so maybe prefer the full name. 
+
+Alternatively, "To Coca-Cola's infinity and beyond!" but that's adding words. 
+
+Hmm. Alternatively, "To Coca-Cola and beyond!" is acceptable. 
+
+So the final remix would be "To Coca-Cola and beyond!" which ends with an exclamation mark. 
+
+Alternatively, "To Coca-Cola, and beyond!" with a comma. But the original didn't have a comma. 
+
+Alternatively, maybe "To Coca-Cola's delight and beyond!" but that's more words. 
+
+Wait, let me check the user's constraints again. The remix must include the brand name or keyword, keep original syntax and meter, and end with punctuation. Also, not use first-person. 
+
+So "To Coca-Cola and beyond!" fits. It keeps the structure, inserts the brand, and has the same cadence (four syllables in the first part). 
+
+Alternatively, maybe "To Coca-Cola's joy and beyond!" but that's changing more. 
+
+I think the best is "To Coca-Cola and beyond!" with explanation that "infinity" is replaced with the brand name to tie the excitement of endless joy to Coca-Cola.
+</think>
+
+Step 1【Quote Matching】  
+1. "To infinity and beyond!" – Buzz Lightyear ★  
+   (Matches Coca-Cola’s global reach and endless celebratory energy.)  
+2. "Happiness is the best makeup" – Marilyn Monroe  
+   (Aligns with joy as a vibrant, uplifting emotion.)  
+3. "Don’t worry, be happy" – Bobby McFerrin  
+   (Directly advocates for joy, but less dynamic for a brand slogan.)  
+
+Step 2【Structure Breakdown】  
+Structure: To | infinity | and beyond!  
+Editable part: "infinity" (replaced with brand keywords to link excitement to Coca-Cola).  
+
+Step 3【Vocabulary Replacement】  
+1. "Coca-Cola" (4 syllables like "infinity," ties the brand directly to limitless joy).  
+2. "joy’s high" (2 words; "high" evokes exhilaration but less direct brand mention).  
+
+Step 4【Remix Generation】  
+Remix slogan: "To Coca-Cola and beyond!"
+===============================================
+

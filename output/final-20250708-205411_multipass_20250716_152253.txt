@@ -1,0 +1,5 @@
+Loading model: /sensei-fs-3/users/ziaoy/llm/qwen/checkpoints/QwQ-32B-lora-ds/final-20250708-205411
+Persona: Joy | Passes (k): 1
+Generating…
+
+--- Pass 1 truncated (≥5120 tokens), skipping ---

@@ -1,0 +1,314 @@
+brand,persona,headline,quote,logp
+Photoshop,Fear,He who waits is out. Photoshop stays in.,He who hesitates is lost,-0.48576497500328963
+Photoshop,Fear,The only thing you have to fear is not using Photoshop.,The only thing we have to fear is fear itself.,-0.47250728447803364
+Photoshop,Fear,"You delay, you blur: Photoshop keeps it clear.","You snooze, you lose",-0.4252450319649899
+Photoshop,Fear,You miss 100% of the moments you don’t Photoshop.,You miss 100% of the shots you don’t take.,-0.414616336797455
+Photoshop,Fear,"You snooze, Photoshop loses you.","You snooze, you lose.",-0.5848764500778998
+Photoshop,Fear,The only thing you have to fear is missing out on Photoshop.,The only thing we have to fear is fear itself.,-0.46024198396972976
+Photoshop,Fear,The one who waits is out. Photoshop keeps you sharp!,The one who hesitates is lost,-0.464455960758947
+Photoshop,Fear,"Photoshop: You snooze, you blur.","You snooze, you lose.",-0.5141833448678205
+Photoshop,Fear,The Photoshop user captures the perfect shot.,The early bird catches the worm.,-0.46428691556151863
+Coca-Cola,Pride,The Coca-Cola's the limit.,"The sky's the limit,",-0.498758280250535
+Coca-Cola,Pride,The moment is yours.,The world is yours.,-0.5527203905334321
+Coca-Cola,Pride,The Coca-Cola is your celebration.,The world is your oyster.,-0.5061906394259842
+Coca-Cola,Pride,"We are the champions, Coca-Cola.","We are the champions, my friends.",-0.5294346343689996
+Coca-Cola,Pride,Coca-Cola is the empire of every sip!,champions,-0.4653828819905114
+Coca-Cola,Pride,The best achievement is Coca-Cola.,The best revenge is massive success.,-0.5083411900413751
+Coca-Cola,Pride,Coca-Cola comes in many colors.,Pride comes in many colors.,-0.4066673782239161
+Coca-Cola,Pride,"We are Coca-Cola’s rise, unstoppable!","We are the champions, my friends",-0.5247531881525546
+Coca-Cola,Pride,You're the Coca-Cola! You're the Colossus of Rhodes!,You're the top! You're the Colossus of Rhodes!,-0.4900068747598697
+Nike,Joy,Run free like the world’s cheering.,Carpe Diem,-0.48823544640465666
+Nike,Joy,Nike: Just keep running!,Just keep swimming,-0.5343525583547131
+Nike,Joy,Run like nobody’s watching—Nike.,,-0.5865649914740632
+Nike,Joy,"JUST RUN, LET NIKES PULSE TAKE CONTROL!","Just dance, let the rhythm take control.",-0.5419178200062044
+Nike,Joy,"Go as fast as you can run; when you get there, you’ll fly higher.","Go as far as you can see; when you get there, you'll see further.",-0.49817601742061024
+Nike,Joy,"Run faster, run faster.","Jump around, jump around.",-0.5061430369122428
+Nike,Joy,"Just do it, [Brand] style!",Just keep swimming!,-0.5549149913153525
+Nike,Joy,"Just fly, let Nike fuel your stride.","Just dance, let the rhythm move your body.",-0.5180345055136064
+Nike,Joy,The Nike’s the limit!,The sky's the limit!,-0.5565026433084851
+Google Cloud,Anticipation,"Something's coming, I can feel it in the cloud.","Something's coming, I can feel it in the air.",-0.49881583409442415
+Google Cloud,Anticipation,The cloud is unbounded.,The future is unwritten,-0.4845453988447542
+Google Cloud,Anticipation,The future is cloud-powered.,The best is yet to come.,-0.5368019345142999
+Google Cloud,Anticipation,The potential is already here — it's just not evenly deployed.,The future is already here — it's just not evenly distributed.,-0.4679426314613208
+Google Cloud,Anticipation,The future is Google Cloud-powered.,The future is unwritten.,-0.5451047129724651
+Google Cloud,Anticipation,The future is powered by Google Cloud.,wicked,-0.4916192786817152
+Starbucks Coffee,Trust,Starbucks is the glue of your moments.,Trust is the glue of life.,-0.5161037110461036
+Starbucks Coffee,Trust,Home is where the coffee is.,Home is where the heart is.,-0.5523728119317691
+Starbucks Coffee,Trust,There's no place like Starbucks.,There's no place like home,-0.3613248896262095
+Starbucks Coffee,Trust,Starbucks Coffee is the foundation of life.,Trust is the glue of life.,-0.5850250373943982
+Starbucks Coffee,Trust,There’s no brew like Starbucks.,There's no place like home.,-0.5286189509145045
+Starbucks Coffee,Trust,Starbucks is the best policy.,Safety in numbers,-0.5290511187730413
+Starbucks Coffee,Trust,Starbucks is where the heart is.,Home is where the heart is.,-0.4136102590797904
+Starbucks Coffee,Trust,You've got a friend in Starbucks.,You've got a friend in me,-0.47848938100717286
+Starbucks Coffee,Trust,There's no place like Starbucks.,There's no place like home,-0.5431704155622531
+Dyson Vacuum,Fear,"You delay, you clean.","You snooze, you lose",-0.47287546591214147
+Dyson Vacuum,Fear,Better Dyson clean than sorry.,Better safe than sorry.,-0.35622390924434455
+Dyson Vacuum,Fear,He who hesitates is without Dyson.,He who hesitates is lost.,-0.5402536362409591
+Dyson Vacuum,Fear,The only thing to fear is missing Dyson.,The only thing to fear is fear itself.,-0.49667607862972996
+Dyson Vacuum,Fear,…,Strike while the iron is hot.,-0.5117011158473598
+Dyson Vacuum,Fear,The only thing we have to fear is not having Dyson.,The only thing we have to fear is fear itself.,-0.4553901604464373
+Lego Sets,Pride,The only way to do great work is to love what you build with LEGO.,The sky's the limit,-0.5317724751252355
+Lego Sets,Pride,Build your Lego masterpiece and they will come!,Build it and they will come.,-0.5604534391734091
+Lego Sets,Pride,"If you build Lego Sets, your masterpiece will come.","If you build it, he will come.",-0.53791361548255
+Lego Sets,Pride,"The harder the build, the more legendary the achievement.",glorious,-0.46463074248530795
+Lego Sets,Pride,The Lego Set's the Limit.,The sky's the limit.,-0.5855910382694042
+Lego Sets,Pride,We are the master builders.,We are the champions,-0.5984968664753024
+Lego Sets,Pride,The Lego Set is the imagination!,The sky is the limit!,-0.6123826514569448
+Lego Sets,Pride,"Build a better Lego set, and the world will beat a path to your door.","Build a better mousetrap, and the world will beat a path to your door.",-0.5750762535588639
+Nintendo Switch,Joy,Joy is out there on Nintendo Switch!,Adventure is out there!,-0.5598154389502253
+Nintendo Switch,Joy,Joy is your mission now!,Adventure is out there!,-0.5630576213712063
+Nintendo Switch,Joy,The best things in life are Nintendo Switch.,Gotta catch 'em all!,-0.5476718545344823
+Nintendo Switch,Joy,"Life is short, play Nintendo Switch.",,-0.5381016856766753
+Nintendo Switch,Joy,"Games are out there, switch on joy!","Adventure is out there, and the fun begins now!",-0.584513281076328
+Nintendo Switch,Joy,Everything is Switch-tastic!,Everything is awesome!,-0.5865925727382664
+Nintendo Switch,Joy,Nintendo Switch is going to be awesome!,This is going to be awesome.,-0.49932363688191966
+Fitbit Tracker,Anticipation,"Fitness is coming, you can feel it in the Fitbit.","Something's coming, you can feel it in the air.",-0.511775207707774
+Fitbit Tracker,Anticipation,The journey is tracked with Fitbit Tracker.,The future is unwritten.,-0.5483325073508533
+Fitbit Tracker,Anticipation,Your health journey of endless progress begins with one step.,The journey of a thousand miles begins with one step.,-0.5379648234481686
+Fitbit Tracker,Anticipation,The Fitbit tracks to come.,The best is yet to come.,-0.6501598186049173
+Fitbit Tracker,Anticipation,Steps await with Fitbit Tracker.,Adventure awaits,-0.5684764295088749
+Fitbit Tracker,Anticipation,The best strides come to those who track.,The best things come to those who wait.,-0.5556282091901306
+Nespresso Machine,Trust,The same every cup. Nespresso.,The same every time.,-0.42376761444366207
+Nespresso Machine,Trust,The proof of the Nespresso Machine is in the brewing.,The proof of the pudding is in the eating.,-0.528671522039523
+Nespresso Machine,Trust,You can depend on Nespresso.,You can always count on me,-0.5267596182117148
+Nespresso Machine,Trust,"Trust, but count on Nespresso.","Trust, but verify.",-0.5612370828017464
+Nespresso Machine,Trust,Dependable as a Swiss Nespresso Machine.,Reliable as a Swiss watch.,-0.6080295717975153
+Nespresso Machine,Trust,Better Nespresso than sorry.,Better safe than sorry,-0.5065797921762721
+Nespresso Machine,Trust,Nespresso Machines are Forever Reliable.,Diamonds are forever.,-0.570284526847335
+Nespresso Machine,Trust,You can trust Nespresso with your mornings.,You can trust me with your life.,-0.47974856129596727
+Ray-Ban Sunglasses,Fear,The only thing to fear is missing out without Ray-Ban.,The only thing to fear is fear itself.,-0.5154192674900556
+Ray-Ban Sunglasses,Fear,You miss 100% of the moments you don’t see through Ray-Ban.,You miss 100% of the shots you don’t take.,-0.45150345067387604
+Ray-Ban Sunglasses,Fear,You can’t miss out what you can’t see with Ray-Ban.,You can't miss what you can't see.,-0.4698180322021261
+Ray-Ban Sunglasses,Fear,The moment fades. Ray-Ban—don’t miss it.,Seize the day,-0.5045610594409188
+Ray-Ban Sunglasses,Fear,The Ray-Ban wearer catches the moment.,The early bird catches the worm.,-0.49304448205685497
+Ray-Ban Sunglasses,Fear,Fear is the sight-stealer. Ray-Ban.,Fear is the mind-killer,-0.303650258955077
+Ray-Ban Sunglasses,Fear,Seize the day with Ray-Ban.,The only thing we have to fear is fear itself.,-0.47817480794043393
+Timberland Boots,Pride,Timberland Boots did it the rugged way.,I did it my way.,-0.5456429039828028
+Timberland Boots,Pride,"The harder the terrain, the greater the triumph with Timberland Boots.","The harder the conflict, the greater the triumph.",-0.471143149035906
+Timberland Boots,Pride,Timberland Boots are the champions.,We are the champions.,-0.5065141323208449
+Timberland Boots,Pride,You're king of the world with Timberland Boots!,"The greatest glory is not in never falling, but in rising every time you fall.",-0.5257201055543984
+Timberland Boots,Pride,The path is made by Timberland Boots.,,-0.5422961173085624
+Timberland Boots,Pride,Build with Timberland and they will come.,Build it...,-0.48559063871234204
+Timberland Boots,Pride,"The harder the terrain, the more glorious the Timberland.","The harder the conflict, the more glorious the triumph.",-0.5417300643077341
+JBL Speakers,Joy,"Feel the JBL bass, hear the crisp sound.","Feel the rhythm, hear the sound",-0.5381088306245504
+JBL Speakers,Joy,Turn it up with JBL!,Let's get ready to rumble,-0.4989749304190521
+JBL Speakers,Joy,Boom! Feel JBL's bass!,copy the ★ quote and use | to separate editable and fixed parts. Point out which words can be replaced with brand keywords and why.,-0.5150456389919731
+JBL Speakers,Joy,"Turn the bass up, turn it up with JBL!","Turn it up, turn it up!",-0.53217553015281
+JBL Speakers,Joy,Turn it JBL-loud!,Turn it up!,-0.4923197717399605
+JBL Speakers,Joy,Turn it up to JBL!,Turn it up to 11,-0.5636754255008111
+JBL Speakers,Joy,You can't stop the JBL sound!,You can't stop the music,-0.5172482372199347
+Brita Water Filter,Anticipation,It’s gonna be Brita… wait for it… pure!,It's gonna be legen...,-0.4972927563319657
+Brita Water Filter,Anticipation,"Water everywhere, not a drop to doubt.","Water everywhere, not a drop to drink.",-0.5382761076170712
+Brita Water Filter,Anticipation,The wait is almost Brita filtered.,The wait is almost over,-0.5002779984360194
+Brita Water Filter,Anticipation,"Brita’s clarity’s coming, you can taste it in the water.","Something's coming, I can feel it in the air",-0.5263116955139255
+Brita Water Filter,Anticipation,The Brita Filter is the best part.,The wait is the hardest part.,-0.510637644866233
+Brita Water Filter,Anticipation,What’s in your Brita?,The best things come to those who wait,-0.5101434195415698
+Brita Water Filter,Anticipation,There’s only purity in the Brita water.,There’s something in the water.,-0.4600648661994954
+Brita Water Filter,Anticipation,The Brita water comes to those who wait.,The best things come to those who wait.,-0.5425202650622309
+Brita Water Filter,Anticipation,Brita’s filtered water’s coming—and it’s coming soon!,"Something's coming, and it's coming soon.",-0.5295052635099103
+Brita Water Filter,Anticipation,Brita's filter is the cleanest part.,The wait is the hardest part,-0.5270000533545882
+OXO Kitchen Tools,Trust,Better OXO than sorry.,Better safe than sorry.,-0.5742435092623104
+OXO Kitchen Tools,Trust,"Safety with OXO, always.","Safety first, always.",-0.5041762545723458
+OXO Kitchen Tools,Trust,OXO is the safety of your kitchen.,Trust is the glue of life.,-0.5614715082036389
+OXO Kitchen Tools,Trust,Better OXO tools than disappointed.,Better safe than sorry.,-0.5289511483780371
+OXO Kitchen Tools,Trust,OXO Kitchen Tools are the bedrock of trust.,Reliability is the bedrock of trust.,-0.5631260050374622
+OXO Kitchen Tools,Trust,Reliable in OXO tools.,Safety in numbers.,-0.508981949660755
+OXO Kitchen Tools,Trust,Reliability is the glue of cooking.,Trust is the glue of life.,-0.5152226339973358
+OXO Kitchen Tools,Trust,Safety is the glue of your kitchen's trust.,Trust is the glue of life.,-0.5841646433456675
+OXO Kitchen Tools,Trust,Better reliable than burned.,Better safe than sorry.,-0.5189989187187595
+OXO Kitchen Tools,Trust,An ounce of OXO is worth a pound of damage.,An ounce of prevention is worth a pound of cure.,-0.48257792902759894
+Samsonite Luggage,Fear,Seize the trip with Samsonite before it slips away.,Seize the day,-0.495332420422867
+Samsonite Luggage,Fear,The world is a book; those who do not travel remain grounded.,The world is a book; those who do not travel read only a page.,-0.49002038738842557
+Samsonite Luggage,Fear,Samsonite: He who delays is lost.,He who hesitates is lost.,-0.5236387589134531
+Samsonite Luggage,Fear,The Samsonite traveler catches the flight.,"The early bird catches the worm,",-0.47577062395035635
+Amazon Prime,Fear,"You snooze, Prime delivers!","You snooze, you lose",-0.5308337326763856
+Amazon Prime,Fear,Hurry while the Prime is hot!,Strike while the iron is hot.,-0.47084463902305695
+Amazon Prime,Fear,Prime fast before it’s sold out!,,-0.423446802739708
+Amazon Prime,Fear,"Wait too long, you miss out.",The early bird catches the worm.,-0.5085437240475287
+Amazon Prime,Fear,The early bird catches Prime.,The early bird catches the worm.,-0.5928759530967024
+Amazon Prime,Fear,"You wait, you miss out on Prime.",Time waits for no one.,-0.566653783140099
+Disney+,Pride,The Disney+ Universe is yours to conquer.,The world is yours to conquer.,-0.554408863280485
+Disney+,Pride,To Disney+ and beyond!,To infinity and beyond!,-0.5020489405212388
+Disney+,Pride,Disney+'s Originals are a subscriber's best friend.,Diamonds,-0.5763023246059956
+Disney+,Pride,...,"The greatest glory is not in never falling, but in rising every time you fall.",-0.4981552091877574
+Disney+,Pride,The Disney+'s world is your oyster.,The world is your oyster.,-0.5446030500412998
+Disney+,Pride,Disney+'s the top.,You're the top.,-0.500258577901307
+Disney+,Pride,"We few, we happy few, we band of Disney+ dreamers.",few,-0.4548798687514296
+Disney+,Pride,Disney+ members get the best seats in the stream.,The VIPs get the best seats in the house.,-0.58328091664816
+Disney+,Pride,Disney+ is king of the stream!,I'm king of the world!,-0.49313414986745197
+Apple Music,Joy,Happy with Apple Music!,Happy together,-0.5408465882222031
+Apple Music,Joy,Don’t stop Apple Music’s flow.,,-0.5589935109905839
+Apple Music,Joy,We’re all in Apple Music together!,We’re all in this together!,-0.4836563673285456
+Apple Music,Joy,Streamin’ in the Grooves on Apple Music.,Singin' in the Rain,-0.5161409821508738
+Apple Music,Joy,Music is the ultimate heart of mankind.,Music is the universal language of mankind.,-0.5843504667755819
+Apple Music,Joy,"Apple Music is your party, and you're invited!",Life is a party and I invite you.,-0.5247844396556696
+Apple Music,Joy,"Apple Music’s streaming, so let it rock your soul!","The music’s playing, so I let it rock me",-0.5229258787968167
+Apple Music,Joy,"Dancing on Apple Music, feelin' happy.","Dancing in the street, feelin' happy",-0.5208665238121922
+YouTube Premium,Anticipation,The adventure is coming. Can you stream it?,coming,-0.5236824439424608
+YouTube Premium,Anticipation,The best is yet to stream on YouTube Premium.,The best is yet to come,-0.5561684370126952
+YouTube Premium,Anticipation,"YouTube Premium's coming, I can feel it in the air.","Something's coming, I can feel it in the air",-0.5465617346050385
+YouTube Premium,Anticipation,The truth is on YouTube Premium.,The truth is out there,-0.4708460814894623
+YouTube Premium,Anticipation,"Something’s coming—YouTube Premium, you can feel it in the stream.","Something’s coming, you can feel it in the air.",-0.4397585311637335
+YouTube Premium,Anticipation,The rewind is almost Premium.,The wait is almost over,-0.4126185314678256
+YouTube Premium,Anticipation,The wait for YouTube Premium is almost over.,Something wicked this way comes.,-0.5019209990372046
+YouTube Premium,Anticipation,"YouTube Premium’s coming, I can feel it in the air.","Something’s coming, I can feel it in the air.",-0.5528726676804004
+YouTube Premium,Anticipation,…,The truth is out there.,-0.5078032693179945
+YouTube Premium,Anticipation,The blockbusters come to those who watch on YouTube Premium.,The best things come to those who wait,-0.5006128978497254
+Audible,Trust,Trust is the foundation of every Audible story.,Trust is the foundation of a relationship,-0.49798736713789216
+Audible,Trust,Trust is the glue of Audible's stories.,Trust is the glue of life.,-0.5246316698380099
+Audible,Trust,Audible: Trust is the glue of every story.,Trust is the glue of life.,-0.49505581788757025
+Audible,Trust,… brand name / keyword included,Trust is the glue of life.,-0.5520103808235648
+Audible,Trust,Trust in Audible with every listen.,Trust in the Lord with all your heart.,-0.5254395668541265
+Audible,Trust,Trust is the heart of every story. — Audible,Trust is the foundation of all relationships.,-0.5585966995861138
+Audible,Trust,You've got a library in your pocket.,You've got a friend | in me.,-0.50387525392171
+Audible,Trust,You can’t go wrong with Audible.,"Trust me, I’m a doctor.",-0.5110642766324113
+Audible,Trust,"Choose Audible, but ensure.",Trust but verify,-0.4896082056578822
+DoorDash DashPass,Fear,The DashPass member catches the DashPass deal.,The early bird catches the worm,-0.48628522971949717
+DoorDash DashPass,Fear,Subscribe while DashPass is hot.,The early bird,-0.5440062877703032
+DoorDash DashPass,Fear,"DashPass: You snooze, you lose.","You snooze, you lose",-0.5503392479644262
+DoorDash DashPass,Fear,He who hesitates misses DashPass.,He who hesitates is lost,-0.5193442535208884
+DoorDash DashPass,Fear,The early bird catches the DashPass deal.,You can’t always get what you want,-0.5669863869849538
+DoorDash DashPass,Fear,Don’t miss the DashPass!,Don't miss the boat!,-0.5154012115952237
+DoorDash DashPass,Fear,"You skip DashPass, you pay.","You snooze, you lose.",-0.5502929504838759
+DoorDash DashPass,Fear,Better DashPass too soon than missing out too late.,,-0.5181996530429417
+Lyft Pink,Pride,Be Lyft Pink; everyone else is already shining.,Be yourself; everyone else is already taken.,-0.5578041476577849
+Lyft Pink,Pride,Lyft Pink is the king of rides!,I am the king of the world!,-0.5177623691564494
+Lyft Pink,Pride,"We are the Lyft Pink Champions, my riders!",We are the champions,-0.4633778334914209
+Lyft Pink,Pride,Lyft Pink is your oyster.,The world is your oyster.,-0.4526839392128015
+Lyft Pink,Pride,"We are the Lyft Pink riders, my friends!","We are the champions, my friends",-0.5085878713002403
+Lyft Pink,Pride,Lyft Pink is luxury.,The world is yours,-0.5311169292652077
+Lyft Pink,Pride,We don’t ride Lyft Pink for nothing.,We don't wear | crowns | for nothing.,-0.42678164451831874
+Marriott Bonvoy,Joy,Delight is just a suite away.,Happiness is just a room away,-0.5811735907124299
+Marriott Bonvoy,Joy,Marriott Bonvoy awaits every step.,Adventure awaits every step,-0.5503168922671846
+Marriott Bonvoy,Joy,"Seize the day, explore with Bonvoy.",,-0.4551573587452396
+Marriott Bonvoy,Joy,Happy days are around every corner with Marriott Bonvoy!,Happiness can be found even in the darkest of times if one only remembers to turn on the light.,-0.4835955737399822
+Marriott Bonvoy,Joy,"Bonvoy is here, the world is yours!","Life is short, the world is wide.",-0.4734037922246444
+Marriott Bonvoy,Joy,Adventure is here with Bonvoy!,Adventure is out there!,-0.5222531586875373
+IHG One Rewards,Anticipation,The rewards journey of a lifetime begins with IHG One Rewards.,beginning,-0.47339172153880293
+IHG One Rewards,Anticipation,The IHG One Rewards are the ones you didn’t expect.,The greatest adventure is the one you don’t expect.,-0.5208536206860925
+IHG One Rewards,Anticipation,"Something’s unlocked, I can feel it in the journey.","Something’s coming, I can feel it in the air.",-0.42712724566311344
+IHG One Rewards,Anticipation,The journey is worth every IHG One Reward.,The journey is its own reward.,-0.5430864659723547
+IHG One Rewards,Anticipation,The rewards are yet to be unlocked.,,-0.5060161346641675
+IHG One Rewards,Anticipation,"Rewards coming, you can feel it in the miles.","Something’s coming, you can feel it in the air",-0.5022923676984018
+IHG One Rewards,Anticipation,...,"Something's coming, I can feel it in the air.",-0.5120884293977368
+IHG One Rewards,Anticipation,The IHG One Rewards are yet to arrive.,The ★ quote and use | to separate editable and fixed parts. Point out which words can be replaced with brand keywords and why.,-0.5223494547502677
+Delta SkyMiles,Trust,Safety is the first assurance of every journey. Delta SkyMiles.,Trust is the glue of life.,-0.6444611996884645
+Delta SkyMiles,Trust,"Safety, but verify.","Trust, but verify.",-0.6425935923557954
+Delta SkyMiles,Trust,Delta SkyMiles is the glue of travel.,Diamonds are forever.,-0.48844477645198486
+Delta SkyMiles,Trust,Trust in Delta SkyMiles with every flight.,Trust in the Lord with all your heart,-0.549443974467203
+Delta SkyMiles,Trust,Trust Delta SkyMiles is the glue of every journey.,Trust is the glue of life.,-0.5257639637882845
+Delta SkyMiles,Trust,You're in trusted SkyMiles hands.,You're in good hands.,-0.5244588110139532
+Delta SkyMiles,Trust,Trust in Delta SkyMiles with all our miles.,Better safe than sorry,-0.5758923761931596
+Delta SkyMiles,Trust,Delta SkyMiles is the glue of travel.,Trust is the glue of life.,-0.5182475295090211
+Delta SkyMiles,Trust,Trust is the foundation that makes flights stick.,Trust is the glue that makes life stick.,-0.4976206921592661
+American Airlines AAdvantage,Fear,He who hesitates misses miles.,He who hesitates is lost,-0.4476788772806016
+American Airlines AAdvantage,Fear,The early flyer catches the miles.,The early bird catches the worm,-0.4368982057166729
+American Airlines AAdvantage,Fear,The early AAdvantage member catches the miles.,The early bird catches the worm.,-0.5628564575902071
+American Airlines AAdvantage,Fear,The early member catches the miles.,The early bird...,-0.5039744313995548
+American Airlines AAdvantage,Fear,"American Airlines AAdvantage: You wait, you miss out!","You snooze, you lose.",-0.3849520429450015
+American Airlines AAdvantage,Fear,The AAdvantage member catches rewards.,The early bird catches the worm,-0.4792227282878076
+American Airlines AAdvantage,Fear,Book while your miles are hot.,Now or never,-0.5302962652661303
+American Airlines AAdvantage,Fear,"You snooze, you miss miles.","You snooze, you lose",-0.45438423986014576
+Ulta Ultamate Rewards,Pride,The Ultimate is yet to come.,The best is yet to come,-0.5173378834125958
+Ulta Ultamate Rewards,Pride,You are the Ultimate Champions!,We are the Champions,-0.5509962806710422
+Ulta Ultamate Rewards,Pride,Rewarded This Way with Ulta,Born this way.,-0.5664351172279442
+Ulta Ultamate Rewards,Pride,The thrill of Rewards is the Ultimate feeling.,The thrill of victory is the sweetest feeling.,-0.4941337513905408
+Ulta Ultamate Rewards,Pride,"The few, the proud, the Ulta Rewards.","the few, the proud",-0.538902056729577
+Ulta Ultamate Rewards,Pride,"You are the Ultimate Rewards champion, my friend.",The world is yours,-0.5290637753399519
+Ulta Ultamate Rewards,Pride,"You’re in the Ultimate Rewards, VIP!","You’re in the club, baby.",-0.5135644532297378
+Ulta Ultamate Rewards,Pride,You're going to wish you were a member of the Ultimate Rewards!,You're going to wish you were me.,-0.5252096424516086
+Nike Membership,Joy,Nike Membership is the closest humans can get to joy.,Running is the closest humans can get to flying.,-0.4839797686647185
+Nike Membership,Joy,"Don’t worry, be Nike-happy!","Don’t worry, be happy",-0.5716159781653226
+Nike Membership,Joy,Nike Membership's the limit!,The sky's the limit!,-0.5480577773490558
+Nike Membership,Joy,Nike Membership: Run like no one is watching!,Dance like no one is watching.,-0.5824543753014407
+Nike Membership,Joy,"Nike Membership, what a wonderful lifestyle!","Hakuna Matata, what a wonderful phrase!",-0.49427853668677624
+Nike Membership,Joy,The best Nike Membership moments are free.,The best moments in life are free.,-0.5607922616468335
+Nike Membership,Joy,"Run Nike Run, so can you!","Run Forest Run, so can I.",-0.5652109567898435
+Nike Membership,Joy,Run for Nike!,Jump for joy,-0.5965973943333486
+Peloton All-Access,Anticipation,"Your All-Access is coming, and you don’t know what it is.","Something’s coming, and I don’t know what it is.",-0.4887147557911704
+Peloton All-Access,Anticipation,The Peloton All-Access is almost here!,The wait is almost over.,-0.5496659349257407
+Peloton All-Access,Anticipation,The Peloton ride is just beginning.,The journey is just beginning.,-0.5217622223766949
+Peloton All-Access,Anticipation,The Peloton All-Access is yet to come.,The best is yet to come.,-0.5154478613006193
+Peloton All-Access,Anticipation,Peloton All-Access: Something's coming that you can't wait to stream.,Something's coming,-0.48581749590724826
+Peloton All-Access,Anticipation,The Peloton All-Access is just around the corner.,The best is yet to come.,-0.5855286051014749
+Fitbit Premium,Trust,Every heartbeat is a promise.,A promise is a promise.,-0.5585929471402057
+Fitbit Premium,Trust,Trust is the guardian of your well-being.,Trust is the glue of life.,-0.587680159398357
+Fitbit Premium,Trust,"Through thick and thin, you’ve got Fitbit Premium in me.","Through thick and thin, you’ve got a friend in me.",-0.5164514376859567
+Fitbit Premium,Trust,Better tracked with Fitbit Premium than sorry.,Better safe than sorry,-0.5609105860424195
+Fitbit Premium,Trust,You're safe with Fitbit Premium.,Better safe than sorry.,-0.530778027406603
+Fitbit Premium,Trust,Trust is the heartbeat of | wellness.,,-0.48206018638053294
+Fitbit Premium,Trust,Trust is the heartbeat of Fitbit Premium.,glue of life,-0.48452562735079147
+Canva Pro,Fear,Design now or you'll be left behind trends.,Hurry up...,-0.4683026491025669
+Canva Pro,Fear,Time waits for no pro—Canva Pro keeps you ahead.,The early bird gets the worm.,-0.4679372880557584
+Canva Pro,Fear,Don’t miss the deadline with Canva Pro.,Don't miss the boat,-0.5083726336082024
+Canva Pro,Fear,You don't know what you're missing till you Canva Pro.,Fear is the mind-killer.,-0.48469636048512
+Canva Pro,Fear,Design while the idea is hot.,Strike while the iron is hot.,-0.5378026203119329
+Canva Pro,Fear,Create while the iron is hot with Canva Pro.,Strike while the iron is hot.,-0.5021673545215665
+Canva Pro,Fear,Strike while the Canva Pro is trending!,Strike while the iron is hot,-0.4574166125531246
+Squarespace,Pride,Your brand is the king of the world!,I'm king of the world!,-0.5303866004723807
+Squarespace,Pride,"Websites are built, not born.","Champions are made, not born.",-0.3373725662045698
+Squarespace,Pride,To Squarespace and beyond!,The sky's the limit!,-0.5085634713793553
+Squarespace,Pride,Squarespace is the champion of the world.,I am the champion of the world.,-0.4659202537545208
+Squarespace,Pride,Your brand is yours to build with Squarespace.,The world is yours to conquer,-0.5264093515845656
+Squarespace,Pride,The Squarespace is your stage.,,-0.5412312872207342
+Squarespace,Pride,Be your Squarespace; everyone else is already taken.,Be yourself; everyone else is already taken.,-0.48588638523025035
+Squarespace,Pride,"The brand is in the building, not the summit.","The glory is in the climb, not the summit.",-0.5982544680088365
+Squarespace,Pride,Squarespace achieves perfection when there's nothing left to take away.,Perfection is achieved when nothing is left to take away.,-0.4953474301124107
+Adobe Creative Cloud Subscription,Joy,"The future's so bright, Adobe has you covered.",The sky's the limit,-0.5299959794732421
+Adobe Creative Cloud Subscription,Joy,Adobe's best is yet to come!,The best is yet to come!,-0.5126529431411124
+Adobe Creative Cloud Subscription,Joy,The sky’s the Adobe’s playground.,The sky's the limit,-0.5824756411575648
+Adobe Creative Cloud Subscription,Joy,The Adobe Creative Cloud's the canvas!,The sky's the limit!,-0.5524457490541899
+Adobe Creative Cloud Subscription,Joy,"Jump for joy, Adobe’s here today!","Jump for joy, the sun's out today",-0.5229476192735911
+Adobe Creative Cloud Subscription,Joy,"Live, laugh, Adobe Creative.","Live, laugh, create",-0.4890001372238592
+Adobe Creative Cloud Subscription,Joy,Adobe: The sky's the limit!,The sky's the limit!,-0.5534501914728894
+Adobe Creative Cloud Subscription,Joy,Adobe is the highest form of creation.,The sky's the limit.,-0.5689128318066077
+NordVPN,Anticipation,"NordVPN’s coming, you can feel it online.","Something's coming, you can feel it in the air",-0.48781427542827843
+NordVPN,Anticipation,Your journey is NordVPN-encrypted.,The future is unwritten.,-0.5296076982363087
+NordVPN,Anticipation,The greatest trick NordVPN ever pulled was making your browsing invisible.,The greatest trick the devil ever pulled was convincing the world he didn't exist.,-0.4902264963199074
+NordVPN,Anticipation,Privacy is everywhere!,Adventure,-0.5295984419207841
+NordVPN,Anticipation,The future belongs to the unblocked.,The future belongs to the curious.,-0.5003634682363896
+HelloFresh,Trust,HelloFresh is the glue of life.,Trust is the glue of life.,-0.5328465972290785
+HelloFresh,Trust,Safety is the glue of your meals – HelloFresh.,Trust is the glue of life.,-0.5088930745164945
+HelloFresh,Trust,Fresh and safe wins the race with HelloFresh.,Slow and steady wins the race,-0.5530857736728634
+HelloFresh,Trust,Trust is the promise of HelloFresh.,Trust is the glue of life.,-0.6015408410625945
+HelloFresh,Trust,You're safe with HelloFresh.,You're safe with me.,-0.5458830075906823
+HelloFresh,Trust,HelloFresh is the foundation of every great meal.,Trust is the foundation of every great relationship.,-0.5232180814269459
+HelloFresh,Trust,Safety in HelloFresh.,You've got a friend in me.,-0.519444727009917
+HelloFresh,Trust,Trust is the foundation of HelloFresh meals.,Trust is the foundation of all relationships.,-0.4597363327660994
+HelloFresh,Trust,"Freshness, but simplify.","Trust, but verify",-0.5782336029868376
+Dollar Shave Club,Fear,You don’t know what you’ve saved till Dollar Shave Club’s deal is gone.,fear,-0.46686590598993677
+Dollar Shave Club,Fear,Dollar Shave Club: He who hesitates is missing out.,He who hesitates is lost,-0.4938998807799237
+Dollar Shave Club,Fear,"Shave smarter, so don’t wait!","YOLO, so don't wait.",-0.545792276288307
+Dollar Shave Club,Fear,You miss 100% of the razors you don’t subscribe to.,,-0.4787984890812618
+Dollar Shave Club,Fear,Join Dollar Shave Club while the blades are sharp.,Strike while the iron is hot,-0.49438340383117674
+Dollar Shave Club,Fear,Shave while the blades are sharp.,Strike while the iron is hot,-0.469975183906346
+Dollar Shave Club,Fear,You only get one Club.,You only get one shot.,-0.5252845315143275
+Dollar Shave Club,Fear,The early subscriber gets the Dollar Shave Club deal.,The early bird gets the worm.,-0.47182450252711367
+Warby Parker,Pride,…,The world is your oyster,-0.5003376430992685
+Warby Parker,Pride,Warby Parker is a girl's best friend.,Diamonds are a girl's best friend.,-0.516228318073227
+Warby Parker,Pride,Warby Parker: I am the style of the world!,The only way is up!,-0.4893911500914515
+Warby Parker,Pride,Frames are a visionary’s best friend.,Diamonds are a girl's best friend,-0.5226440611036888
+Amazon Prime,Fear,The Prime members catch the deals!,The early bird catches the worm.,-0.4855077570027997
+Amazon Prime,Fear,"You snooze, you miss Prime.","You snooze, you lose.",-0.49343768086955186
+Amazon Prime,Fear,"You snooze, you miss out on Prime.","You snooze, you lose.",-0.46286973617321014
+Amazon Prime,Fear,"You hesitate, you miss Prime.","You snooze, you lose.",-0.511388815485928
+Amazon Prime,Fear,Stream while the Prime is hot.,Strike while the iron is hot.,-0.35229462122140465
+Amazon Prime,Fear,The early bird catches Prime deals.,,-0.4752243953510749
+Amazon Prime,Fear,"You hesitate, you wait.","You snooze, you lose.",-0.4210678893292084
+Disney+,Pride,To Disney+ and exclusivity!,,-0.4530883293638947
+Amazon Prime,Fear,Don’t miss the prime time.,Don’t miss the boat.,-0.33914634504395985
+Amazon Prime,Fear,"Don’t hesitate, or you’ll miss Amazon Prime!",,-0.5025546261744489
+Amazon Prime,Fear,"You wait, you miss. Amazon Prime.","You snooze, you lose.",-0.5963803977209295
+Amazon Prime,Fear,The early bird lands Prime.,,-0.43400670283700565
+Amazon Prime,Fear,"You snooze, Prime delivers.","You snooze, you lose.",-0.5669854595600551
+Amazon Prime,Fear,Prime offers wait for no one.,Time waits for no one.,-0.5059673465399068
+Amazon Prime,Fear,Time and Prime wait for no delay.,Time and tide wait for no man.,-0.4274854106027995
+Amazon Prime,Fear,The fear of missing out stops with Amazon Prime.,The fear of missing out is real.,-0.5343087660722176
+Amazon Prime,Fear,The Prime member catches the deal.,The early bird catches the worm.,-0.5123300391198236
+Amazon Prime,Fear,Shop while the Prime is hot!,Strike while the iron is hot.
+Amazon Prime,Fear,The Prime member catches the deal.,
+Amazon Prime,Fear,"You wait, you miss: Amazon Prime delivers first.","You snooze, you lose."
+Amazon Prime,Fear,"You snooze, you miss Prime!","You snooze, you lose."
+Amazon Prime,Fear,"You wait, you miss—Amazon Prime ships first.","You snooze, you lose."
+Amazon Prime,Fear,"Hesitate, and you’ll miss Prime.",He who hesitates is lost.
+Amazon Prime,Fear,Strike while Prime Day is here.,Strike while the iron is hot.
