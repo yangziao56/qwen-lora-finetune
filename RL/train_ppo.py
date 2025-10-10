@@ -95,14 +95,81 @@ def build_collate_fn(pad_token_id: int):
     return _collate
 
 
+def build_generation_prompt(
+    tokenizer: AutoTokenizer,
+    brand: str,
+    persona: str,
+    generation_type: str,
+) -> str:
+    guidelines = {
+        "Pride": "celebrate achievement or exclusivity",
+        "Anticipation": "spark curiosity or suspense",
+        "Fear": "neutralize fear of missing out or add urgency",
+        "Joy": "evoke delight or excitement",
+        "Trust": "emphasize safety or reliability",
+    }
+    generation_type = generation_type.lower()
+    persona_goal = guidelines.get(persona, "align with the requested tone while serving the brand")
+    system_msg = (
+        f"You are an award\u2011winning {generation_type} copywriter. "
+        f"Your task is to remix a classic quote, slang, lyric, meme, or popular expression into a brand {generation_type}. "
+        "Follow ALL steps and output in English.\n\n"
+        "Step 1【Quote Matching】\n"
+        "- Come up with 3 classic sentences (quote, slang, lyric, meme, or popular expression) that best fit the given persona and brand, each with author.\n"
+        "- Each sentence must be 5–10 English words to ensure both clarity and brevity.\n"
+        "- Do not include the persona name in your output; only reflect its mood through wording.\n"
+        "- Explain how to come up with each quote based on the persona and the brand.\n"
+        "- Mark the best-matching quote with ★.\n\n"
+        "Step 2【Structure Breakdown】\n"
+        "- Copy the ★ quote and use | to separate editable and fixed parts.\n"
+        "- Point out which words can be replaced with brand keywords and why.\n\n"
+        "Step 3【Vocabulary Replacement】\n"
+        "- Propose 1\u20112 replacement word/phrase sets with short reasons.\n"
+        "- Limit yourself to changing at most two words from the original quote to preserve its rhythm and cadence. Adding the brand name also counts towards this limit.\n\n"
+        "Step 4【Remix Generation】\n"
+        f"- Using the best replacement, output ONE final {generation_type}:\n"
+        "  * keep original syntax and meter\n"
+        "  * include brand name / keyword\n"
+        "  * end with punctuation.\n\n"
+        "Output format must be:\n"
+        "Step 1 Quote Matching: …\n"
+        "Step 2 Structure Breakdown: …\n"
+        "Step 3 Vocabulary Replacement: …\n"
+        f"Step 4 Remix {generation_type.capitalize()}:\"…\"\n\n"
+        "In step1, include:\n"
+        "- quotes: a list of three numbered items, each with quote, author, and reason.\n"
+        "- After the list, on a **new, separate line**, repeat the best quote. This line **must** start with the ★ symbol, followed by the quote in quotation marks. For example:\n"
+        '  ★ "The best quote goes here."\n'
+        "- Immediately after the ★ line, add `explanation_for_best_quote`: how the best quote was chosen based on the persona and the brand.\n"
+        "Important constraints for the final output:\n"
+        "- Do **NOT** use first\u2011person words such as I, we, me, my, our.\n"
+        "- Speak from a neutral or second\u2011/third\u2011person perspective so the brand is **mentioned**, not the narrator.\n"
+    )
+    user_msg = (
+        f"Persona (tone only): {persona}\n"
+        f"Brand: {brand}\n"
+        f"Persona goal: {persona_goal}\n\n"
+        "Please begin Step 1.\n"
+        "Do not include the persona name in your output; only reflect its mood through wording.\n"
+    )
+    messages = [
+        {"role": "system", "content": system_msg},
+        {"role": "user", "content": user_msg},
+    ]
+    return tokenizer.apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+
+
 def load_and_filter_records(
     csv_path: str,
     min_score: Optional[float],
     max_samples: Optional[int],
     seed: int,
+    response_column: str,
 ) -> pd.DataFrame:
     frame = pd.read_csv(csv_path)
-    needed_cols = {"brand", "persona", "headline", "overall_score"}
+    needed_cols = {"brand", "persona", response_column, "overall_score"}
     missing = needed_cols.difference(frame.columns)
     if missing:
         raise KeyError(f"CSV 缺少列: {', '.join(sorted(missing))}")
@@ -125,10 +192,17 @@ def tokenize_records(
     max_prompt_length: int,
     max_response_length: int,
     reward_normalizer: float,
+    generation_type: str,
+    response_column: str,
 ) -> List[SloganSample]:
     items: List[SloganSample] = []
     for row in frame.itertuples(index=False):
-        prompt_text = f"Persona: {row.persona}\nBrand: {row.brand}\nSlogan:"
+        prompt_text = build_generation_prompt(
+            tokenizer=tokenizer,
+            brand=str(row.brand),
+            persona=str(row.persona),
+            generation_type=generation_type,
+        )
         prompt_ids = tokenizer(
             prompt_text,
             add_special_tokens=False,
@@ -136,8 +210,9 @@ def tokenize_records(
             max_length=max_prompt_length,
         )["input_ids"]
 
+        response_text = getattr(row, response_column)
         response_ids = tokenizer(
-            str(row.headline).strip(),
+            str(response_text).strip(),
             add_special_tokens=False,
             truncation=True,
             max_length=max_response_length,
@@ -343,6 +418,7 @@ def _train_one_process(
         min_score=args.min_score,
         max_samples=args.max_samples,
         seed=args.seed,
+        response_column=args.response_column,
     )
 
     model, ref_model, tokenizer = build_model_and_tokenizer(
@@ -358,6 +434,8 @@ def _train_one_process(
         args.max_prompt_length,
         args.max_response_length,
         reward_normalizer=args.reward_normalizer,
+        generation_type=args.generation_type,
+        response_column=args.response_column,
     )
 
     reward_tensor = torch.tensor([item.reward for item in items])
@@ -586,6 +664,19 @@ def main() -> None:
     parser.add_argument("--grad_clip", type=float, default=1.0)
     parser.add_argument("--log_interval", type=int, default=10)
     parser.add_argument(
+        "--generation_type",
+        type=str,
+        default="headline",
+        choices=["headline", "slogan"],
+        help="与数据集中生成内容一致的类型，用于重建 prompt。",
+    )
+    parser.add_argument(
+        "--response_column",
+        type=str,
+        default=None,
+        help="CSV 中包含模型输出文本的列名，默认与 generation_type 相同。",
+    )
+    parser.add_argument(
         "--device",
         type=str,
         default="cpu",
@@ -599,6 +690,12 @@ def main() -> None:
         help="--device tpu 时使用的核心数，填具体数字或 all。",
     )
     args = parser.parse_args()
+
+    args.generation_type = args.generation_type.lower()
+    if args.response_column is None or not args.response_column.strip():
+        args.response_column = args.generation_type
+    else:
+        args.response_column = args.response_column.strip()
 
     args.device_type = _resolve_device_choice(args.device)
 
