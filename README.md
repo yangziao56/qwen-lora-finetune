@@ -1,30 +1,31 @@
-<p align="center">
-  <img src="assets/readme-banner.svg" width="100%" alt="Slogan Remix — Familiar words. A new brand voice." />
-</p>
+![Slogan Remix: familiar words in a fresh context.](assets/readme-banner.svg)
 
-### Recontextualizing Famous Quotes for Brand Slogan Generation
+## Recontextualizing Famous Quotes for Brand Slogan Generation
 
-**Ziao Yang**, Zizhang Chen, Lei Zhang, and Hongfu Liu
+**Ziao Yang**, Zizhang Chen, Lei Zhang, and Hongfu Liu  
+*EMNLP 2026 · Main Conference*
 
-**EMNLP 2026 · Main Conference**
+**[Read the PDF](https://arxiv.org/pdf/2602.06049)** &nbsp; / &nbsp; [Paper](https://arxiv.org/abs/2602.06049) &nbsp; / &nbsp; [Preference survey](https://github.com/yangziao56/slogan-survey-web)
 
-**[PDF](https://arxiv.org/pdf/2602.06049)** · **[Paper](https://arxiv.org/abs/2602.06049)** · **[Explore code](#explore-the-code)**
+### A familiar phrase. A different possibility.
+
+Match a quote to a persona, unpack its structure, replace the vocabulary, and remix it into a brand slogan.
+
+### Three ways to remix
+
+**All in one prompt**  
+[`1stage_multi_pass.py`](1stage_multi_pass.py) combines the steps in a single-pass prompt with multiple samples.
+
+**Find the quote, then transform it**  
+[`2stage.py`](2stage.py) separates quote selection from slogan remixing. [Launch script →](run_2stage.sh)
+
+**Give each step its own stage**  
+[`scripts/4stage.py`](scripts/4stage.py) makes quote matching, structure breakdown, vocabulary replacement, and remix generation explicit. [Launch script →](run_4stage.sh)
 
 ---
 
-Turn familiar quotes into brand slogans with a structured language-model workflow: **quote matching → structure breakdown → vocabulary replacement → remix generation**.
-
-## Explore the code
-
-| Workflow | Entry point |
-| :--- | :--- |
-| Single-pass prompting with multiple samples | [`1stage_multi_pass.py`](1stage_multi_pass.py) |
-| Quote selection followed by slogan remixing | [`2stage.py`](2stage.py) · [`run_2stage.sh`](run_2stage.sh) |
-| Explicit four-stage generation | [`scripts/4stage.py`](scripts/4stage.py) · [`run_4stage.sh`](run_4stage.sh) |
-| Slogan datasets | [`dataset_slogans.csv`](dataset_slogans.csv) · [`dataset_slogans-v2.csv`](dataset_slogans-v2.csv) |
-| Fine-tuning scripts | [`scripts/finetune_lora.py`](scripts/finetune_lora.py) · [`scripts/deepspeed_finetune_lora.py`](scripts/deepspeed_finetune_lora.py) |
-
-## Getting started
+<details>
+<summary><strong>Open the workshop · setup, datasets & fine-tuning</strong></summary>
 
 ```bash
 git clone https://github.com/yangziao56/qwen-lora-finetune.git
@@ -32,13 +33,13 @@ cd qwen-lora-finetune
 pip install -r requirements.txt
 ```
 
-Choose a generation workflow above, then configure the model, brand, persona, and output settings in its entry point or launcher.
+Choose a workflow above and configure its model, brand, persona, and output settings.
 
-## Human evaluation
+- **Datasets:** [`dataset_slogans.csv`](dataset_slogans.csv), [`dataset_slogans-v2.csv`](dataset_slogans-v2.csv)
+- **Fine-tuning:** [`finetune_lora.py`](scripts/finetune_lora.py), [`deepspeed_finetune_lora.py`](scripts/deepspeed_finetune_lora.py)
+- **Human evaluation:** the companion [survey repository](https://github.com/yangziao56/slogan-survey-web) contains the slogan preference web interface.
 
-The companion [slogan-survey-web](https://github.com/yangziao56/slogan-survey-web) repository contains the web interface for slogan preference surveys.
-
----
+</details>
 
 <details>
 <summary><strong>Citation</strong></summary>
